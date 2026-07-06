@@ -1,0 +1,93 @@
+{
+  "theme": "dark",
+  "archetype": "Archetype 4 (Swiss & High-Contrast) adapted for Threat Intelligence",
+  "vibe": "Professional, Dense, Credible, Technical, High-Contrast, Restrained",
+  "typography": {
+    "fonts": {
+      "heading": "Chivo",
+      "body": "IBM Plex Sans",
+      "monospace": "JetBrains Mono"
+    },
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl font-bold tracking-tight text-zinc-50",
+      "h2": "text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-100",
+      "h3": "text-xl font-medium tracking-tight text-zinc-100",
+      "body": "text-sm text-zinc-300 leading-relaxed",
+      "monospace_text": "font-mono text-xs text-zinc-400 tracking-wider",
+      "overline": "text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500"
+    },
+    "guidelines": "Use JetBrains Mono for all IDs, IP addresses, CVE numbers, and code blocks. Headings must use tight tracking. Body text should prioritize legibility. No Inter font."
+  },
+  "colors": {
+    "background": {
+      "primary": "#09090b",
+      "secondary": "#121214",
+      "card": "rgba(255, 255, 255, 0.03)"
+    },
+    "text": {
+      "primary": "#f4f4f5",
+      "secondary": "#a1a1aa",
+      "muted": "#71717a"
+    },
+    "border": {
+      "default": "rgba(255, 255, 255, 0.1)",
+      "hover": "rgba(255, 255, 255, 0.2)"
+    },
+    "status": {
+      "confirmed": "#ef4444",
+      "reported": "#f59e0b",
+      "remediated": "#10b981",
+      "disputed": "#71717a"
+    },
+    "accent": {
+      "primary": "#ffffff",
+      "primary_foreground": "#000000"
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Dense Information Architecture for analysts. Maximize data visibility while maintaining scanability.",
+    "grid_system": "The Control Room Grid. Use tight gaps (gap-4 or gap-1px for borders) and rigid column structures. Elements should snap into place without loose space.",
+    "container_padding": "p-4 or p-6 for data cards. Hero can have generous padding (py-24).",
+    "surface_strategy": "Grid Borders (The Technical Look). Minimal to no border-radius (rounded-none or rounded-sm). Use 1px solid borders to define edges. NO shadows, NO blurry glowing gradients (except for the 3D radar blips).",
+    "table_styling": "High contrast rows with subtle hover states (hover:bg-white/5). Use tabular-nums for numerical data."
+  },
+  "components": {
+    "hero": "Must contain a highly optimized react-three-fiber canvas showing a 3D radar/network particle globe. The data overlays (total entries, latest disclosure) should sit cleanly over or adjacent to the 3D element.",
+    "badges": "Status badges must use the defined status colors. Solid background with 10-20% opacity and a 1px solid border matching the status color. Text color should be the pure status color.",
+    "cards": "Flat surfaces with 1px border. No shadows. Use border-zinc-800.",
+    "buttons": "Primary CTA: White background, black text. Secondary CTA: Transparent background, 1px white/20 border, white text.",
+    "filters": "Compact inputs and selects. Use JetBrains Mono for filter values when appropriate.",
+    "exposure_checker": "Textarea should feel like a terminal input or code editor (darker background, monospace font). Heuristic warnings should appear as high-contrast alert boxes below."
+  },
+  "visual_enhancers": {
+    "3d_graphics": {
+      "library": "@react-three/fiber, @react-three/drei, three",
+      "usage": "Use only in the hero section. Create a wireframe sphere or point cloud representing a supply chain network. Implement a rotating radar sweep effect that highlights specific nodes (threat blips) in red or amber as it passes over them.",
+      "lighting": "Use ambientLight (low intensity) and pointLights on the 'blips' to make them glow. Set canvas background to transparent to blend with the #09090b page background."
+    },
+    "textures": "Optional subtle noise overlay (opacity 2-5%) on the overall background to give it a matte, physical monitor feel.",
+    "motion": "Very restrained. Micro-interactions on hover (border color change). Entrance animations should be quick and snappy (no slow, floaty fades)."
+  },
+  "media": {
+    "image_urls": [
+      {
+        "url": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGRhcmslMjBuZXR3b3JrJTIwY29ubmVjdGlvbnN8ZW58MHx8fHwxNzgyMzkxNTU4fDA&ixlib=rb-4.1.0&q=85",
+        "category": "abstract_background",
+        "description": "Abstract dark network connections. Use as a fallback background texture for the hero if the 3D canvas takes time to load or as a subtle texture in the Exposure Checker section."
+      }
+    ],
+    "icons": {
+      "library": "lucide-react",
+      "guidelines": "Use sharp, unrounded icons where possible. Keep icon sizes consistent (e.g., size={16} for inline text, size={20} for buttons)."
+    }
+  },
+  "instructions_to_main_agent": [
+    "Strictly follow the color palette. Do NOT introduce new colors (no teal, no purple). Use pure red/amber/emerald only for threat status indicators.",
+    "Implement the hero 3D visual using @react-three/fiber. It must be a rotating wireframe or particle sphere with 'radar blip' nodes that glow.",
+    "Ensure all text is accessible against the dark background. Use text-zinc-400 for secondary text to maintain hierarchy without losing legibility.",
+    "Do NOT use standard rounded cards. Apply rounded-none or rounded-sm to all Shadcn components (Cards, Buttons, Inputs).",
+    "For the Database page, ensure high information density. Use a table layout or a dense grid of border-collapsed cards.",
+    "Ensure the fonts (Chivo, IBM Plex Sans, JetBrains Mono) are imported correctly via Next/Google Fonts.",
+    "Add 'data-testid' to all interactive elements (buttons, inputs, filters, table rows) using kebab-case role-based names."
+  ]
+}
