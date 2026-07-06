@@ -7,6 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        heading: ['Chivo', 'sans-serif'],
+        body: ['IBM Plex Sans', 'sans-serif'],
+        mono: ['JetBrains Mono', 'monospace'],
+      },
+      colors: {
+        status: {
+          confirmed: '#ef4444',
+          reported: '#f59e0b',
+          remediated: '#10b981',
+          disputed: '#71717a',
+        },
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',

@@ -1,8 +1,10 @@
 from fastapi import FastAPI, APIRouter
+from fastapi.responses import JSONResponse
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 import os
+import json
 import logging
 from pathlib import Path
 from pydantic import BaseModel, Field, ConfigDict
@@ -13,6 +15,7 @@ from datetime import datetime, timezone
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
+FEED_PATH = ROOT_DIR / 'data' / 'feed.json'
 
 # MongoDB connection
 mongo_url = os.environ['MONGO_URL']
@@ -41,6 +44,19 @@ class StatusCheckCreate(BaseModel):
 @api_router.get("/")
 async def root():
     return {"message": "Hello World"}
+
+
+@api_router.get("/feed")
+async def get_feed():
+    """Thin read-only proxy for the AI Code Threat Radar JSON feed.
+    No database is used; the feed is read fresh from disk on every request
+    so the frontend always sees the latest data without a redeploy."""
+    with open(FEED_PATH, "r") as f:
+        feed = json.load(f)
+    return JSONResponse(
+        content=feed,
+        headers={"Cache-Control": "no-store, no-cache, must-revalidate"},
+    )
 
 @api_router.post("/status", response_model=StatusCheck)
 async def create_status_check(input: StatusCheckCreate):

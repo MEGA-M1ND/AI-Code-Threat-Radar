@@ -1,0 +1,38 @@
+{
+  "summary": "First full test pass of AI Code Threat Radar (backend + frontend). Backend /api/feed thin proxy validated with 8 pytest tests (all passing): correct entry count (15), category counts (3/3/3/2/2/2), source_attribution present only on agent-tool-cves entries, indicator_index correctness, no-store cache header, no MongoDB _id leakage. Frontend manually verified via Playwright across Home, Database, Entry Detail, Exposure Checker, Methodology, Footer, and mobile nav. Core flows all work correctly: 4 lead stat cards show correct counts (3,3,3,2) with '15 entries total' footnote, India Radar section present and compact, hero 3D canvas renders, Type filter dropdown order matches spec exactly (Malicious Skills, MCP Threats, Slopsquatting, Platform Vulnerabilities, Incidents, Agent-Tool CVEs), search/sort/navigation to detail pages work, entry-not-found state renders gracefully, Sources list links open in new tab with rel=noopener noreferrer, Related Projects sections present on Methodology page and Footer with correct Vibe Security Radar links, mobile hamburger nav works. CRITICAL SECURITY REQUIREMENT VERIFIED: clicking 'Run check' in the Exposure Checker triggered ZERO network requests — confirmed via Playwright request listener capturing 0 requests after clicking checker-submit-btn with pasted AWS key/curl-bash/raw-IP content. Report summary correctly read '1 known-threat match, 4 heuristic warnings'. One real bug found: nested <a> tags (React hydration warning) in the mobile Database card list where SourceAttributionBadge's <a> is rendered inside the card's wrapping <Link> anchor for agent-tool-cves entries — invalid HTML causing unpredictable click/navigation behavior on mobile for those 2 entries.",
+  "backend_issues": {
+    "critical": [],
+    "minor": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [
+      {
+        "component": "Database.jsx mobile card list + SourceAttributionBadge.jsx",
+        "issue": "Nested <a> tags: mobile database entry card (lines ~178-192 in Database.jsx) wraps the whole card in a <Link to='/database/:id'>, and for agent-tool-cves entries the SourceAttributionBadge renders its own <a href=vibe-radar-url> inside that same Link. This produces invalid HTML (anchor inside anchor) and triggers a React hydration warning in console. On mobile, tapping the blue 'Sourced via Vibe Security Radar' badge inside a card has unpredictable/browser-dependent behavior (may navigate to entry detail instead of, or in addition to, opening the external Vibe Radar link).",
+        "selector": "[data-testid^='database-entry-card-'] a[href='https://vibe-radar-ten.vercel.app/']",
+        "priority": "MEDIUM"
+      }
+    ],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": ["/app/backend/tests/test_feed_api.py", "/app/test_reports/pytest/pytest_results.xml"],
+  "action_items": [
+    "Fix nested-anchor bug: in Database.jsx mobile card list, either move SourceAttributionBadge outside the wrapping <Link> (e.g. render it as a sibling with its own click-stop-propagation, or use a <div>/button styled as a link with onClick(window.open) instead of a real <Link> wrapper), or don't wrap the whole card in a <Link> and instead attach onClick navigation to a non-anchor container.",
+      "Note: mobile nav links use testid suffix '-mobile' (e.g. nav-database-link-mobile) which differs from the desktop nav's plain testid (nav-database-link) — this is a minor test-id inconsistency worth aligning with the review request's exact testid naming, though functionally it works."
+  ],
+  "critical_code_review_comments": [
+    "SafeLink.jsx correctly gates on isSafeExternalUrl (https://) so only real http(s) links render as clickable anchors — good defensive coding against javascript:/data: URIs.",
+    "checker.js analyzePaste() is confirmed 100% client-side with zero network calls — verified live via browser network monitoring.",
+    "feed.js fetchFeed() correctly uses cache:'no-store' + cache-busting timestamp; backend server.py sets Cache-Control: no-store header — consistent end-to-end no-cache behavior.",
+    "Nested-anchor issue is the only structural bug found; otherwise code is clean, well-commented, and matches the spec closely including exact CATEGORY_ORDER, stat counts, and India Radar compactness."
+  ],
+  "updated_files": ["/app/backend/tests/test_feed_api.py"],
+  "success_rate": {"backend": "100%", "frontend": "~95% (1 medium bug found)"},
+  "test_credentials": "None required — fully public app, no auth.",
+  "seed_data_creation": "None — used existing feed.json mock data as-is.",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "All core flows tested and passing: home stats/hero/India Radar, database filters/search/sort/navigation, entry detail + not-found state, exposure checker privacy/client-side-only guarantee (verified zero network calls), methodology + footer Related Projects sections, mobile nav. Only remaining issue is the nested <a> tag bug in mobile Database cards for the 2 agent-tool-cves entries (cve-001, cve-002) — fix and then just re-verify no hydration warning appears in console when visiting /database at a mobile viewport.",
+  "rca_of_the_issue": "React Router's <Link> renders as an <a> tag. Database.jsx wraps each mobile card entirely in a <Link>, and inside the same JSX tree renders <SourceAttributionBadge> (also an <a>) when entry.source_attribution exists. Browsers auto-correct nested anchors by breaking out the DOM, which can cause the badge's click target/area to behave inconsistently across browsers. Fix: don't nest a real anchor within another anchor — restructure so the card container is a non-anchor clickable div (with keyboard-accessible role/onClick) or render the badge as a sibling positioned outside the outer Link's DOM subtree with its own stopPropagation."
+}
