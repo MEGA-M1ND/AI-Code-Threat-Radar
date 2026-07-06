@@ -175,21 +175,28 @@ export default function Database() {
 
           <div className="md:hidden grid gap-3">
             {filtered.map((entry) => (
-              <div key={entry.id} data-testid={DATABASE_PAGE.entryCard(entry.id)}>
-                <Link
-                  to={`/database/${entry.id}`}
-                  className="block border border-white/10 bg-white/[0.03] rounded-sm p-4 hover:border-white/25 transition-colors"
-                >
-                  <div className="flex items-start gap-1.5 mb-2 flex-wrap">
-                    <CategoryBadge label={CATEGORY_LABELS[entry._category] || entry._category} />
-                    <StatusBadge status={entry.status} />
-                  </div>
-                  <h3 className="font-heading font-medium text-zinc-100 leading-snug">{entry.title}</h3>
-                  <div className="flex items-center justify-between mt-3">
-                    <span className="font-mono text-[11px] text-zinc-500 tabular-nums">{entry.date_disclosed || '—'}</span>
-                    {entry.source_attribution && <SourceAttributionBadge source={entry.source_attribution} />}
-                  </div>
-                </Link>
+              <div
+                key={entry.id}
+                data-testid={DATABASE_PAGE.entryCard(entry.id)}
+                role="link"
+                tabIndex={0}
+                onClick={() => navigate(`/database/${entry.id}`)}
+                onKeyDown={(e) => e.key === 'Enter' && navigate(`/database/${entry.id}`)}
+                className="block border border-white/10 bg-white/[0.03] rounded-sm p-4 hover:border-white/25 transition-colors cursor-pointer"
+              >
+                <div className="flex items-start gap-1.5 mb-2 flex-wrap">
+                  <CategoryBadge label={CATEGORY_LABELS[entry._category] || entry._category} />
+                  <StatusBadge status={entry.status} />
+                </div>
+                <h3 className="font-heading font-medium text-zinc-100 leading-snug">{entry.title}</h3>
+                <div className="flex items-center justify-between mt-3">
+                  <span className="font-mono text-[11px] text-zinc-500 tabular-nums">{entry.date_disclosed || '—'}</span>
+                  {entry.source_attribution && (
+                    <span onClick={(e) => e.stopPropagation()}>
+                      <SourceAttributionBadge source={entry.source_attribution} />
+                    </span>
+                  )}
+                </div>
               </div>
             ))}
           </div>
