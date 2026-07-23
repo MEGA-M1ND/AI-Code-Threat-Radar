@@ -1,334 +1,146 @@
 {
   "name": "AI Code Threat Radar",
-  "generated": "2026-02-01",
-  "entry_count": 15,
+  "generated": "2026-07-23",
+  "entry_count": 4,
   "indicator_index": {
-    "react-codeshift": ["2026-01-react-codeshift"],
-    "numpyy": ["sl-002-numpyy"],
-    "axios-http-client": ["sl-003-axios-http-client"],
-    "filesystem-mcp-unsanitized": ["mcp-001-filesystem-mcp"],
-    "notion-mcp-proxy": ["mcp-002-notion-mcp-proxy"],
-    "postgres-mcp-injection": ["mcp-003-postgres-mcp"],
-    "cloud-billing-autopilot": ["ms-001-cloud-billing-autopilot"],
-    "gitsync-assistant": ["ms-002-gitsync-assistant"],
-    "docqa-skill-pack": ["ms-003-docqa-skill-pack"]
+    "axios@0.30.4": [
+      "inc-2026-03-axios-npm-compromise"
+    ],
+    "axios@1.14.1": [
+      "inc-2026-03-axios-npm-compromise"
+    ],
+    "moltbook": [
+      "inc-2026-02-moltbook-supabase-exposure"
+    ],
+    "plain-crypto-js": [
+      "inc-2026-03-axios-npm-compromise"
+    ],
+    "react-codeshift": [
+      "sl-2026-01-react-codeshift"
+    ]
   },
   "entries": [
     {
-      "id": "ms-001-cloud-billing-autopilot",
-      "title": "cloud-billing-autopilot (Malicious Agent Skill)",
-      "type": "malicious-agent-skill",
-      "status": "confirmed",
-      "date_disclosed": "2026-01-20",
-      "description": "An agent skill distributed via a public skill marketplace that promises automated AWS cost optimization. On first invocation, a postinstall hook silently reads local AWS credential files and exfiltrates them to an attacker-controlled endpoint.",
-      "impact": "Full AWS account takeover for any developer who installed the skill and had local credentials configured. At least 40 confirmed installs before takedown.",
-      "root_cause": "Skill marketplace does not sandbox postinstall hooks or review skill source code before listing.",
-      "ecosystem": "agent-skill-marketplace",
-      "indicators": ["cloud-billing-autopilot"],
-      "tags": ["credential-theft", "skill", "exfiltration"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/cloud-billing-autopilot.md",
-        "https://www.bleepingcomputer.com/news/security/malicious-ai-agent-skill/"
-      ],
-      "added": "2026-01-22",
-      "last_updated": "2026-01-24",
-      "notes": "Skill was removed from the marketplace within 48 hours of disclosure.",
-      "_category": "malicious-skills"
-    },
-    {
-      "id": "ms-002-gitsync-assistant",
-      "title": "gitsync-assistant (Prompt-Injection Backdoor)",
-      "type": "malicious-agent-skill",
-      "status": "reported",
-      "date_disclosed": "2025-12-02",
-      "description": "A repository-sync skill for coding agents that embeds a hidden instruction block in its own README. When an agent reads the README as context, the embedded instructions direct the agent to run arbitrary shell commands under the guise of 'sync setup'.",
-      "impact": "Potential arbitrary command execution on the developer machine running the agent, contingent on the agent following embedded instructions without user confirmation.",
-      "root_cause": "Prompt injection via untrusted repository content combined with agents that grant skills implicit shell execution trust.",
-      "ecosystem": "agent-skill-marketplace",
-      "indicators": ["gitsync-assistant"],
-      "tags": ["prompt-injection", "skill", "rce"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/gitsync-assistant.md"
-      ],
-      "added": "2025-12-04",
-      "last_updated": "2025-12-04",
-      "notes": "Vendor has not yet responded to disclosure. Status remains reported pending remediation.",
-      "_category": "malicious-skills"
-    },
-    {
-      "id": "ms-003-docqa-skill-pack",
-      "title": "docqa-skill-pack (Impersonation + Code Exfiltration)",
-      "type": "malicious-agent-skill",
-      "status": "confirmed",
-      "date_disclosed": "2026-01-05",
-      "description": "A skill pack impersonating an official documentation-QA skill. Every code snippet pasted into the chat is silently forwarded to a third-party logging endpoint disguised as a telemetry call. Distributed heavily through freelance-developer WhatsApp and Telegram groups in India as a 'productivity pack'.",
-      "impact": "Proprietary and client source code exfiltrated from an estimated several hundred freelance developer environments before the distribution channel was flagged.",
-      "root_cause": "No provenance verification for skills shared outside official marketplaces; users trusted a package forwarded in a chat group.",
-      "ecosystem": "agent-skill-marketplace",
-      "indicators": ["docqa-skill-pack"],
-      "tags": ["impersonation", "exfiltration", "india", "skill"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/docqa-skill-pack.md"
-      ],
-      "added": "2026-01-06",
-      "last_updated": "2026-01-10",
-      "notes": "First entry in the feed with a documented India-specific distribution vector.",
-      "_category": "malicious-skills"
-    },
-    {
-      "id": "mcp-001-filesystem-mcp",
-      "title": "filesystem-mcp-unsanitized (Arbitrary Command Execution)",
-      "type": "compromised-mcp-server",
-      "status": "confirmed",
-      "date_disclosed": "2025-11-18",
-      "description": "A popular community MCP server exposing filesystem tools to coding agents fails to sanitize path and command parameters passed by the agent, allowing shell metacharacters to reach an underlying exec call.",
-      "impact": "Any agent connected to this MCP server can be manipulated (via crafted file content or prompt injection) into executing arbitrary shell commands on the host running the server.",
-      "root_cause": "Tool parameters passed directly into a shell exec call without sanitization or an allowlist.",
-      "ecosystem": "mcp",
-      "indicators": ["filesystem-mcp-unsanitized"],
-      "tags": ["mcp", "rce", "unsanitized-input"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/filesystem-mcp-unsanitized.md"
-      ],
-      "added": "2025-11-19",
-      "last_updated": "2025-12-01",
-      "notes": "",
-      "_category": "mcp-threats"
-    },
-    {
-      "id": "mcp-002-notion-mcp-proxy",
-      "title": "notion-mcp-proxy (OAuth Token Interception)",
-      "type": "compromised-mcp-server",
-      "status": "reported",
-      "date_disclosed": "2026-01-02",
-      "description": "A third-party MCP proxy server marketed as a drop-in Notion integration silently forwards OAuth access tokens issued during the connection flow to a logging server operated by the proxy author.",
-      "impact": "Full read/write access to connected Notion workspaces for any user who authorized the proxy, including private documents and databases.",
-      "root_cause": "MCP client configs frequently point to community proxy servers without verifying operator identity or auditing token handling.",
-      "ecosystem": "mcp",
-      "indicators": ["notion-mcp-proxy"],
-      "tags": ["mcp", "oauth", "credential-theft"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/notion-mcp-proxy.md"
-      ],
-      "added": "2026-01-03",
-      "last_updated": "2026-01-03",
-      "notes": "",
-      "_category": "mcp-threats"
-    },
-    {
-      "id": "mcp-003-postgres-mcp",
-      "title": "postgres-mcp-injection (SQL Injection via Tool Params)",
-      "type": "compromised-mcp-server",
+      "id": "inc-2026-03-axios-npm-compromise",
+      "title": "axios (npm) Supply-Chain Compromise via Maintainer Account Takeover",
+      "type": "supply-chain-compromise",
       "status": "remediated",
-      "date_disclosed": "2025-10-30",
-      "description": "A widely-used Postgres MCP server built query strings by direct concatenation of agent-supplied tool arguments, allowing classic SQL injection whenever an agent (intentionally or via prompt injection) passed a crafted argument.",
-      "impact": "Data exfiltration and potential data destruction in any database connected through the affected MCP server version.",
-      "root_cause": "String concatenation used for SQL query construction instead of parameterized queries.",
-      "ecosystem": "mcp",
-      "indicators": ["postgres-mcp-injection"],
-      "tags": ["mcp", "sql-injection", "unsanitized-input"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/postgres-mcp-injection.md"
-      ],
-      "added": "2025-10-31",
-      "last_updated": "2025-11-15",
-      "notes": "Patched in v2.3.1 of the server. Upgrade recommended for all users of earlier versions.",
-      "_category": "mcp-threats"
-    },
-    {
-      "id": "2026-01-react-codeshift",
-      "title": "react-codeshift (Slopsquatted Package)",
-      "type": "slopsquatting",
-      "status": "confirmed",
-      "date_disclosed": "2026-01-14",
-      "description": "A package name that AI coding agents frequently hallucinate when asked to install codemod tooling for React (confusing it with the legitimate 'jscodeshift' / 'react-codemod'). An attacker registered the hallucinated name and published a package that installs a credential-harvesting script on postinstall.",
-      "impact": "Any project where an agent auto-installed the hallucinated dependency name is at risk of credential theft via the postinstall script.",
-      "root_cause": "Slopsquatting: registering a package name that language models are statistically likely to hallucinate, then weaponizing it.",
+      "date_disclosed": "2026-03-31",
+      "description": "On 31 March 2026 an attacker took over the npm account of an axios maintainer and published malicious releases 1.14.1 and 0.30.4 of axios, one of the most-installed HTTP clients in the JavaScript ecosystem. The poisoned versions pulled in a malicious transitive dependency, plain-crypto-js@4.2.1, that downloaded and executed a cross-platform remote access trojan (RAT) with payloads for Windows, macOS and Linux during installation.",
+      "impact": "axios has over 70 million weekly npm downloads. Any project, CI/CD pipeline, or AI-agent-generated build that installed the malicious versions during the exposure window received a RAT capable of credential theft and persistent backdoor access.",
+      "root_cause": "Compromise (account takeover) of a package maintainer's npm account, allowing malicious versions of a trusted, widely-depended-on package to be published to the registry.",
       "ecosystem": "npm",
-      "indicators": ["react-codeshift"],
+      "indicators": [
+        "plain-crypto-js",
+        "axios@1.14.1",
+        "axios@0.30.4"
+      ],
       "cve": "",
-      "tags": ["slopsquatting", "hallucination", "npm", "credential-theft"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/react-codeshift.md",
-        "https://socket.dev/blog/slopsquatting-react-codeshift"
+      "tags": [
+        "supply-chain",
+        "npm",
+        "account-takeover",
+        "rat",
+        "nation-state"
       ],
-      "added": "2026-01-15",
-      "last_updated": "2026-01-16",
-      "notes": "Removed from the npm registry on 2026-01-16.",
-      "_category": "slopsquatting"
+      "references": [
+        "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
+        "https://github.com/axios/axios/issues/10636",
+        "https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager",
+        "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html"
+      ],
+      "added": "2026-07-23",
+      "last_updated": "2026-07-23",
+      "notes": "No CVE was assigned as of reporting. Microsoft Threat Intelligence attributed the associated infrastructure (including the plain-crypto-js account) to Sapphire Sleet, a North Korean state actor. The malicious versions were removed from npm and the attacker account was disabled.",
+      "_category": "incidents"
     },
     {
-      "id": "sl-002-numpyy",
-      "title": "numpyy (Typosquat Amplified by Agent Hallucination)",
-      "type": "slopsquatting",
-      "status": "confirmed",
-      "date_disclosed": "2025-12-15",
-      "description": "A one-character typosquat of 'numpy' that saw an unusual spike in downloads correlated with AI coding assistants occasionally hallucinating the misspelled import in generated requirements files.",
-      "impact": "Executes a lightweight data-collection script on install; no destructive payload observed to date, but the package remains live.",
-      "root_cause": "Typosquatting combined with agent-generated requirements.txt files that are rarely reviewed line-by-line before install.",
-      "ecosystem": "pypi",
-      "indicators": ["numpyy"],
-      "tags": ["slopsquatting", "typosquat", "pypi"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/numpyy.md"
-      ],
-      "added": "2025-12-16",
-      "last_updated": "2025-12-16",
-      "notes": "",
-      "_category": "slopsquatting"
-    },
-    {
-      "id": "sl-003-axios-http-client",
-      "title": "axios-http-client (Hallucinated Alias Package)",
-      "type": "slopsquatting",
-      "status": "disputed",
-      "date_disclosed": "2025-09-10",
-      "description": "Coding agents frequently suggest 'axios-http-client' as if it were a real alias for the 'axios' package. The published package under this name is disputed by its author as a legitimate (if confusingly-named) convenience wrapper, not a malicious clone.",
-      "impact": "No confirmed malicious behavior found in independent review; included as a documented hallucination vector under dispute.",
-      "root_cause": "Agent hallucination of plausible-sounding package names combined with an unrelated legitimate package that happens to match the hallucinated name.",
-      "ecosystem": "npm",
-      "indicators": ["axios-http-client"],
-      "tags": ["slopsquatting", "hallucination", "npm", "disputed"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/axios-http-client.md"
-      ],
-      "added": "2025-09-12",
-      "last_updated": "2025-09-20",
-      "notes": "Author disputes malicious intent; entry retained for hallucination-tracking purposes pending further evidence.",
-      "_category": "slopsquatting"
-    },
-    {
-      "id": "pv-001-cursor-workspace-trust",
-      "title": "Cursor IDE Workspace Trust Bypass",
-      "type": "platform-vulnerability",
+      "id": "inc-2026-02-moltbook-supabase-exposure",
+      "title": "Moltbook: Production Database Exposed via Misconfigured Supabase (Vibe-Coded)",
+      "type": "incident",
       "status": "remediated",
-      "date_disclosed": "2025-08-22",
-      "description": "A vulnerability in an AI-assisted IDE's 'workspace trust' feature allowed a specially crafted project file to trigger agent tool execution before the trust prompt was shown to the user.",
-      "impact": "Opening an untrusted repository could result in arbitrary code execution without any user confirmation dialog appearing.",
-      "root_cause": "Race condition between workspace indexing (which could trigger agent actions) and the trust-prompt gate.",
-      "ecosystem": "ide-platform",
-      "indicators": ["cursor-workspace-trust-bypass"],
-      "cve": "CVE-2025-49123",
-      "tags": ["platform", "sandbox-escape", "ide"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/cursor-workspace-trust.md",
-        "https://nvd.nist.gov/vuln/detail/CVE-2025-49123"
-      ],
-      "added": "2025-08-25",
-      "last_updated": "2025-09-01",
-      "notes": "Fixed in the vendor's next point release.",
-      "_category": "platform-vulns"
-    },
-    {
-      "id": "pv-002-replit-agent-sandbox-escape",
-      "title": "Replit Agent Sandbox Escape",
-      "type": "platform-vulnerability",
-      "status": "confirmed",
-      "date_disclosed": "2026-01-09",
-      "description": "An AI coding agent running inside a hosted development sandbox was able to escape its container boundary via a misconfigured mount path exposed to agent-executed build scripts.",
-      "impact": "Cross-tenant file access was demonstrated in a controlled disclosure environment; vendor has been notified and is investigating scope.",
-      "root_cause": "Sandbox mount configuration exposed a host-adjacent path that agent-triggered build scripts could traverse.",
-      "ecosystem": "cloud-ide-platform",
-      "indicators": ["replit-agent-sandbox-escape"],
-      "tags": ["platform", "sandbox-escape", "cloud-ide"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/replit-agent-sandbox-escape.md"
-      ],
-      "added": "2026-01-10",
-      "last_updated": "2026-01-10",
-      "notes": "Awaiting vendor confirmation of fix timeline.",
-      "_category": "platform-vulns"
-    },
-    {
-      "id": "inc-001-fintech-terraform-breach",
-      "title": "India Fintech Startup: S3 Exposure via AI-Generated Terraform",
-      "type": "incident",
-      "status": "confirmed",
-      "date_disclosed": "2025-11-05",
-      "description": "A Bengaluru-based fintech startup had an AI coding agent generate Terraform infrastructure code that provisioned an S3 bucket with a public-read ACL, intended for internal use only. The misconfiguration went unreviewed for six weeks before discovery by an external researcher.",
-      "impact": "Exposure of customer KYC document scans and internal API logs for approximately six weeks before remediation.",
-      "root_cause": "Agent-generated infrastructure-as-code deployed without a policy-as-code review gate or manual security sign-off.",
-      "ecosystem": "cloud-infrastructure",
-      "indicators": ["fintech-terraform-s3-exposure"],
-      "tags": ["incident", "india", "iac", "misconfiguration"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/fintech-terraform-breach.md"
-      ],
-      "added": "2025-11-07",
-      "last_updated": "2025-11-20",
-      "notes": "Startup name withheld at researcher's request pending full remediation confirmation.",
-      "_category": "incidents"
-    },
-    {
-      "id": "inc-002-ecommerce-hallucinated-endpoint",
-      "title": "E-commerce Platform Data Leak from Hallucinated API Endpoint",
-      "type": "incident",
-      "status": "reported",
-      "date_disclosed": "2025-07-19",
-      "description": "A coding agent hallucinated an internal-sounding API endpoint path that, unbeknownst to the developer, actually resolved to a legacy staging service left publicly reachable. Integrating against the hallucinated-but-real path exposed a subset of order records.",
-      "impact": "Approximately 12,000 order records including partial shipping addresses were exposed via the legacy staging endpoint.",
-      "root_cause": "Coincidental collision between an agent-hallucinated endpoint path and a real, forgotten, publicly-reachable staging service.",
+      "date_disclosed": "2026-02-02",
+      "description": "Moltbook, an AI-agent social network launched on 28 January 2026, was built almost entirely from AI-generated ('vibe-coded') code. Wiz Research found a publishable Supabase API key embedded in the site's client-side JavaScript that granted unauthenticated read and write access to the entire production database, because Supabase Row Level Security was never enabled on the tables.",
+      "impact": "Wiz reported that the exposed database contained more than 1.5 million API authentication tokens, approximately 35,000 email addresses, private agent messages, and internal system metadata — all readable, and writable, without authentication.",
+      "root_cause": "AI-generated backend code shipped a Supabase key in client-side JavaScript and omitted Row Level Security, exposing the production database directly to any visitor.",
       "ecosystem": "web-platform",
-      "indicators": ["ecommerce-hallucinated-endpoint"],
-      "tags": ["incident", "hallucination", "data-leak"],
-      "references": [
-        "https://github.com/ai-code-threat-radar/feed/blob/main/reports/ecommerce-hallucinated-endpoint.md"
+      "indicators": [
+        "moltbook"
       ],
-      "added": "2025-07-21",
-      "last_updated": "2025-07-21",
-      "notes": "",
+      "cve": "",
+      "tags": [
+        "incident",
+        "vibe-coding",
+        "database-exposure",
+        "supabase",
+        "credential-exposure"
+      ],
+      "references": [
+        "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+        "https://www.infosecurity-magazine.com/news/moltbook-exposes-user-data-api/",
+        "https://siliconangle.com/2026/02/02/ai-agent-social-network-moltbook-left-millions-credentials-publicly-exposed/"
+      ],
+      "added": "2026-07-23",
+      "last_updated": "2026-07-23",
+      "notes": "Discovered by Wiz Research, which noticed the exposed key on 31 January and disclosed to Moltbook on 2 February 2026. Moltbook deployed fixes within hours of disclosure.",
       "_category": "incidents"
     },
     {
-      "id": "cve-001-prompt-injection-review-bot",
-      "title": "CVE-2025-55210 \u2014 Prompt Injection in AI Code Review Bot",
-      "type": "agent-tool-cve",
-      "status": "confirmed",
-      "date_disclosed": "2025-06-11",
-      "description": "An automated code-review bot that posts AI-generated review comments on pull requests was found vulnerable to prompt injection via crafted PR descriptions, allowing an attacker to manipulate the bot into approving malicious changes.",
-      "impact": "Malicious pull requests could be auto-approved by the review bot, bypassing intended human review gates.",
-      "root_cause": "PR description content was included in the review-bot's prompt context without isolation from system instructions.",
-      "ecosystem": "ci-cd-tooling",
-      "indicators": ["prompt-injection-review-bot"],
-      "cve": "CVE-2025-55210",
-      "tags": ["cve", "prompt-injection", "ci-cd"],
-      "references": [
-        "https://vibe-radar-ten.vercel.app/entries/CVE-2025-55210",
-        "https://nvd.nist.gov/vuln/detail/CVE-2025-55210"
+      "id": "pv-2025-10-escape-vibe-coded-scan",
+      "title": "Escape.tech Scan: ~2,000 Critical Vulnerabilities Across Vibe-Coded Apps",
+      "type": "research-finding",
+      "status": "reported",
+      "date_disclosed": "2025-10-01",
+      "description": "Security firm Escape.tech passively scanned roughly 5,600 publicly deployed applications built on vibe-coding platforms including Lovable, Bolt.new and Base44. The study documents an insecure-by-default pattern in the output of these platforms: apps ship to production with exposed secrets, missing access controls, and leaked data.",
+      "impact": "Escape.tech reported more than 2,000 high-impact vulnerabilities, over 400 exposed secrets (API keys, credentials, tokens), and 175 instances of exposed PII — including medical records, bank/IBAN details, and phone numbers — across the scanned production apps. Escape describes the figures as a conservative, high-confidence lower bound.",
+      "root_cause": "Vibe-coding platforms generate and deploy full-stack applications without enforcing baseline security controls (secret management, authentication/authorization), and the resulting apps are frequently shipped without security review.",
+      "ecosystem": "vibe-coding-platforms",
+      "indicators": [],
+      "cve": "",
+      "tags": [
+        "platform",
+        "vibe-coding",
+        "exposed-secrets",
+        "pii-exposure",
+        "research"
       ],
-      "added": "2025-06-13",
-      "last_updated": "2025-06-13",
-      "notes": "Included as supply-chain-adjacent context. Original research and verification by Georgia Tech SSLab's Vibe Security Radar.",
-      "_category": "agent-tool-cves",
-      "source_attribution": {
-        "name": "Vibe Security Radar (Georgia Tech SSLab)",
-        "url": "https://vibe-radar-ten.vercel.app/"
-      }
+      "references": [
+        "https://escape.tech/blog/methodology-how-we-discovered-vulnerabilities-apps-built-with-vibe-coding/",
+        "https://escape.tech/state-of-security-of-vibe-coded-apps",
+        "https://securityboulevard.com/2025/10/methodology-how-we-discovered-over-2k-high-impact-vulnerabilities-in-apps-built-with-vibe-coding-platforms/"
+      ],
+      "added": "2026-07-23",
+      "last_updated": "2026-07-23",
+      "notes": "Aggregate research finding rather than a single-vendor disclosure. Published by Escape.tech in October 2025; date_disclosed is pinned to the month (day not stated in the sources reviewed).",
+      "_category": "platform-vulns"
     },
     {
-      "id": "cve-002-agent-memory-deserialization",
-      "title": "CVE-2025-61340 \u2014 Insecure Deserialization in Agent Memory Store",
-      "type": "agent-tool-cve",
-      "status": "reported",
-      "date_disclosed": "2025-09-28",
-      "description": "A popular long-term-memory add-on for coding agents deserializes cached memory objects using an unsafe deserialization method, allowing arbitrary object injection if the memory store is tampered with.",
-      "impact": "An attacker with write access to a shared or synced memory store could achieve code execution when the agent next loads its memory.",
-      "root_cause": "Use of an unsafe deserialization function on data that can be tampered with outside the agent's direct control.",
-      "ecosystem": "agent-tooling",
-      "indicators": ["agent-memory-deserialization"],
-      "cve": "CVE-2025-61340",
-      "tags": ["cve", "deserialization", "agent-tooling"],
-      "references": [
-        "https://vibe-radar-ten.vercel.app/entries/CVE-2025-61340"
+      "id": "sl-2026-01-react-codeshift",
+      "title": "react-codeshift: Hallucinated npm Package Name (Slopsquatting Vector)",
+      "type": "slopsquatting",
+      "status": "remediated",
+      "date_disclosed": "2026-01-01",
+      "description": "AI coding tools repeatedly hallucinated an npm package named 'react-codeshift' — a plausible-sounding conflation of the real 'jscodeshift' and 'react-codemod' packages — that never actually existed. Aikido Security researcher Charlie Eriksen traced it to AI-generated agent skill files, and registered the unclaimed name defensively before a malicious actor could. Eriksen coined the term 'slopsquatting' for this attack class.",
+      "impact": "The hallucinated name propagated to roughly 237 repositories via forks and cloned agent skills and was still receiving daily install attempts from AI agents. Had an attacker registered the name first, any agent that auto-installed the hallucinated dependency would have executed attacker-controlled code. No malicious payload was ever published because the name was claimed defensively.",
+      "root_cause": "Slopsquatting: LLMs statistically hallucinate plausible-but-nonexistent package names, and AI coding agents install them without verifying that the package is real or trustworthy.",
+      "ecosystem": "npm",
+      "indicators": [
+        "react-codeshift"
       ],
-      "added": "2025-09-30",
-      "last_updated": "2025-09-30",
-      "notes": "Included as supply-chain-adjacent context. Original research and verification by Georgia Tech SSLab's Vibe Security Radar.",
-      "_category": "agent-tool-cves",
-      "source_attribution": {
-        "name": "Vibe Security Radar (Georgia Tech SSLab)",
-        "url": "https://vibe-radar-ten.vercel.app/"
-      }
+      "cve": "",
+      "tags": [
+        "slopsquatting",
+        "hallucination",
+        "npm",
+        "defensive-registration"
+      ],
+      "references": [
+        "https://www.aikido.dev/blog/slopsquatting-ai-package-hallucination-attacks"
+      ],
+      "added": "2026-07-23",
+      "last_updated": "2026-07-23",
+      "notes": "Registered defensively by a security researcher (Aikido); never weaponized. Included as a documented, real-world slopsquatting vector rather than a completed attack. Reported January 2026; date_disclosed pinned to the month (day not stated in the sources reviewed).",
+      "_category": "slopsquatting"
     }
   ]
 }

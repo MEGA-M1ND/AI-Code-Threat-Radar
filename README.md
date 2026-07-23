@@ -4,7 +4,7 @@
 
 AI Code Threat Radar is a dark, high‑contrast "threat‑intel console" web app that catalogs security threats emerging from the way AI coding agents actually work: the skills they install, the tool servers (MCP) they connect to, the packages they hallucinate, and the platforms they run inside. It is deliberately positioned to cover the layer that Georgia Tech SSLab's **[Vibe Security Radar](https://vibe-radar-ten.vercel.app/)** does *not* — instead of competing on AI‑generated‑code CVE tracking, it owns malicious skills, MCP threats, slopsquatting, and platform vulnerabilities, and it cites Vibe Security Radar for the CVE‑style entries it does include.
 
-The app ships with a curated set of realistic mock threat entries, a filterable database, per‑entry detail pages, a fully client‑side "exposure checker," and a methodology page describing the evidence standard and dispute process.
+The app ships with a small, curated set of **real, publicly sourced** threat entries, a filterable database, per‑entry detail pages, a fully client‑side "exposure checker," and a methodology page describing the evidence standard and dispute process. Every entry links to its primary sources; the feed is deliberately kept small so that every item is verifiable — fewer real entries beats more fabricated ones.
 
 ---
 
@@ -42,9 +42,9 @@ Modern software is increasingly written *with* AI agents, not just by humans. Th
 
 AI Code Threat Radar is a curated, structured feed of exactly these threats, with a UI built for analysts: dense, scannable, monospaced IDs/CVEs, and clear status semantics (Confirmed / Reported / Remediated / Disputed).
 
-It also carries a deliberate **India‑specific angle** — several entries document India‑originating distribution vectors or incidents (a "productivity pack" spread via WhatsApp/Telegram, a Bengaluru fintech S3 exposure), surfaced through a dedicated "India Radar" callout.
+The homepage also includes a dedicated **"India Radar" callout** component, which surfaces any `india`‑tagged entries in the feed (there are none in the current dataset — the callout renders whenever a qualifying entry is present).
 
-> **Note:** The current dataset is **realistic mock data** (15 entries), not a live feed. See the [Roadmap](#roadmap--backlog) for how to wire a real feed.
+> **Data status:** Every entry in `backend/data/feed.json` is a **real, publicly documented event** with links to primary sources (see [Credits](#credits--attribution) for the source list). The set is intentionally small. See [The threat feed data model](#the-threat-feed-data-model) for how entries and the indicator index are maintained.
 
 ---
 
@@ -54,7 +54,7 @@ It also carries a deliberate **India‑specific angle** — several entries docu
 |-------|------|--------------|
 | `/` | **Home** | 3D radar/network globe hero, four lead‑category stat cards (Malicious Skills / MCP Threats / Slopsquatting / Platform Vulns), total‑entries footnote, a "Latest Threats" strip (5 newest), the India Radar callout, and a "Check your exposure" CTA. |
 | `/database` | **Database** | Filterable/searchable list of all entries — a dense table on desktop, cards on mobile. Filters: Type (category), Status, Ecosystem, Tags (multi‑select), free‑text search, and a sort toggle between `date_disclosed` and `last_updated`. |
-| `/database/:id` | **Entry Detail** | Full entry view: description, impact, root cause, indicators, tags, a numbered Sources list, and a source‑attribution badge for entries sourced from Vibe Security Radar. |
+| `/database/:id` | **Entry Detail** | Full entry view: description, impact, root cause, indicators, tags, a numbered Sources list, and a source‑attribution badge for any entry that carries an explicit `source_attribution` (e.g. research cited from Vibe Security Radar). |
 | `/check` | **Exposure Checker** | Paste a `package.json`, dependency list, agent skill file, or MCP config → get known‑indicator matches + heuristic warnings. **100% client‑side**, zero network calls on submit. |
 | `/methodology` | **Methodology** | Evidence standard, status definitions, dispute process, and a "Related Projects" section crediting Georgia Tech SSLab's Vibe Security Radar. |
 | `*` | **404 / NotFound** | Themed not‑found page. |
@@ -133,6 +133,8 @@ AI-Code-Threat-Radar/
 ├── .emergent/emergent.yml         ← base image + job metadata
 ├── memory/
 │   └── PRD.md                     ← product requirements / build history (great context)
+├── scripts/
+│   └── build_indicator_index.py  ← regenerates feed.json's indicator_index from entries
 ├── tests/                         ← top-level test package placeholder
 ├── test_reports/                  ← pytest XML + iteration JSON reports
 │
@@ -141,9 +143,9 @@ AI-Code-Threat-Radar/
 │   ├── requirements.txt           ← Python deps
 │   ├── pytest.ini                 ← pinned xdist config (-n 2 --dist loadscope)
 │   ├── data/
-│   │   └── feed.json              ← THE threat feed (15 entries + indicator_index)
+│   │   └── feed.json              ← THE threat feed (real, sourced entries + generated index)
 │   └── tests/
-│       └── test_feed_api.py       ← 8 API tests (structure, counts, headers, attribution)
+│       └── test_feed_api.py       ← API tests (structure, counts, headers, references, index)
 │
 └── frontend/
     ├── package.json               ← deps, scripts (craco start/build/test)
@@ -192,18 +194,31 @@ The single source of truth is **`backend/data/feed.json`**. Top‑level shape:
 ```jsonc
 {
   "name": "AI Code Threat Radar",
-  "generated": "2026-02-01",
-  "entry_count": 15,
+  "generated": "2026-07-23",
+  "entry_count": 4,
   "indicator_index": {
     // indicator string → array of entry IDs that reference it.
+    // GENERATED — do not hand-edit. Run scripts/build_indicator_index.py.
     // Used by the Exposure Checker for O(1)-ish lookups.
-    "react-codeshift": ["2026-01-react-codeshift"],
-    "numpyy": ["sl-002-numpyy"],
+    "react-codeshift": ["sl-2026-01-react-codeshift"],
+    "plain-crypto-js": ["inc-2026-03-axios-npm-compromise"],
     ...
   },
-  "entries": [ /* 15 entry objects */ ]
+  "entries": [ /* real, sourced entry objects */ ]
 }
 ```
+
+> **Maintaining the feed.** Edit only the `entries` array by hand. The
+> `indicator_index` block is derived from each entry's `indicators` field —
+> after any change to entries, regenerate it and update the counts:
+>
+> ```bash
+> python scripts/build_indicator_index.py   # rewrites indicator_index in place
+> # then bump "entry_count" and "generated" to match reality
+> ```
+>
+> `scripts/build_indicator_index.py --check` verifies the index is up to date
+> without writing (suitable for CI).
 
 Each **entry** object:
 
@@ -225,24 +240,24 @@ Each **entry** object:
 | `cve` | string | CVE ID when applicable (else empty/absent). |
 | `references` | string[] | Source URLs. |
 | `notes` | string | Analyst notes. |
-| `source_attribution` | object | **Only on `agent-tool-cves` entries** — `{ name, url }` crediting Vibe Security Radar. |
+| `source_attribution` | object | Optional `{ name, url }` crediting originating research (e.g. Vibe Security Radar) when an entry is cited rather than independently investigated. Not present on any current entry. |
 
-The feed's integrity is enforced by the backend test suite (counts per category, presence/absence of `source_attribution`, indicator‑index lookups, no Mongo `_id` leakage).
+The feed's integrity is enforced by the backend test suite: exact entry count, per‑category counts, **every entry has at least one HTTP(S) reference**, the indicator index is consistent with entries, and no Mongo `_id` leaks into the feed.
 
 ---
 
 ## Threat categories
 
-Categories are defined and **ordered** in `frontend/src/constants/categories.js`. Order is intentional: the categories this project *owns* come first; `agent-tool-cves` (cited from Vibe Security Radar) comes last.
+Categories are defined and **ordered** in `frontend/src/constants/categories.js` (this list is the taxonomy the app supports; it does not change with the data). Order is intentional: the categories this project *owns* come first; `agent-tool-cves` (cited from Vibe Security Radar) comes last. The **Count** column reflects the current, real dataset — several supported categories have no verified entry yet, which is expected.
 
 | Category key | Label | Count |
 |--------------|-------|:-----:|
-| `malicious-skills` | Malicious Skills | 3 |
-| `mcp-threats` | MCP Threats | 3 |
-| `slopsquatting` | Slopsquatting | 3 |
-| `platform-vulns` | Platform Vulnerabilities | 2 |
+| `malicious-skills` | Malicious Skills | 0 |
+| `mcp-threats` | MCP Threats | 0 |
+| `slopsquatting` | Slopsquatting | 1 |
+| `platform-vulns` | Platform Vulnerabilities | 1 |
 | `incidents` | Incidents | 2 |
-| `agent-tool-cves` | Agent‑Tool CVEs *(cited from Vibe Security Radar)* | 2 |
+| `agent-tool-cves` | Agent‑Tool CVEs *(cited from Vibe Security Radar)* | 0 |
 
 **Status semantics** (with their design‑system colors):
 
@@ -281,7 +296,7 @@ A deliberately lightweight `@react-three/fiber` scene (no post‑processing/bloo
 - **`ThreatCard`** — entry summary card (mobile list + latest‑threats strip).
 - **`FilterBar`** — the Database page's type/status/ecosystem/tag/search/sort controls.
 - **`IndiaRadarCallout`** — surfaces India‑tagged entries.
-- **`SourceAttributionBadge`** — shown on Vibe‑Security‑Radar‑sourced CVE entries.
+- **`SourceAttributionBadge`** — shown on any entry that carries `source_attribution` (research cited rather than independently investigated); no current entry uses it.
 - **`RelatedProjectsCard`** — cross‑references Vibe Security Radar on the Methodology page + Footer.
 - **`SafeLink`** — renders a real anchor **only** for `http(s)` URLs (via `isSafeExternalUrl`), otherwise inert text; always adds `rel="noopener noreferrer" target="_blank"`.
 - **`Seo`** — a lightweight custom component that sets per‑page `<title>`/meta/OG tags (no heavy SEO library).
@@ -410,7 +425,7 @@ yarn start                        # craco start → http://localhost:3000
 
 ## Testing
 
-**Backend** — `backend/tests/test_feed_api.py` (8 tests, run with pytest + xdist as pinned in `pytest.ini`):
+**Backend** — `backend/tests/test_feed_api.py` (run with pytest + xdist as pinned in `pytest.ini`):
 
 ```bash
 cd backend
@@ -418,7 +433,11 @@ export REACT_APP_BACKEND_URL="http://localhost:8001"   # tests hit the live endp
 pytest
 ```
 
-Coverage includes: `200` status, response structure, exactly **15 entries**, `no-store` cache header, per‑category counts, that **only** `agent-tool-cves` entries carry `source_attribution` (pointing at `vibe-radar-ten.vercel.app`), indicator‑index lookups, and that no Mongo `_id` field leaks into the feed.
+Coverage includes: `200` status, response structure, exact entry count (with `entry_count` matching the actual entries), `no-store` cache header, per‑category counts, that **every entry carries at least one HTTP(S) reference** (the credibility guard), that the indicator index is consistent with the entries that declare each indicator, a specific indicator lookup, and that no Mongo `_id` field leaks into the feed.
+
+> The expected entry count and per‑category counts live at the top of the test
+> file (`EXPECTED_ENTRY_COUNT`, `EXPECTED_CATEGORY_COUNTS`) — update them
+> whenever entries change, and re‑run `scripts/build_indicator_index.py`.
 
 > `pytest.ini` pins `-n 2 --dist loadscope` — do not change it; tests share one preview backend and rely on that layout.
 
@@ -428,9 +447,8 @@ Coverage includes: `200` status, response structure, exactly **15 entries**, `no
 
 ## Roadmap / backlog
 
-From `memory/PRD.md`:
-
-- **P1 — Live feed:** replace the mock `feed.json` with a real `RAW_FEED_URL` (e.g. a GitHub `raw.githubusercontent.com` feed), by swapping the file source in `get_feed` or pointing the frontend directly at the raw URL.
+- **P1 — Grow the verified dataset:** add more real, sourced entries — especially in the currently‑empty owned categories (malicious skills, MCP threats, agent‑tool CVEs). Every addition must link to primary sources; re‑run `scripts/build_indicator_index.py` and bump the counts afterward.
+- **P1 — Live feed source:** optionally move `feed.json` behind a real `RAW_FEED_URL` (e.g. a GitHub `raw.githubusercontent.com` feed) by swapping the file source in `get_feed` or pointing the frontend directly at the raw URL.
 - **P1 — Newsletter:** real Beehiiv embed (currently skipped entirely).
 - **P2 — Real repo:** stand up an actual repo for `CONTRIBUTING.md` / `DISPUTES.md` / feed source (currently placeholder URLs under `github.com/ai-code-threat-radar/feed`).
 - **P2 — Lighthouse:** formal performance/accessibility/SEO audit (target ≥ 90).
@@ -440,9 +458,18 @@ From `memory/PRD.md`:
 
 ## Credits & attribution
 
-- **Related project — [Vibe Security Radar](https://vibe-radar-ten.vercel.app/)** by **Georgia Tech SSLab** ([GitHub](https://github.com/HQ1995/vibe-security-radar)). AI Code Threat Radar intentionally covers the layer Vibe Security Radar does *not*, and cites it for all `agent-tool-cves` entries (each carries an explicit `source_attribution`). Cross‑referenced on the Methodology page and in the Footer.
+**Sources for the current dataset** (every entry links to its primary sources; a selection):
+
+- **axios npm compromise** — [Microsoft Security](https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/), [axios/axios#10636 post‑mortem](https://github.com/axios/axios/issues/10636), [CISA alert](https://www.cisa.gov/news-events/alerts/2026/04/20/supply-chain-compromise-impacts-axios-node-package-manager), [The Hacker News](https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html).
+- **Moltbook exposure** — [Wiz Research](https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys), [Infosecurity Magazine](https://www.infosecurity-magazine.com/news/moltbook-exposes-user-data-api/), [SiliconANGLE](https://siliconangle.com/2026/02/02/ai-agent-social-network-moltbook-left-millions-credentials-publicly-exposed/).
+- **Escape.tech vibe‑coded app scan** — [Escape.tech methodology](https://escape.tech/blog/methodology-how-we-discovered-vulnerabilities-apps-built-with-vibe-coding/), [State of Security of Vibe Coded Apps](https://escape.tech/state-of-security-of-vibe-coded-apps).
+- **react‑codeshift slopsquatting** — [Aikido Security](https://www.aikido.dev/blog/slopsquatting-ai-package-hallucination-attacks) (Charlie Eriksen).
+
+**Other**
+
+- **Related project — [Vibe Security Radar](https://vibe-radar-ten.vercel.app/)** by **Georgia Tech SSLab** ([GitHub](https://github.com/HQ1995/vibe-security-radar)). AI Code Threat Radar intentionally covers the layer Vibe Security Radar does *not*. When an entry is cited from that research it carries an explicit `source_attribution` badge. Cross‑referenced on the Methodology page and in the Footer.
 - Built on the **Emergent** platform (`fastapi_react_mongo_shadcn_base_image_cloud_arm` base image).
 
 ---
 
-*The threat data currently shipped is realistic **mock** data for demonstration. Do not treat entries as live advisories.*
+*Every entry in the feed is a real, publicly documented event with linked primary sources. Figures (token counts, download volumes, version numbers) are reproduced only as stated by those sources; where a source pins an event only to a month, the entry's `date_disclosed` is set to that month and the entry notes say so.*

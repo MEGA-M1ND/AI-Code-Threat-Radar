@@ -37,17 +37,22 @@ export default function Methodology() {
 
       <section className="mb-10">
         <h2 className="font-heading text-xl font-semibold text-zinc-100 mb-2">Evidence standard &amp; inclusion</h2>
+        <p className="text-sm text-zinc-400 leading-relaxed mb-3">
+          Every entry is a real, publicly documented event and links to its
+          primary sources — a vendor disclosure, security-vendor advisory,
+          researcher write-up, official alert (e.g. CISA), or reputable
+          reporting. Where possible we cite the original research alongside
+          independent corroboration, and we record specific figures (token
+          counts, download volumes, version numbers) only as stated by those
+          sources.
+        </p>
         <p className="text-sm text-zinc-400 leading-relaxed">
-          Every entry requires at least one public reference — a disclosure,
-          advisory, reputable report, or the underlying code/config itself.
-          Agent-tool CVEs (vulnerabilities in the tools agents use, as
-          opposed to code agents write) are included only when directly
-          relevant to the supply-chain narrative, and are explicitly
-          attributed to their originating research rather than
-          re-investigated independently. Original entries — malicious
-          skills, MCP threats, slopsquatting, platform vulnerabilities, and
-          incidents — reflect this project's independent curation and,
-          where noted, original manual audits.
+          We do not fabricate details. When a fact — a date, a statistic, a
+          CVE identifier — cannot be confirmed against a source, it is left
+          out or flagged rather than smoothed over. Where a disclosure only
+          pins an event to a month, the entry says so. Research findings that
+          aggregate many apps or packages (rather than a single vendor
+          disclosure) are labelled as such.
         </p>
       </section>
 
