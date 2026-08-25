@@ -1,0 +1,2 @@
+requests==2.31.0
+aliyun-ai-labs-sdk==1.0.0

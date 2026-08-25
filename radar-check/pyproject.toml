@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "radar-check"
+version = "0.1.0"
+description = "Scan a project and machine against the RADAR AI-supply-chain threat feed"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "RADAR" }]
+keywords = ["security", "supply-chain", "ai-agents", "mcp", "claude-code", "sarif"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+]
+# No runtime dependencies on purpose. A security scanner that pulls in a
+# dependency tree is asking to become the thing it warns about, and everything
+# here is in the standard library.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+radar-check = "radar_check.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/MEGA-M1ND/AI-Code-Threat-Radar"
+Feed = "https://github.com/MEGA-M1ND/AI-Code-Threat-Radar/blob/main/docs/FEED.md"
+Issues = "https://github.com/MEGA-M1ND/AI-Code-Threat-Radar/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["radar_check"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
