@@ -19,6 +19,14 @@ curl -sL https://github.com/MEGA-M1ND/AI-Code-Threat-Radar/releases/latest/downl
 
 Per-category feeds are published as `feed-malicious-skill.json`, `feed-slopsquat-package.json`, `feed-malicious-mcp-server.json`, `feed-malicious-package.json`, `feed-compromised-package.json`, `feed-platform-vuln.json` and `feed-vibe-app-breach.json`. Field semantics, stability guarantees and update cadence are in [docs/FEED.md](docs/FEED.md).
 
+`radar-deny.json` goes further: one flat rule per indicator carrying an **action** — `block`, `warn` or `monitor` — so a guard does not have to re-derive what seven categories mean. An entry naming legitimate software that merely had a vulnerable version resolves to `warn`, never `block`, whatever its severity.
+
+```sh
+curl -sL https://github.com/MEGA-M1ND/AI-Code-Threat-Radar/releases/latest/download/radar-deny.json
+```
+
+Releases also carry `hol-guard-threat-intel.json`, HOL Guard's native `ThreatIntelBundle`. [docs/consumers.md](docs/consumers.md) documents what each guard can actually read, what these exports deliberately withhold, and why.
+
 ## Sourcing standard
 
 An entry ships only when it has a working primary source that was read in full: a vendor advisory, a registry takedown notice, a maintainer disclosure, or the original researcher writeup. A news article reporting on one of those is a secondary source and cannot stand alone; the schema rejects an entry that has no primary source.

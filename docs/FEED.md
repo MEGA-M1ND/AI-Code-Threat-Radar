@@ -9,6 +9,8 @@ Every release publishes the same set of files. The stable URLs are:
 | Full feed | `https://github.com/MEGA-M1ND/AI-Code-Threat-Radar/releases/latest/download/feed.json` |
 | Blocklist | `https://github.com/MEGA-M1ND/AI-Code-Threat-Radar/releases/latest/download/blocklist.json` |
 | Per category | `.../releases/latest/download/feed-<category>.json` |
+| Deny rules | `.../releases/latest/download/radar-deny.json` |
+| HOL Guard bundle | `.../releases/latest/download/hol-guard-threat-intel.json` |
 | Checksums | `.../releases/latest/download/SHA256SUMS` |
 
 `<category>` is one of `malicious-skill`, `slopsquat-package`, `malicious-mcp-server`, `malicious-package`, `compromised-package`, `platform-vuln`, `vibe-app-breach`.
