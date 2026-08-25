@@ -221,3 +221,13 @@ def test_exclude_does_not_silently_widen(seeded, index):
     """Excluding an unrelated name must leave the scan intact."""
     result = run_scan(seeded, index, home=None, skip=set(), exclude=("unrelated",))
     assert len(result.findings) >= 8
+
+
+def test_output_has_the_conventional_short_flag(seeded, tmp_path, monkeypatch):
+    """CI and the README both reach for -o. It did not exist until a dry run of
+    the CI steps found that out."""
+    monkeypatch.setenv("RADAR_CACHE_DIR", str(tmp_path))
+    target = tmp_path / "out.sarif"
+    main(["--feed", _feed_path(), "--no-home", "--format", "sarif",
+          "-o", str(target), str(seeded)])
+    assert json.loads(target.read_text())["version"] == "2.1.0"

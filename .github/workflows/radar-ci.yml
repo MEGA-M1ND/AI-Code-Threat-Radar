@@ -60,7 +60,7 @@ jobs:
           python scripts/build_feed.py
 
       - name: Install radar-check
-        run: pip install -e "radar-check[dev]"
+        run: pip install -e "./radar-check[dev]"
 
       - name: Test
         run: python -m pytest radar-check/tests -q

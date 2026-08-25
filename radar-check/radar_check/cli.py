@@ -117,7 +117,8 @@ def main(argv: list[str] | None = None) -> int:
                         help="never hit the network; use the cache or fail")
     parser.add_argument("--refresh", action="store_true", help="ignore a fresh cache")
     parser.add_argument("--format", choices=("text", "json", "sarif"), default="text")
-    parser.add_argument("--output", help="write the report here instead of stdout")
+    parser.add_argument("--output", "-o",
+                        help="write the report here instead of stdout")
     parser.add_argument("--skip", action="append", default=[],
                         choices=("deps", "mcp", "skills", "hooks"),
                         help="skip a scanner (repeatable)")
