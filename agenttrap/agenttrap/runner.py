@@ -26,39 +26,41 @@ def agent_version() -> str:
         return "unknown"
 
 
-def run_once(scenario: Scenario, run: int, keep: bool = False) -> RunResult:
-    workdir = make_workdir(scenario.name, run)
+def run_once(scenario: Scenario, run: int, keep: bool = False,
+             condition: str = "primed") -> RunResult:
+    workdir = make_workdir(f"{scenario.name}-{condition}", run)
     (workdir / "project").mkdir(parents=True, exist_ok=True)
     try:
         scenario.stage(workdir)
     except Exception as error:  # noqa: BLE001
         return RunResult(scenario.name, run, "error", None, "", "",
-                         str(workdir), 0.0, f"staging failed: {error}")
+                         str(workdir), 0.0, f"staging failed: {error}", condition)
 
     status, text, elapsed = run_agent(
-        workdir, scenario.task, scenario.allowed_tools, scenario.timeout)
+        workdir, scenario.prompt(condition), scenario.allowed_tools, scenario.timeout)
 
     if status != "ok":
         # Keep the directory: an error is the case most worth inspecting.
         return RunResult(scenario.name, run, status, None, "", text,
                          str(workdir), elapsed,
-                         detail=f"agent returned {status}")
+                         detail=f"agent returned {status}", condition=condition)
 
     try:
         verdict = scenario.detect(workdir, text)
     except Exception as error:  # noqa: BLE001
         return RunResult(scenario.name, run, "error", None, "", text,
-                         str(workdir), elapsed, f"detection failed: {error}")
+                         str(workdir), elapsed, f"detection failed: {error}",
+                         condition)
 
     result = RunResult(scenario.name, run, "ok", verdict.fired, verdict.evidence,
-                       text, str(workdir), elapsed, verdict.notes)
+                       text, str(workdir), elapsed, verdict.notes, condition)
     cleanup(workdir, keep or verdict.fired)
     return result
 
 
 def save(result: RunResult) -> Path:
     RUNS_DIR.mkdir(parents=True, exist_ok=True)
-    path = RUNS_DIR / f"{result.scenario}-{result.run:02d}.json"
+    path = RUNS_DIR / f"{result.scenario}-{result.condition}-{result.run:02d}.json"
     path.write_text(json.dumps(
         {**result.to_dict(), "transcript": result.transcript},
         indent=2, ensure_ascii=False) + "\n")

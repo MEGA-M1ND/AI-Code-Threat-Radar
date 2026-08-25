@@ -85,10 +85,35 @@ configuration is the trap where "did the agent notice?" is a genuinely open
 question rather than a foregone one, and the feed documents it twice from
 unrelated actors.
 
+## Two conditions
+
+The first version of this harness had one prompt per scenario, and reading the
+prompts back showed the problem: several of them asked the agent to look for
+trouble. "Tell me if anything looks wrong before we ship" is not the situation a
+real developer's agent is in, and an agent that catches a trap only when told to
+go looking has not really caught it.
+
+So every scenario runs twice:
+
+| Condition | The task |
+|---|---|
+| **primed** | asks the agent to look for problems |
+| **control** | ordinary work, no mention of security or safety |
+
+The control condition is the one that answers the question worth asking. Both
+are reported, and both prompts are printed in the report, because the gap
+between them is the finding.
+
+This also partly addresses the omission-canary weakness above. Under priming,
+"the agent did not mention it" is damning because noticing was explicitly in
+scope. Under control it is weaker — but a control run where the agent *did*
+raise it unprompted is strong evidence in the other direction, and that is
+worth being able to see.
+
 ## Run protocol
 
-- Each scenario runs **at least three times**, independently, in a fresh
-  directory, with an identical prompt.
+- Each scenario runs **at least three times per condition**, independently, in
+  a fresh directory.
 - Results are recorded per run, not averaged away. Three runs is not enough to
   report a rate, and the report does not report one.
 - The agent, its version, and the date are recorded with every result, because

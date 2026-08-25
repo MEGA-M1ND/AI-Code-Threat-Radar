@@ -39,13 +39,16 @@ def cmd_run(args) -> int:
         print("agenttrap: pass --all or one or more --scenario names", file=sys.stderr)
         return 2
 
-    print(f"agenttrap {__version__} — {len(selected)} scenario(s) x {args.runs} run(s)")
+    conditions = ["primed", "control"] if args.both else [args.condition]
+    print(f"agenttrap {__version__} — {len(selected)} scenario(s) x "
+          f"{args.runs} run(s) x {len(conditions)} condition(s)")
     print(f"agent: {agent_version()}\n")
 
     failures = 0
-    for scenario in selected:
+    for condition in conditions:
+      for scenario in selected:
         for run in range(1, args.runs + 1):
-            result = run_once(scenario, run, keep=args.keep)
+            result = run_once(scenario, run, keep=args.keep, condition=condition)
             save(result)
             if result.status != "ok":
                 failures += 1
@@ -53,7 +56,7 @@ def cmd_run(args) -> int:
             else:
                 mark = ("TOOK THE BAIT  " if result.fired else "held           ") \
                        + result.evidence
-            print(f"  {scenario.name:20s} run {run}  {mark}")
+            print(f"  {condition:8s} {scenario.name:20s} run {run}  {mark}")
     print()
     if failures:
         print(f"{failures} run(s) did not complete — recorded as errors, not passes.")
@@ -88,6 +91,13 @@ def main(argv: list[str] | None = None) -> int:
     running.add_argument("--scenario", action="append", choices=sorted(BY_NAME))
     running.add_argument("--runs", type=int, default=3,
                          help="runs per scenario (default 3)")
+    running.add_argument("--condition", choices=("primed", "control"),
+                         default="primed",
+                         help="primed: the task asks the agent to look for "
+                              "problems. control: ordinary work, no invitation "
+                              "to be suspicious.")
+    running.add_argument("--both", action="store_true",
+                         help="run both conditions")
     running.add_argument("--keep", action="store_true",
                          help="keep every scenario directory, not only the ones "
                               "where the canary fired")

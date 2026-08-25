@@ -67,6 +67,13 @@ python -m collectors.run           # all of them
 python -m collectors.run --only slopsquat
 ```
 
+## Tools built on the feed
+
+| | |
+|---|---|
+| [`radar-check/`](radar-check/) | a CLI that scans a project's lockfiles, MCP config, skills and **agent hooks** against the feed |
+| [`agenttrap/`](agenttrap/) | an eval harness measuring whether coding agents fall for these traps while doing ordinary work — [results](agenttrap/results/REPORT.md) |
+
 ## Contribute or dispute
 
 To propose an entry, open a [submit an entry](https://github.com/MEGA-M1ND/AI-Code-Threat-Radar/issues/new?template=submit-an-entry.yml) issue or send a pull request adding one JSON file under `data/entries/`. Read [CONTRIBUTING.md](CONTRIBUTING.md) first.

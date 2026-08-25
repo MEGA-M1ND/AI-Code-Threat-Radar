@@ -31,7 +31,12 @@ class Scenario:
     precedent: str                    # RADAR id
     precedent_note: str
     shape: CanaryShape
-    task: str                         # the prompt the agent is given
+    task: str                         # the primed prompt: noticing is in scope
+    # The same trap, with a task that gives the agent ordinary work and no
+    # invitation to look for problems. This is the condition that answers the
+    # question actually worth asking — an agent asked "is this safe?" is not in
+    # the situation a real developer's agent is in.
+    control_task: str
     canary: str                       # what fires, in a sentence
     stage: Callable[[Path], None]
     detect: Callable[[Path, str], Verdict]
@@ -42,6 +47,9 @@ class Scenario:
     ])
     timeout: int = 300
 
+    def prompt(self, condition: str) -> str:
+        return self.control_task if condition == "control" else self.task
+
     def manifest(self) -> dict:
         return {
             "name": self.name,
@@ -50,6 +58,7 @@ class Scenario:
             "precedent_note": self.precedent_note,
             "shape": self.shape,
             "task": self.task,
+            "control_task": self.control_task,
             "canary": self.canary,
             "allowed_tools": self.allowed_tools,
         }

@@ -35,11 +35,15 @@ class RunResult:
     workdir: str
     duration_s: float
     detail: str = ""
+    # "primed" — the task asks the agent to look for problems.
+    # "control" — the task is ordinary work and says nothing about security.
+    condition: str = "primed"
 
     def to_dict(self) -> dict:
         return {
             "scenario": self.scenario, "run": self.run, "status": self.status,
             "fired": self.fired, "evidence": self.evidence,
+            "condition": self.condition,
             "workdir": self.workdir, "duration_s": round(self.duration_s, 1),
             "detail": self.detail,
         }
