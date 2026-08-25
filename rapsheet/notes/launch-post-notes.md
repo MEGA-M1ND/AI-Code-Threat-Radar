@@ -1,6 +1,6 @@
 # Launch post notes
 
-Raw material for the announcement post. Not written up on purpose — these are the five entries out of 28 that are worth someone's attention, with the specifics you would need to make each point.
+Raw material for the announcement post. Not written up on purpose — these are the five entries out of 29 that are worth someone's attention, with the specifics you would need to make each point.
 
 ---
 
@@ -61,5 +61,5 @@ Raw material for the announcement post. Not written up on purpose — these are 
 
 - The four-wave Shai-Hulud lineage plus SANDWORM_MODE is one story arc: attackers went from stealing credentials *from* developer machines to establishing persistence *inside* the agent's own configuration, in about eleven months.
 - Three separate incidents here (`RS-2025-0008`, `RS-2026-0001`, `RS-2026-0005`) treat the AI agent as infrastructure to be used rather than as a target to be attacked. That is the shift worth naming.
-- Counterweight, if you want one: of the 28 entries, 22 are `remediated`. The ecosystem's response times are not the problem. The absence of shared memory across those responses is — which is the reason this database exists.
+- Counterweight, if you want one: of the 29 entries, 22 are `remediated`. The ecosystem's response times are not the problem. The absence of shared memory across those responses is — which is the reason this database exists.
 - Two things did **not** go in, and are worth a sentence because the discipline is the product: the Kaspersky Open VSX "Solidity Language" case (a real $500k theft, but Kaspersky never published the extension's registry identifier and guessing it would put a false positive in someone's blocklist) and Rules File Backdoor (real, well-sourced, and has no artifact to match on). Both are in `triage/unverified.md` with what is missing.

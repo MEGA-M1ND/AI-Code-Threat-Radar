@@ -75,12 +75,15 @@ Widely described as a vibe-coded application whose storage bucket was left unaut
 Not yet investigated, listed so the next session does not start from nothing.
 
 - `CVE-2025-58444` — a second MCP Inspector advisory, seen referenced alongside `CVE-2025-49596`. Not researched.
-- GlassWorm wave 5 (2026) — reported as the first malicious MCP server using invisible Unicode, plus 72+ new Open VSX extensions and 150+ GitHub repositories with AI-generated cover commits. Needs the extension identifiers.
-- The `atool` campaign (19 May 2026) — 643 malicious versions across 323 packages, reported to persist via `.claude/settings.json` SessionStart hooks and `.vscode/tasks.json` folderOpen tasks. Same persistence technique as `RS-2026-0005`, different actor. Needs a primary source; the description above comes from a detection-tool changelog.
-- Mini Shai-Hulud's CVE (`CVE-2026-45321`) — seen attached to the TanStack compromise. `RS-2026-0006` covers the campaign but does not yet cite this identifier or the TanStack package list. Socket published an affected-versions feed that would supply exact package and version pairs.
+- GlassWorm wave 5 (2026) — reported as the first malicious MCP server using invisible Unicode, plus 72+ new Open VSX extensions and 150+ GitHub repositories with AI-generated cover commits. This would be the third `malicious-mcp-server` entry, a thin category. Koi's write-up and Socket's two follow-ups (`socket.dev/blog/open-vsx-transitive-glassworm-campaign`, `socket.dev/blog/73-open-vsx-sleeper-extensions-glassworm`) have IOC sections that were not reachable in the searches run so far; the MCP server's package name is the missing piece.
 - "ChainDrop" — an alternative name in circulation for the August 2026 keyv/cacheable wave catalogued as `RS-2026-0005`, with claims that its C2 list is held in an Ethereum contract. Not in the JFrog write-up the entry rests on. Worth confirming before the entry mentions either.
 - Smithery and other MCP registries — no incident found yet, but nothing suggests they have been looked at properly.
 - Codex CLI — no platform incident found. Its absence from the feed reflects a gap in searching, not a clean record.
+
+### Closed
+
+- The `atool` / AntV campaign (19 May 2026) is now `RS-2026-0007`. Snyk, Endor Labs and SafeDep all published it; the npm registry independently confirms the three publish waves and still serves the first-wave versions carrying the imposter `@antv/setup` dependency.
+- `CVE-2026-45321` and the TanStack package list are now folded into `RS-2026-0006`, sourced from TanStack's own postmortem and maintainer issue.
 
 ### Checked and closed
 

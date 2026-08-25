@@ -27,7 +27,7 @@ Every file shares the same envelope:
   "license": "CC-BY-4.0",
   "attribution": "Rapsheet (https://github.com/...), CC BY 4.0",
   "last_updated": "2026-08-25",
-  "entry_count": 28,
+  "entry_count": 29,
   "entries": [ ... ]
 }
 ```

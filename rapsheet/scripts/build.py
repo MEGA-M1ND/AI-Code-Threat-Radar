@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import signal
 import sys
 from pathlib import Path
 
@@ -138,7 +139,14 @@ def build(entries_dir: Path = ENTRIES_DIR, dist_dir: Path = DIST_DIR) -> dict[st
     return written
 
 
+def _allow_piping_to_head() -> None:
+    """Exit quietly when stdout is closed early, e.g. `build.py | head`."""
+    if hasattr(signal, "SIGPIPE"):
+        signal.signal(signal.SIGPIPE, signal.SIG_DFL)
+
+
 def main() -> int:
+    _allow_piping_to_head()
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--entries", type=Path, default=ENTRIES_DIR)
     parser.add_argument("--dist", type=Path, default=DIST_DIR)
