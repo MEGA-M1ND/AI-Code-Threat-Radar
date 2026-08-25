@@ -105,3 +105,39 @@ Not yet investigated or blocked on one specific fact, listed so the next session
 ### Checked and closed
 
 - "AI coding-agent hijack, August 2026" — a scanner project lists this as a distinct campaign of daemons spawning `claude`, `codex` and `gemini` with `--dangerously-skip-permissions`. Searching turns up only re-reporting of s1ngularity (`RADAR-2025-0008`) and SANDWORM_MODE (`RADAR-2026-0001`), both already catalogued. Not a separate incident on the evidence available.
+
+## Leads reviewed 25 Aug 2026, deliberately not entered
+
+### `@squawk/mcp` 0.9.1–0.9.5 and `cmux-agent-mcp` 0.1.3–0.1.8
+
+Real, verified, and deliberately left out. Both are MCP servers caught in the
+TeamPCP "Shai-Hulud: Here We Go Again" wave, and JFrog's appendix lists exactly
+the versions npm has since removed — checked against the registry, `@squawk/mcp`
+is live at 0.9.6+ under its original maintainer with 0.9.1–0.9.5 absent, and
+`cmux-agent-mcp` is live at 0.1.0–0.1.2 with 0.1.3–0.1.8 absent. Clean
+confirmation either way.
+
+Left out because RADAR already carries four entries on this worm lineage
+(RADAR-2025-0009, RADAR-2025-0010, RADAR-2026-0005, RADAR-2026-0006), two of
+which already record that the wave reached MCP server packages. A fifth would
+deepen `compromised-package`, the category that least needs it. Filing it as
+`malicious-mcp-server` to improve that category's count would be filing it
+wrong. Source: https://research.jfrog.com/post/shai-hulud-here-we-go-again/
+
+### Snyk ToxicSkills corpus audit
+
+3,984 ClawHub and skills.sh entries audited, ~36% with at least one security
+flaw, 76 with confirmed malicious payloads. The specific artifact — a fake
+"ClawHub CLI" skill whose SKILL.md base64-decodes a `curl | bash` to a bare IP
+and instructs the agent to fetch a password-protected `openclaw-core` archive —
+is worth an entry of its own if the skill slug and the IP can be pinned down.
+The Snyk post shows mcp-scan output rather than naming the registry slug, and an
+entry needs the identifier a scanner would match on. RADAR-2026-0003 covers the
+clawdhub campaign; whether this is the same operator is unresolved.
+Source: https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/
+
+### CSA Labs SKILL.md context-poisoning research notes
+
+Analytical rather than primary — they summarise Snyk's and Koi's findings, which
+RADAR already cites directly. Useful framing for the methodology doc, not a
+source for an entry.

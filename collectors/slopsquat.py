@@ -310,12 +310,30 @@ def npm_state(data: dict) -> tuple[str, list[str]]:
     return "live", real
 
 
-def check_known_bad(state: dict, names: set[str], budget: int = 60):
-    """Is anything the feed calls malicious serving installable code again?
+def is_republication(was: str | None, status: str) -> bool:
+    """Whether a known-bad name's state change is worth reporting.
 
-    A name coming back is either a new owner claiming an abandoned name or the
-    same actor republishing, and both are worth a look the day they happen. The
-    healthy answer is that this yields nothing, and it should stay that way.
+    Only a transition into `live` counts. A name that was already live is an
+    entry with `status: active` restating its own claim, and a name seen for
+    the first time has no transition to report — it is a baseline.
+    """
+    return status == "live" and was is not None and was != "live"
+
+
+def check_known_bad(state: dict, names: set[str], budget: int = 60):
+    """Has anything the feed calls malicious *changed* into serving live code?
+
+    The signal is the transition, not the state. A name the feed documents as
+    malicious and that is live today is usually just an entry with
+    `status: active` — that is the entry's own claim, not a discovery, and
+    reporting it would put a permanent false alarm in the queue for every live
+    threat RADAR catalogues. What matters is a name that was gone, unpublished
+    or security-held on the last look and is installable on this one: a new
+    owner claiming an abandoned name, or the same actor republishing.
+
+    A name seen for the first time is recorded as a baseline and not reported.
+    The healthy answer here is nothing, and the census in state says what was
+    actually observed.
     """
     ordered = sorted(names)
     if not ordered:
@@ -325,30 +343,35 @@ def check_known_bad(state: dict, names: set[str], budget: int = 60):
     state["bad_cursor"] = (cursor + len(window)) % len(ordered)
 
     census: dict[str, int] = {}
+    prior: dict[str, str] = state.setdefault("known_bad_states", {})
     for name in window:
         try:
             data = get_json(NPM_PACKAGE.format(name=name.replace("/", "%2f")),
                             timeout=15, retries=0)
         except SkipCollector:
             census["gone"] = census.get("gone", 0) + 1
+            prior[name] = "gone"
             continue  # a 404 is the expected, healthy answer
         time.sleep(NPM_PACKAGE_DELAY)
         status, versions = npm_state(data)
         census[status] = census.get(status, 0) + 1
-        if status != "live":
+        was = prior.get(name)
+        prior[name] = status
+        if not is_republication(was, status):
             continue
         times = data.get("time") or {}
         latest = max((times.get(v) or "" for v in versions), default="")
         yield Candidate(
             source=NAME,
             key=f"republished:npm:{name}",
-            title=f"{name} is serving installable code on npm again",
-            why=("a name the feed documents as malicious has "
-                 f"{len(versions)} non-placeholder version(s) live on npm"),
+            title=f"{name} is installable on npm again",
+            why=(f"a name the feed documents as malicious was {was} on the last "
+                 f"look and now has {len(versions)} installable version(s) on npm"),
             suggested_category="slopsquat-package",
             confidence="high",
             evidence={"registry": "npm", "name": name, "target": name,
-                      "rule": "republication", "versions": versions[-5:],
+                      "rule": "republication", "previous_state": was,
+                      "versions": versions[-5:],
                       "created": times.get("created"), "last_release": latest,
                       "maintainers": [m.get("name", "")
                                       for m in (data.get("maintainers") or [])][:5],
