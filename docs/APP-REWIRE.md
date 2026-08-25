@@ -1,6 +1,8 @@
 # Rewiring the web app to the RADAR feed
 
-Handover notes. Nothing in `frontend/` or `backend/` was touched while building RADAR; this describes the work, it does not do it.
+**Status: done, 25 August 2026.** This was written as handover notes before the rewire and is kept as the record of what changed and why. The mapping tables below are what the code now implements — use them when reading `frontend/src/lib/feed.js` or adding a field.
+
+Before the rewire the deployed app served `backend/data/feed.json`, a file of 15 mock entries, while the repository documented a sourcing standard requiring a primary source for every entry. That file is deleted. The proxy now fetches the published release artifact, and there is no path in the code that can serve placeholder data: if the release is unreachable and no local build exists, `/api/feed` returns 503 with an explanation rather than a fallback dataset.
 
 ## The one URL
 

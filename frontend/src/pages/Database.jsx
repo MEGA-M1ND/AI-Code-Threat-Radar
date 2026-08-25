@@ -5,7 +5,6 @@ import Seo from '@/components/Seo';
 import FilterBar from '@/components/FilterBar';
 import StatusBadge from '@/components/StatusBadge';
 import CategoryBadge from '@/components/CategoryBadge';
-import SourceAttributionBadge from '@/components/SourceAttributionBadge';
 import FeedErrorState from '@/components/FeedErrorState';
 import {
   Table,
@@ -15,8 +14,8 @@ import {
   TableHead,
   TableCell,
 } from '@/components/ui/table';
-import { getUniqueValues, sortEntriesByDate } from '@/lib/feed';
-import { CATEGORY_ORDER, CATEGORY_LABELS, STATUS_ORDER } from '@/constants/categories';
+import { getUniqueValues, sortEntriesByDate, indicatorValue } from '@/lib/feed';
+import { CATEGORY_ORDER, CATEGORY_LABELS, STATUS_ORDER, SEVERITY_ORDER, SEVERITY_COLORS } from '@/constants/categories';
 import { DATABASE_PAGE } from '@/constants/testIds';
 
 export default function Database() {
@@ -27,20 +26,23 @@ export default function Database() {
   const [search, setSearch] = useState('');
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedStatus, setSelectedStatus] = useState('all');
-  const [selectedEcosystem, setSelectedEcosystem] = useState('all');
-  const [selectedTags, setSelectedTags] = useState([]);
-  const [sortField, setSortField] = useState('date_disclosed');
+  const [selectedTool, setSelectedTool] = useState('all');
+  const [selectedSeverities, setSelectedSeverities] = useState([]);
+  const [sortField, setSortField] = useState('first_seen');
 
   const availableTypes = useMemo(
-    () => CATEGORY_ORDER.filter((c) => entries.some((e) => e._category === c)),
+    () => CATEGORY_ORDER.filter((c) => entries.some((e) => e.category === c)),
     [entries]
   );
   const availableStatuses = useMemo(
     () => STATUS_ORDER.filter((s) => entries.some((e) => e.status === s)),
     [entries]
   );
-  const availableEcosystems = useMemo(() => getUniqueValues(entries, 'ecosystem'), [entries]);
-  const availableTags = useMemo(() => getUniqueValues(entries, 'tags'), [entries]);
+  const availableTools = useMemo(() => getUniqueValues(entries, 'affected_tools'), [entries]);
+  const availableSeverities = useMemo(
+    () => SEVERITY_ORDER.filter((s) => entries.some((e) => e.severity === s)),
+    [entries]
+  );
 
   const toggle = (setter) => (value) =>
     setter((prev) => (prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]));
@@ -48,15 +50,16 @@ export default function Database() {
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     let result = entries.filter((e) => {
-      if (selectedTypes.length && !selectedTypes.includes(e._category)) return false;
+      if (selectedTypes.length && !selectedTypes.includes(e.category)) return false;
       if (selectedStatus !== 'all' && e.status !== selectedStatus) return false;
-      if (selectedEcosystem !== 'all' && e.ecosystem !== selectedEcosystem) return false;
-      if (selectedTags.length && !selectedTags.some((t) => (e.tags || []).includes(t))) return false;
+      if (selectedTool !== 'all' && !(e.affected_tools || []).includes(selectedTool)) return false;
+      if (selectedSeverities.length && !selectedSeverities.includes(e.severity)) return false;
       if (q) {
         const haystack = [
           e.title,
-          e.description,
-          ...(e.indicators || []),
+          e.summary,
+          e.id,
+          ...(e.indicators || []).map(indicatorValue),
         ]
           .filter(Boolean)
           .join(' ')
@@ -66,17 +69,17 @@ export default function Database() {
       return true;
     });
     return sortEntriesByDate(result, sortField);
-  }, [entries, search, selectedTypes, selectedStatus, selectedEcosystem, selectedTags, sortField]);
+  }, [entries, search, selectedTypes, selectedStatus, selectedTool, selectedSeverities, sortField]);
 
   const hasActiveFilters =
-    !!search || selectedTypes.length > 0 || selectedStatus !== 'all' || selectedEcosystem !== 'all' || selectedTags.length > 0;
+    !!search || selectedTypes.length > 0 || selectedStatus !== 'all' || selectedTool !== 'all' || selectedSeverities.length > 0;
 
   const clearFilters = () => {
     setSearch('');
     setSelectedTypes([]);
     setSelectedStatus('all');
-    setSelectedEcosystem('all');
-    setSelectedTags([]);
+    setSelectedTool('all');
+    setSelectedSeverities([]);
   };
 
   return (
@@ -102,14 +105,14 @@ export default function Database() {
         statuses={availableStatuses}
         selectedStatus={selectedStatus}
         onStatusChange={setSelectedStatus}
-        ecosystems={availableEcosystems}
-        selectedEcosystem={selectedEcosystem}
-        onEcosystemChange={setSelectedEcosystem}
-        tags={availableTags}
-        selectedTags={selectedTags}
-        onToggleTag={toggle(setSelectedTags)}
+        tools={availableTools}
+        selectedTool={selectedTool}
+        onToolChange={setSelectedTool}
+        severities={availableSeverities}
+        selectedSeverities={selectedSeverities}
+        onToggleSeverity={toggle(setSelectedSeverities)}
         sortField={sortField}
-        onToggleSort={() => setSortField((f) => (f === 'date_disclosed' ? 'last_updated' : 'date_disclosed'))}
+        onToggleSort={() => setSortField((f) => (f === 'first_seen' ? 'last_updated' : 'first_seen'))}
         onClear={clearFilters}
         hasActiveFilters={hasActiveFilters}
       />
@@ -156,13 +159,13 @@ export default function Database() {
                         {entry.title}
                       </Link>
                     </TableCell>
-                    <TableCell><CategoryBadge label={CATEGORY_LABELS[entry._category] || entry._category} /></TableCell>
+                    <TableCell><CategoryBadge label={CATEGORY_LABELS[entry.category] || entry.category} /></TableCell>
                     <TableCell><StatusBadge status={entry.status} /></TableCell>
-                    <TableCell className="font-mono text-xs text-zinc-400">{entry.ecosystem || '—'}</TableCell>
-                    <TableCell className="font-mono text-xs text-zinc-400 tabular-nums">{entry.date_disclosed || '—'}</TableCell>
+                    <TableCell className="font-mono text-xs text-zinc-400">{(entry.affected_tools || []).join(', ') || '—'}</TableCell>
+                    <TableCell className="font-mono text-xs text-zinc-400 tabular-nums">{entry.first_seen || '—'}</TableCell>
                     <TableCell>
-                      {entry.source_attribution ? (
-                        <SourceAttributionBadge source={entry.source_attribution} />
+                      {entry.severity ? (
+                        <span className="font-mono text-[11px] uppercase" style={{ color: SEVERITY_COLORS[entry.severity] }}>{entry.severity}</span>
                       ) : (
                         <span className="text-xs text-zinc-600">Original</span>
                       )}
@@ -185,15 +188,15 @@ export default function Database() {
                 className="block border border-white/10 bg-white/[0.03] rounded-sm p-4 hover:border-white/25 transition-colors cursor-pointer"
               >
                 <div className="flex items-start gap-1.5 mb-2 flex-wrap">
-                  <CategoryBadge label={CATEGORY_LABELS[entry._category] || entry._category} />
+                  <CategoryBadge label={CATEGORY_LABELS[entry.category] || entry.category} />
                   <StatusBadge status={entry.status} />
                 </div>
                 <h3 className="font-heading font-medium text-zinc-100 leading-snug">{entry.title}</h3>
                 <div className="flex items-center justify-between mt-3">
-                  <span className="font-mono text-[11px] text-zinc-500 tabular-nums">{entry.date_disclosed || '—'}</span>
-                  {entry.source_attribution && (
-                    <span onClick={(e) => e.stopPropagation()}>
-                      <SourceAttributionBadge source={entry.source_attribution} />
+                  <span className="font-mono text-[11px] text-zinc-500 tabular-nums">{entry.first_seen || '—'}</span>
+                  {entry.severity && (
+                    <span className="font-mono text-[11px] uppercase" style={{ color: SEVERITY_COLORS[entry.severity] }}>
+                      {entry.severity}
                     </span>
                   )}
                 </div>
