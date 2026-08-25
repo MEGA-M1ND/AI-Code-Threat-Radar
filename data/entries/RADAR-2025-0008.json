@@ -1,0 +1,162 @@
+{
+  "id": "RADAR-2025-0008",
+  "category": "compromised-package",
+  "title": "s1ngularity: Nx npm packages weaponised local AI coding CLIs for secret discovery",
+  "summary": "Malicious Nx releases published on 26 August 2025 carried a postinstall script, telemetry.js, that invoked the claude, gemini and q command-line agents with their approval prompts disabled and asked them to inventory wallet files, SSH keys and .env files, then uploaded the harvested secrets to a public repository created in the victim's own GitHub account. It is the first widely documented case of malware driving AI coding agents as a reconnaissance tool.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "nx",
+      "version": "20.9.0, 20.10.0, 20.11.0, 20.12.0, 21.5.0, 21.6.0, 21.7.0, 21.8.0",
+      "affected": {
+        "versions": [
+          "20.9.0",
+          "20.10.0",
+          "20.11.0",
+          "20.12.0",
+          "21.5.0",
+          "21.6.0",
+          "21.7.0",
+          "21.8.0"
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@nx/devkit",
+      "version": "20.9.0, 21.5.0",
+      "affected": {
+        "versions": [
+          "20.9.0",
+          "21.5.0"
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@nx/js",
+      "version": "20.9.0, 21.5.0",
+      "affected": {
+        "versions": [
+          "20.9.0",
+          "21.5.0"
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@nx/workspace",
+      "version": "20.9.0, 21.5.0",
+      "affected": {
+        "versions": [
+          "20.9.0",
+          "21.5.0"
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@nx/node",
+      "version": "20.9.0, 21.5.0",
+      "affected": {
+        "versions": [
+          "20.9.0",
+          "21.5.0"
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@nx/eslint",
+      "version": "21.5.0",
+      "affected": {
+        "versions": [
+          "21.5.0"
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@nx/key",
+      "version": "3.2.0",
+      "affected": {
+        "versions": [
+          "3.2.0"
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@nx/enterprise-cloud",
+      "version": "3.2.0",
+      "affected": {
+        "versions": [
+          "3.2.0"
+        ]
+      }
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "2379ac0e03b1a67c4ca5693136eff4945e644a91"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "e5d1f3c45ee7cca6ae59cf64e0573050bbe136ec"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "b4f20b39aa6df1002872f07973024d85aa49abaf"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "d2438106211ebd12c4f0a248848bc9864c97a3c0"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "Credential theft at the scale of a package with roughly four million weekly downloads, followed by a second wave that made victims' private repositories public.",
+  "status": "remediated",
+  "first_seen": "2025-08-26",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://github.com/nrwl/nx/security/advisories/GHSA-cxm3-wv7p-598c",
+      "publisher": "Nx (maintainer advisory)",
+      "type": "primary"
+    },
+    {
+      "url": "https://nx.dev/blog/s1ngularity-postmortem",
+      "publisher": "Nx",
+      "type": "primary"
+    },
+    {
+      "url": "https://www.wiz.io/blog/s1ngularity-supply-chain-attack",
+      "publisher": "Wiz Research",
+      "type": "secondary"
+    },
+    {
+      "url": "https://www.stepsecurity.io/blog/supply-chain-security-alert-popular-nx-build-system-package-compromised-with-data-stealing-malware",
+      "publisher": "StepSecurity",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code",
+    "gemini-cli",
+    "other"
+  ],
+  "related": [
+    "GHSA-cxm3-wv7p-598c"
+  ]
+}

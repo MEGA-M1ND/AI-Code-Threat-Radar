@@ -1,0 +1,50 @@
+{
+  "id": "RADAR-2025-0021",
+  "category": "malicious-mcp-server",
+  "title": "Three PyPI MCP servers opened a reverse shell before serving a single tool",
+  "summary": "Three packages published to PyPI presented themselves as FastMCP-based servers offering a run_command tool, and their main function executed a Python reverse shell to 45.115.38.27 on port 4433 before starting the MCP server. JFrog reported them on 19 October 2025 and all three are gone from PyPI.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "pypi",
+      "name": "mcp-runcmd-server"
+    },
+    {
+      "type": "package",
+      "registry": "pypi",
+      "name": "mcp-runcommand-server"
+    },
+    {
+      "type": "package",
+      "registry": "pypi",
+      "name": "mcp-runcommand-server2"
+    },
+    {
+      "type": "mcp-server",
+      "name": "mcp-runcmd-server"
+    },
+    {
+      "type": "mcp-server",
+      "name": "mcp-runcommand-server"
+    },
+    {
+      "type": "mcp-server",
+      "name": "mcp-runcommand-server2"
+    }
+  ],
+  "severity": "high",
+  "severity_rationale": "Interactive shell on the developer host at MCP server startup, before any agent interaction takes place.",
+  "status": "remediated",
+  "first_seen": "2025-10-19",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://research.jfrog.com/post/3-malicious-mcps-pypi-reverse-shell/",
+      "publisher": "JFrog Security Research",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "generic-mcp"
+  ]
+}

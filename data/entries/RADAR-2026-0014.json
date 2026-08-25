@@ -1,0 +1,33 @@
+{
+  "id": "RADAR-2026-0014",
+  "category": "malicious-package",
+  "title": "mouse5212-super-formatter read and uploaded files from Claude Code's workspace",
+  "summary": "An npm package presenting itself as a formatter read files from the /mnt/user-data directory Claude Code uses as its workspace and uploaded them to a GitHub repository under the attacker's account. OX Security found the actor's own GitHub token hardcoded in the package, which let them trace roughly seven exfiltrations before the repository was taken down.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "mouse5212-super-formatter"
+    }
+  ],
+  "severity": "medium",
+  "severity_rationale": "Targeted theft of agent workspace contents, limited by 676 downloads and roughly seven observed exfiltrations, most of them the actor testing on themselves.",
+  "status": "remediated",
+  "first_seen": "2026-05-27",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://www.ox.security/blog/malware-slop-new-malicious-npm-package-leaks-its-own-github-private-token/",
+      "publisher": "OX Security",
+      "type": "primary"
+    },
+    {
+      "url": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
+      "publisher": "The Hacker News",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code"
+  ]
+}
