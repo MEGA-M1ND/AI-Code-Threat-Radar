@@ -1,5 +1,5 @@
 name: Dispute an entry
-description: Contest something Rapsheet published about you or your project.
+description: Contest something RADAR published about you or your project.
 title: "[dispute] RS-"
 labels: ["dispute"]
 body:
@@ -13,7 +13,7 @@ body:
     id: entry_id
     attributes:
       label: Entry ID
-      placeholder: RS-2026-0001
+      placeholder: RADAR-2026-0001
     validations:
       required: true
   - type: dropdown

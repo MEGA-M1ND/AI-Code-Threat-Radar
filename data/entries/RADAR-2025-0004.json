@@ -1,0 +1,51 @@
+{
+  "id": "RADAR-2025-0004",
+  "category": "platform-vuln",
+  "title": "EscapeRoute: sandbox escape in Anthropic's filesystem MCP server",
+  "summary": "Anthropic's filesystem MCP server checked allowed directories with a string prefix match and fell back to validating a symlink's parent directory rather than its target, so an agent could be steered into reading and writing files outside its sandbox. Cymulate demonstrated escalation to system files such as /etc/sudoers and LaunchAgents plists.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@modelcontextprotocol/server-filesystem",
+      "version": "<2025.7.1",
+      "affected": {
+        "ranges": [
+          {
+            "fixed": "2025.7.1"
+          }
+        ]
+      }
+    },
+    {
+      "type": "mcp-server",
+      "name": "@modelcontextprotocol/server-filesystem",
+      "repo": "https://github.com/modelcontextprotocol/servers"
+    }
+  ],
+  "severity": "high",
+  "severity_rationale": "Full escape from the directory sandbox that is the server's only security control, reaching code execution when it runs as a privileged user.",
+  "status": "remediated",
+  "first_seen": "2025-07-01",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://cymulate.com/blog/cve-2025-53109-53110-escaperoute-anthropic/",
+      "publisher": "Cymulate Research Labs",
+      "type": "primary"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53110",
+      "publisher": "NVD",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code",
+    "generic-mcp"
+  ],
+  "related": [
+    "CVE-2025-53109",
+    "CVE-2025-53110"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "RADAR-2025-0001",
+  "category": "malicious-mcp-server",
+  "title": "postmark-mcp backdoored to blind-copy every agent-sent email",
+  "summary": "The npm package postmark-mcp, an MCP server that lets AI assistants send mail through Postmark, added a hidden BCC recipient in version 1.0.16 so that every message an agent sent was copied to an attacker-controlled address. Koi Security reported it on 25 September 2025 and the package was removed from npm.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "postmark-mcp",
+      "version": ">=1.0.16",
+      "affected": {
+        "ranges": [
+          {
+            "introduced": "1.0.16"
+          }
+        ]
+      }
+    },
+    {
+      "type": "mcp-server",
+      "name": "postmark-mcp"
+    },
+    {
+      "type": "domain",
+      "value": "giftshop.club"
+    }
+  ],
+  "severity": "high",
+  "severity_rationale": "Silent exfiltration of all agent-sent mail including password resets, limited by an install base of roughly 1,600 downloads and prompt removal.",
+  "status": "remediated",
+  "first_seen": "2025-09-25",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://www.koi.ai/blog/postmark-mcp-npm-malicious-backdoor-email-theft",
+      "publisher": "Koi Security",
+      "type": "primary"
+    },
+    {
+      "url": "https://snyk.io/blog/malicious-mcp-server-on-npm-postmark-mcp-harvests-emails/",
+      "publisher": "Snyk",
+      "type": "secondary"
+    },
+    {
+      "url": "https://thehackernews.com/2025/09/first-malicious-mcp-server-found.html",
+      "publisher": "The Hacker News",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "generic-mcp"
+  ]
+}

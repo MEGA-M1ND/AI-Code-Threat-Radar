@@ -58,12 +58,12 @@ export default function FilterBar({
   statuses,
   selectedStatus,
   onStatusChange,
-  ecosystems,
-  selectedEcosystem,
-  onEcosystemChange,
-  tags,
-  selectedTags,
-  onToggleTag,
+  tools,
+  selectedTool,
+  onToolChange,
+  severities,
+  selectedSeverities,
+  onToggleSeverity,
   sortField,
   onToggleSort,
   onClear,
@@ -109,16 +109,16 @@ export default function FilterBar({
           </SelectContent>
         </Select>
 
-        <Select value={selectedEcosystem} onValueChange={onEcosystemChange}>
+        <Select value={selectedTool} onValueChange={onToolChange}>
           <SelectTrigger
             data-testid={DATABASE_PAGE.ecosystemFilter}
             className="w-auto min-w-[140px] rounded-sm border-white/15 bg-transparent text-zinc-300 font-mono text-xs h-9"
           >
-            <SelectValue placeholder="Ecosystem" />
+            <SelectValue placeholder="Tool" />
           </SelectTrigger>
           <SelectContent className="bg-[#121214] border-white/10 text-zinc-200 rounded-sm">
-            <SelectItem value="all">All ecosystems</SelectItem>
-            {ecosystems.map((e) => (
+            <SelectItem value="all">All tools</SelectItem>
+            {tools.map((e) => (
               <SelectItem key={e} value={e}>
                 {e}
               </SelectItem>
@@ -127,10 +127,10 @@ export default function FilterBar({
         </Select>
 
         <MultiSelectDropdown
-          label="Tags"
-          options={tags}
-          selected={selectedTags}
-          onToggle={onToggleTag}
+          label="Severity"
+          options={severities}
+          selected={selectedSeverities}
+          onToggle={onToggleSeverity}
           testId={DATABASE_PAGE.tagsFilter}
         />
 
@@ -141,7 +141,7 @@ export default function FilterBar({
           className="rounded-sm border-white/15 bg-transparent text-zinc-300 hover:bg-white/5 hover:text-white font-mono text-xs h-9 gap-1.5"
         >
           <ArrowUpDown size={13} />
-          {sortField === 'date_disclosed' ? 'Newest first' : 'Last updated'}
+          {sortField === 'first_seen' ? 'Newest first' : 'Last updated'}
         </Button>
 
         {hasActiveFilters && (

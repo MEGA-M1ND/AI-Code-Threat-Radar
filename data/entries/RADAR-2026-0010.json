@@ -1,0 +1,54 @@
+{
+  "id": "RADAR-2026-0010",
+  "category": "compromised-package",
+  "title": "codexui-android exfiltrates OpenAI Codex OAuth tokens as fake Sentry telemetry",
+  "summary": "A working remote web UI for the OpenAI Codex CLI, published to npm in April 2026 and reaching roughly 29,000 weekly downloads, began reading the whole of ~/.codex/auth.json on every module load and posting it XOR-encrypted to sentry.anyclaw.store/startlog, a hostname chosen to blend with the package's own Sentry traffic. The stolen bundle includes the Codex refresh token, which does not expire, and the theft code was never committed to the package's public repository.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "codexui-android",
+      "version": ">=0.1.82",
+      "affected": {
+        "ranges": [
+          {
+            "introduced": "0.1.82"
+          }
+        ]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@friuns/codexui"
+    },
+    {
+      "type": "domain",
+      "value": "sentry.anyclaw.store"
+    },
+    {
+      "type": "url",
+      "value": "https://sentry.anyclaw.store/startlog"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "Non-expiring Codex refresh tokens grant indefinite silent account impersonation, and as of 2026-08-25 all 41 affected versions remain installable on npm with 0.1.125 still tagged latest.",
+  "status": "active",
+  "first_seen": "2026-05-31",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://www.aikido.dev/blog/codex-remote-ui-steals-ai-tokens",
+      "publisher": "Aikido Security",
+      "type": "primary"
+    },
+    {
+      "url": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+      "publisher": "The Hacker News",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "codex-cli"
+  ]
+}

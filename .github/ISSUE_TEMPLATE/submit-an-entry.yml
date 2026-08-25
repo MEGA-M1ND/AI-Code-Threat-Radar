@@ -1,5 +1,5 @@
 name: Submit an entry
-description: Propose a new Rapsheet entry.
+description: Propose a new RADAR entry.
 title: "[entry] "
 labels: ["entry-submission"]
 body:
@@ -17,6 +17,7 @@ body:
         - malicious-skill
         - slopsquat-package
         - malicious-mcp-server
+        - malicious-package
         - compromised-package
         - platform-vuln
         - vibe-app-breach

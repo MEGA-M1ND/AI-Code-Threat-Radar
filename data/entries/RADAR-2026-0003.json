@@ -1,0 +1,53 @@
+{
+  "id": "RADAR-2026-0003",
+  "category": "malicious-skill",
+  "title": "clawdhub campaign published agent skills impersonating the ClawHub CLI",
+  "summary": "A ClawHub account named zaycv published skills posing as an official CLI for managing agent skills, whose SKILL.md told the agent to install a prerequisite by base64-decoding a command that curled a script from a bare IP address into bash and to fetch a password-protected archive named openclaw-core. Snyk found the original clawhub skill on 2 February 2026 with 7,743 downloads and it was removed the next day, after which near-identical variants appeared.",
+  "indicators": [
+    {
+      "type": "skill",
+      "slug": "zaycv/clawhub",
+      "marketplace": "clawhub.ai"
+    },
+    {
+      "type": "skill",
+      "slug": "zaycv/clawhud",
+      "marketplace": "clawhub.ai"
+    },
+    {
+      "type": "skill",
+      "slug": "zaycv/clawhub1",
+      "marketplace": "clawhub.ai"
+    },
+    {
+      "type": "skill",
+      "slug": "polymarket-traiding-bot",
+      "marketplace": "clawhub.ai"
+    },
+    {
+      "type": "domain",
+      "value": "clawhub.ai"
+    }
+  ],
+  "severity": "high",
+  "severity_rationale": "Remote code execution delivered as natural-language setup instructions that the agent relays to the user, inheriting whatever the agent is permitted to run.",
+  "status": "active",
+  "first_seen": "2026-02-02",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://snyk.io/articles/clawdhub-malicious-campaign-ai-agent-skills/",
+      "publisher": "Snyk",
+      "type": "primary"
+    },
+    {
+      "url": "https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/",
+      "publisher": "Snyk",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code",
+    "other"
+  ]
+}

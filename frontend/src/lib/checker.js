@@ -48,20 +48,43 @@ export function extractTokens(text) {
   return Array.from(new Set(matches.map((m) => m.trim().toLowerCase())));
 }
 
-export function matchIndicators(tokens, indicatorIndex, entriesById) {
+// Indicators are typed objects in the published feed, so the index is built
+// here rather than shipped as a top-level map. Matching is exact on the
+// indicator value: substring matching produced false positives on short names.
+export function buildIndicatorIndex(feed) {
+  const index = new Map();
+  for (const entry of feed?.entries || []) {
+    for (const ind of entry.indicators || []) {
+      const value = ind.name || ind.slug || ind.value || ind.url || ind.repo;
+      if (!value) continue;
+      const key = String(value).toLowerCase();
+      if (!index.has(key)) index.set(key, []);
+      index.get(key).push({ entry, indicator: ind });
+    }
+  }
+  return index;
+}
+
+export function matchIndicators(tokens, index) {
   const results = [];
-  const seenIndicators = new Set();
+  const seen = new Set();
   for (const token of tokens) {
-    for (const indicator of Object.keys(indicatorIndex || {})) {
-      if (seenIndicators.has(indicator)) continue;
-      if (token === indicator.toLowerCase() || token.includes(indicator.toLowerCase())) {
-        seenIndicators.add(indicator);
-        const entryIds = indicatorIndex[indicator] || [];
-        const entries = entryIds
-          .map((id) => entriesById[id])
-          .filter(Boolean);
-        results.push({ indicator, entries });
-      }
+    const hits = index.get(token);
+    if (!hits || seen.has(token)) continue;
+    seen.add(token);
+    for (const { entry, indicator } of hits) {
+      results.push({
+        indicator: token,
+        indicatorType: indicator.type,
+        version: indicator.version || null,
+        entry,
+        severity: entry.severity,
+        category: entry.category,
+        // A platform-vuln indicator names legitimate software that had a
+        // vulnerability. Flagging it as malicious would be wrong, and the
+        // version range is what actually decides whether it matters.
+        advisory: entry.category === 'platform-vuln',
+      });
     }
   }
   return results;
@@ -85,12 +108,9 @@ export function runHeuristics(text) {
 }
 
 export function analyzePaste(text, feed) {
-  const indicatorIndex = feed?.indicator_index || {};
-  const entriesById = Object.fromEntries(
-    (feed?.entries || []).map((e) => [e.id, e])
-  );
+  const index = buildIndicatorIndex(feed);
   const tokens = extractTokens(text);
-  const knownMatches = matchIndicators(tokens, indicatorIndex, entriesById);
+  const knownMatches = matchIndicators(tokens, index);
   const heuristicWarnings = runHeuristics(text);
   return { knownMatches, heuristicWarnings };
 }
@@ -98,8 +118,11 @@ export function analyzePaste(text, feed) {
 export const EXAMPLE_PASTE = `{
   "name": "my-agent-project",
   "dependencies": {
-    "react-codeshift": "^2.1.0",
+    "claud-code": "0.2.1",
     "express": "^4.18.2"
+  },
+  "mcpServers": {
+    "postmark": { "command": "npx", "args": ["postmark-mcp"] }
   },
   "config": {
     "aws_access_key": "AKIAIOSFODNN7EXAMPLE",

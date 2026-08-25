@@ -1,7 +1,9 @@
-// Feed fetching + derived stats for the AI Code Threat Radar.
-// This is a thin proxy call to our own backend (zero database usage on the
-// backend side — it just reads a static JSON file fresh on every request),
-// which stands in for a future `RAW_FEED_URL` on raw.githubusercontent.com.
+// Feed fetching + derived stats for RADAR.
+// This is a thin proxy call to our own backend, which fetches the published
+// release artifact and holds it briefly in memory. The shape here is the
+// published feed shape — see docs/FEED.md.
+
+import { SEVERITY_RANK } from '@/constants/categories';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
@@ -16,7 +18,7 @@ export async function fetchFeed() {
   return res.json();
 }
 
-export function sortEntriesByDate(entries, field = 'date_disclosed') {
+export function sortEntriesByDate(entries, field = 'first_seen') {
   return [...entries].sort((a, b) => {
     const da = a?.[field] || '';
     const db = b?.[field] || '';
@@ -24,11 +26,29 @@ export function sortEntriesByDate(entries, field = 'date_disclosed') {
   });
 }
 
+export function sortEntriesBySeverity(entries) {
+  return [...entries].sort((a, b) => {
+    const ra = SEVERITY_RANK[a?.severity] ?? 99;
+    const rb = SEVERITY_RANK[b?.severity] ?? 99;
+    if (ra !== rb) return ra - rb;
+    return (b?.first_seen || '').localeCompare(a?.first_seen || '');
+  });
+}
+
 export function computeCategoryCounts(entries) {
   const counts = {};
   for (const entry of entries) {
-    const cat = entry._category || 'uncategorized';
+    const cat = entry.category || 'uncategorized';
     counts[cat] = (counts[cat] || 0) + 1;
+  }
+  return counts;
+}
+
+export function computeSeverityCounts(entries) {
+  const counts = {};
+  for (const entry of entries) {
+    const sev = entry.severity || 'unknown';
+    counts[sev] = (counts[sev] || 0) + 1;
   }
   return counts;
 }
@@ -36,19 +56,22 @@ export function computeCategoryCounts(entries) {
 export function computeHomeStats(feed) {
   const entries = feed?.entries || [];
   const counts = computeCategoryCounts(entries);
-  const criticalCount = entries.filter(
-    (e) => e.status === 'confirmed'
-  ).length;
-  const sorted = sortEntriesByDate(entries, 'date_disclosed');
-  const mostRecentDate = sorted[0]?.date_disclosed || null;
+  const sorted = sortEntriesByDate(entries, 'first_seen');
   return {
     totalEntries: entries.length,
-    criticalCount,
-    mostRecentDate,
-    maliciousSkills: counts['malicious-skills'] || 0,
-    mcpThreats: counts['mcp-threats'] || 0,
-    slopsquatting: counts['slopsquatting'] || 0,
-    platformVulns: counts['platform-vulns'] || 0,
+    // Severity is its own field now — this no longer piggybacks on status.
+    criticalCount: entries.filter((e) => e.severity === 'critical').length,
+    activeCount: entries.filter((e) => e.status === 'active').length,
+    indicatorCount: entries.reduce((n, e) => n + (e.indicators?.length || 0), 0),
+    mostRecentDate: sorted[0]?.first_seen || null,
+    lastUpdated: feed?.last_updated || null,
+    maliciousSkills: counts['malicious-skill'] || 0,
+    mcpThreats: counts['malicious-mcp-server'] || 0,
+    slopsquats: counts['slopsquat-package'] || 0,
+    maliciousPackages: counts['malicious-package'] || 0,
+    compromisedPackages: counts['compromised-package'] || 0,
+    platformVulns: counts['platform-vuln'] || 0,
+    vibeAppBreaches: counts['vibe-app-breach'] || 0,
   };
 }
 
@@ -63,4 +86,43 @@ export function getUniqueValues(entries, field) {
     }
   }
   return Array.from(set).sort();
+}
+
+// Indicators are typed objects now. This is the one place that knows how to
+// turn one into the string a human reads or a search matches against.
+export function indicatorLabel(indicator) {
+  if (!indicator) return '';
+  switch (indicator.type) {
+    case 'package':
+      return indicator.version
+        ? `${indicator.name} (${indicator.registry}) ${indicator.version}`
+        : `${indicator.name} (${indicator.registry})`;
+    case 'application':
+      return indicator.version ? `${indicator.name} ${indicator.version}` : indicator.name;
+    case 'mcp-server':
+      return indicator.name || indicator.url || indicator.repo || '';
+    case 'skill':
+      return indicator.marketplace ? `${indicator.slug} (${indicator.marketplace})` : indicator.slug;
+    case 'hash':
+      return `${indicator.algo}:${indicator.value}`;
+    case 'domain':
+    case 'ip':
+    case 'url':
+      return indicator.value;
+    default:
+      return JSON.stringify(indicator);
+  }
+}
+
+// The bare value a scanner would match on, without the decoration.
+export function indicatorValue(indicator) {
+  if (!indicator) return '';
+  return (
+    indicator.name || indicator.slug || indicator.value || indicator.url || indicator.repo || ''
+  );
+}
+
+export function primarySource(entry) {
+  const sources = entry?.sources || [];
+  return sources.find((s) => s.type === 'primary') || sources[0] || null;
 }

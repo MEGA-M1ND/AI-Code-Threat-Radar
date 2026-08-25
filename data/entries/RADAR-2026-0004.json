@@ -1,0 +1,27 @@
+{
+  "id": "RADAR-2026-0004",
+  "category": "vibe-app-breach",
+  "title": "Moltbook exposed its production Supabase database through a client-side key",
+  "summary": "Moltbook, an AI agent social network its founder said he vibe-coded, shipped a Supabase API key in client-side JavaScript that granted unauthenticated read and write access to every table in the production database. Wiz Research found 1.5 million API authentication tokens, 35,000 email addresses and private agent messages exposed.",
+  "indicators": [
+    {
+      "type": "domain",
+      "value": "moltbook.com"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "Unauthenticated read and write on the entire production database, including 1.5 million agent API tokens usable against third-party services.",
+  "status": "remediated",
+  "first_seen": "2026-02-04",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys",
+      "publisher": "Wiz Research",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "other"
+  ]
+}

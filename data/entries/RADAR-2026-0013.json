@@ -1,0 +1,39 @@
+{
+  "id": "RADAR-2026-0013",
+  "category": "malicious-skill",
+  "title": "DeepSeek-Claw skill dropped Remcos RAT through GoToMeeting DLL sideloading",
+  "summary": "A skill impersonating a DeepSeek integration for OpenClaw carried hidden install instructions that an agent or a developer would run: on Windows a PowerShell one-liner fetched an MSI that dropped a signed GoToMeeting binary alongside a malicious g2m.dll, sideloading a loader that patched ETW and AMSI before decrypting Remcos RAT. The macOS and Linux instructions took a different path and installed the GhostLoader stealer instead.",
+  "indicators": [
+    {
+      "type": "skill",
+      "slug": "DeepSeek-Claw",
+      "marketplace": "clawhub.ai"
+    },
+    {
+      "type": "hash",
+      "algo": "md5",
+      "value": "1c267cab0a800a7b2d598bc1b112d5ce"
+    },
+    {
+      "type": "hash",
+      "algo": "md5",
+      "value": "2c4b7c8b48e6b4e5f3e8854f2abfedb5"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "Full remote access trojan on Windows and a credential stealer on macOS and Linux, installed through a step the agent presents to the user as ordinary setup.",
+  "status": "remediated",
+  "first_seen": "2026-05-05",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://www.zscaler.com/blogs/security-research/malicious-openclaw-skill-distributes-remcos-rat-and-ghostloader",
+      "publisher": "Zscaler ThreatLabz",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code",
+    "other"
+  ]
+}
