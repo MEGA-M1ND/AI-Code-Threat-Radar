@@ -47,6 +47,11 @@ NPM_ABBREVIATED = "application/vnd.npm.install-v1+json"
 # A package older than this is not a fresh squat. It may still be malicious,
 # but it is not something a daily collector discovered.
 MAX_AGE_DAYS = 400
+# Low-confidence matches get a much tighter window. `langchain-mcp` and
+# `tiktoken-cli` are affix hits on legitimate community packages; six months
+# in, they are settled parts of the ecosystem and a triager reading them
+# learns the queue is noise. Brand new, the same names would be worth a look.
+LOW_CONFIDENCE_MAX_AGE_DAYS = 90
 # Enrichment costs one request per hit. A cold start on a fresh watchlist
 # produces a few dozen; this stops a bad watchlist edit from producing a few
 # thousand.
@@ -69,6 +74,13 @@ def _age_days(iso: str | None) -> float | None:
     if parsed.tzinfo is None:
         parsed = parsed.replace(tzinfo=timezone.utc)
     return (datetime.now(timezone.utc) - parsed).total_seconds() / 86400
+
+
+def _age_limit(match, max_age_days: int) -> int:
+    """How old a package may be before this match stops being worth reporting."""
+    if match.confidence == "low":
+        return min(LOW_CONFIDENCE_MAX_AGE_DAYS, max_age_days)
+    return max_age_days
 
 
 def _candidate(match, registry: str, evidence: dict, urls: list[str],
@@ -162,7 +174,7 @@ def sweep_pypi(state: dict, watchlist: list[str], max_age_days: int = MAX_AGE_DA
             fetched += 1
             cache[match.name] = {**details, "checked": utcnow()}
         age = _age_days(details["created"])
-        if age is not None and age > max_age_days:
+        if age is not None and age > _age_limit(match, max_age_days):
             continue
         confidence = "high" if (age is not None and age <= 30) else None
         yield _candidate(
@@ -256,7 +268,7 @@ def sweep_npm(state: dict, watchlist: list[str], max_age_days: int = MAX_AGE_DAY
                 continue
             time.sleep(NPM_PACKAGE_DELAY)
             age = _age_days(details["created"])
-            if age is not None and age > max_age_days:
+            if age is not None and age > _age_limit(match, max_age_days):
                 continue
             confidence = "high" if (age is not None and age <= 30
                                     and match.confidence == "medium") else None
