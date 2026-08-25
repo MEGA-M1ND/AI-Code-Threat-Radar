@@ -55,3 +55,13 @@ def test_every_category_would_be_attached(tmp_path):
     produced = {p.name for p in tmp_path.glob("feed-*.json")}
     expected = {f"feed-{c}.json" for c in B.CATEGORIES}
     assert produced == expected
+
+
+def test_ci_runs_when_any_workflow_changes():
+    """These tests assert things about radar-release.yml, so a change to it has
+    to trigger them. PR #4 only ran CI because it also touched tests/."""
+    ci = (WORKFLOW.parent / "radar-ci.yml").read_text()
+    assert '.github/workflows/**' in ci, (
+        "the CI path filter must cover every workflow, not just radar-ci.yml — "
+        "otherwise a release-workflow-only change skips the tests that check it"
+    )
