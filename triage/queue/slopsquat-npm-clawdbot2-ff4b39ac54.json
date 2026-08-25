@@ -1,0 +1,39 @@
+{
+  "id": "slopsquat-npm-clawdbot2-ff4b39ac54",
+  "source": "slopsquat",
+  "key": "npm:clawdbot2",
+  "title": "clawdbot2 (npm) resembles clawdbot",
+  "why": "1 character edit from clawdbot",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "npm",
+    "name": "clawdbot2",
+    "target": "clawdbot",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-02-27T04:19:42.406Z",
+    "last_release": "2026-03-18T10:01:22.390Z",
+    "release_count": 5,
+    "versions": [
+      "2026.2.27",
+      "2026.3.10",
+      "2026.3.11",
+      "2026.3.12",
+      "2026.3.3"
+    ],
+    "maintainers": [
+      "markolofsen"
+    ],
+    "repository": "git+https://github.com/commandoperator/cmdop-sdk-js.git",
+    "description": "ClawdBot — multi-platform chatbot framework plugin for CMDOP with AI agents",
+    "latest_version": "2026.3.12",
+    "publisher": "markolofsen",
+    "age_days": 179.3,
+    "found_via": "clawdbot"
+  },
+  "urls": [
+    "https://www.npmjs.com/package/clawdbot2"
+  ],
+  "discovered_at": "2026-08-25T10:43:59Z"
+}

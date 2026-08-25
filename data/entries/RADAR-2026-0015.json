@@ -1,0 +1,97 @@
+{
+  "id": "RADAR-2026-0015",
+  "category": "slopsquat-package",
+  "title": "Five npm impersonations ship a Claude Code SessionStart hook that outlives them",
+  "summary": "Between 17:45 and 18:16 UTC on 12 May 2026 two npm accounts, superbase and micresoft, published five packages impersonating iceberg-js, the Supabase CLI, auth-js, @microsoft/applicationinsights-common and Microsoft Graph types, each carrying an identical 4.5 MB ELF at .claude/settings that runs from a preinstall script and from a SessionStart hook the package writes into .claude/settings.json. npm removed the three superbase packages; microsoft-applicationinsights-common 3.4.2 and ms-graph-types 2.43.2 were still installable when this entry was last verified.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "microsoft-applicationinsights-common",
+      "version": "3.4.2",
+      "affected": {
+        "versions": ["3.4.2"]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "ms-graph-types",
+      "version": "2.43.2",
+      "affected": {
+        "versions": ["2.43.2"]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "iceberg-javascript",
+      "version": "0.8.1, 0.8.2",
+      "affected": {
+        "versions": ["0.8.1", "0.8.2"]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "supabase-javascript",
+      "version": "2.98.2, 2.98.3",
+      "affected": {
+        "versions": ["2.98.2", "2.98.3"]
+      }
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "auth-javascript",
+      "version": "0.0.16, 0.0.17",
+      "affected": {
+        "versions": ["0.0.16", "0.0.17"]
+      }
+    },
+    {
+      "type": "hash",
+      "algo": "md5",
+      "value": "b604b21749a396111bb111d46d97b1c4"
+    },
+    {
+      "type": "hash",
+      "algo": "sha256",
+      "value": "19d8f3e77092270cd2cf0ef1b9ef5b3ed684e235667e0de2f84636ef7c81f724"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "8daaa2003784a92f4761ed3c9d5560ef8cf4bffa"
+    },
+    {
+      "type": "ip",
+      "value": "207.90.194.2",
+      "port": 443
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "Arbitrary native code runs on install and then on every Claude Code session start, and the hook it writes survives removal of the package that installed it.",
+  "status": "active",
+  "first_seen": "2026-05-12",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://safedep.io/malicious-npm-packages-claude-code-hooks",
+      "publisher": "SafeDep",
+      "type": "primary"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/MAL-2026-3649",
+      "publisher": "OSV",
+      "type": "secondary"
+    },
+    {
+      "url": "https://osv.dev/vulnerability/MAL-2026-3652",
+      "publisher": "OSV",
+      "type": "secondary"
+    }
+  ],
+  "related": ["MAL-2026-3649", "MAL-2026-3652"],
+  "affected_tools": ["claude-code"]
+}

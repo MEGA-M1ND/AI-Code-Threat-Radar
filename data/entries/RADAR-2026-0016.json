@@ -1,0 +1,91 @@
+{
+  "id": "RADAR-2026-0016",
+  "category": "malicious-mcp-server",
+  "title": "Apex Foundation republished its macOS dropper under an MCP-branded npm scope after takedown",
+  "summary": "From 5 July 2026 an operator branding itself Apex Foundation shipped versions 1.0.0 through 1.0.32 of @apexfdn/apex, an npm postinstall dropper that installs a macOS infostealer, behind a payload-free MCP server published three months earlier as cover. npm removed it on 21 July; within eleven hours the same dropper was live again as @copilot-mcp/apex, a scope borrowing GitHub Copilot's name, and SafeDep counted 20 more versions that day before npm removed that one too.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@copilot-mcp/apex",
+      "version": "1.0.0-1.0.22+"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@apexfdn/apex",
+      "version": "1.0.0-1.0.32"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@apexfdn/copilot-mcp"
+    },
+    {
+      "type": "mcp-server",
+      "name": "@apexfdn/copilot-mcp",
+      "url": "https://arena.apexfdn.xyz/api/copilot/mcp"
+    },
+    {
+      "type": "mcp-server",
+      "repo": "https://github.com/Apex-Foundation/copilot-mcp"
+    },
+    {
+      "type": "domain",
+      "value": "update.apex-arena-router.com"
+    },
+    {
+      "type": "domain",
+      "value": "apexfdn.xyz"
+    },
+    {
+      "type": "domain",
+      "value": "arena.apexfdn.xyz"
+    },
+    {
+      "type": "domain",
+      "value": "docs.apexfdn.xyz"
+    },
+    {
+      "type": "ip",
+      "value": "172.93.185.150"
+    },
+    {
+      "type": "hash",
+      "algo": "sha256",
+      "value": "ecd1113fae1ede9869afd9d1af612bab7f1a2054e5c45a346e18c107c22b9164"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "233f90180b529aa32911901e5222e9ed9c3cd24c"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "3b9a880ae4e1c5b7bbd68e118a1c3c8b592f7bfb"
+    }
+  ],
+  "severity": "high",
+  "severity_rationale": "Native macOS credential and wallet theft on install, offset by two npm takedowns; the cover package and the hosted MCP endpoint that forwards user tokens both remain reachable.",
+  "status": "active",
+  "first_seen": "2026-07-05",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://safedep.io/malicious-copilot-mcp-apex-npm-macos-infostealer",
+      "publisher": "SafeDep",
+      "type": "primary"
+    },
+    {
+      "url": "https://safedep.io/ti/campaigns/apex-foundation",
+      "publisher": "SafeDep",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code",
+    "copilot",
+    "generic-mcp"
+  ]
+}

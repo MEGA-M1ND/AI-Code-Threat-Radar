@@ -310,3 +310,24 @@ def test_the_tighter_window_never_widens_an_explicit_limit():
     from collectors.similarity import Match
     from collectors.slopsquat import _age_limit
     assert _age_limit(Match("x", "y", "affix", 0), 30) == 30
+
+
+# --------------------------------------------------------------------------
+# republication is a transition, not a state
+# --------------------------------------------------------------------------
+
+@pytest.mark.parametrize("was,status,expected", [
+    ("security-holding", "live", True),    # npm's removal stub replaced by real code
+    ("unpublished", "live", True),
+    ("gone", "live", True),                # a 404 name someone has now claimed
+    ("live", "live", False),               # a status:active entry restating itself
+    (None, "live", False),                 # first look: a baseline, not a discovery
+    ("live", "security-holding", False),   # npm caught up; good news, not a candidate
+    ("gone", "gone", False),
+])
+def test_only_a_transition_into_live_is_a_republication(was, status, expected):
+    """Reporting the state rather than the change would put a permanent false
+    alarm in the queue for every live threat RADAR catalogues — three of them
+    the day this was written."""
+    from collectors.slopsquat import is_republication
+    assert is_republication(was, status) is expected
