@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-codei-cli-1582636c7e",
+  "source": "slopsquat",
+  "key": "pypi:codei-cli",
+  "title": "codei-cli (pypi) resembles codex-cli",
+  "why": "1 character edit from codex-cli",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "codei-cli",
+    "target": "codex-cli",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-06-05T05:09:38.100773Z",
+    "last_release": "2026-06-26T04:16:00.996329Z",
+    "release_count": 13,
+    "summary": "终端优先的 AI 编程 Agent，用自然语言在本地仓库中读代码、改代码、跑命令、调试问题。",
+    "author": "007gzs <007gzs@gmail.com>",
+    "home_page": "https://pypi.org/project/codei-cli/",
+    "age_days": 81.2
+  },
+  "urls": [
+    "https://pypi.org/project/codei-cli/"
+  ],
+  "discovered_at": "2026-08-25T10:15:51Z"
+}

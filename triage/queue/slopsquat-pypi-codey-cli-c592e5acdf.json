@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-codey-cli-c592e5acdf",
+  "source": "slopsquat",
+  "key": "pypi:codey-cli",
+  "title": "codey-cli (pypi) resembles codex-cli",
+  "why": "1 character edit from codex-cli",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "codey-cli",
+    "target": "codex-cli",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-02-01T13:37:09.285618Z",
+    "last_release": "2026-02-01T14:04:17.714970Z",
+    "release_count": 4,
+    "summary": "Save code agent conversations aligned with git commits.",
+    "author": "Joway",
+    "home_page": "https://pypi.org/project/codey-cli/",
+    "age_days": 204.9
+  },
+  "urls": [
+    "https://pypi.org/project/codey-cli/"
+  ],
+  "discovered_at": "2026-08-25T10:15:51Z"
+}

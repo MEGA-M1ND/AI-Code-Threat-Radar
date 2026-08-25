@@ -1,0 +1,39 @@
+{
+  "id": "slopsquat-npm-postman-mcp-server-42eaf118e1",
+  "source": "slopsquat",
+  "key": "npm:postman-mcp-server",
+  "title": "postman-mcp-server (npm) resembles @postman/postman-mcp-server",
+  "why": "the unscoped form of the scoped package @postman/postman-mcp-server",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "npm",
+    "name": "postman-mcp-server",
+    "target": "@postman/postman-mcp-server",
+    "rule": "scope-drop",
+    "distance": 0,
+    "created": "2025-07-26T18:03:11.608Z",
+    "last_release": "2025-08-01T14:21:27.389Z",
+    "release_count": 8,
+    "versions": [
+      "0.1.3",
+      "0.1.4",
+      "1.0.0",
+      "1.1.0",
+      "1.2.0"
+    ],
+    "maintainers": [
+      "npmcrafter"
+    ],
+    "repository": "git+https://github.com/ankit-roy-0602/postman-mcp-server.git",
+    "description": "A Model Context Protocol (MCP) server for Postman API integration, providing tools for workspace, collection, request, environment, folder, and mock server management with AI-powered features",
+    "latest_version": "1.2.0",
+    "publisher": "npmcrafter",
+    "age_days": 394.7,
+    "found_via": "postman-mcp-cli"
+  },
+  "urls": [
+    "https://www.npmjs.com/package/postman-mcp-server"
+  ],
+  "discovered_at": "2026-08-25T10:18:18Z"
+}

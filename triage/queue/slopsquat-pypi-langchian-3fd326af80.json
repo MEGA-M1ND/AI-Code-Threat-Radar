@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-langchian-3fd326af80",
+  "source": "slopsquat",
+  "key": "pypi:langchian",
+  "title": "langchian (pypi) resembles langchain",
+  "why": "1 character edit from langchain",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "langchian",
+    "target": "langchain",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-01-08T07:44:25.204359Z",
+    "last_release": "2026-01-11T13:18:04.651648Z",
+    "release_count": 4,
+    "summary": "Toy library for AI related stuff",
+    "author": "",
+    "home_page": "https://pypi.org/project/langchian/",
+    "age_days": 229.1
+  },
+  "urls": [
+    "https://pypi.org/project/langchian/"
+  ],
+  "discovered_at": "2026-08-25T10:15:52Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-clawdboz-4dbbde17c2",
+  "source": "slopsquat",
+  "key": "pypi:clawdboz",
+  "title": "clawdboz (pypi) resembles clawdbot",
+  "why": "1 character edit from clawdbot",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "clawdboz",
+    "target": "clawdbot",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-02-16T17:56:49.401824Z",
+    "last_release": "2026-06-12T16:34:13.527576Z",
+    "release_count": 52,
+    "summary": "clawdboz - 基于 ACP 协议的多智能体 IM 协作平台",
+    "author": "Clawdboz Team <clawdboz@example.com>",
+    "home_page": "https://pypi.org/project/clawdboz/",
+    "age_days": 189.7
+  },
+  "urls": [
+    "https://pypi.org/project/clawdboz/"
+  ],
+  "discovered_at": "2026-08-25T10:15:51Z"
+}
