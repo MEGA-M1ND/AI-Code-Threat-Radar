@@ -77,22 +77,32 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ steps.tag.outputs.name }}
         run: |
-          # On a tag push the tag already exists and --target would be rejected.
-          # On a manual run it does not exist yet, so gh creates it at this commit.
-          if git rev-parse -q --verify "refs/tags/$TAG" >/dev/null; then
-            TARGET=()
-          else
-            TARGET=(--target "$GITHUB_SHA")
+          # Glob rather than enumerate. An explicit file list silently drops a
+          # new per-category feed the moment a category is added to the schema,
+          # which is exactly how feed-malicious-package.json was missing from
+          # radar-v0.1.0 while SHA256SUMS still listed it.
+          shopt -s nullglob
+          ASSETS=(dist/*.json dist/SHA256SUMS)
+          echo "Attaching ${#ASSETS[@]} assets:"; printf '  %s\n' "${ASSETS[@]}"
+
+          # Every category the build knows about must have produced a file.
+          EXPECTED=$(python -c "import sys; sys.path.insert(0,'scripts'); import build_feed; print(len(build_feed.CATEGORIES))")
+          FOUND=$(ls dist/feed-*.json | wc -l)
+          if [ "$EXPECTED" -ne "$FOUND" ]; then
+            echo "::error::expected $EXPECTED per-category feeds, found $FOUND"; exit 1
           fi
-          gh release create "$TAG" "${TARGET[@]}" \
-            --title "$TAG" \
-            --generate-notes \
-            dist/feed.json \
-            dist/feed-malicious-skill.json \
-            dist/feed-slopsquat-package.json \
-            dist/feed-malicious-mcp-server.json \
-            dist/feed-compromised-package.json \
-            dist/feed-platform-vuln.json \
-            dist/feed-vibe-app-breach.json \
-            dist/blocklist.json \
-            dist/SHA256SUMS
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG exists — uploading assets with --clobber"
+            gh release upload "$TAG" "${ASSETS[@]}" --clobber
+          else
+            if git rev-parse -q --verify "refs/tags/$TAG" >/dev/null; then
+              TARGET=()
+            else
+              TARGET=(--target "$GITHUB_SHA")
+            fi
+            gh release create "$TAG" "${TARGET[@]}" \
+              --title "$TAG" \
+              --generate-notes \
+              "${ASSETS[@]}"
+          fi
