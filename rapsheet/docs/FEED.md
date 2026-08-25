@@ -29,7 +29,7 @@ Every file shares the same envelope:
   "license": "CC-BY-4.0",
   "attribution": "Rapsheet (https://github.com/...), CC BY 4.0",
   "last_updated": "2026-08-25",
-  "entry_count": 29,
+  "entry_count": 35,
   "entries": [ ... ]
 }
 ```
@@ -65,6 +65,7 @@ The authority is [`schema/entry.schema.json`](../schema/entry.schema.json), JSON
 {"type": "skill",      "slug": "author/skill-name", "marketplace": "clawhub.ai"}
 {"type": "hash",       "algo": "md5|sha1|sha256|sha512", "value": "..."}
 {"type": "domain",     "value": "example.com"}
+{"type": "ip",         "value": "203.0.113.10", "port": 4433}
 {"type": "url",        "value": "https://..."}
 ```
 

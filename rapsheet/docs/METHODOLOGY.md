@@ -7,7 +7,7 @@ An incident belongs in Rapsheet when it is a supply-chain threat to people using
 - **`malicious-skill`** — an agent skill, published to a skill marketplace, that carries instructions or code intended to harm the person who installs it.
 - **`slopsquat-package`** — a package published under a name chosen to be mistaken for a real one, whether typosquatted from an existing package or squatted on a name that language models hallucinate.
 - **`malicious-mcp-server`** — an MCP server that was malicious as published, or a legitimate one taken over and republished with a backdoor.
-- **`compromised-package`** — a legitimate package or editor extension in this ecosystem that was compromised and republished carrying malware.
+- **`compromised-package`** — a package or editor extension in this ecosystem that was trustworthy and later shipped malware. It covers a third-party takeover and a maintainer who weaponises their own package alike: from a consumer's side both look the same, and both mean only some versions are dangerous, which is what a guard needs to know.
 - **`platform-vuln`** — a vulnerability in agent tooling itself: the CLI, the IDE, the extension, the MCP reference implementations, the marketplace.
 - **`vibe-app-breach`** — a breach or exposure in an application that was AI-generated or built on a vibe-coding platform, where the failure traces to how the application was produced.
 

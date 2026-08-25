@@ -20,6 +20,11 @@
       "marketplace": "clawhub.ai"
     },
     {
+      "type": "skill",
+      "slug": "polymarket-traiding-bot",
+      "marketplace": "clawhub.ai"
+    },
+    {
       "type": "domain",
       "value": "clawhub.ai"
     }

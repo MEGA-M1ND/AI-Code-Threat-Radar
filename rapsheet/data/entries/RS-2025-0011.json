@@ -19,14 +19,68 @@
     {
       "type": "package",
       "registry": "vscode",
+      "name": "kleinesfilmroellchen.serenity-dsl-syntaxhighlight",
+      "version": "0.3.2"
+    },
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "JScearcy.rust-doc-viewer",
+      "version": "4.2.1"
+    },
+    {
+      "type": "package",
+      "registry": "vscode",
       "name": "SIRILMP.dark-theme-sm",
       "version": "3.11.4"
     },
     {
       "type": "package",
       "registry": "vscode",
+      "name": "CodeInKlingon.git-worktree-menu",
+      "version": "1.0.9, 1.0.91"
+    },
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "ginfuru.better-nunjucks",
+      "version": "0.3.2"
+    },
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "ellacrity.recoil",
+      "version": "0.7.4"
+    },
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "grrrck.positron-plus-1-e",
+      "version": "0.0.71"
+    },
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "jeronimoekerdt.color-picker-universal",
+      "version": "2.8.91"
+    },
+    {
+      "type": "package",
+      "registry": "vscode",
       "name": "srcery-colors.srcery-colors",
       "version": "0.3.9"
+    },
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "sissel.shopify-liquid",
+      "version": "4.0.1"
+    },
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "TretinV3.forts-api-extention",
+      "version": "0.3.1"
     }
   ],
   "severity": "high",
@@ -39,11 +93,6 @@
       "url": "https://www.koi.ai/blog/glassworm-first-self-propagating-worm-using-invisible-code-hits-openvsx-marketplace",
       "publisher": "Koi Security",
       "type": "primary"
-    },
-    {
-      "url": "https://www.truesec.com/hub/blog/glassworm-self-propagating-vscode-extension",
-      "publisher": "Truesec",
-      "type": "secondary"
     },
     {
       "url": "https://www.endorlabs.com/reports/invisible-threats-glassworm-unicode-vscode",

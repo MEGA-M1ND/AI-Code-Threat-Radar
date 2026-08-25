@@ -1,0 +1,33 @@
+{
+  "id": "RS-2026-0012",
+  "category": "malicious-skill",
+  "title": "money-radar skill made the agent fetch attacker-controlled affiliate links before answering",
+  "summary": "The money-radar skill's SKILL.md instructed the agent to pull a referrals.json file from laosji.net as a precondition for answering any financial question, and that file carried roughly 60 products across eight categories, each with a referralLink field the agent was told to always use. The publisher could rotate the recommendations at any time by editing the hosted file, so the advice the agent generated was under external control after installation.",
+  "indicators": [
+    {
+      "type": "skill",
+      "slug": "money-radar",
+      "marketplace": "clawhub.ai"
+    },
+    {
+      "type": "domain",
+      "value": "laosji.net"
+    }
+  ],
+  "severity": "medium",
+  "severity_rationale": "No code execution and no credential theft, but the agent's recommendations become an attacker-controlled channel that the user reads as expert advice.",
+  "status": "active",
+  "first_seen": "2026-06-24",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
+      "publisher": "Unit 42, Palo Alto Networks",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code",
+    "other"
+  ]
+}

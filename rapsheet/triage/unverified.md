@@ -72,18 +72,35 @@ Widely described as a vibe-coded application whose storage bucket was left unaut
 
 ## Open leads
 
-Not yet investigated, listed so the next session does not start from nothing.
+Not yet investigated or blocked on one specific fact, listed so the next session does not start from nothing. The three thin categories — `malicious-skill`, `slopsquat-package`, `malicious-mcp-server` — are the only acceptable destination for new entries until they reach parity with `platform-vuln`.
 
-- `CVE-2025-58444` — a second MCP Inspector advisory, seen referenced alongside `CVE-2025-49596`. Not researched.
-- GlassWorm wave 5 (2026) — reported as the first malicious MCP server using invisible Unicode, plus 72+ new Open VSX extensions and 150+ GitHub repositories with AI-generated cover commits. This would be the third `malicious-mcp-server` entry, a thin category. Koi's write-up and Socket's two follow-ups (`socket.dev/blog/open-vsx-transitive-glassworm-campaign`, `socket.dev/blog/73-open-vsx-sleeper-extensions-glassworm`) have IOC sections that were not reachable in the searches run so far; the MCP server's package name is the missing piece.
-- "ChainDrop" — an alternative name in circulation for the August 2026 keyv/cacheable wave catalogued as `RS-2026-0005`, with claims that its C2 list is held in an Ethereum contract. Not in the JFrog write-up the entry rests on. Worth confirming before the entry mentions either.
-- Smithery and other MCP registries — no incident found yet, but nothing suggests they have been looked at properly.
-- Codex CLI — no platform incident found. Its absence from the feed reflects a gap in searching, not a clean record.
+### Blocked on one fact
+
+- **`omnicogg` (ClawHub skill, JFrog, March 2026).** A base64 curl-pipe-bash dropper delivering AMOS from `91.92.242.30`, hidden behind a README.md whose payload sits at the top followed by 22 MB of padding — enough to push the file past the size threshold at which many content-analysis pipelines stop reading. ClawScan had it in review and VirusTotal returned clean while it stayed downloadable. Primary source: https://research.jfrog.com/post/omnicogg-malicious-skill/ — corroborated by Unit 42. **Missing:** the day of the JFrog post. Every source reached says only "March 2026", and `first_seen` takes a full ISO date. One look at the post header fixes this and it ships as a `malicious-skill` entry with a skill slug and a C2 address already in hand.
+
+### Needs a category decision
+
+- **`mouse5212-super-formatter` (npm, OX Security, 27 May 2026).** Stole files from Claude Code's `/mnt/user-data` workspace and exfiltrated them through GitHub; described by the researchers as AI-generated "malware-slop". Unpublished from npm — the name now resolves with zero versions, which matches the reported takedown. Primary source: OX Security via https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html. **Blocked because** it fits no current category: it was never legitimate, so not `compromised-package`, and the name squats nothing, so not `slopsquat-package`. It wants a seventh category along the lines of `malicious-package` — a package malicious from its first version, where a guard should block the name outright rather than a version range. `codexui-android` (`RS-2026-0010`) was filed as `compromised-package` because it genuinely had a clean early window; this one does not.
+
+### Rejected on indicator quality
+
+- **ClawHavoc skill names from Snyk.** https://snyk.io/articles/skill-md-shell-access/ says the campaign "deployed Skills with names like `solana-wallet-tracker`, `polymarket-trader`, and `uniswap-sniper`". "Names like" is illustrative phrasing, and all three are names a legitimate skill would plausibly use — blocklisting them on that wording is exactly the false positive this project exists to avoid. `polymarket-traiding-bot` **was** added to `RS-2026-0003`, because Snyk lists it in an explicit IOC line beside `clawhud` and `clawhub1` and the misspelling makes it distinctive. Needs the campaign's actual slug list to go further.
+
+### Not yet chased
+
+- **GlassWorm C2 addresses.** Koi's wave-4 post lists `45.32.151.157` (primary C2, shared with wave 3), `45.32.150.251` (exfiltration) and `217.69.11.60` (earlier C2, 27 November 2025), plus the Solana C2 wallet `BjVeAjPrSKFiingBn4vZvghsGj9KCE8AJVtbc9S8o8SC`. These belong to waves 3 and 4, not to wave 1 (`RS-2025-0011`) or wave 5 (`RS-2026-0008`, `RS-2026-0009`), so they need their own entry rather than being attached to an existing one. The schema now has an `ip` indicator type for them. There is no indicator type for a blockchain wallet address.
+- **GlassWorm waves 2, 3 and 4** — Koi published all three (`glassworm-returns-new-wave-openvsx-malware-expose-attacker-infrastructure`, `glassworm-goes-native-same-infrastructure-hardened-delivery`, `glassworm-goes-mac-fresh-infrastructure-new-tricks`). Wave 4 pivoted to macOS with hardware-wallet trojans and included a Prettier Pro impersonation on Open VSX. Each has its own extension list.
+- **`openclaw-yahoo-stock-news`** — a ClawHub skill whose SKILL.md tells the agent to install an npm package of that name and run its `init`. A skill-to-npm handoff, which is a distinct delivery shape worth its own entry. Seen in Snyk's threat-modelling write-up; needs confirmation that the npm package was actually published and malicious.
+- **`CVE-2025-58444`** — a second MCP Inspector advisory, seen referenced alongside `CVE-2025-49596`. Not researched.
+- **arXiv 2602.06547, "Detecting and Understanding Malicious Agent Skills"** — a systematic analysis of 98,380 skills across two registries. Unlikely to yield blocklistable indicators, but the taxonomy would sharpen `docs/METHODOLOGY.md`.
+- **Smithery and other MCP registries** — no incident found yet, but nothing suggests they have been looked at properly.
 
 ### Closed
 
-- The `atool` / AntV campaign (19 May 2026) is now `RS-2026-0007`. Snyk, Endor Labs and SafeDep all published it; the npm registry independently confirms the three publish waves and still serves the first-wave versions carrying the imposter `@antv/setup` dependency.
-- `CVE-2026-45321` and the TanStack package list are now folded into `RS-2026-0006`, sourced from TanStack's own postmortem and maintainer issue.
+- The `atool` / AntV campaign (19 May 2026) is now `RS-2026-0007`.
+- `CVE-2026-45321` and the TanStack package list are folded into `RS-2026-0006`, from TanStack's own postmortem and maintainer issue.
+- GlassWorm wave 5's MCP server is now `RS-2026-0008`, and its 72 Open VSX impersonation extensions are `RS-2026-0009`. `RS-2025-0011` was upgraded from a four-extension partial list to Koi's full fifteen-entry wave-1 IOC list.
+- The Kaspersky Open VSX "Solidity Language" case stays open above — still no published registry identifier.
 
 ### Checked and closed
 

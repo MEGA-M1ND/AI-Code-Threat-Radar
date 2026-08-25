@@ -191,6 +191,9 @@
         },
         {
           "$ref": "#/$defs/indicator_url"
+        },
+        {
+          "$ref": "#/$defs/indicator_ip"
         }
       ]
     },
@@ -384,6 +387,29 @@
           "description": "Affected version or range, verbatim from the source.",
           "type": "string",
           "maxLength": 200
+        }
+      }
+    },
+    "indicator_ip": {
+      "description": "A command-and-control or exfiltration address. Stored live, not defanged.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "value"
+      ],
+      "properties": {
+        "type": {
+          "const": "ip"
+        },
+        "value": {
+          "type": "string",
+          "pattern": "^((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])\\.){3}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9]?[0-9])$|^[0-9a-f:]{3,45}$"
+        },
+        "port": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 65535
         }
       }
     }
