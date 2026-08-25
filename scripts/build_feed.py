@@ -7,6 +7,8 @@ Outputs:
     dist/feed.json              every entry
     dist/feed-<category>.json   one file per category
     dist/blocklist.json         flat indicators, the minimal file a runtime guard needs
+    dist/radar-deny.json        deny rules carrying an action, for any guard
+    dist/hol-guard-threat-intel.json   HOL Guard's native ThreatIntelBundle
 
 The build is deterministic: it derives its timestamps from the entries
 themselves, never from the clock, so the same input always produces
@@ -21,7 +23,11 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+# The repository root, so `exporters/` imports whether this is run as
+# `python scripts/build_feed.py` or from anywhere else.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from exporters import EXPORTERS  # noqa: E402
 from validate import ENTRIES_DIR, REPO_ROOT, load_entries, validate  # noqa: E402
 
 DIST_DIR = REPO_ROOT / "dist"
@@ -136,6 +142,14 @@ def build(entries_dir: Path = ENTRIES_DIR, dist_dir: Path = DIST_DIR) -> dict[st
     blocklist = dist_dir / "blocklist.json"
     dump(blocklist, build_blocklist(entries))
     written["blocklist"] = blocklist
+
+    # Exporters are pure functions of the published feed, not of the entry
+    # files: whatever a consumer downloads is what they were built from.
+    feed = json.loads(full.read_text())
+    for name, export in EXPORTERS.items():
+        path = dist_dir / f"{name}.json"
+        dump(path, export(feed))
+        written[name] = path
 
     return written
 

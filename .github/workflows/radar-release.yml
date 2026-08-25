@@ -91,6 +91,13 @@ jobs:
           if [ "$EXPECTED" -ne "$FOUND" ]; then
             echo "::error::expected $EXPECTED per-category feeds, found $FOUND"; exit 1
           fi
+          # Same check for the exporter outputs, driven by the registry so it
+          # cannot drift the way the hand-written asset list once did.
+          for NAME in $(python -c "from exporters import EXPORTERS; print(' '.join(EXPORTERS))"); do
+            if [ ! -s "dist/$NAME.json" ]; then
+              echo "::error::exporter output dist/$NAME.json is missing or empty"; exit 1
+            fi
+          done
 
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo "Release $TAG exists — uploading assets with --clobber"

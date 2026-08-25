@@ -65,3 +65,16 @@ def test_ci_runs_when_any_workflow_changes():
         "the CI path filter must cover every workflow, not just radar-ci.yml — "
         "otherwise a release-workflow-only change skips the tests that check it"
     )
+
+
+def test_release_asserts_every_exporter_output_exists():
+    """radar-v0.1.0 shipped without a per-category feed because nothing checked.
+    The exporters are the next thing that could go missing the same way."""
+    text = workflow_text()
+    assert "EXPORTERS" in text, "the release does not verify exporter outputs"
+    assert "is missing or empty" in text
+
+
+def test_release_uploads_whatever_the_build_produced():
+    """A glob, not a list — so a new exporter ships without editing the workflow."""
+    assert "dist/*.json" in workflow_text()
