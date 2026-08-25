@@ -1,24 +1,13 @@
 name: radar
 
+# No path filters. They have now drifted twice: once when a release-workflow
+# change skipped the tests that guard it, and again when collectors/,
+# exporters/ and radar-check/ were added to a filter that never learned about
+# them. The job takes about twenty seconds. Running it on everything costs less
+# than the next time the list is wrong.
 on:
   push:
-    paths:
-      - "data/**"
-      - "schema/**"
-      - "scripts/**"
-      - "tests/**"
-      - "examples/**"
-      - "pyproject.toml"
-      - ".github/workflows/**"
   pull_request:
-    paths:
-      - "data/**"
-      - "schema/**"
-      - "scripts/**"
-      - "tests/**"
-      - "examples/**"
-      - "pyproject.toml"
-      - ".github/workflows/**"
   workflow_dispatch:
 
 # This job only reads the repository. It never needs to write anything.
@@ -55,3 +44,52 @@ jobs:
           name: radar-dist
           path: dist/
           if-no-files-found: error
+
+  radar-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Build the feed the scanner tests against
+        run: |
+          pip install -e ".[dev]"
+          python scripts/build_feed.py
+
+      - name: Install radar-check
+        run: pip install -e "./radar-check[dev]"
+
+      - name: Test
+        run: python -m pytest radar-check/tests -q
+
+      - name: Self-scan
+        # The scanner is run against its own repository. A tool that cannot be
+        # pointed at itself is a tool nobody should point at their machine.
+        run: |
+          # fixtures/ is excluded: it deliberately contains real malicious
+          # names, and a scanner that cannot be told to skip its own test data
+          # is one nobody can run in CI.
+          radar-check . --feed dist/feed.json --no-home --exclude fixtures \
+            --format sarif -o radar-check.sarif
+          radar-check . --feed dist/feed.json --no-home --exclude fixtures --fail-on high
+
+      - name: Confirm the seeded fixture is fully flagged
+        # A scanner that silently stops finding things is the worst kind of
+        # green build, so the fixture asserts a floor rather than the tests
+        # alone deciding.
+        run: |
+          FOUND=$(radar-check radar-check/fixtures/seeded --feed dist/feed.json \
+                    --no-home --format json | python -c "import json,sys; print(len(json.load(sys.stdin)['findings']))")
+          echo "seeded fixture findings: $FOUND"
+          if [ "$FOUND" -lt 8 ]; then
+            echo "::error::the seeded fixture should produce at least 8 findings, got $FOUND"; exit 1
+          fi
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always()
+        with:
+          name: radar-check-sarif
+          path: radar-check.sarif

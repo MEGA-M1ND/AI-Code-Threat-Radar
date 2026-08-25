@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "postmark": {"command": "npx", "args": ["-y", "postmark-mcp@1.0.16"]},
+    "apex": {"command": "npx", "args": ["-y", "@apexfdn/copilot-mcp"]},
+    "weather": {"command": "npx", "args": ["-y", "some-weather-mcp"]}
+  }
+}

@@ -59,12 +59,28 @@ def test_every_category_would_be_attached(tmp_path):
 
 def test_ci_runs_when_any_workflow_changes():
     """These tests assert things about radar-release.yml, so a change to it has
-    to trigger them. PR #4 only ran CI because it also touched tests/."""
-    ci = (WORKFLOW.parent / "radar-ci.yml").read_text()
-    assert '.github/workflows/**' in ci, (
-        "the CI path filter must cover every workflow, not just radar-ci.yml — "
-        "otherwise a release-workflow-only change skips the tests that check it"
-    )
+    to trigger them. PR #4 only ran CI because it also touched tests/.
+
+    Asserts the property, not the mechanism. A path filter naming
+    `.github/workflows/**` satisfies it; so does having no filter at all, which
+    is what the workflow does now — the list had drifted twice and the job takes
+    twenty seconds.
+    """
+    import yaml
+
+    ci = yaml.safe_load((WORKFLOW.parent / "radar-ci.yml").read_text())
+    # `on:` parses as the boolean True in YAML 1.1.
+    triggers = ci.get("on") or ci.get(True)
+    for event in ("push", "pull_request"):
+        assert event in triggers, f"CI does not run on {event}"
+        config = triggers[event] or {}
+        paths = config.get("paths") if isinstance(config, dict) else None
+        if paths is not None:
+            assert ".github/workflows/**" in paths, (
+                f"the {event} path filter must cover every workflow, not just "
+                "radar-ci.yml — otherwise a release-workflow-only change skips "
+                "the tests that check it"
+            )
 
 
 def test_release_asserts_every_exporter_output_exists():
