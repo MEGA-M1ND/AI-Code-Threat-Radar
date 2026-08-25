@@ -141,3 +141,13 @@ Source: https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/
 Analytical rather than primary — they summarise Snyk's and Koi's findings, which
 RADAR already cites directly. Useful framing for the methodology doc, not a
 source for an entry.
+
+### Note on the ClawHavoc slug count
+
+Koi's post states 335 skills for the ClawHavoc campaign and 341 malicious
+skills overall. Transcribing their own IOC section category by category yields
+336 slugs. RADAR-2026-0002 carries all of them as indicators — every one is
+listed by Koi as malicious — and its summary reports Koi's 335 as Koi's number
+rather than restating a count that cannot be reproduced from the list. The
+extra slug is most likely one of the six non-ClawHavoc skills in the 341, but
+that is a guess and is recorded here as one.

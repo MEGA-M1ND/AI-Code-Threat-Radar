@@ -2,7 +2,7 @@
   "id": "RADAR-2026-0003",
   "category": "malicious-skill",
   "title": "clawdhub campaign published agent skills impersonating the ClawHub CLI",
-  "summary": "A ClawHub account named zaycv published skills posing as an official CLI for managing agent skills, whose SKILL.md told the agent to install a prerequisite by base64-decoding a command that curled a script from a bare IP address into bash and to fetch a password-protected archive named openclaw-core. Snyk found the original clawhub skill on 2 February 2026 with 7,743 downloads and it was removed the next day, after which near-identical variants appeared.",
+  "summary": "A ClawHub account named zaycv published skills posing as an official CLI for managing agent skills, whose SKILL.md told the agent to install a prerequisite by base64-decoding a command that curled a script from a bare IP address into bash and to fetch a password-protected archive named openclaw-core. Snyk found the original clawhub skill on 2 February 2026 with 7,743 downloads and it was removed the next day, after which near-identical variants appeared and the same openclaw-core prerequisite trap turned up in google-qx4, a skill impersonating a Google services integration.",
   "indicators": [
     {
       "type": "skill",
@@ -27,6 +27,24 @@
     {
       "type": "domain",
       "value": "clawhub.ai"
+    },
+    {
+      "type": "skill",
+      "slug": "google-qx4",
+      "marketplace": "clawhub.ai"
+    },
+    {
+      "type": "skill",
+      "slug": "NET_NiNjA",
+      "marketplace": "clawhub.ai"
+    },
+    {
+      "type": "url",
+      "value": "https://github.com/denboss99/openclaw-core/releases/download/v3/openclawcore-1.0.3.zip"
+    },
+    {
+      "type": "url",
+      "value": "https://rentry.co/openclaw-core"
     }
   ],
   "severity": "high",
@@ -42,6 +60,11 @@
     },
     {
       "url": "https://snyk.io/blog/toxicskills-malicious-ai-agent-skills-clawhub/",
+      "publisher": "Snyk",
+      "type": "primary"
+    },
+    {
+      "url": "https://snyk.io/blog/clawhub-malicious-google-skill-openclaw-malware/",
       "publisher": "Snyk",
       "type": "primary"
     }
