@@ -47,3 +47,18 @@ The schema itself enforces the rest, including that at least one source is `prim
 ## Changing the schema
 
 Schema changes need a reason written down in the pull request and, if they change what a consumer sees, an entry in [docs/FEED.md](docs/FEED.md) under stability. Additive changes — a new optional field, a new enum value, a new indicator type — are a minor version. Anything that removes or renames a field, or changes what an existing value means, is a major version and gets announced in the release notes.
+
+## Cutting a release
+
+Two routes, one code path. Either way the artifacts are built and tested in CI from the commit being released — nothing is ever uploaded from a contributor's machine.
+
+**From the Actions UI.** Run the `rapsheet-release` workflow and give it a tag name (`rapsheet-v0.1.0`). It creates the tag at the commit it ran from, builds, tests, and publishes. This is the route to use when your credential cannot push to `refs/tags/*`, which is the case for agent sessions and for tokens scoped to `refs/heads/*`.
+
+**By pushing a tag.**
+
+```sh
+git tag -a rapsheet-v0.1.0 origin/main -m "Rapsheet v0.1.0"
+git push origin rapsheet-v0.1.0
+```
+
+The workflow attaches `feed.json`, the six `feed-<category>.json` files, `blocklist.json` and `SHA256SUMS`, and holds `contents: write` and nothing else. Every action it uses is pinned by commit SHA; if you bump one, resolve the new SHA with `git ls-remote https://github.com/actions/<name> refs/tags/vN` and keep the version in the trailing comment.

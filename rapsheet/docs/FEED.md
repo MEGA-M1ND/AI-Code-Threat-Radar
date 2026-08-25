@@ -13,6 +13,8 @@ Every release publishes the same set of files. The stable URLs are:
 
 `<category>` is one of `malicious-skill`, `slopsquat-package`, `malicious-mcp-server`, `compromised-package`, `platform-vuln`, `vibe-app-breach`.
 
+Releases are cut by the `rapsheet-release` workflow, which builds and tests the artifacts in CI from the commit being released; nothing is uploaded from a maintainer's machine. `SHA256SUMS` is generated in the same job, so verifying it tells you the files match what that build produced.
+
 The `/releases/latest/download/` path is a redirect that GitHub maintains. It always resolves to the newest published release, so a consumer never has to know a tag. Pin to a tag (`/releases/download/rapsheet-v0.1.0/feed.json`) if you want reproducibility instead.
 
 ## Envelope
