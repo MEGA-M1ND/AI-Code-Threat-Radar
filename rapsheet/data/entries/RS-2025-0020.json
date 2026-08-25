@@ -1,0 +1,56 @@
+{
+  "id": "RS-2025-0020",
+  "category": "slopsquat-package",
+  "title": "Fake Aliyun AI Labs SDKs on PyPI hid an infostealer in a PyTorch model",
+  "summary": "Three PyPI packages published on 19 May 2025 described themselves as a Python SDK for Aliyun AI Labs services but contained no SDK code; their initialisation script loaded a PyTorch model whose pickle payload delivered an infostealer. ReversingLabs reported them and all three were gone from PyPI within a day.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "pypi",
+      "name": "aliyun-ai-labs-snippets-sdk",
+      "version": "1.0.0, 2.0.0, 2.1.0"
+    },
+    {
+      "type": "package",
+      "registry": "pypi",
+      "name": "ai-labs-snippets-sdk",
+      "version": "0.1.0 - 4.4.0"
+    },
+    {
+      "type": "package",
+      "registry": "pypi",
+      "name": "aliyun-ai-labs-sdk",
+      "version": "1.0.0"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "a9aec9766f57aaf8fd7261690046e905158b5337"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "e1d8dbc75835198c95d1cf227e66d7bc17e42888"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "0e0469a70d2dbcfe8f33386cf45db6de81adf5e7"
+    }
+  ],
+  "severity": "medium",
+  "severity_rationale": "Credential and environment theft aimed at AI and ML developers, limited by availability of under 24 hours and a small download count.",
+  "status": "remediated",
+  "first_seen": "2025-05-22",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://www.reversinglabs.com/blog/malicious-attack-method-on-hosted-ml-models-now-targets-pypi",
+      "publisher": "ReversingLabs",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "other"
+  ]
+}

@@ -1,0 +1,19 @@
+The Rapsheet data set — every file under data/ and every artifact built from it
+and published in dist/ or attached to a release (feed.json, feed-<category>.json,
+blocklist.json) — is licensed under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0).
+
+  https://creativecommons.org/licenses/by/4.0/
+
+You may use it in any tool, commercial or not, including closed-source products,
+and you may reshape it into any format you like. The one condition is
+attribution. Credit it as:
+
+  Rapsheet (https://github.com/MEGA-M1ND/AI-Code-Threat-Radar/tree/main/rapsheet), CC BY 4.0
+
+Every built artifact carries that string in its `attribution` field, so a
+consumer can surface it without hard-coding anything.
+
+The code in this repository — everything under scripts/, tests/ and schema/ —
+is MIT licensed. See ../LICENSE. The split is deliberate: the code should be as
+easy to copy as possible, and the data should stay traceable to its source.

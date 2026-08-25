@@ -1,0 +1,31 @@
+{
+  "id": "RS-2025-0022",
+  "category": "platform-vuln",
+  "title": "CamoLeak: GitHub Copilot Chat exfiltrated private repository content through GitHub's own image proxy",
+  "summary": "A prompt injection hidden in a pull request description could make GitHub Copilot Chat read from the victim's private repositories and leak the result one character at a time as requests to pre-generated GitHub Camo image URLs, bypassing the content security policy. GitHub disabled image rendering in Copilot Chat on 14 August 2025.",
+  "indicators": [
+    {
+      "type": "application",
+      "name": "github-copilot-chat",
+      "vendor": "GitHub"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "CVSS 9.6 silent exfiltration of private source and secrets with no user action beyond opening a chat, and no security alert raised.",
+  "status": "remediated",
+  "first_seen": "2025-10-08",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://www.legitsecurity.com/blog/camoleak-critical-github-copilot-vulnerability-leaks-private-source-code",
+      "publisher": "Legit Security",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "copilot"
+  ],
+  "related": [
+    "CVE-2025-59145"
+  ]
+}

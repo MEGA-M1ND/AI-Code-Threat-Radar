@@ -1,0 +1,149 @@
+{
+  "id": "RS-2026-0001",
+  "category": "slopsquat-package",
+  "title": "SANDWORM_MODE typosquats of claude-code register a malicious MCP server in the victim's editor",
+  "summary": "Nineteen npm packages published on 20 February 2026 under the aliases official334 and javaorg typosquatted names such as claude-code, supports-color and rimraf, and on import stole npm, GitHub, CI, cryptocurrency and LLM API credentials. Beyond the credential theft and worm propagation seen in earlier campaigns, the payload installed and registered a malicious MCP server in AI coding assistants such as Cursor and seeded it with prompt-injection instructions.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "claud-code",
+      "version": "0.2.1"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "cloude-code",
+      "version": "0.2.1"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "cloude",
+      "version": "0.3.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "opencraw",
+      "version": "2026.2.17"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "suport-color",
+      "version": "1.0.1"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "rimarf",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "hardhta",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "crypto-locale",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "crypto-reader-info",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "detect-cache",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "format-defaults",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "locale-loader-pro",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "naniod",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "node-native-bridge",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "parse-compat",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "scan-store",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "secp256",
+      "version": "1.0.0"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "veim",
+      "version": "2.46.2"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "yarsg",
+      "version": "18.0.1"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "Wormable credential theft that also persists inside the victim's AI toolchain, so the compromise outlives removal of the package.",
+  "status": "remediated",
+  "first_seen": "2026-02-20",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://socket.dev/blog/sandworm-mode-npm-worm-ai-toolchain-poisoning",
+      "publisher": "Socket Research Team",
+      "type": "primary"
+    },
+    {
+      "url": "https://www.endorlabs.com/learn/sandworm-mode-dissecting-a-multi-stage-npm-supply-chain-attack",
+      "publisher": "Endor Labs",
+      "type": "secondary"
+    },
+    {
+      "url": "https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/",
+      "publisher": "CrowdStrike",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code",
+    "cursor",
+    "other"
+  ]
+}

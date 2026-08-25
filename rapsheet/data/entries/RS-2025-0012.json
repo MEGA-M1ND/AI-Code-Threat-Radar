@@ -1,0 +1,37 @@
+{
+  "id": "RS-2025-0012",
+  "category": "platform-vuln",
+  "title": "CurXecute: Cursor writes .cursor/mcp.json without approval and starts the server",
+  "summary": "Cursor below 1.3.9 required approval to edit an existing dotfile but not to create one, so an indirect prompt injection delivered through a connected MCP server could write a new .cursor/mcp.json and have Cursor run the command it named. Aim Labs demonstrated it end to end through a crafted Slack message read by the Slack MCP server.",
+  "indicators": [
+    {
+      "type": "application",
+      "name": "cursor",
+      "vendor": "Anysphere",
+      "version": "<1.3.9"
+    }
+  ],
+  "severity": "high",
+  "severity_rationale": "Code execution on the developer machine from content the agent merely reads, with no approval step reached.",
+  "status": "remediated",
+  "first_seen": "2025-08-01",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://www.catonetworks.com/blog/curxecute-rce/",
+      "publisher": "Cato Networks (Aim Labs)",
+      "type": "primary"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54135",
+      "publisher": "NVD",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "cursor"
+  ],
+  "related": [
+    "CVE-2025-54135"
+  ]
+}

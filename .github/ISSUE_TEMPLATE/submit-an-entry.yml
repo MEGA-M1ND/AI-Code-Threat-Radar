@@ -1,0 +1,63 @@
+name: Submit an entry
+description: Propose a new Rapsheet entry.
+title: "[entry] "
+labels: ["entry-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Read `docs/METHODOLOGY.md` first. An entry without a primary source
+        cannot be accepted, and it will be moved to `triage/unverified.md`
+        instead of the feed.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - malicious-skill
+        - slopsquat-package
+        - malicious-mcp-server
+        - compromised-package
+        - platform-vuln
+        - vibe-app-breach
+    validations:
+      required: true
+  - type: input
+    id: primary_source
+    attributes:
+      label: Primary source URL
+      description: >-
+        A vendor advisory, registry takedown notice, maintainer disclosure or
+        the original researcher writeup. Not a news article about one of those.
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: indicators
+    attributes:
+      label: Indicators
+      description: >-
+        Copy these character-for-character out of the primary source: package
+        names and versions, skill slugs, MCP server names, hashes, domains.
+        Do not defang them.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: At most two factual sentences. What happened and what it did.
+    validations:
+      required: true
+  - type: input
+    id: first_seen
+    attributes:
+      label: First public disclosure date (YYYY-MM-DD)
+    validations:
+      required: true
+  - type: textarea
+    id: other_sources
+    attributes:
+      label: Other sources
+      description: One URL per line, with the publisher.

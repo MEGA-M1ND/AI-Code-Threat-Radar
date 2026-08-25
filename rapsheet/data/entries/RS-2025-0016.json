@@ -1,0 +1,36 @@
+{
+  "id": "RS-2025-0016",
+  "category": "platform-vuln",
+  "title": "Copilot in VS Code could enable its own auto-approve setting",
+  "summary": "GitHub Copilot could edit .vscode/settings.json in the workspace it was working on, so a prompt injection could add chat.tools.autoApprove and remove the confirmation step for every later tool call, reaching arbitrary command execution. Microsoft patched it on 12 August 2025.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "GitHub.copilot-chat"
+    }
+  ],
+  "severity": "high",
+  "severity_rationale": "Injected content can disable the approval control that separates suggestion from execution, and the resulting state persists in the workspace.",
+  "status": "remediated",
+  "first_seen": "2025-08-12",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2025-53773",
+      "publisher": "Microsoft Security Response Center",
+      "type": "primary"
+    },
+    {
+      "url": "https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/",
+      "publisher": "Embrace The Red",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "copilot"
+  ],
+  "related": [
+    "CVE-2025-53773"
+  ]
+}

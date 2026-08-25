@@ -1,0 +1,39 @@
+{
+  "id": "RS-2025-0014",
+  "category": "platform-vuln",
+  "title": "Claude Code IDE extensions accepted WebSocket connections from any web page",
+  "summary": "The Claude Code extensions for VS Code forks and JetBrains IDEs ran a local WebSocket server with no client authentication, so a page the developer visited could connect to it and read arbitrary files, list open editors and receive selection and diagnostics events. Anthropic patched it on 13 June 2025 in VS Code extension 1.0.24 and JetBrains plugin 0.1.9.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "anthropic.claude-code",
+      "version": "0.2.116 - 1.0.23"
+    }
+  ],
+  "severity": "high",
+  "severity_rationale": "Arbitrary local file read from a drive-by web page, escalating to code execution when a Jupyter notebook is open.",
+  "status": "remediated",
+  "first_seen": "2025-06-23",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://github.com/advisories/GHSA-9f65-56v6-gxw7",
+      "publisher": "GitHub Advisory Database",
+      "type": "primary"
+    },
+    {
+      "url": "https://securitylabs.datadoghq.com/articles/claude-mcp-cve-2025-52882/",
+      "publisher": "Datadog Security Labs",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code",
+    "cursor"
+  ],
+  "related": [
+    "CVE-2025-52882",
+    "GHSA-9f65-56v6-gxw7"
+  ]
+}

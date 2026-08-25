@@ -1,0 +1,42 @@
+name: Dispute an entry
+description: Contest something Rapsheet published about you or your project.
+title: "[dispute] RS-"
+labels: ["dispute"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Disputes are handled in the open. See the dispute process in
+        `docs/METHODOLOGY.md`. If you would rather raise this privately,
+        use the address in `SECURITY.md`.
+  - type: input
+    id: entry_id
+    attributes:
+      label: Entry ID
+      placeholder: RS-2026-0001
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong
+      options:
+        - The indicator is wrong or points at something legitimate
+        - The entry describes the incident inaccurately
+        - The entry is out of date (it has been remediated)
+        - The incident did not happen as described
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What should it say instead
+      description: Include evidence. A vendor statement or a registry record settles most disputes quickly.
+    validations:
+      required: true
+  - type: input
+    id: relationship
+    attributes:
+      label: Your relationship to the entry
+      description: Maintainer, vendor, the researcher who reported it, unaffiliated.

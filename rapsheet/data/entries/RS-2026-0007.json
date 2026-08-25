@@ -1,0 +1,90 @@
+{
+  "id": "RS-2026-0007",
+  "category": "compromised-package",
+  "title": "AntV wave injects a SessionStart hook into .claude/settings.json to re-run on every agent session",
+  "summary": "The compromised npm account atool published malicious versions of more than 300 of its 547 packages in a 22-minute burst on 19 May 2026, delivering a Bun payload through a preinstall hook and through an imposter optionalDependencies entry pointing at an orphan commit in the legitimate antvis/G2 repository. Beyond credential theft the payload searched the filesystem for settings.json files and wrote a SessionStart hook running node .claude/setup.mjs into each, so the malware re-executes every time Claude Code or Codex starts.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "size-sensor",
+      "version": "1.0.4, 1.1.4, 1.2.4"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "echarts-for-react",
+      "version": "3.0.7, 3.1.7, 3.2.7"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "jest-canvas-mock",
+      "version": "2.5.3, 2.6.3, 2.7.3"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "timeago.js",
+      "version": "4.1.2, 4.2.2"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "canvas-nest.js",
+      "version": "2.1.4, 2.2.4"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@antv/scale",
+      "version": "0.6.2, 0.7.2"
+    },
+    {
+      "type": "domain",
+      "value": "t.m-kosche.com"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "1916faa365f2788b6e193514872d51a242876569"
+    },
+    {
+      "type": "hash",
+      "algo": "sha1",
+      "value": "7cb42f57561c321ecb09b4552802ae0ac55b3a7a"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "Persistence installed into the agent's own configuration outlives package removal, and three first-wave versions are still installable from npm as deprecated rather than unpublished.",
+  "status": "active",
+  "first_seen": "2026-05-19",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://snyk.io/blog/mini-shai-hulud-antv-npm-supply-chain-attack/",
+      "publisher": "Snyk",
+      "type": "primary"
+    },
+    {
+      "url": "https://www.endorlabs.com/learn/mini-shai-hulud-returns-42-malicious-npm-packages-fake-sigstore-badges-in-antv-ecosystem-attack",
+      "publisher": "Endor Labs",
+      "type": "primary"
+    },
+    {
+      "url": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+      "publisher": "SafeDep",
+      "type": "primary"
+    },
+    {
+      "url": "https://www.stepsecurity.io/blog/shai-hulud-here-we-go-again-mass-npm-supply-chain-attack-hits-the-antv-ecosystem",
+      "publisher": "StepSecurity",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "claude-code",
+    "codex-cli",
+    "other"
+  ]
+}
