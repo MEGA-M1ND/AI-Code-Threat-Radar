@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-xodex-cli-c3328c2923",
+  "source": "slopsquat",
+  "key": "pypi:xodex-cli",
+  "title": "xodex-cli (pypi) resembles codex-cli",
+  "why": "1 character edit from codex-cli",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "xodex-cli",
+    "target": "codex-cli",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2025-09-13T02:01:27.669362Z",
+    "last_release": "2025-09-15T12:01:04.234466Z",
+    "release_count": 9,
+    "summary": "CLI Agente de IA (DeepSeek | OpenAI | Gemini | Grok) para terminal, com contexto de projeto e ferramentas de dev.",
+    "author": "xodex-cli",
+    "home_page": "https://pypi.org/project/xodex-cli/",
+    "age_days": 346.4
+  },
+  "urls": [
+    "https://pypi.org/project/xodex-cli/"
+  ],
+  "discovered_at": "2026-08-25T10:15:53Z"
+}

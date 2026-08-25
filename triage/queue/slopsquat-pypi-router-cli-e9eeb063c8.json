@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-router-cli-e9eeb063c8",
+  "source": "slopsquat",
+  "key": "pypi:router-cli",
+  "title": "router-cli (pypi) resembles @tanstack/router-cli",
+  "why": "the unscoped form of the scoped package @tanstack/router-cli",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "router-cli",
+    "target": "@tanstack/router-cli",
+    "rule": "scope-drop",
+    "distance": 0,
+    "created": "2026-02-03T11:45:07.631540Z",
+    "last_release": "2026-02-03T14:06:33.523380Z",
+    "release_count": 3,
+    "summary": "CLI tool to manage D-Link DSL-2750U router",
+    "author": "d3vr",
+    "home_page": "https://pypi.org/project/router-cli/",
+    "age_days": 202.9
+  },
+  "urls": [
+    "https://pypi.org/project/router-cli/"
+  ],
+  "discovered_at": "2026-08-25T10:15:52Z"
+}

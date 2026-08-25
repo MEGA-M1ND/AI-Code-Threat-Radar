@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-openclay-5849878b70",
+  "source": "slopsquat",
+  "key": "pypi:openclay",
+  "title": "openclay (pypi) resembles openclaw",
+  "why": "1 character edit from openclaw",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "openclay",
+    "target": "openclaw",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-03-16T10:28:48.446058Z",
+    "last_release": "2026-03-25T15:44:02.771844Z",
+    "release_count": 6,
+    "summary": "The Secure-by-Default Execution Framework for LLM Agents.",
+    "author": "Neuralchemy",
+    "home_page": "https://github.com/neuralchemy/openclay",
+    "age_days": 162.0
+  },
+  "urls": [
+    "https://pypi.org/project/openclay/"
+  ],
+  "discovered_at": "2026-08-25T10:15:52Z"
+}

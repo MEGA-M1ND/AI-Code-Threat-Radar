@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-clawdbot2-f682252fbe",
+  "source": "slopsquat",
+  "key": "pypi:clawdbot2",
+  "title": "clawdbot2 (pypi) resembles clawdbot",
+  "why": "1 character edit from clawdbot",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "clawdbot2",
+    "target": "clawdbot",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-03-03T05:44:19.077981Z",
+    "last_release": "2026-03-20T06:18:06.280559Z",
+    "release_count": 5,
+    "summary": "ClawdBot — multi-platform chatbot framework plugin for CMDOP with AI agents",
+    "author": "",
+    "home_page": "https://pypi.org/project/clawdbot2/",
+    "age_days": 175.2
+  },
+  "urls": [
+    "https://pypi.org/project/clawdbot2/"
+  ],
+  "discovered_at": "2026-08-25T10:15:51Z"
+}

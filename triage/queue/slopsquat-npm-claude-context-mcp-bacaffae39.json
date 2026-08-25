@@ -1,0 +1,36 @@
+{
+  "id": "slopsquat-npm-claude-context-mcp-bacaffae39",
+  "source": "slopsquat",
+  "key": "npm:claude-context-mcp",
+  "title": "claude-context-mcp (npm) resembles @relyt/claude-context-mcp",
+  "why": "the unscoped form of the scoped package @relyt/claude-context-mcp",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "npm",
+    "name": "claude-context-mcp",
+    "target": "@relyt/claude-context-mcp",
+    "rule": "scope-drop",
+    "distance": 0,
+    "created": "2026-01-21T02:51:57.193Z",
+    "last_release": "2026-01-21T02:51:57.507Z",
+    "release_count": 2,
+    "versions": [
+      "1.0.0",
+      "1.0.1"
+    ],
+    "maintainers": [
+      "jackson7362085"
+    ],
+    "repository": "",
+    "description": "MCP server for accessing Claude Code context files (index and resolutions)",
+    "latest_version": "1.0.1",
+    "publisher": "jackson7362085",
+    "age_days": 216.3,
+    "found_via": "claude-context-mcp"
+  },
+  "urls": [
+    "https://www.npmjs.com/package/claude-context-mcp"
+  ],
+  "discovered_at": "2026-08-25T10:32:39Z"
+}

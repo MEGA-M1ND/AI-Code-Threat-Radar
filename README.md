@@ -45,6 +45,20 @@ python scripts/build_feed.py     # writes dist/
 python -m pytest tests/
 ```
 
+## Where entries come from
+
+Collectors sweep npm, PyPI and the MCP registry daily for names that impersonate
+the AI coding agent ecosystem, and write what they find to `triage/queue/` — a
+holding area, not the feed. Nothing reaches `data/entries/` until a human has
+read a primary source, and the daily workflow fails rather than opening a pull
+request if a collector touches feed data at all. See
+[docs/COLLECTORS.md](docs/COLLECTORS.md).
+
+```sh
+python -m collectors.run           # all of them
+python -m collectors.run --only slopsquat
+```
+
 ## Contribute or dispute
 
 To propose an entry, open a [submit an entry](https://github.com/MEGA-M1ND/AI-Code-Threat-Radar/issues/new?template=submit-an-entry.yml) issue or send a pull request adding one JSON file under `data/entries/`. Read [CONTRIBUTING.md](CONTRIBUTING.md) first.

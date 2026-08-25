@@ -1,0 +1,116 @@
+# Daily candidate discovery. Opens a triage pull request; never touches the feed.
+#
+# The job asserts that before it pushes: if a collector has somehow written to
+# data/ or dist/, the run fails rather than opening a PR. The gap between "a
+# collector noticed something" and "the feed asserts something" is what makes
+# the feed citable, and it should be enforced by the pipeline, not by habit.
+name: radar-collect
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Run a single collector"
+        required: false
+        type: choice
+        options: ["", "slopsquat", "mcp-registry"]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: radar-collect
+  cancel-in-progress: false
+
+env:
+  BRANCH: collectors/triage
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --quiet requests jsonschema
+
+      - name: Work on the triage branch
+        # Checked out before the run, not after: switching branches with a
+        # tree full of fresh candidates is how you get a merge conflict in a
+        # cron job. Any human edit already on the branch — a dismissal, a
+        # triaged-away candidate — survives this.
+        run: |
+          set -euo pipefail
+          git config user.name "radar-collect"
+          git config user.email "radar-collect@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$BRANCH"
+            git switch -c "$BRANCH" "origin/$BRANCH"
+            git merge --no-edit "origin/${GITHUB_REF_NAME}"
+          else
+            git switch -c "$BRANCH"
+          fi
+
+      - name: Build the feed
+        # The watchlist is derived from the published feed, so it has to exist
+        # before any collector runs.
+        run: python scripts/build_feed.py
+
+      - name: Refresh the watchlist
+        run: python -m collectors.watchlist --refresh
+
+      - name: Run collectors
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          set -euo pipefail -o pipefail
+          if [ -n "$ONLY" ]; then
+            python -m collectors.run --only "$ONLY" 2>&1 | tee /tmp/report.txt
+          else
+            python -m collectors.run 2>&1 | tee /tmp/report.txt
+          fi
+
+      - name: Refuse to proceed if a collector touched the feed
+        run: |
+          if ! git diff --quiet -- data dist schema scripts; then
+            echo "::error::a collector modified feed data — refusing to open a PR"
+            git diff --stat -- data dist schema scripts
+            exit 1
+          fi
+
+      - name: Open or update the triage pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- triage collectors; then
+            echo "no new candidates and no state change — nothing to open"
+            exit 0
+          fi
+
+          COUNT=$(ls triage/queue/*.json 2>/dev/null | wc -l | tr -d ' ')
+          git add triage collectors
+          git commit -m "Collector run: ${COUNT} candidate(s) awaiting triage" \
+                     -m "$(cat /tmp/report.txt)"
+          git push -u origin "$BRANCH"
+
+          BODY=$(printf '%s\n\n```\n%s\n```\n\n%s\n' \
+            "Candidates found by the daily collector run." \
+            "$(cat /tmp/report.txt)" \
+            "Nothing here is an entry. Each candidate needs a primary source read by a human before it reaches \`data/entries/\`. Reject one for good by adding its key to \`triage/dismissed.txt\` with the reason.")
+          if gh pr view "$BRANCH" --json number >/dev/null 2>&1; then
+            gh pr edit "$BRANCH" --title "Triage: ${COUNT} candidate(s) awaiting review" --body "$BODY"
+          else
+            gh pr create --base "${GITHUB_REF_NAME}" --head "$BRANCH" \
+              --title "Triage: ${COUNT} candidate(s) awaiting review" --body "$BODY"
+          fi

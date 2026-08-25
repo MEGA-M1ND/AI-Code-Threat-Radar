@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-langchaint-60cbcff5dc",
+  "source": "slopsquat",
+  "key": "pypi:langchaint",
+  "title": "langchaint (pypi) resembles langchain",
+  "why": "1 character edit from langchain",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "langchaint",
+    "target": "langchain",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-07-17T15:23:03.429346Z",
+    "last_release": "2026-08-24T15:29:49.104627Z",
+    "release_count": 25,
+    "summary": "It ain't langchain.",
+    "author": "John Hopfensperger",
+    "home_page": "https://pypi.org/project/langchaint/",
+    "age_days": 38.8
+  },
+  "urls": [
+    "https://pypi.org/project/langchaint/"
+  ],
+  "discovered_at": "2026-08-25T10:15:52Z"
+}

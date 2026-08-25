@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-codet-cli-caf90e9a68",
+  "source": "slopsquat",
+  "key": "pypi:codet-cli",
+  "title": "codet-cli (pypi) resembles codex-cli",
+  "why": "1 character edit from codex-cli",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "pypi",
+    "name": "codet-cli",
+    "target": "codex-cli",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-07-09T08:07:08.004481Z",
+    "last_release": "2026-07-09T08:07:08.004481Z",
+    "release_count": 1,
+    "summary": "Code review, API testing, and security audit CLI tool",
+    "author": "code-t contributors",
+    "home_page": "https://pypi.org/project/codet-cli/",
+    "age_days": 47.1
+  },
+  "urls": [
+    "https://pypi.org/project/codet-cli/"
+  ],
+  "discovered_at": "2026-08-25T10:15:51Z"
+}

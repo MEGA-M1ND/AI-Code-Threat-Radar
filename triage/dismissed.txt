@@ -1,0 +1,10 @@
+# Candidates a human has looked at and rejected. Collectors skip these.
+#
+# One candidate id or key per line; `#` starts a comment. A key is the stable
+# identity a collector gave the finding — for the slopsquat detector that is
+# `npm:<name>` or `pypi:<name>`. Prefer the key: it survives a change to how
+# the candidate id is computed.
+#
+# Rejecting is a decision worth recording. Put the reason in the comment, and
+# if the name is interesting-but-unproven put it in triage/unverified.md too.
+# Nothing is listed here that a human has not actually looked at.
