@@ -1,0 +1,43 @@
+{
+  "id": "RS-2025-0002",
+  "category": "platform-vuln",
+  "title": "mcp-remote executes attacker commands when connecting to an untrusted MCP server",
+  "summary": "mcp-remote, the npm proxy that lets local MCP clients reach remote servers, passed the authorization_endpoint URL returned by the server into an OS command without sanitising it. A malicious or hijacked MCP server could therefore run arbitrary commands on the connecting machine; versions 0.0.5 through 0.1.15 are affected.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "mcp-remote",
+      "version": "0.0.5 - 0.1.15"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "CVSS 9.6 remote code execution triggered by nothing more than pointing a client at an attacker-run MCP server.",
+  "status": "remediated",
+  "first_seen": "2025-07-08",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://research.jfrog.com/vulnerabilities/mcp-remote-command-injection-rce-jfsa-2025-001290844/",
+      "publisher": "JFrog Security Research",
+      "type": "primary"
+    },
+    {
+      "url": "https://jfrog.com/blog/2025-6514-critical-mcp-remote-rce-vulnerability/",
+      "publisher": "JFrog",
+      "type": "primary"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6514",
+      "publisher": "NVD",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "generic-mcp",
+    "other"
+  ],
+  "related": [
+    "CVE-2025-6514"
+  ]
+}

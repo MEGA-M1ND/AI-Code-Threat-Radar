@@ -1,0 +1,37 @@
+{
+  "id": "RS-2025-0007",
+  "category": "compromised-package",
+  "title": "Amazon Q Developer extension for VS Code shipped with an injected wiper prompt",
+  "summary": "Someone with write access added a prompt to the aws-toolkit-vscode repository instructing the agent to clean the system to a near-factory state and delete local and cloud resources, and it shipped in Amazon Q Developer Extension version 1.84.0 on 17 July 2025. AWS revoked the credentials, pulled 1.84.0 from distribution and released 1.85.0.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "vscode",
+      "name": "AmazonWebServices.amazon-q-vscode",
+      "version": "1.84.0"
+    }
+  ],
+  "severity": "high",
+  "severity_rationale": "Destructive instructions reached the official release channel of a widely installed coding agent, though the injected prompt was reported not to execute reliably.",
+  "status": "remediated",
+  "first_seen": "2025-07-23",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://aws.amazon.com/security/security-bulletins/AWS-2025-015/",
+      "publisher": "AWS Security",
+      "type": "primary"
+    },
+    {
+      "url": "https://github.com/aws/aws-toolkit-vscode/security/advisories/GHSA-7g7f-ff96-5gcw",
+      "publisher": "AWS (maintainer advisory)",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "other"
+  ],
+  "related": [
+    "GHSA-7g7f-ff96-5gcw"
+  ]
+}

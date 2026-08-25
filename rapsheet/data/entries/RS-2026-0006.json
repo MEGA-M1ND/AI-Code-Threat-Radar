@@ -1,0 +1,41 @@
+{
+  "id": "RS-2026-0006",
+  "category": "compromised-package",
+  "title": "Mini Shai-Hulud crosses from npm into PyPI and hits MCP server packages",
+  "summary": "A worm attributed to TeamPCP compromised 172 packages across npm and PyPI in under 48 hours starting 11 May 2026, including the MCP server packages @squawk/mcp and nextmove-mcp, and its operators later published the source publicly through compromised GitHub accounts. The initial burst put 84 malicious versions of 42 TanStack packages on npm within a six-minute window.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@squawk/mcp",
+      "version": "0.9.1 - 0.9.5"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "nextmove-mcp",
+      "version": "0.1.3 - 0.1.7"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "First Shai-Hulud lineage to propagate across two registries at once, with MCP server packages among the payload carriers.",
+  "status": "remediated",
+  "first_seen": "2026-05-11",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://research.jfrog.com/post/shai-hulud-here-we-go-again/",
+      "publisher": "JFrog Security Research",
+      "type": "primary"
+    },
+    {
+      "url": "https://www.ox.security/blog/shai-hulud-here-we-go-again-170-packages-hit-across-npm-pypi/",
+      "publisher": "OX Security",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "generic-mcp",
+    "other"
+  ]
+}

@@ -1,0 +1,3 @@
+# Plain-requirements alternative to `pip install -e ".[dev]"`.
+jsonschema>=4.20
+pytest>=8.0

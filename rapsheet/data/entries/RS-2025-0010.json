@@ -1,0 +1,160 @@
+{
+  "id": "RS-2025-0010",
+  "category": "compromised-package",
+  "title": "Shai-Hulud 2.0 backdoors 796 npm packages and singles out MCP server packages",
+  "summary": "A second wave beginning 24 November 2025 injected setup_bun.js and an obfuscated bun_environment.js into 796 npm packages, running at preinstall rather than postinstall and reaching cloud secret stores as well as local credential files. Among the packages backdoored were at least seventeen whose names contain mcp, including the Postman and Zapier MCP servers, alongside claude-token-updater and skills-use.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@browserbasehq/mcp",
+      "version": "2.1.1"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@browserbasehq/mcp-server-browserbase",
+      "version": "2.4.2"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@mcp-use/cli",
+      "version": "2.2.6, 2.2.7"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@mcp-use/inspector",
+      "version": "0.6.2, 0.6.3"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@mcp-use/mcp-use",
+      "version": "1.0.1, 1.0.2"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@postman/mcp-ui-client",
+      "version": "5.5.1, 5.5.2, 5.5.3"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@postman/postman-mcp-cli",
+      "version": "1.0.3, 1.0.4, 1.0.5"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@postman/postman-mcp-server",
+      "version": "2.4.10, 2.4.11, 2.4.12"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@relyt/claude-context-mcp",
+      "version": "0.1.1"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@relyt/mcp-server-relytone",
+      "version": "0.0.3"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@seezo/sdr-mcp-server",
+      "version": "0.0.5"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@zapier/mcp-integration",
+      "version": "3.0.1, 3.0.2, 3.0.3"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "create-mcp-use-app",
+      "version": "0.5.3, 0.5.4"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "ids-enterprise-mcp-server",
+      "version": "0.0.2"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "lite-serper-mcp-server",
+      "version": "0.2.2"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "mcp-use",
+      "version": "1.4.2, 1.4.3"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "web-scraper-mcp",
+      "version": "1.1.4"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "claude-token-updater",
+      "version": "1.0.3"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "skills-use",
+      "version": "0.1.1, 0.1.2"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@posthog/ai",
+      "version": "7.1.2"
+    },
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@voiceflow/anthropic",
+      "version": "0.4.4, 0.4.5"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "796 packages totalling over 20 million weekly downloads, with a destructive fallback when credential theft fails and MCP server packages among the carriers.",
+  "status": "remediated",
+  "first_seen": "2025-11-24",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://securitylabs.datadoghq.com/articles/shai-hulud-2.0-npm-worm/",
+      "publisher": "Datadog Security Labs",
+      "type": "primary"
+    },
+    {
+      "url": "https://socket.dev/blog/shai-hulud-strikes-again-v2",
+      "publisher": "Socket Research Team",
+      "type": "primary"
+    },
+    {
+      "url": "https://github.com/DataDog/indicators-of-compromise/tree/main/shai-hulud-2.0",
+      "publisher": "Datadog Security Research",
+      "type": "primary"
+    }
+  ],
+  "affected_tools": [
+    "generic-mcp",
+    "other"
+  ]
+}

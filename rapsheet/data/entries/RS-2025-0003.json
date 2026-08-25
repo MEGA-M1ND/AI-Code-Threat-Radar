@@ -1,0 +1,43 @@
+{
+  "id": "RS-2025-0003",
+  "category": "platform-vuln",
+  "title": "MCP Inspector proxy reachable from any web page without authentication",
+  "summary": "Anthropic's MCP Inspector ran a local proxy with no authentication between the Inspector client and the proxy, so any page a developer visited could reach it and launch MCP commands over stdio. Oligo Security chained it with the 0.0.0.0-day browser flaw to reach code execution on the developer machine; versions below 0.14.1 are affected.",
+  "indicators": [
+    {
+      "type": "package",
+      "registry": "npm",
+      "name": "@modelcontextprotocol/inspector",
+      "version": "<0.14.1"
+    }
+  ],
+  "severity": "critical",
+  "severity_rationale": "CVSS 9.4 unauthenticated code execution on a developer workstation, reachable by drive-by browsing while the tool is running.",
+  "status": "remediated",
+  "first_seen": "2025-06-13",
+  "last_updated": "2026-08-25",
+  "sources": [
+    {
+      "url": "https://www.oligo.security/blog/critical-rce-vulnerability-in-anthropic-mcp-inspector-cve-2025-49596",
+      "publisher": "Oligo Security",
+      "type": "primary"
+    },
+    {
+      "url": "https://github.com/advisories/GHSA-7f8r-222p-6f5g",
+      "publisher": "GitHub Advisory Database",
+      "type": "primary"
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49596",
+      "publisher": "NVD",
+      "type": "secondary"
+    }
+  ],
+  "affected_tools": [
+    "generic-mcp"
+  ],
+  "related": [
+    "CVE-2025-49596",
+    "GHSA-7f8r-222p-6f5g"
+  ]
+}
