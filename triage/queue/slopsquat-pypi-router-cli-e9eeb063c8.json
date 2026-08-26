@@ -18,7 +18,7 @@
     "summary": "CLI tool to manage D-Link DSL-2750U router",
     "author": "d3vr",
     "home_page": "https://pypi.org/project/router-cli/",
-    "age_days": 202.9
+    "age_days": 203.8
   },
   "urls": [
     "https://pypi.org/project/router-cli/"

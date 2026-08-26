@@ -18,7 +18,7 @@
     "summary": "The Secure-by-Default Execution Framework for LLM Agents.",
     "author": "Neuralchemy",
     "home_page": "https://github.com/neuralchemy/openclay",
-    "age_days": 162.0
+    "age_days": 162.9
   },
   "urls": [
     "https://pypi.org/project/openclay/"

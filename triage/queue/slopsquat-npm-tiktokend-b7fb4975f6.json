@@ -1,0 +1,37 @@
+{
+  "id": "slopsquat-npm-tiktokend-b7fb4975f6",
+  "source": "slopsquat",
+  "key": "npm:tiktokend",
+  "title": "tiktokend (npm) resembles tiktoken",
+  "why": "1 character edit from tiktoken",
+  "suggested_category": "slopsquat-package",
+  "confidence": "medium",
+  "evidence": {
+    "registry": "npm",
+    "name": "tiktokend",
+    "target": "tiktoken",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2025-08-23T13:55:11.421Z",
+    "last_release": "2025-08-23T16:08:25.749Z",
+    "release_count": 3,
+    "versions": [
+      "1.0.0",
+      "1.0.1",
+      "1.0.2"
+    ],
+    "maintainers": [
+      "snowflake7"
+    ],
+    "repository": "git+ssh://git@github.com/twlite/tiktokend.git",
+    "description": "High-level binding to tiktoken-rs for Node.js and browsers",
+    "latest_version": "1.0.2",
+    "publisher": "snowflake7",
+    "age_days": 367.7,
+    "found_via": "tiktoken"
+  },
+  "urls": [
+    "https://www.npmjs.com/package/tiktokend"
+  ],
+  "discovered_at": "2026-08-26T07:13:05Z"
+}

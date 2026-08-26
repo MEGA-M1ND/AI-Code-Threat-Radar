@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-sbanerjee1875-financegeniu-5952c35c96",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sbanerjee1875/financegenius",
+  "title": "MCP server io.github.sbanerjee1875/financegenius: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sbanerjee1875/financegenius",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "India's financial MCP — cards, loans, FDs, insurance, MFs; EMI/SIP/tax calcs; NAV lookup; RAG.",
+    "repository": "https://github.com/sbanerjee1875/Financegenius.ai",
+    "website": "https://financegenius.ai/connect",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.financegenius.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-25T18:27:36.206258Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/sbanerjee1875/Financegenius.ai",
+    "https://financegenius.ai/connect",
+    "https://mcp.financegenius.ai/mcp/"
+  ],
+  "discovered_at": "2026-08-26T07:12:17Z"
+}

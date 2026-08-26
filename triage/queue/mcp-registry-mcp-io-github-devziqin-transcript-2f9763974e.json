@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-devziqin-transcript-2f9763974e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.devziqin/transcript",
+  "title": "MCP server io.github.devziqin/transcript: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.devziqin/transcript",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Get transcripts from YouTube, TikTok, X, Instagram and more - even when captions are off.",
+    "repository": "https://github.com/ziqorg/transcript",
+    "website": "https://transcript.land",
+    "packages": [],
+    "remote_hosts": [
+      "transcript.land"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-08-24T10:36:16.297001Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ziqorg/transcript",
+    "https://transcript.land",
+    "https://transcript.land/mcp"
+  ],
+  "discovered_at": "2026-08-26T07:12:17Z"
+}
