@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-firatciftci-valetkey-d1aaf72652",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.firatciftci/valetkey",
+  "title": "MCP server io.github.firatciftci/valetkey: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.firatciftci/valetkey",
+    "rule": "status-change",
+    "version": "0.14.0",
+    "status": "deleted",
+    "description": "Signed-in dev sessions for coding agents, without handing over credentials.",
+    "repository": "https://github.com/firatciftci/valetkey",
+    "website": "https://valetkey.dev",
+    "packages": [
+      "npm:valetkey"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-26T10:00:25.335086Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/firatciftci/valetkey",
+    "https://valetkey.dev"
+  ],
+  "discovered_at": "2026-08-27T17:41:17Z"
+}

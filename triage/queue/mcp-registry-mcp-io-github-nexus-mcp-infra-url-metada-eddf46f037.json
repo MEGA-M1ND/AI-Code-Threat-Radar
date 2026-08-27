@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-nexus-mcp-infra-url-metada-eddf46f037",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.nexus-mcp-infra/url-metadata-api",
+  "title": "MCP server io.github.nexus-mcp-infra/url-metadata-api: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.nexus-mcp-infra/url-metadata-api",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Given a URL, returns title/description/preview-image/site_name from its OpenGraph/meta tags.",
+    "repository": "https://github.com/nexus-mcp-infra/url-metadata-api",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "url-metadata-api-325572559480.us-central1.run.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-22T16:48:09.291766Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/nexus-mcp-infra/url-metadata-api",
+    "https://url-metadata-api-325572559480.us-central1.run.app/mcp"
+  ],
+  "discovered_at": "2026-08-27T17:41:17Z"
+}

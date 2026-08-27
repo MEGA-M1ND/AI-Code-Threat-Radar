@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-0200project-base-tx-explai-1c055fac03",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.0200project/base-tx-explain",
+  "title": "MCP server io.github.0200project/base-tx-explain: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.0200project/base-tx-explain",
+    "rule": "status-change",
+    "version": "0.1.3",
+    "status": "deleted",
+    "description": "Plain-English decode of any Base mainnet transaction: strict JSON, risk flags, no LLM.",
+    "repository": "https://github.com/0200project/base-tx-explain",
+    "website": "https://0200project.com/",
+    "packages": [],
+    "remote_hosts": [
+      "api.0200project.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-23T22:27:30.182261Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/0200project/base-tx-explain",
+    "https://0200project.com/",
+    "https://api.0200project.com/mcp?ref=mcp-registry"
+  ],
+  "discovered_at": "2026-08-27T17:41:15Z"
+}

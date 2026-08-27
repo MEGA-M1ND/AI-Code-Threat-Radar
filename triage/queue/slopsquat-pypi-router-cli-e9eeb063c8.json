@@ -12,13 +12,13 @@
     "target": "@tanstack/router-cli",
     "rule": "scope-drop",
     "distance": 0,
+    "author": "d3vr",
     "created": "2026-02-03T11:45:07.631540Z",
+    "home_page": "https://pypi.org/project/router-cli/",
     "last_release": "2026-02-03T14:06:33.523380Z",
     "release_count": 3,
     "summary": "CLI tool to manage D-Link DSL-2750U router",
-    "author": "d3vr",
-    "home_page": "https://pypi.org/project/router-cli/",
-    "age_days": 203.8
+    "age_days": 205.2
   },
   "urls": [
     "https://pypi.org/project/router-cli/"

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-nexus-mcp-infra-document-c-fb7589b477",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.nexus-mcp-infra/document-conversion-api",
+  "title": "MCP server io.github.nexus-mcp-infra/document-conversion-api: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.nexus-mcp-infra/document-conversion-api",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Converts between PDF/Office documents and structured JSON, both directions. Pure OSS libraries, x402",
+    "repository": "https://github.com/nexus-mcp-infra/document-conversion-api",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "document-conversion-api-325572559480.us-central1.run.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-22T21:33:08.057857Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/nexus-mcp-infra/document-conversion-api",
+    "https://document-conversion-api-325572559480.us-central1.run.app/mcp"
+  ],
+  "discovered_at": "2026-08-27T17:41:17Z"
+}

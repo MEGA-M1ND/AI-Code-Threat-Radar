@@ -12,13 +12,13 @@
     "target": "clawdbot",
     "rule": "edit",
     "distance": 1,
+    "author": "",
     "created": "2026-03-03T05:44:19.077981Z",
+    "home_page": "https://pypi.org/project/clawdbot2/",
     "last_release": "2026-03-20T06:18:06.280559Z",
     "release_count": 5,
     "summary": "ClawdBot — multi-platform chatbot framework plugin for CMDOP with AI agents",
-    "author": "",
-    "home_page": "https://pypi.org/project/clawdbot2/",
-    "age_days": 176.1
+    "age_days": 177.5
   },
   "urls": [
     "https://pypi.org/project/clawdbot2/"
