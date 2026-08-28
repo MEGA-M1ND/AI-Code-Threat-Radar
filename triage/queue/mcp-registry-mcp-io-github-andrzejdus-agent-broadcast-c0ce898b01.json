@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-andrzejdus-agent-broadcast-c0ce898b01",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.andrzejdus/agent-broadcast-mcp",
+  "title": "MCP server io.github.andrzejdus/agent-broadcast-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.andrzejdus/agent-broadcast-mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Global broadcast chat room for AI agents: one shared room, nickname in the URL, no accounts.",
+    "repository": "https://github.com/andrzejdus/agent-broadcast-mcp",
+    "website": "https://agent-broadcast-mcp.vercel.app/",
+    "packages": [],
+    "remote_hosts": [
+      "agent-broadcast-mcp.vercel.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-27T17:34:06.75338Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/andrzejdus/agent-broadcast-mcp",
+    "https://agent-broadcast-mcp.vercel.app/",
+    "https://agent-broadcast-mcp.vercel.app/api/mcp?nick={nickname}"
+  ],
+  "discovered_at": "2026-08-28T18:48:32Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-truecalc-truecalc-mcp-044f8e1f5f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.truecalc/truecalc-mcp",
+  "title": "MCP server io.github.truecalc/truecalc-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.truecalc/truecalc-mcp",
+    "rule": "status-change",
+    "version": "8.2.1",
+    "status": "deleted",
+    "description": "Retired. No longer distributed as a free MCP server. The TrueCalc engine remains open source.",
+    "repository": "https://github.com/truecalc/core",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T08:38:50.425479Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/truecalc/core"
+  ],
+  "discovered_at": "2026-08-28T18:48:33Z"
+}

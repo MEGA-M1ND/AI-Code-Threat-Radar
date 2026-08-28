@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-mcpsearchconsole-search-console-0b6b172c5c",
+  "source": "mcp-registry",
+  "key": "mcp:com.mcpsearchconsole/search-console",
+  "title": "MCP server com.mcpsearchconsole/search-console: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.mcpsearchconsole/search-console",
+    "rule": "status-change",
+    "version": "0.10.1",
+    "status": "deleted",
+    "description": "SEO analytics from Google Search Console: keyword rankings, clicks, impressions, CTR. Read-only.",
+    "repository": "",
+    "website": "https://mcpsearchconsole.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcpsearchconsole.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T06:29:40.134406Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcpsearchconsole.com",
+    "https://mcpsearchconsole.com/mcp"
+  ],
+  "discovered_at": "2026-08-28T18:48:31Z"
+}

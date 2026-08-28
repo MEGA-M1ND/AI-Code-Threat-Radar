@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-loosewired-continuity-432864b5e1",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.loosewired/continuity",
+  "title": "MCP server io.github.loosewired/continuity: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.loosewired/continuity",
+    "rule": "status-change",
+    "version": "0.5.2",
+    "status": "deleted",
+    "description": "Owner-only private-beta context and verified handoffs. Public discovery grants no private access.",
+    "repository": "",
+    "website": "https://continuity.loosewire.workers.dev/support",
+    "packages": [],
+    "remote_hosts": [
+      "continuity.loosewire.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-25T22:19:37.109945Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://continuity.loosewire.workers.dev/support",
+    "https://continuity.loosewire.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-08-28T18:48:33Z"
+}

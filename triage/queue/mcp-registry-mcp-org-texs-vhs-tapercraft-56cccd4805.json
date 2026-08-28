@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-org-texs-vhs-tapercraft-56cccd4805",
+  "source": "mcp-registry",
+  "key": "mcp:org.texs.vhs/tapercraft",
+  "title": "MCP server org.texs.vhs/tapercraft: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "org.texs.vhs/tapercraft",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Compose printable VHS, DVD, cassette, CD and vinyl packaging from any movie, show, or album.",
+    "repository": "",
+    "website": "https://vhs.texs.org/en/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "vhs.texs.org"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-27T16:19:39.738334Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://vhs.texs.org/en/mcp",
+    "https://vhs.texs.org/mcp"
+  ],
+  "discovered_at": "2026-08-28T18:48:34Z"
+}

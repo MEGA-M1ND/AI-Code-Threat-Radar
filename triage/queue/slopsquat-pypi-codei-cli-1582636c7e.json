@@ -18,7 +18,7 @@
     "last_release": "2026-06-26T04:16:00.996329Z",
     "release_count": 13,
     "summary": "终端优先的 AI 编程 Agent，用自然语言在本地仓库中读代码、改代码、跑命令、调试问题。",
-    "age_days": 83.5
+    "age_days": 84.6
   },
   "urls": [
     "https://pypi.org/project/codei-cli/"

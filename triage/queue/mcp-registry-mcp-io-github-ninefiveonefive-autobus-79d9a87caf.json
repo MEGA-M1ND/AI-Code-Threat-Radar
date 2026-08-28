@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-ninefiveonefive-autobus-79d9a87caf",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ninefiveonefive/autobus",
+  "title": "MCP server io.github.ninefiveonefive/autobus: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ninefiveonefive/autobus",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "Signed attestations for agents, $0.01/call via x402: URL witness, AI permission, tx finality, JWKS.",
+    "repository": "https://github.com/ninefiveonefive/web-bot-auth-check",
+    "website": "https://witness.holoweave.org",
+    "packages": [],
+    "remote_hosts": [
+      "witness.holoweave.org"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-27T12:44:41.844808Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ninefiveonefive/web-bot-auth-check",
+    "https://witness.holoweave.org",
+    "https://witness.holoweave.org/mcp"
+  ],
+  "discovered_at": "2026-08-28T18:48:33Z"
+}

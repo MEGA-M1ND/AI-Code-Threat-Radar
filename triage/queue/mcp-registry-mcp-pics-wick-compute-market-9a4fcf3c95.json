@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-pics-wick-compute-market-9a4fcf3c95",
+  "source": "mcp-registry",
+  "key": "mcp:pics.wick.compute/market",
+  "title": "MCP server pics.wick.compute/market: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "pics.wick.compute/market",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deprecated",
+    "description": "Live GPU spot market: 1,700+ offers, 10 provider feeds. History, watches, limit orders, no fee",
+    "repository": "https://github.com/aitools420/compute-wick",
+    "website": "https://compute.wick.pics/agents/",
+    "packages": [],
+    "remote_hosts": [
+      "compute.wick.pics"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-24T04:39:57.436058Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/aitools420/compute-wick",
+    "https://compute.wick.pics/agents/",
+    "https://compute.wick.pics/mcp/"
+  ],
+  "discovered_at": "2026-08-28T18:48:34Z"
+}
