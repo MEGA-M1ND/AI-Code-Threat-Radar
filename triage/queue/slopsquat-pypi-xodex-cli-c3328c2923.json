@@ -18,7 +18,7 @@
     "last_release": "2025-09-15T12:01:04.234466Z",
     "release_count": 9,
     "summary": "CLI Agente de IA (DeepSeek | OpenAI | Gemini | Grok) para terminal, com contexto de projeto e ferramentas de dev.",
-    "age_days": 349.7
+    "age_days": 350.4
   },
   "urls": [
     "https://pypi.org/project/xodex-cli/"

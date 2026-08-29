@@ -18,7 +18,7 @@
     "last_release": "2026-02-03T14:06:33.523380Z",
     "release_count": 3,
     "summary": "CLI tool to manage D-Link DSL-2750U router",
-    "age_days": 206.3
+    "age_days": 207.0
   },
   "urls": [
     "https://pypi.org/project/router-cli/"
