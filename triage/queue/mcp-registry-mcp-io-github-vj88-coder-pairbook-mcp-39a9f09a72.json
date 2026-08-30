@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-vj88-coder-pairbook-mcp-39a9f09a72",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.vj88-coder/pairbook-mcp",
+  "title": "MCP server io.github.vj88-coder/pairbook-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.vj88-coder/pairbook-mcp",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "Portfolio risk analysis, correlation and ETF overlap for 4,700+ US stocks and ETFs. Free, no key.",
+    "repository": "https://github.com/vj88-coder/pairbook-mcp",
+    "website": "https://www.pairbook.io",
+    "packages": [
+      "npm:pairbook-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T21:40:48.45378Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/vj88-coder/pairbook-mcp",
+    "https://www.pairbook.io"
+  ],
+  "discovered_at": "2026-08-30T12:00:06Z"
+}

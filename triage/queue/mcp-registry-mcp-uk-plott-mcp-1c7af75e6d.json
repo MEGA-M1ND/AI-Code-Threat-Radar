@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-uk-plott-mcp-1c7af75e6d",
+  "source": "mcp-registry",
+  "key": "mcp:uk.plott/mcp",
+  "title": "MCP server uk.plott/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "uk.plott/mcp",
+    "rule": "status-change",
+    "version": "1.0.3",
+    "status": "deleted",
+    "description": "UK planning MCP: applications, workspace, and outreach over Streamable HTTP OAuth.",
+    "repository": "https://github.com/koynlabs/mcp-plott",
+    "website": "https://plott.uk/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "plott.uk"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-29T16:56:57.4943Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/koynlabs/mcp-plott",
+    "https://plott.uk/mcp",
+    "https://plott.uk/api/mcp"
+  ],
+  "discovered_at": "2026-08-30T12:00:06Z"
+}

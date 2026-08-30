@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-com-getstarhunt-starhunt-7e1c437919",
+  "source": "mcp-registry",
+  "key": "mcp:com.getstarhunt/starhunt",
+  "title": "MCP server com.getstarhunt/starhunt: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.getstarhunt/starhunt",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Find engineers by what they build on GitHub. Search by technology, location and role.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "app.getstarhunt.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T23:58:49.319723Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://app.getstarhunt.com/mcp"
+  ],
+  "discovered_at": "2026-08-30T12:00:04Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-koynfx-mcp-a817b58b92",
+  "source": "mcp-registry",
+  "key": "mcp:com.koynfx/mcp",
+  "title": "MCP server com.koynfx/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.koynfx/mcp",
+    "rule": "status-change",
+    "version": "1.0.3",
+    "status": "deleted",
+    "description": "Remote MCP for KOYN FX: account, markets, and TradeLocker tools over OAuth.",
+    "repository": "https://github.com/koynlabs/mcp-koynfx",
+    "website": "https://koynfx.com/docs.html",
+    "packages": [],
+    "remote_hosts": [
+      "agent.koynfx.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-29T16:56:56.288922Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/koynlabs/mcp-koynfx",
+    "https://koynfx.com/docs.html",
+    "https://agent.koynfx.com/mcp"
+  ],
+  "discovered_at": "2026-08-30T12:00:04Z"
+}
