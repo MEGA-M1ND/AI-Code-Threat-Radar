@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-alexanderkaan-uisandbox-7157b23893",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AlexanderKaan/uisandbox",
+  "title": "MCP server io.github.AlexanderKaan/uisandbox: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AlexanderKaan/uisandbox",
+    "rule": "status-change",
+    "version": "0.3.2",
+    "status": "deprecated",
+    "description": "Test your design on the real thing: load a built web app, turn its knobs, verify 1:1, export.",
+    "repository": "https://github.com/AlexanderKaan/uisandbox",
+    "website": "https://uisandbox.org",
+    "packages": [
+      "npm:uisandbox-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-20T15:31:41.089873Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/AlexanderKaan/uisandbox",
+    "https://uisandbox.org"
+  ],
+  "discovered_at": "2026-08-31T14:02:37Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-vaibhavmule-aft-page-066f3102fa",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.vaibhavmule/aft-page",
+  "title": "MCP server io.github.vaibhavmule/aft-page: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.vaibhavmule/aft-page",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Deploy HTML or dist/ to a live HTTPS URL. No account. Drop, MCP, or CLI.",
+    "repository": "https://github.com/vaibhavmule/aft.page",
+    "website": "https://aft.page/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.aft.page"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-30T05:24:45.800397Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/vaibhavmule/aft.page",
+    "https://aft.page/mcp",
+    "https://mcp.aft.page/mcp"
+  ],
+  "discovered_at": "2026-08-31T14:02:39Z"
+}

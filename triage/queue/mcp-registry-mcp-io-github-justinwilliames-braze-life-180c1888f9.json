@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-justinwilliames-braze-life-180c1888f9",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.justinwilliames/braze-lifecycle-mcp",
+  "title": "MCP server io.github.justinwilliames/braze-lifecycle-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.justinwilliames/braze-lifecycle-mcp",
+    "rule": "status-change",
+    "version": "0.31.0",
+    "status": "deprecated",
+    "description": "Lifecycle marketing in Claude: Braze, email QA, deliverability, segmentation. Free, no key.",
+    "repository": "",
+    "website": "https://yourorbit.team",
+    "packages": [
+      "mcpb:https://github.com/justinwilliames/orbit-for-claude/releases/download/v0.31.0/orbit-lifecycle-marketing-system-for-claude.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-20T08:54:40.39619Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://yourorbit.team"
+  ],
+  "discovered_at": "2026-08-31T14:02:38Z"
+}

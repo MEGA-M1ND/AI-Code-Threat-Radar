@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-tizonamcp-tizona-3e7523e00f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.TizonaMCP/tizona",
+  "title": "MCP server io.github.TizonaMCP/tizona: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.TizonaMCP/tizona",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Australian identifier validation, GST arithmetic, fuzzy name matching, OFAC sanctions screening.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "tizona.venusberg.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-21T22:39:24.647103Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tizona.venusberg.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-08-31T14:02:37Z"
+}

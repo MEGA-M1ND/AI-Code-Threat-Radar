@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-com-memroam-memroam-c3140c1bf4",
+  "source": "mcp-registry",
+  "key": "mcp:com.memroam/memroam",
+  "title": "MCP server com.memroam/memroam: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.memroam/memroam",
+    "rule": "status-change",
+    "version": "0.4.1",
+    "status": "deleted",
+    "description": "Portable AI memory that roams with you across models and harnesses - plain markdown you own.",
+    "repository": "",
+    "website": "https://memroam.com",
+    "packages": [
+      "npm:memroam"
+    ],
+    "remote_hosts": [
+      "memroam.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-26T05:32:00.520493Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://memroam.com",
+    "https://memroam.com/mcp"
+  ],
+  "discovered_at": "2026-08-31T14:02:37Z"
+}

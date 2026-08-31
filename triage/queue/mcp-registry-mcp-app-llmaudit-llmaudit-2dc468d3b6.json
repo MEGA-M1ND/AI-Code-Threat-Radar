@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-app-llmaudit-llmaudit-2dc468d3b6",
+  "source": "mcp-registry",
+  "key": "mcp:app.llmaudit/llmaudit",
+  "title": "MCP server app.llmaudit/llmaudit: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.llmaudit/llmaudit",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Measure whether AI assistants actually recommend a brand, from measured answers.",
+    "repository": "https://github.com/nahuelsoria/llmaudit-mcp",
+    "website": "https://llmaudit.app",
+    "packages": [
+      "npm:llmaudit-mcp"
+    ],
+    "remote_hosts": [
+      "mcp.llmaudit.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T14:18:57.443307Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/nahuelsoria/llmaudit-mcp",
+    "https://llmaudit.app",
+    "https://mcp.llmaudit.app/mcp"
+  ],
+  "discovered_at": "2026-08-31T14:02:36Z"
+}
