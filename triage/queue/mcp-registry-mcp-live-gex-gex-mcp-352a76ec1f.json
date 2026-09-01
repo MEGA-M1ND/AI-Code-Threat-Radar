@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-live-gex-gex-mcp-352a76ec1f",
+  "source": "mcp-registry",
+  "key": "mcp:live.gex/gex-mcp",
+  "title": "MCP server live.gex/gex-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "live.gex/gex-mcp",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deleted",
+    "description": "Backtest SPX gamma exposure (GEX) rules: dealer flip, call/put walls, 1,000+ session archive",
+    "repository": "",
+    "website": "https://gex.live",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.gex.live"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-29T20:51:45.167605Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://gex.live",
+    "https://mcp.gex.live/mcp"
+  ],
+  "discovered_at": "2026-09-01T11:46:01Z"
+}

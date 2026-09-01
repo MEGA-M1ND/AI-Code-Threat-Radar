@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-j-256-guildcontrol-2cb453454e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.j-256/guildcontrol",
+  "title": "MCP server io.github.j-256/guildcontrol: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.j-256/guildcontrol",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "Safety-first MCP server for Discord with privacy-safe reads, audits, and reviewed administration",
+    "repository": "https://github.com/j-256/guildcontrol",
+    "website": "https://guildcontrol.lasers.app",
+    "packages": [
+      "npm:guildctl",
+      "oci:ghcr.io/j-256/guildcontrol:0.2.0",
+      "mcpb:https://github.com/j-256/guildcontrol/releases/download/v0.2.0/guildcontrol-0.2.0.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-31T20:45:12.576279Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/j-256/guildcontrol",
+    "https://guildcontrol.lasers.app"
+  ],
+  "discovered_at": "2026-09-01T11:46:00Z"
+}
