@@ -44,38 +44,38 @@
     "veim": "security-holding",
     "yarsg": "security-holding"
   },
-  "npm_cursor": 69,
+  "npm_cursor": 16,
   "npm_last_window": [
-    "codex-cli",
-    "codexui-android",
-    "create-mcp-use-app",
-    "echarts-for-react",
-    "editable-contracts",
-    "figma-developer-mcp",
-    "flat-cache",
-    "github-copilot",
-    "google-genai",
-    "hamus.js",
-    "http-metrics-middleware",
-    "huggingface-hub",
-    "ids-enterprise-mcp-server",
-    "jest-canvas-mock",
-    "langchain",
-    "langchain-core",
-    "langgraph",
-    "lite-serper-mcp-server",
-    "llama-index",
-    "llamaindex",
-    "mcp-remote",
-    "modelcontextprotocol",
-    "nextmove-mcp",
-    "openai-agents",
-    "openclaw"
+    "picasso-plugin-q",
+    "picasso.js",
+    "sentence-transformers",
+    "size-sensor",
+    "tiktoken",
+    "timeago.js",
+    "transformers",
+    "web-scraper-mcp",
+    "windsurf",
+    "claude-code",
+    "mcp-server-browserbase",
+    "magnet-link",
+    "qbittorrent",
+    "tinycolor",
+    "transmission",
+    "gemini-cli",
+    "server-filesystem",
+    "enterprise-cloud",
+    "workspace",
+    "pnpm-audit-junit",
+    "mcp-ui-client",
+    "postman-mcp-cli",
+    "postman-mcp-server",
+    "claude-context-mcp",
+    "mcp-server-relytone"
   ],
   "pypi_details": {
     "TransformerST": {
       "author": "Chris",
-      "checked": "2026-08-26T07:12:29Z",
+      "checked": "2026-09-02T11:27:26Z",
       "created": "2024-01-07T13:36:53.287287Z",
       "home_page": "https://pypi.org/project/TransformerST/",
       "last_release": "2024-01-07T13:36:53.287287Z",
@@ -84,7 +84,7 @@
     },
     "cachable": {
       "author": "Klas Leino",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:22Z",
       "created": "2021-02-09T05:58:57.673735Z",
       "home_page": "https://github.com/klasleino/caching",
       "last_release": "2021-02-09T05:58:59.005236Z",
@@ -93,7 +93,7 @@
     },
     "cacheables": {
       "author": "Thom Lane",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2023-07-31T18:05:00.341044Z",
       "home_page": "https://github.com/thomelane/cacheables",
       "last_release": "2023-08-29T10:04:31.342002Z",
@@ -102,7 +102,7 @@
     },
     "clawbot": {
       "author": "",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2026-02-25T07:37:15.844514Z",
       "home_page": "https://pypi.org/project/clawbot/",
       "last_release": "2026-08-13T16:34:28.480814Z",
@@ -111,7 +111,7 @@
     },
     "clawdbot2": {
       "author": "",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2026-03-03T05:44:19.077981Z",
       "home_page": "https://pypi.org/project/clawdbot2/",
       "last_release": "2026-03-20T06:18:06.280559Z",
@@ -120,7 +120,7 @@
     },
     "clawdboz": {
       "author": "Clawdboz Team <clawdboz@example.com>",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2026-02-16T17:56:49.401824Z",
       "home_page": "https://pypi.org/project/clawdboz/",
       "last_release": "2026-06-12T16:34:13.527576Z",
@@ -129,7 +129,7 @@
     },
     "codei-cli": {
       "author": "007gzs <007gzs@gmail.com>",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2026-06-05T05:09:38.100773Z",
       "home_page": "https://pypi.org/project/codei-cli/",
       "last_release": "2026-06-26T04:16:00.996329Z",
@@ -138,7 +138,7 @@
     },
     "codet-cli": {
       "author": "code-t contributors",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2026-07-09T08:07:08.004481Z",
       "home_page": "https://pypi.org/project/codet-cli/",
       "last_release": "2026-07-09T08:07:08.004481Z",
@@ -147,7 +147,7 @@
     },
     "codey-cli": {
       "author": "Joway",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2026-02-01T13:37:09.285618Z",
       "home_page": "https://pypi.org/project/codey-cli/",
       "last_release": "2026-02-01T14:04:17.714970Z",
@@ -156,7 +156,7 @@
     },
     "codez-cli": {
       "author": "Sadat Sayem",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2025-07-03T17:12:24.686485Z",
       "home_page": "https://github.com/sam43/code-z-cli",
       "last_release": "2025-07-20T08:19:52.300743Z",
@@ -165,7 +165,7 @@
     },
     "ctransformers": {
       "author": "Ravindra Marella",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2023-05-14T23:22:37.310833Z",
       "home_page": "https://github.com/marella/ctransformers",
       "last_release": "2023-09-10T15:19:14.990008Z",
@@ -174,7 +174,7 @@
     },
     "klaude-code": {
       "author": "",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2025-06-25T05:37:21.296578Z",
       "home_page": "https://pypi.org/project/klaude-code/",
       "last_release": "2026-07-20T07:12:31.435859Z",
@@ -183,16 +183,16 @@
     },
     "ktransformers": {
       "author": "kvcache-ai",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:23Z",
       "created": "2024-07-29T08:03:22.177934Z",
       "home_page": "https://pypi.org/project/ktransformers/",
-      "last_release": "2026-08-18T10:50:41.313286Z",
-      "release_count": 18,
+      "last_release": "2026-08-27T16:22:13.908623Z",
+      "release_count": 21,
       "summary": "KTransformers: CPU-GPU heterogeneous inference framework for LLMs"
     },
     "langchain-code": {
       "author": "",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2025-09-11T14:41:52.517870Z",
       "home_page": "https://pypi.org/project/langchain-code/",
       "last_release": "2025-11-20T20:38:19.035017Z",
@@ -201,7 +201,7 @@
     },
     "langchain-coze": {
       "author": "zbmain",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2024-10-19T01:34:38.309118Z",
       "home_page": "https://pypi.org/project/langchain-coze/",
       "last_release": "2024-10-28T02:46:29.587480Z",
@@ -210,7 +210,7 @@
     },
     "langchainn": {
       "author": "",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2023-09-15T15:06:04.981968Z",
       "home_page": "https://github.com/Ahmed14z/langchain-multiuser",
       "last_release": "2023-09-15T15:06:19.476715Z",
@@ -219,16 +219,16 @@
     },
     "langchaint": {
       "author": "John Hopfensperger",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2026-07-17T15:23:03.429346Z",
       "home_page": "https://pypi.org/project/langchaint/",
-      "last_release": "2026-08-26T03:24:58.651078Z",
-      "release_count": 26,
+      "last_release": "2026-09-01T19:06:31.925111Z",
+      "release_count": 32,
       "summary": "It ain't langchain."
     },
     "langchian": {
       "author": "",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2026-01-08T07:44:25.204359Z",
       "home_page": "https://pypi.org/project/langchian/",
       "last_release": "2026-01-11T13:18:04.651648Z",
@@ -237,7 +237,7 @@
     },
     "longchain": {
       "author": "",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2024-08-09T15:18:15.890381Z",
       "home_page": "https://pypi.org/project/longchain/",
       "last_release": "2024-09-03T16:10:20.157405Z",
@@ -246,7 +246,7 @@
     },
     "openai-agent": {
       "author": "-LAN-",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2023-06-24T09:42:17.568130Z",
       "home_page": "https://pypi.org/project/openai-agent/",
       "last_release": "2023-06-24T09:42:19.648743Z",
@@ -255,7 +255,7 @@
     },
     "openclay": {
       "author": "Neuralchemy",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2026-03-16T10:28:48.446058Z",
       "home_page": "https://github.com/neuralchemy/openclay",
       "last_release": "2026-03-25T15:44:02.771844Z",
@@ -264,7 +264,7 @@
     },
     "openlaw": {
       "author": "Yehuda Deutsch",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2019-10-28T16:43:57.963085Z",
       "home_page": "https://pypi.org/project/openlaw/",
       "last_release": "2019-10-28T16:45:02.824726Z",
@@ -273,7 +273,7 @@
     },
     "qbittorrent": {
       "author": "Mookfist",
-      "checked": "2026-08-26T07:12:27Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2015-10-12T19:52:23.416540Z",
       "home_page": "https://github.com/mookfist/python-qbittorent",
       "last_release": "2015-10-13T03:25:24.747482Z",
@@ -282,7 +282,7 @@
     },
     "router-cli": {
       "author": "d3vr",
-      "checked": "2026-08-26T07:12:28Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2026-02-03T11:45:07.631540Z",
       "home_page": "https://pypi.org/project/router-cli/",
       "last_release": "2026-02-03T14:06:33.523380Z",
@@ -291,7 +291,7 @@
     },
     "tinycolor": {
       "author": "Raphael B.",
-      "checked": "2026-08-26T07:12:28Z",
+      "checked": "2026-09-02T11:27:24Z",
       "created": "2014-08-29T03:44:25.006489Z",
       "home_page": "http://github.com/rbaron/tinycolor",
       "last_release": "2014-08-29T03:44:25.006489Z",
@@ -300,7 +300,7 @@
     },
     "transformers3": {
       "author": "John Reese",
-      "checked": "2026-08-26T07:12:29Z",
+      "checked": "2026-09-02T11:27:26Z",
       "created": "2022-02-23T18:44:37.896921Z",
       "home_page": "https://pypi.org/project/transformers3/",
       "last_release": "2022-02-23T18:44:37.896921Z",
@@ -309,7 +309,7 @@
     },
     "transformerx": {
       "author": "Soran Ghaderi",
-      "checked": "2026-08-26T07:12:29Z",
+      "checked": "2026-09-02T11:27:26Z",
       "created": "2022-09-06T10:12:26.474507Z",
       "home_page": "https://github.com/tensorops/TransformerX",
       "last_release": "2022-09-06T10:12:29.011523Z",
@@ -318,7 +318,7 @@
     },
     "transmission": {
       "author": "hangarunderground",
-      "checked": "2026-08-26T07:12:29Z",
+      "checked": "2026-09-02T11:27:26Z",
       "created": "2016-01-14T05:23:45.860247Z",
       "home_page": "https://github.com/hangarunderground/transmission",
       "last_release": "2016-01-14T05:23:45.860247Z",
@@ -327,7 +327,7 @@
     },
     "workspace": {
       "author": "Andy Smith",
-      "checked": "2026-08-26T07:12:29Z",
+      "checked": "2026-09-02T11:27:26Z",
       "created": "2006-04-02T00:40:56Z",
       "home_page": "http://an9.org/w/WorkspacePy",
       "last_release": "2006-04-03T12:09:29Z",
@@ -336,7 +336,7 @@
     },
     "xodex-cli": {
       "author": "xodex-cli",
-      "checked": "2026-08-26T07:12:29Z",
+      "checked": "2026-09-02T11:27:26Z",
       "created": "2025-09-13T02:01:27.669362Z",
       "home_page": "https://pypi.org/project/xodex-cli/",
       "last_release": "2025-09-15T12:01:04.234466Z",
@@ -344,9 +344,9 @@
       "summary": "CLI Agente de IA (DeepSeek | OpenAI | Gemini | Grok) para terminal, com contexto de projeto e ferramentas de dev."
     }
   },
-  "pypi_etag": "\"vYwwnbq2O6xtuZJJJX0cvA\"",
+  "pypi_etag": "\"Wpo8KfMVQQ5ag1n8Ud5S0w\"",
   "pypi_last_sweep": {
     "hits": 31,
-    "names": 882532
+    "names": 883255
   }
 }

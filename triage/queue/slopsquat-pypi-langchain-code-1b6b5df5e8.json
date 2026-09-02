@@ -12,13 +12,13 @@
     "target": "langchain-core",
     "rule": "edit",
     "distance": 1,
-    "author": "",
     "created": "2025-09-11T14:41:52.517870Z",
-    "home_page": "https://pypi.org/project/langchain-code/",
     "last_release": "2025-11-20T20:38:19.035017Z",
     "release_count": 15,
     "summary": "A comprehensive combination of all agentic CLI at one place with 🦜🔗!",
-    "age_days": 354.9
+    "author": "",
+    "home_page": "https://pypi.org/project/langchain-code/",
+    "age_days": 355.9
   },
   "urls": [
     "https://pypi.org/project/langchain-code/"

@@ -26,7 +26,7 @@
     "description": "MCP server for accessing Claude Code context files (index and resolutions)",
     "latest_version": "1.0.1",
     "publisher": "jackson7362085",
-    "age_days": 221.4,
+    "age_days": 224.4,
     "found_via": "claude-context-mcp"
   },
   "urls": [

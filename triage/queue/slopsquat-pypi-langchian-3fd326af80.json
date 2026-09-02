@@ -12,13 +12,13 @@
     "target": "langchain",
     "rule": "edit",
     "distance": 1,
-    "author": "",
     "created": "2026-01-08T07:44:25.204359Z",
-    "home_page": "https://pypi.org/project/langchian/",
     "last_release": "2026-01-11T13:18:04.651648Z",
     "release_count": 4,
     "summary": "Toy library for AI related stuff",
-    "age_days": 236.2
+    "author": "",
+    "home_page": "https://pypi.org/project/langchian/",
+    "age_days": 237.2
   },
   "urls": [
     "https://pypi.org/project/langchian/"

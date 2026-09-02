@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-work-moja-ui-830a333a0c",
+  "source": "mcp-registry",
+  "key": "mcp:work.moja/ui",
+  "title": "MCP server work.moja/ui: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "work.moja/ui",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Read-only catalog of the @mojawork/ui Angular components: docs, API links, usage guide.",
+    "repository": "",
+    "website": "https://moja.work/storybook/",
+    "packages": [],
+    "remote_hosts": [
+      "moja.work"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-22T07:39:15.556607Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://moja.work/storybook/",
+    "https://moja.work/ui/mcp"
+  ],
+  "discovered_at": "2026-09-02T11:27:15Z"
+}

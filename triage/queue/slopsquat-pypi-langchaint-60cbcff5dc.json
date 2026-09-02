@@ -12,13 +12,13 @@
     "target": "langchain",
     "rule": "edit",
     "distance": 1,
-    "author": "John Hopfensperger",
     "created": "2026-07-17T15:23:03.429346Z",
-    "home_page": "https://pypi.org/project/langchaint/",
-    "last_release": "2026-08-26T03:24:58.651078Z",
-    "release_count": 26,
+    "last_release": "2026-09-01T19:06:31.925111Z",
+    "release_count": 32,
     "summary": "It ain't langchain.",
-    "age_days": 45.8
+    "author": "John Hopfensperger",
+    "home_page": "https://pypi.org/project/langchaint/",
+    "age_days": 46.8
   },
   "urls": [
     "https://pypi.org/project/langchaint/"

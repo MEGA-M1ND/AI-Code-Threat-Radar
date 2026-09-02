@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-ligafew-apcs-public-mcp-ga-ae9a07ceeb",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ligafew/apcs-public-mcp-gateway",
+  "title": "MCP server io.github.ligafew/apcs-public-mcp-gateway: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ligafew/apcs-public-mcp-gateway",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Fresh scoped PyPI install and import verification on Linux x86_64 and CPython 3.13.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "apcs-public-mcp-gateway.itsnotevenbutter03.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-01T11:04:37.632115Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apcs-public-mcp-gateway.itsnotevenbutter03.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-09-02T11:27:15Z"
+}
