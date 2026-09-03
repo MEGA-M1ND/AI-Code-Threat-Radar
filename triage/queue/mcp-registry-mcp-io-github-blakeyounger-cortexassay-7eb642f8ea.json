@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-blakeyounger-cortexassay-7eb642f8ea",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.blakeyounger/cortexassay",
+  "title": "MCP server io.github.blakeyounger/cortexassay: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.blakeyounger/cortexassay",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deprecated",
+    "description": "Renamed to AnswerPool; see io.github.blakeyounger/answerpool. SEC, Federal Register, funding",
+    "repository": "",
+    "website": "https://answerpool.io",
+    "packages": [],
+    "remote_hosts": [
+      "cortexassay.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-31T02:50:29.101902Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://answerpool.io",
+    "https://cortexassay.com/mcp"
+  ],
+  "discovered_at": "2026-09-03T11:23:22Z"
+}

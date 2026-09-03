@@ -12,13 +12,13 @@
     "target": "clawdbot",
     "rule": "edit",
     "distance": 1,
+    "author": "Clawdboz Team <clawdboz@example.com>",
     "created": "2026-02-16T17:56:49.401824Z",
+    "home_page": "https://pypi.org/project/clawdboz/",
     "last_release": "2026-06-12T16:34:13.527576Z",
     "release_count": 52,
     "summary": "clawdboz - 基于 ACP 协议的多智能体 IM 协作平台",
-    "author": "Clawdboz Team <clawdboz@example.com>",
-    "home_page": "https://pypi.org/project/clawdboz/",
-    "age_days": 197.7
+    "age_days": 198.7
   },
   "urls": [
     "https://pypi.org/project/clawdboz/"

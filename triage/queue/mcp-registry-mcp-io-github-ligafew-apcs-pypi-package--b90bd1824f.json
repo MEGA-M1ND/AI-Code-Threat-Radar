@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-ligafew-apcs-pypi-package--b90bd1824f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ligafew/apcs-pypi-package-verification",
+  "title": "MCP server io.github.ligafew/apcs-pypi-package-verification: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ligafew/apcs-pypi-package-verification",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Fresh PyPI install/import evidence on Linux x86_64 / CPython 3.13.",
+    "repository": "",
+    "website": "https://apcs-public-mcp-gateway.itsnotevenbutter03.workers.dev/",
+    "packages": [],
+    "remote_hosts": [
+      "apcs-public-mcp-gateway.itsnotevenbutter03.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-01T12:10:04.068352Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apcs-public-mcp-gateway.itsnotevenbutter03.workers.dev/",
+    "https://apcs-public-mcp-gateway.itsnotevenbutter03.workers.dev/mcp/python-package-verification"
+  ],
+  "discovered_at": "2026-09-03T11:23:22Z"
+}

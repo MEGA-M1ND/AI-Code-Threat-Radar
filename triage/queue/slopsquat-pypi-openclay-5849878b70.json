@@ -12,13 +12,13 @@
     "target": "openclaw",
     "rule": "edit",
     "distance": 1,
+    "author": "Neuralchemy",
     "created": "2026-03-16T10:28:48.446058Z",
+    "home_page": "https://github.com/neuralchemy/openclay",
     "last_release": "2026-03-25T15:44:02.771844Z",
     "release_count": 6,
     "summary": "The Secure-by-Default Execution Framework for LLM Agents.",
-    "author": "Neuralchemy",
-    "home_page": "https://github.com/neuralchemy/openclay",
-    "age_days": 170.0
+    "age_days": 171.0
   },
   "urls": [
     "https://pypi.org/project/openclay/"

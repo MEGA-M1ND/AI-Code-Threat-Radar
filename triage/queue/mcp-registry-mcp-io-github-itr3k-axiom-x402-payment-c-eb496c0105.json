@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-itr3k-axiom-x402-payment-c-eb496c0105",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Itr3k/axiom-x402-payment-crypto-router",
+  "title": "MCP server io.github.Itr3k/axiom-x402-payment-crypto-router: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Itr3k/axiom-x402-payment-crypto-router",
+    "rule": "status-change",
+    "version": "0.3.1",
+    "status": "deleted",
+    "description": "Axiom by Elevated AI: buy x402-paid APIs, route non-custodial crypto swaps on Base. You sign.",
+    "repository": "https://github.com/Itr3k/axiom-relay",
+    "website": "https://axiom.elevatedai.io",
+    "packages": [],
+    "remote_hosts": [
+      "axiom.elevatedai.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-26T01:15:47.324744Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Itr3k/axiom-relay",
+    "https://axiom.elevatedai.io",
+    "https://axiom.elevatedai.io/mcp"
+  ],
+  "discovered_at": "2026-09-03T11:23:21Z"
+}
