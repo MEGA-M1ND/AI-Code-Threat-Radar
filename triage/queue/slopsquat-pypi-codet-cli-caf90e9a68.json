@@ -18,7 +18,7 @@
     "last_release": "2026-07-09T08:07:08.004481Z",
     "release_count": 1,
     "summary": "Code review, API testing, and security audit CLI tool",
-    "age_days": 56.1
+    "age_days": 57.1
   },
   "urls": [
     "https://pypi.org/project/codet-cli/"
