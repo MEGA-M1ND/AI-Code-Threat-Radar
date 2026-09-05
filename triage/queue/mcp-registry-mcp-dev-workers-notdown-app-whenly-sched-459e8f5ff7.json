@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-notdown-app-whenly-sched-459e8f5ff7",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.notdown-app.whenly/schedule",
+  "title": "MCP server dev.workers.notdown-app.whenly/schedule: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.notdown-app.whenly/schedule",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Agent creates a group-scheduling poll, gets a shareable link, and reads the best meeting time.",
+    "repository": "",
+    "website": "https://whenly.notdown-app.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "whenly.notdown-app.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-30T01:51:05.854803Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://whenly.notdown-app.workers.dev",
+    "https://whenly.notdown-app.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-09-05T10:42:55Z"
+}

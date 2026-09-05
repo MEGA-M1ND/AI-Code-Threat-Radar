@@ -27,7 +27,7 @@
     "description": "High-level binding to tiktoken-rs for Node.js and browsers",
     "latest_version": "1.0.2",
     "publisher": "snowflake7",
-    "age_days": 374.9,
+    "age_days": 377.9,
     "found_via": "tiktoken"
   },
   "urls": [

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-nicholasdominici-orbit-d4efd84584",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.NicholasDominici/orbit",
+  "title": "MCP server io.github.NicholasDominici/orbit: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.NicholasDominici/orbit",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "The most in-depth, source-backed context about a person for deep personalization and research.",
+    "repository": "",
+    "website": "https://developer.orbitsearch.com/",
+    "packages": [],
+    "remote_hosts": [
+      "chatgpt.orbitsearch.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-04T00:29:31.265895Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://developer.orbitsearch.com/",
+    "https://chatgpt.orbitsearch.com/mcp"
+  ],
+  "discovered_at": "2026-09-05T10:42:56Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-symvanta-symvanta-5a01b728e8",
+  "source": "mcp-registry",
+  "key": "mcp:com.symvanta/symvanta",
+  "title": "MCP server com.symvanta/symvanta: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.symvanta/symvanta",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Hosted code graph over MCP: exact callers, dependencies, and cross-repo blast radius for AI agents.",
+    "repository": "",
+    "website": "https://symvanta.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.symvanta.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-26T06:42:58.985196Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://symvanta.com",
+    "https://mcp.symvanta.com/mcp"
+  ],
+  "discovered_at": "2026-09-05T10:42:55Z"
+}
