@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-net-nexlab-support-macro-builder-281757b2ff",
+  "source": "mcp-registry",
+  "key": "mcp:net.nexlab/support-macro-builder",
+  "title": "MCP server net.nexlab/support-macro-builder: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.nexlab/support-macro-builder",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Turn support scenarios into reusable customer-service macros, escalation rules, and QA checklists",
+    "repository": "",
+    "website": "https://mcp.nexlab.net/s/support-macro-builder",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.nexlab.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T05:02:26.677356Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.nexlab.net/s/support-macro-builder",
+    "https://mcp.nexlab.net/mcp/support-macro-builder"
+  ],
+  "discovered_at": "2026-09-06T11:04:26Z"
+}

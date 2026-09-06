@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-br-app-classificado-meta-agent-tools-99e79805b6",
+  "source": "mcp-registry",
+  "key": "mcp:br.app.classificado/meta-agent-tools",
+  "title": "MCP server br.app.classificado/meta-agent-tools: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "br.app.classificado/meta-agent-tools",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Registry of MCP servers, agent skills and plugins: search, filter, comments, likes, publish.",
+    "repository": "",
+    "website": "https://classificado.app.br",
+    "packages": [],
+    "remote_hosts": [
+      "classificado.app.br"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T01:51:45.582349Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://classificado.app.br",
+    "https://classificado.app.br/mcp"
+  ],
+  "discovered_at": "2026-09-06T11:04:24Z"
+}

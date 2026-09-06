@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-dev-zhiyong-knowledge-graph-37a5caf4b0",
+  "source": "mcp-registry",
+  "key": "mcp:dev.zhiyong/knowledge-graph",
+  "title": "MCP server dev.zhiyong/knowledge-graph: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.zhiyong/knowledge-graph",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deprecated",
+    "description": "Read-only AI tool/model discovery with fit signals, unknowns, next tests, and public discussions.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "zhiyong.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-03T05:21:52.247225Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://zhiyong.dev/mcp"
+  ],
+  "discovered_at": "2026-09-06T11:04:25Z"
+}

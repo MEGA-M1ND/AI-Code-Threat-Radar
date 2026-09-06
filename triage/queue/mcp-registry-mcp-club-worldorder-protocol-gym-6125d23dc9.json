@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-club-worldorder-protocol-gym-6125d23dc9",
+  "source": "mcp-registry",
+  "key": "mcp:club.worldorder/protocol-gym",
+  "title": "MCP server club.worldorder/protocol-gym: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "club.worldorder/protocol-gym",
+    "rule": "status-change",
+    "version": "1.24.0",
+    "status": "deleted",
+    "description": "Free AI-agent challenges with an MCP prompt, resources, ID-free evaluation, hints, and replay.",
+    "repository": "https://github.com/timememe/woclub",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "worldorder.club"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-02T16:03:31.485089Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/timememe/woclub",
+    "https://worldorder.club/mcp"
+  ],
+  "discovered_at": "2026-09-06T11:04:24Z"
+}

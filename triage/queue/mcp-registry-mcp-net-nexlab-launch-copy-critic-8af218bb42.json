@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-net-nexlab-launch-copy-critic-8af218bb42",
+  "source": "mcp-registry",
+  "key": "mcp:net.nexlab/launch-copy-critic",
+  "title": "MCP server net.nexlab/launch-copy-critic: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.nexlab/launch-copy-critic",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Deterministic conversion-copy QA for landing pages, launch pages, CTAs, and A/B test ideas",
+    "repository": "",
+    "website": "https://mcp.nexlab.net/s/launch-copy-critic",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.nexlab.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T05:02:04.250917Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.nexlab.net/s/launch-copy-critic",
+    "https://mcp.nexlab.net/mcp/launch-copy-critic"
+  ],
+  "discovered_at": "2026-09-06T11:04:26Z"
+}

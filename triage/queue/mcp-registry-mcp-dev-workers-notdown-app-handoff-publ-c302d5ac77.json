@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-notdown-app-handoff-publ-c302d5ac77",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.notdown-app.handoff/publish",
+  "title": "MCP server dev.workers.notdown-app.handoff/publish: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.notdown-app.handoff/publish",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deleted",
+    "description": "Give your agent one stable URL to publish a result or keep a page updated every run. One call.",
+    "repository": "",
+    "website": "https://handoff.notdown-app.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "handoff.notdown-app.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T02:34:53.608128Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://handoff.notdown-app.workers.dev",
+    "https://handoff.notdown-app.workers.dev/mcp/{key}"
+  ],
+  "discovered_at": "2026-09-06T11:04:25Z"
+}

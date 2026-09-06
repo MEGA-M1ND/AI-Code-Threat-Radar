@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-net-nexlab-oss-monetizer-mcp-b5da43bc15",
+  "source": "mcp-registry",
+  "key": "mcp:net.nexlab/oss-monetizer-mcp",
+  "title": "MCP server net.nexlab/oss-monetizer-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.nexlab/oss-monetizer-mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Live web research + LLM market analysis for turning open-source repos",
+    "repository": "",
+    "website": "https://mcp.nexlab.net/s/oss-monetizer-mcp",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.nexlab.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T05:02:09.504482Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.nexlab.net/s/oss-monetizer-mcp",
+    "https://mcp.nexlab.net/mcp/oss-monetizer-mcp"
+  ],
+  "discovered_at": "2026-09-06T11:04:26Z"
+}

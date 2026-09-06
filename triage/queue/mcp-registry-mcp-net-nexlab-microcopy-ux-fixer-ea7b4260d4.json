@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-net-nexlab-microcopy-ux-fixer-ea7b4260d4",
+  "source": "mcp-registry",
+  "key": "mcp:net.nexlab/microcopy-ux-fixer",
+  "title": "MCP server net.nexlab/microcopy-ux-fixer: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.nexlab/microcopy-ux-fixer",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Audit and rewrite buttons, errors, empty states, confirmations, and onboarding microcopy",
+    "repository": "",
+    "website": "https://mcp.nexlab.net/s/microcopy-ux-fixer",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.nexlab.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T05:02:08.908167Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.nexlab.net/s/microcopy-ux-fixer",
+    "https://mcp.nexlab.net/mcp/microcopy-ux-fixer"
+  ],
+  "discovered_at": "2026-09-06T11:04:26Z"
+}

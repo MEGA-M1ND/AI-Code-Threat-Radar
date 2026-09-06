@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-net-nexlab-release-notes-packager-074bfe6d8b",
+  "source": "mcp-registry",
+  "key": "mcp:net.nexlab/release-notes-packager",
+  "title": "MCP server net.nexlab/release-notes-packager: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.nexlab/release-notes-packager",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Convert commit lists and PR summaries into changelogs",
+    "repository": "",
+    "website": "https://mcp.nexlab.net/s/release-notes-packager",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.nexlab.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T05:02:18.406519Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.nexlab.net/s/release-notes-packager",
+    "https://mcp.nexlab.net/mcp/release-notes-packager"
+  ],
+  "discovered_at": "2026-09-06T11:04:26Z"
+}
