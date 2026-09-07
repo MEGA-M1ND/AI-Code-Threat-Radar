@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-cjkehoe-thedoseguy-b52bc6c128",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.cjkehoe/thedoseguy",
+  "title": "MCP server io.github.cjkehoe/thedoseguy: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.cjkehoe/thedoseguy",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Read-only compound rankings and live vendor price comparison with canonical source links.",
+    "repository": "",
+    "website": "https://thedoseguy.com/",
+    "packages": [],
+    "remote_hosts": [
+      "thedoseguy.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-04T13:30:10.022365Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://thedoseguy.com/",
+    "https://thedoseguy.com/api/mcp"
+  ],
+  "discovered_at": "2026-09-07T12:44:12Z"
+}

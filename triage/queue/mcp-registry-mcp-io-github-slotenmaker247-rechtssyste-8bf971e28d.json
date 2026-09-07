@@ -1,0 +1,31 @@
+{
+  "id": "mcp-registry-mcp-io-github-slotenmaker247-rechtssyste-8bf971e28d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Slotenmaker247/rechtssysteem-mcp",
+  "title": "MCP server io.github.Slotenmaker247/rechtssysteem-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Slotenmaker247/rechtssysteem-mcp",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deleted",
+    "description": "Lekkage-vrije voorspelling van Nederlandse rechtszaken, getraind op 609.715 uitspraken",
+    "repository": "https://github.com/Slotenmaker247/rechtssysteem-mcp",
+    "website": "https://rechtssysteem.ai",
+    "packages": [],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-03T09:30:53.818798Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Slotenmaker247/rechtssysteem-mcp",
+    "https://rechtssysteem.ai"
+  ],
+  "discovered_at": "2026-09-07T12:44:12Z"
+}
