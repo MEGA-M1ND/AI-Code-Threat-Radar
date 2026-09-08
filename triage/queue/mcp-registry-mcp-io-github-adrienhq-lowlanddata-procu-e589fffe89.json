@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-adrienhq-lowlanddata-procu-e589fffe89",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AdrienHq/lowlanddata-procurement-alerts",
+  "title": "MCP server io.github.AdrienHq/lowlanddata-procurement-alerts: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AdrienHq/lowlanddata-procurement-alerts",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Alerts on official data: US and EU tenders, federal awards and grants, permits, MAP violations.",
+    "repository": "",
+    "website": "https://apify.com/lowlanddata",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-07T15:25:45.173293Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/lowlanddata",
+    "https://mcp.apify.com/?actors=lowlanddata/us-rfp-monitor,lowlanddata/eu-tender-monitor,lowlanddata/france-public-tender-monitor,lowlanddata/usa-federal-award-monitor,lowlanddata/building-permit-monitor,lowlanddata/map-price-violation-monitor,lowlanddata/grants-gov-monitor"
+  ],
+  "discovered_at": "2026-09-08T11:27:09Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-trustysweep-sweep-32448ee450",
+  "source": "mcp-registry",
+  "key": "mcp:com.trustysweep/sweep",
+  "title": "MCP server com.trustysweep/sweep: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.trustysweep/sweep",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "Retired identity. TrustyCap is published as com.trustycap/trustycap. Install that.",
+    "repository": "https://github.com/TrustyCap-Technologies/trustycap-mcp",
+    "website": "https://trustycap.com/answers?src=registry-retired",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.trustysweep.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-07T22:12:35.861303Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/TrustyCap-Technologies/trustycap-mcp",
+    "https://trustycap.com/answers?src=registry-retired",
+    "https://mcp.trustysweep.com/mcp"
+  ],
+  "discovered_at": "2026-09-08T11:27:09Z"
+}

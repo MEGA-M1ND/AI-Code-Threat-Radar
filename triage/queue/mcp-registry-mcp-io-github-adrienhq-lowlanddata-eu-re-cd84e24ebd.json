@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-adrienhq-lowlanddata-eu-re-cd84e24ebd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AdrienHq/lowlanddata-eu-real-estate",
+  "title": "MCP server io.github.AdrienHq/lowlanddata-eu-real-estate: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AdrienHq/lowlanddata-eu-real-estate",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "GDPR-clean property listings, rents, price stats, yields and below-market deals. UK, EU.",
+    "repository": "",
+    "website": "https://apify.com/lowlanddata",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-01T19:03:27.508592Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/lowlanddata",
+    "https://mcp.apify.com/?actors=lowlanddata/rightmove-scraper,lowlanddata/rightmove-price-reductions,lowlanddata/rightmove-new-listings-alert,lowlanddata/rightmove-bmv-deal-finder,lowlanddata/rightmove-yield-scanner,lowlanddata/immoweb-scraper,lowlanddata/otodom-scraper,lowlanddata/otodom-price-stats,lowlanddata/subito-real-estate-scraper"
+  ],
+  "discovered_at": "2026-09-08T11:27:09Z"
+}

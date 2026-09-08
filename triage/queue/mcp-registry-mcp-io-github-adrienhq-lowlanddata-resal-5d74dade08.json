@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-adrienhq-lowlanddata-resal-5d74dade08",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AdrienHq/lowlanddata-resale",
+  "title": "MCP server io.github.AdrienHq/lowlanddata-resale: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AdrienHq/lowlanddata-resale",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deleted",
+    "description": "GDPR-clean secondhand listings and sold comps for resale pricing research. No seller personal data.",
+    "repository": "",
+    "website": "https://apify.com/lowlanddata",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-01T19:03:27.717041Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/lowlanddata",
+    "https://mcp.apify.com/?actors=lowlanddata/poshmark-scraper,lowlanddata/poshmark-sold-comps,lowlanddata/vinted-scraper,lowlanddata/kijiji-ca-scraper,lowlanddata/vinted-arbitrage-scanner,lowlanddata/vinted-sold-detector,lowlanddata/vinted-deal-monitor,lowlanddata/poshmark-brand-analytics"
+  ],
+  "discovered_at": "2026-09-08T11:27:09Z"
+}

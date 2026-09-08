@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-cartonpliant-base-spot-83d30d41d4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CartonPliant/base-spot",
+  "title": "MCP server io.github.CartonPliant/base-spot: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CartonPliant/base-spot",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Basespot: Uniswap v3 USD on Base (WETH/USDC/0x), EIP-1559 gas, ENS. $0.01 USDC x402.",
+    "repository": "https://github.com/CartonPliant/basespot",
+    "website": "https://base-spot.monnet-yanis1.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "base-spot.monnet-yanis1.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-07T11:54:03.496718Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CartonPliant/basespot",
+    "https://base-spot.monnet-yanis1.workers.dev",
+    "https://base-spot.monnet-yanis1.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-09-08T11:27:09Z"
+}

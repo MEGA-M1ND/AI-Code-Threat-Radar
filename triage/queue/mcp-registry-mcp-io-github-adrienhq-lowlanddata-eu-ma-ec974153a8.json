@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-adrienhq-lowlanddata-eu-ma-ec974153a8",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AdrienHq/lowlanddata-eu-marketplaces",
+  "title": "MCP server io.github.AdrienHq/lowlanddata-eu-marketplaces: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AdrienHq/lowlanddata-eu-marketplaces",
+    "rule": "status-change",
+    "version": "1.5.0",
+    "status": "deleted",
+    "description": "GDPR-clean marketplace listings and prices from 18 European countries. No seller personal data.",
+    "repository": "",
+    "website": "https://apify.com/lowlanddata",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-30T09:21:20.276404Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/lowlanddata",
+    "https://mcp.apify.com/?actors=lowlanddata/kleinanzeigen-scraper,lowlanddata/marktplaats-scraper,lowlanddata/tweedehands-scraper,lowlanddata/olx-pl-scraper,lowlanddata/olx-ro-scraper,lowlanddata/olx-pt-scraper,lowlanddata/willhaben-scraper,lowlanddata/finn-no-scraper,lowlanddata/tori-fi-scraper,lowlanddata/blocket-se-scraper,lowlanddata/dba-dk-scraper,lowlanddata/gumtree-uk-scraper,lowlanddata/vinted-scraper,lowlanddata/bol-com-scraper,lowlanddata/subito-scraper,lowlanddata/bazos-cz-scraper,lowlanddata/bazos-sk-scraper,lowlanddata/olx-bg-scraper,lowlanddata/olx-ua-scraper,lowlanddata/willhaben-car-scraper,lowlanddata/kleinanzeigen-free-finds,lowlanddata/olx-listing-watch,lowlanddata/marktplaats-new-listing-alerts,lowlanddata/tweedehands-new-listing-alerts,lowlanddata/kleinanzeigen-deal-radar"
+  ],
+  "discovered_at": "2026-09-08T11:27:09Z"
+}

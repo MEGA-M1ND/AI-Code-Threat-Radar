@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-adrienhq-lowlanddata-tcg-p-96906d5f4f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AdrienHq/lowlanddata-tcg-prices",
+  "title": "MCP server io.github.AdrienHq/lowlanddata-tcg-prices: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AdrienHq/lowlanddata-tcg-prices",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Daily EU card prices, deal detection and EU-vs-US arbitrage for 19 trading card games.",
+    "repository": "",
+    "website": "https://apify.com/lowlanddata",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-30T12:31:16.342291Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/lowlanddata",
+    "https://mcp.apify.com/?actors=lowlanddata/cardmarket-price-guide,lowlanddata/cardmarket-deal-finder,lowlanddata/tcg-price-arbitrage"
+  ],
+  "discovered_at": "2026-09-08T11:27:09Z"
+}
