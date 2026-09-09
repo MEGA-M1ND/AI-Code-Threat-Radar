@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-cafra-house-office-worker--cd6ec49923",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CaFra-House/office-worker-mcp",
+  "title": "MCP server io.github.CaFra-House/office-worker-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CaFra-House/office-worker-mcp",
+    "rule": "status-change",
+    "version": "0.9.5",
+    "status": "deleted",
+    "description": "Local-first document MCP for AI agents: create, read, secure and sign PDF/Word/Excel/PPTX.",
+    "repository": "https://github.com/CaFra-House/office-worker-mcp",
+    "website": "",
+    "packages": [
+      "pypi:office-worker-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T21:04:13.138383Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CaFra-House/office-worker-mcp"
+  ],
+  "discovered_at": "2026-09-09T11:32:39Z"
+}

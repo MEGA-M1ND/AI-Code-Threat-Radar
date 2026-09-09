@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-nicolanegro02nn-sketch-tru-b16723bbf9",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.nicolanegro02nn-sketch/trustrail",
+  "title": "MCP server io.github.nicolanegro02nn-sketch/trustrail: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.nicolanegro02nn-sketch/trustrail",
+    "rule": "status-change",
+    "version": "0.4.0",
+    "status": "deleted",
+    "description": "External counterparty-risk checks and signed receipts for autonomous agents and machine payments.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "trustrail-ebon.vercel.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-02T12:23:04.644833Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://trustrail-ebon.vercel.app/mcp"
+  ],
+  "discovered_at": "2026-09-09T11:32:40Z"
+}

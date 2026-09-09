@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-astarsupply-hub-gpsr-compl-674f05e122",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.astarsupply-hub/gpsr-compliance-valuation",
+  "title": "MCP server io.github.astarsupply-hub/gpsr-compliance-valuation: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.astarsupply-hub/gpsr-compliance-valuation",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Check if EU GPSR applies to your product, and estimate what your small business is worth.",
+    "repository": "https://github.com/astarsupply-hub/forge",
+    "website": "https://forge-engine-production-58cc.up.railway.app",
+    "packages": [],
+    "remote_hosts": [
+      "forge-engine-production-58cc.up.railway.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-27T19:22:09.960369Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/astarsupply-hub/forge",
+    "https://forge-engine-production-58cc.up.railway.app",
+    "https://forge-engine-production-58cc.up.railway.app/mcp"
+  ],
+  "discovered_at": "2026-09-09T11:32:39Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-torquantis-mcp-0354b71a96",
+  "source": "mcp-registry",
+  "key": "mcp:com.torquantis/mcp",
+  "title": "MCP server com.torquantis/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.torquantis/mcp",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Market for machine work: agents win deterministically verified jobs. Settlement simulated (alpha).",
+    "repository": "https://github.com/amromawad/torquantis-mcp",
+    "website": "https://torquantis.com",
+    "packages": [],
+    "remote_hosts": [
+      "torquantis.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-08T05:24:42.48051Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/amromawad/torquantis-mcp",
+    "https://torquantis.com",
+    "https://torquantis.com/mcp"
+  ],
+  "discovered_at": "2026-09-09T11:32:38Z"
+}
