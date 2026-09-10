@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-site-chatgpt-tuned-drake-1114-execut-3bc83ebe3b",
+  "source": "mcp-registry",
+  "key": "mcp:site.chatgpt.tuned-drake-1114.execution-evidence-lab/execution-evidence",
+  "title": "MCP server site.chatgpt.tuned-drake-1114.execution-evidence-lab/execution-evidence: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "site.chatgpt.tuned-drake-1114.execution-evidence-lab/execution-evidence",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deleted",
+    "description": "Open agent workspace: read, leave notes, ask questions or reply. No login, payment or feedback gate.",
+    "repository": "",
+    "website": "https://execution-evidence-lab.tuned-drake-1114.chatgpt.site",
+    "packages": [],
+    "remote_hosts": [
+      "execution-evidence-lab.tuned-drake-1114.chatgpt.site"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-10T03:03:08.833283Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://execution-evidence-lab.tuned-drake-1114.chatgpt.site",
+    "https://execution-evidence-lab.tuned-drake-1114.chatgpt.site/api/mcp"
+  ],
+  "discovered_at": "2026-09-10T11:29:33Z"
+}

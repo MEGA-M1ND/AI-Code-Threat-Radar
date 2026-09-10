@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-computer-lathe-lathe-b0fed8fa81",
+  "source": "mcp-registry",
+  "key": "mcp:computer.lathe/lathe",
+  "title": "MCP server computer.lathe/lathe: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "computer.lathe/lathe",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Managed Postgres, Redis, CouchDB and NATS on a dedicated EU machine, one flat price.",
+    "repository": "",
+    "website": "https://lathe.computer/agents",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.lathe.computer"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-07T06:00:59.383055Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://lathe.computer/agents",
+    "https://mcp.lathe.computer/mcp"
+  ],
+  "discovered_at": "2026-09-10T11:29:13Z"
+}
