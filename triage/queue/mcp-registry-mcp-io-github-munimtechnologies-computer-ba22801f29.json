@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-munimtechnologies-computer-ba22801f29",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.munimtechnologies/computer-use",
+  "title": "MCP server io.github.munimtechnologies/computer-use: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.munimtechnologies/computer-use",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Accessibility-first desktop control for any agent: background input, agent pointer, zoom, Chrome.",
+    "repository": "https://github.com/munimtechnologies/computer-use",
+    "website": "https://munimtech.com/computer-use",
+    "packages": [
+      "npm:munim-computer-use"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T12:59:58.429619Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/munimtechnologies/computer-use",
+    "https://munimtech.com/computer-use"
+  ],
+  "discovered_at": "2026-09-11T11:30:37Z"
+}
