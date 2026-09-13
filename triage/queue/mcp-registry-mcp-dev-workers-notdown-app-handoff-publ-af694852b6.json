@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-notdown-app-handoff-publ-af694852b6",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.notdown-app.handoff/publish-shareable-result-page",
+  "title": "MCP server dev.workers.notdown-app.handoff/publish-shareable-result-page: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.notdown-app.handoff/publish-shareable-result-page",
+    "rule": "status-change",
+    "version": "0.4.0",
+    "status": "deleted",
+    "description": "Followable agent result pages + human-in-the-loop yes/no approval gates before irreversible actions.",
+    "repository": "",
+    "website": "https://handoff.notdown-app.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "handoff.notdown-app.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-10T07:17:11.978006Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://handoff.notdown-app.workers.dev",
+    "https://handoff.notdown-app.workers.dev/mcp/{key}"
+  ],
+  "discovered_at": "2026-09-13T12:00:05Z"
+}

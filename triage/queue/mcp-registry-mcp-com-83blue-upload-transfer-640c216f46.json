@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-83blue-upload-transfer-640c216f46",
+  "source": "mcp-registry",
+  "key": "mcp:com.83blue.upload/transfer",
+  "title": "MCP server com.83blue.upload/transfer: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.83blue.upload/transfer",
+    "rule": "status-change",
+    "version": "1.0.4",
+    "status": "deleted",
+    "description": "Free no-signup file transfer + static site hosting for AI agents. Share or publish by URL.",
+    "repository": "",
+    "website": "https://upload.83blue.com/",
+    "packages": [],
+    "remote_hosts": [
+      "upload.83blue.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-12T14:35:52.78262Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://upload.83blue.com/",
+    "https://upload.83blue.com/mcp"
+  ],
+  "discovered_at": "2026-09-13T12:00:05Z"
+}

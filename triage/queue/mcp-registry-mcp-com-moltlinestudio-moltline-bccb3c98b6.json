@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-moltlinestudio-moltline-bccb3c98b6",
+  "source": "mcp-registry",
+  "key": "mcp:com.moltlinestudio/moltline",
+  "title": "MCP server com.moltlinestudio/moltline: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.moltlinestudio/moltline",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Fleet entry point: 22 hosted MCP servers, 160 tools, 110 free. Searches 138 agent skills.",
+    "repository": "https://github.com/GarphenGate/moltline-mcp",
+    "website": "https://moltlinestudio.com/servers.html#catalog",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.moltlinestudio.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-08T14:30:56.842453Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/GarphenGate/moltline-mcp",
+    "https://moltlinestudio.com/servers.html#catalog",
+    "https://mcp.moltlinestudio.com/catalog"
+  ],
+  "discovered_at": "2026-09-13T12:00:05Z"
+}
