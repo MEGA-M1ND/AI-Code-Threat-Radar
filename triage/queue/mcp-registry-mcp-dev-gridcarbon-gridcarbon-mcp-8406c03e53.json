@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-gridcarbon-gridcarbon-mcp-8406c03e53",
+  "source": "mcp-registry",
+  "key": "mcp:dev.gridcarbon/gridcarbon-mcp",
+  "title": "MCP server dev.gridcarbon/gridcarbon-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.gridcarbon/gridcarbon-mcp",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deleted",
+    "description": "Hourly electricity carbon intensity for 45 zones, from ENTSO-E, EIA and NESO. No API key needed.",
+    "repository": "https://github.com/gridcarbon/clients",
+    "website": "https://gridcarbon.dev",
+    "packages": [
+      "npm:gridcarbon-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-31T10:18:00.372318Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/gridcarbon/clients",
+    "https://gridcarbon.dev"
+  ],
+  "discovered_at": "2026-09-14T12:59:12Z"
+}

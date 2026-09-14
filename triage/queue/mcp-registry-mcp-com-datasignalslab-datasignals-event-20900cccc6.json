@@ -1,0 +1,37 @@
+{
+  "id": "mcp-registry-mcp-com-datasignalslab-datasignals-event-20900cccc6",
+  "source": "mcp-registry",
+  "key": "mcp:com.datasignalslab/datasignals-events-mcp",
+  "title": "MCP server com.datasignalslab/datasignals-events-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.datasignalslab/datasignals-events-mcp",
+    "rule": "status-change",
+    "version": "1.0.4",
+    "status": "deprecated",
+    "description": "Twelve US filing and career-site streams in one schema: SEC, FDA, NIH, contracts, Congress, hiring",
+    "repository": "",
+    "website": "https://datasignalslab.com/events-api.html",
+    "packages": [
+      "pypi:datasignals-events-mcp"
+    ],
+    "remote_hosts": [
+      "datasignalslab--datasignals-events-mcp.apify.actor",
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-20T12:51:00.650436Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://datasignalslab.com/events-api.html",
+    "https://mcp.apify.com/?tools=datasignalslab/datasignals-events-mcp",
+    "https://datasignalslab--datasignals-events-mcp.apify.actor/mcp"
+  ],
+  "discovered_at": "2026-09-14T12:59:12Z"
+}

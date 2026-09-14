@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-amgiiine-x402-insider-mcp-032eaeaf79",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.amgiiine/x402-insider-mcp",
+  "title": "MCP server io.github.amgiiine/x402-insider-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.amgiiine/x402-insider-mcp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "SEC insider-trades MCP over x402: raw trades $0.02, derived cluster/momentum signals $0.05/call.",
+    "repository": "https://github.com/amgiiine/x402-insider-mcp",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-13T02:07:21.010764Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/amgiiine/x402-insider-mcp"
+  ],
+  "discovered_at": "2026-09-14T12:59:13Z"
+}

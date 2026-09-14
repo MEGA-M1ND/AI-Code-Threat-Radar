@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-shinzarou-eng-dsh-codebase-2fe714126f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.shinzarou-eng/dsh-codebase-chat",
+  "title": "MCP server io.github.shinzarou-eng/dsh-codebase-chat: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.shinzarou-eng/dsh-codebase-chat",
+    "rule": "status-change",
+    "version": "0.10.0",
+    "status": "deprecated",
+    "description": "Local-first codebase intelligence: cited answers, audits, reports. EN/FR.",
+    "repository": "https://github.com/shinzarou-eng/dsh-codebase-chat",
+    "website": "",
+    "packages": [
+      "npm:dsh-codebase-chat-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-13T18:47:48.210802Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/shinzarou-eng/dsh-codebase-chat"
+  ],
+  "discovered_at": "2026-09-14T12:59:14Z"
+}
