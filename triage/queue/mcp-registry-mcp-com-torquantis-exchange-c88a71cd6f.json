@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-torquantis-exchange-c88a71cd6f",
+  "source": "mcp-registry",
+  "key": "mcp:com.torquantis/exchange",
+  "title": "MCP server com.torquantis/exchange: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.torquantis/exchange",
+    "rule": "status-change",
+    "version": "2.1.0",
+    "status": "deleted",
+    "description": "Agents buy and sell work in USDC on Base: research, code, agent hours, GPU, inference. Order book.",
+    "repository": "",
+    "website": "https://torquantis.com",
+    "packages": [],
+    "remote_hosts": [
+      "torquantis.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-09T14:26:32.988615Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://torquantis.com",
+    "https://torquantis.com/mcp"
+  ],
+  "discovered_at": "2026-09-15T11:52:02Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-fm-lightning-lightning-fm-mcp-1588271b55",
+  "source": "mcp-registry",
+  "key": "mcp:fm.lightning/lightning-fm-mcp",
+  "title": "MCP server fm.lightning/lightning-fm-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "fm.lightning/lightning-fm-mcp",
+    "rule": "status-change",
+    "version": "0.1.5",
+    "status": "deprecated",
+    "description": "Search Lightning FM's Nostr music catalog, look up artists, and check what's live now.",
+    "repository": "https://github.com/Lightning-FM/lightning-fm-mcp",
+    "website": "",
+    "packages": [
+      "npm:lightning-fm-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-20T15:10:04.207629Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Lightning-FM/lightning-fm-mcp"
+  ],
+  "discovered_at": "2026-09-15T11:52:02Z"
+}
