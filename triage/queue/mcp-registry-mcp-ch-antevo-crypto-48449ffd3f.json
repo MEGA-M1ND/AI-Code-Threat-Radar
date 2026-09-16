@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-ch-antevo-crypto-48449ffd3f",
+  "source": "mcp-registry",
+  "key": "mcp:ch.antevo/crypto",
+  "title": "MCP server ch.antevo/crypto: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ch.antevo/crypto",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "One reference price per major crypto pair, with daily history and technical signals.",
+    "repository": "",
+    "website": "https://antevo.ch/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.antevo.ch"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-14T08:46:12.954236Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://antevo.ch/mcp",
+    "https://api.antevo.ch/mcp/crypto/mcp",
+    "https://api.antevo.ch/mcp/crypto/sse"
+  ],
+  "discovered_at": "2026-09-16T11:46:00Z"
+}

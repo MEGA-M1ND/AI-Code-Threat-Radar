@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-com-crossingkeyintelligence-revenue--f7c16b6532",
+  "source": "mcp-registry",
+  "key": "mcp:com.crossingkeyintelligence/revenue-mcp",
+  "title": "MCP server com.crossingkeyintelligence/revenue-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.crossingkeyintelligence/revenue-mcp",
+    "rule": "status-change",
+    "version": "2.1.0",
+    "status": "deleted",
+    "description": "CrossingKey MCP for agent commerce, prepaid credits, and bounded paid XKEY validation.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.crossingkeyintelligence.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-09T06:56:13.677525Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.crossingkeyintelligence.com/mcp"
+  ],
+  "discovered_at": "2026-09-16T11:46:00Z"
+}

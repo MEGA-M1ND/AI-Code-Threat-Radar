@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-tizonaintelligence-tizona-0d1056b1f5",
+  "source": "mcp-registry",
+  "key": "mcp:com.tizonaintelligence/tizona",
+  "title": "MCP server com.tizonaintelligence/tizona: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.tizonaintelligence/tizona",
+    "rule": "status-change",
+    "version": "1.5.0",
+    "status": "deprecated",
+    "description": "Verification and routing for autonomous agents: crawler ID, email, web capture, data routing.",
+    "repository": "",
+    "website": "https://tizonaintelligence.com",
+    "packages": [],
+    "remote_hosts": [
+      "tizonaintelligence.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T07:18:43.402123Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tizonaintelligence.com",
+    "https://tizonaintelligence.com/mcp"
+  ],
+  "discovered_at": "2026-09-16T11:46:00Z"
+}

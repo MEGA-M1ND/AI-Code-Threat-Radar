@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-gaurav-kumar-sinha-060705--8768f53613",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.gaurav-kumar-sinha-060705/compass-mcp-gateway",
+  "title": "MCP server io.github.gaurav-kumar-sinha-060705/compass-mcp-gateway: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.gaurav-kumar-sinha-060705/compass-mcp-gateway",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Find best-fit tools for any problem, vetted for prompt-injection risk before your agent trusts them",
+    "repository": "https://github.com/gaurav-kumar-sinha-060705/Compass",
+    "website": "https://github.com/gaurav-kumar-sinha-060705/Compass",
+    "packages": [],
+    "remote_hosts": [
+      "compass-x86i.onrender.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-24T16:18:00.790706Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/gaurav-kumar-sinha-060705/Compass",
+    "https://github.com/gaurav-kumar-sinha-060705/Compass",
+    "https://compass-x86i.onrender.com/mcp"
+  ],
+  "discovered_at": "2026-09-16T11:46:01Z"
+}
