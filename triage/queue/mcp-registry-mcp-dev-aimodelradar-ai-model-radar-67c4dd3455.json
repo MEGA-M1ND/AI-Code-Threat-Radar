@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-aimodelradar-ai-model-radar-67c4dd3455",
+  "source": "mcp-registry",
+  "key": "mcp:dev.aimodelradar/ai-model-radar",
+  "title": "MCP server dev.aimodelradar/ai-model-radar: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.aimodelradar/ai-model-radar",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Which open models fit your GPU or Mac, measured. Model momentum, GPU rental prices, weekly pick.",
+    "repository": "",
+    "website": "https://aimodelradar.dev/developers",
+    "packages": [],
+    "remote_hosts": [
+      "aimodelradar.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-09T20:18:25.802248Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://aimodelradar.dev/developers",
+    "https://aimodelradar.dev/api/mcp"
+  ],
+  "discovered_at": "2026-09-18T11:25:27Z"
+}

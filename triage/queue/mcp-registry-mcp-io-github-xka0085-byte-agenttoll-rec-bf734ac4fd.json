@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-xka0085-byte-agenttoll-rec-bf734ac4fd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.xka0085-byte/agenttoll-receipts",
+  "title": "MCP server io.github.xka0085-byte/agenttoll-receipts: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.xka0085-byte/agenttoll-receipts",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "On-chain x402 delivery receipts on Solana: hash-locked, verifiable proof of delivery.",
+    "repository": "",
+    "website": "https://agenttoll-receipts.app.workbuddy.host",
+    "packages": [],
+    "remote_hosts": [
+      "agenttoll-receipts.app.workbuddy.host"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T11:42:05.717507Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agenttoll-receipts.app.workbuddy.host",
+    "https://agenttoll-receipts.app.workbuddy.host/mcp"
+  ],
+  "discovered_at": "2026-09-18T11:25:30Z"
+}

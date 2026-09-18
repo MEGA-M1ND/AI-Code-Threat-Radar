@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-amitok2-kika-43f6e08d28",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.amitok2/kika",
+  "title": "MCP server io.github.amitok2/kika: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.amitok2/kika",
+    "rule": "status-change",
+    "version": "0.2.3",
+    "status": "deleted",
+    "description": "Shared memory for client engagements: decisions with reasons, blockers, promises, what was tried.",
+    "repository": "https://github.com/amitok2/kika-plugin",
+    "website": "https://getkika.app/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.getkika.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T13:05:37.922663Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/amitok2/kika-plugin",
+    "https://getkika.app/mcp",
+    "https://api.getkika.app/mcp"
+  ],
+  "discovered_at": "2026-09-18T11:25:28Z"
+}

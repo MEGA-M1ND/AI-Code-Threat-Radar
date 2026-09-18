@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-flashcards-open-source-app-flash-664ad6e1ea",
+  "source": "mcp-registry",
+  "key": "mcp:com.flashcards-open-source-app/flashcards",
+  "title": "MCP server com.flashcards-open-source-app/flashcards: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.flashcards-open-source-app/flashcards",
+    "rule": "status-change",
+    "version": "1.24.0",
+    "status": "deprecated",
+    "description": "Read, write, and conversationally review open-source flashcards through split read/write MCP tools.",
+    "repository": "https://github.com/kirill-markin/flashcards-open-source-app",
+    "website": "https://flashcards-open-source-app.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.flashcards-open-source-app.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-11T13:23:03.481666Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/kirill-markin/flashcards-open-source-app",
+    "https://flashcards-open-source-app.com",
+    "https://mcp.flashcards-open-source-app.com/mcp"
+  ],
+  "discovered_at": "2026-09-18T11:25:27Z"
+}

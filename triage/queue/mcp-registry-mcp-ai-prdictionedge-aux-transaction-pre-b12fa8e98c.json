@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-ai-prdictionedge-aux-transaction-pre-b12fa8e98c",
+  "source": "mcp-registry",
+  "key": "mcp:ai.prdictionedge.aux/transaction-preflight",
+  "title": "MCP server ai.prdictionedge.aux/transaction-preflight: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.prdictionedge.aux/transaction-preflight",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deleted",
+    "description": "Synthetic-only transaction screening with evidence and ES256-signed decision receipts.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "aux.prdictionedge.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T20:16:37.230786Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://aux.prdictionedge.ai/mcp/v1?source=official-mcp-registry"
+  ],
+  "discovered_at": "2026-09-18T11:25:27Z"
+}
