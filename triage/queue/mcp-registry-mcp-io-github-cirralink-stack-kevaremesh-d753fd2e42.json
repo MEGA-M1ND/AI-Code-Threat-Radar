@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-cirralink-stack-kevaremesh-d753fd2e42",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.cirralink-stack/kevaremesh",
+  "title": "MCP server io.github.cirralink-stack/kevaremesh: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.cirralink-stack/kevaremesh",
+    "rule": "status-change",
+    "version": "2.1.0",
+    "status": "deprecated",
+    "description": "Market-validated MCP capabilities with x402 paid execution.",
+    "repository": "https://github.com/cirralink-stack/cirralink",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "ytqrligiuzhjkuotpiwb.supabase.co"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T17:46:56.92834Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/cirralink-stack/cirralink",
+    "https://ytqrligiuzhjkuotpiwb.supabase.co/functions/v1/kevaremesh-mcp"
+  ],
+  "discovered_at": "2026-09-19T11:09:02Z"
+}

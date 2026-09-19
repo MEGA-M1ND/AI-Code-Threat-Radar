@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-myagentmail-myagentmail-295ba75baf",
+  "source": "mcp-registry",
+  "key": "mcp:com.myagentmail/myagentmail",
+  "title": "MCP server com.myagentmail/myagentmail: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.myagentmail/myagentmail",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Email inboxes and calendars for AI agents: send, receive, search, draft and schedule.",
+    "repository": "",
+    "website": "https://myagentmail.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.myagentmail.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T09:41:03.245332Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://myagentmail.com",
+    "https://mcp.myagentmail.com/mcp"
+  ],
+  "discovered_at": "2026-09-19T11:09:01Z"
+}

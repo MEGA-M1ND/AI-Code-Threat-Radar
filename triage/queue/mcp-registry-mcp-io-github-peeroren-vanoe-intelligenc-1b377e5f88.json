@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-peeroren-vanoe-intelligenc-1b377e5f88",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.peeroren/vanoe-intelligence-mcp",
+  "title": "MCP server io.github.peeroren/vanoe-intelligence-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.peeroren/vanoe-intelligence-mcp",
+    "rule": "status-change",
+    "version": "0.1.5",
+    "status": "deleted",
+    "description": "Stock verdicts, trend stage, P&F, breadth, macro regime, SEC filings. Free key: api.vanoe.ai/signup",
+    "repository": "https://github.com/peeroren/vanoe-intelligence-mcp",
+    "website": "",
+    "packages": [
+      "pypi:vanoe-intelligence-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-16T11:20:35.989403Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/peeroren/vanoe-intelligence-mcp"
+  ],
+  "discovered_at": "2026-09-19T11:09:02Z"
+}

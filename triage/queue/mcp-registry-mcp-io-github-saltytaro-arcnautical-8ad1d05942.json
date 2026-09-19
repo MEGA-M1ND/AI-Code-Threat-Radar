@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-saltytaro-arcnautical-8ad1d05942",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.SaltyTaro/arcnautical",
+  "title": "MCP server io.github.SaltyTaro/arcnautical: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.SaltyTaro/arcnautical",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "Screen any vessel by IMO for sanctions, ownership opacity and vetting grade. Keyless check included.",
+    "repository": "https://github.com/SaltyTaro/arcnautical-mcp",
+    "website": "https://arcnautical.com/developers/",
+    "packages": [
+      "npm:@arcnautical/mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-12T16:10:10.074006Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/SaltyTaro/arcnautical-mcp",
+    "https://arcnautical.com/developers/"
+  ],
+  "discovered_at": "2026-09-19T11:09:02Z"
+}
