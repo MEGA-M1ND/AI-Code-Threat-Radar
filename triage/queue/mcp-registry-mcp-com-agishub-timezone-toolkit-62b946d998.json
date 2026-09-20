@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-agishub-timezone-toolkit-62b946d998",
+  "source": "mcp-registry",
+  "key": "mcp:com.agishub/timezone-toolkit",
+  "title": "MCP server com.agishub/timezone-toolkit: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.agishub/timezone-toolkit",
+    "rule": "status-change",
+    "version": "2.1.1",
+    "status": "deleted",
+    "description": "Timezone tools for agents: convert, world clock, offset, lookup, date math, holidays, slots. x402",
+    "repository": "https://github.com/agishub/agishub-mcp",
+    "website": "https://agishub.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.agishub.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-07-26T11:28:51.681205Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/agishub/agishub-mcp",
+    "https://agishub.com",
+    "https://api.agishub.com/mcp/timezone"
+  ],
+  "discovered_at": "2026-09-20T11:33:40Z"
+}
