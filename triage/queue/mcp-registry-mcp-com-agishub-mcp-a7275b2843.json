@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-com-agishub-mcp-a7275b2843",
+  "source": "mcp-registry",
+  "key": "mcp:com.agishub/mcp",
+  "title": "MCP server com.agishub/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.agishub/mcp",
+    "rule": "status-change",
+    "version": "3.0.0",
+    "status": "deleted",
+    "description": "AgisHub — 34 pay-per-call tools for AI agents over x402 (USDC on Base). No API key, no signup.",
+    "repository": "https://github.com/agishub/agishub-mcp",
+    "website": "https://agishub.com",
+    "packages": [
+      "npm:@agishub/mcp"
+    ],
+    "remote_hosts": [
+      "api.agishub.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-07T19:41:13.107055Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/agishub/agishub-mcp",
+    "https://agishub.com",
+    "https://api.agishub.com/mcp"
+  ],
+  "discovered_at": "2026-09-21T12:58:09Z"
+}

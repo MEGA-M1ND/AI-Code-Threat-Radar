@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-hektai-market-293fd6004c",
+  "source": "mcp-registry",
+  "key": "mcp:com.hektai/market",
+  "title": "MCP server com.hektai/market: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.hektai/market",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "One Hekte market answer per call, paid first over Lightning by a hold invoice in the tool result.",
+    "repository": "",
+    "website": "https://hekte.org",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.hektai.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-15T05:19:34.544909Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://hekte.org",
+    "https://mcp.hektai.com/mcp"
+  ],
+  "discovered_at": "2026-09-21T12:58:10Z"
+}

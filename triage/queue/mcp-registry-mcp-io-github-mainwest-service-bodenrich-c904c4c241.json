@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-mainwest-service-bodenrich-c904c4c241",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.mainwest-service/bodenrichtwerte",
+  "title": "MCP server io.github.mainwest-service/bodenrichtwerte: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.mainwest-service/bodenrichtwerte",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Amtliche Bodenrichtwerte fuer Berlin und Brandenburg per Adresse oder Koordinate, kostenlos.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mainwestservice.app.n8n.cloud"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-19T14:03:20.633287Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mainwestservice.app.n8n.cloud/mcp/bodenrichtwerte"
+  ],
+  "discovered_at": "2026-09-21T12:58:11Z"
+}

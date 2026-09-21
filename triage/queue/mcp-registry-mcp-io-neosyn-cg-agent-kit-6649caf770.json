@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-neosyn-cg-agent-kit-6649caf770",
+  "source": "mcp-registry",
+  "key": "mcp:io.neosyn/cg-agent-kit",
+  "title": "MCP server io.neosyn/cg-agent-kit: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.neosyn/cg-agent-kit",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deprecated",
+    "description": "AI-agent MCP server for FPGA design: compile, validate & generate Verilog from C⏚ HDL.",
+    "repository": "https://github.com/Neosyn-Logic/cg-agent-kit",
+    "website": "",
+    "packages": [
+      "pypi:cg-agent-kit"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T20:24:09.597818Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Neosyn-Logic/cg-agent-kit"
+  ],
+  "discovered_at": "2026-09-21T12:58:11Z"
+}
