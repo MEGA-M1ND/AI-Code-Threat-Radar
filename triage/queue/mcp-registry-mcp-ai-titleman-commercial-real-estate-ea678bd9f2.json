@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-titleman-commercial-real-estate-ea678bd9f2",
+  "source": "mcp-registry",
+  "key": "mcp:ai.titleman/commercial-real-estate",
+  "title": "MCP server ai.titleman/commercial-real-estate: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.titleman/commercial-real-estate",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Broker opinions of value, comparables and underwriting for commercial real estate.",
+    "repository": "",
+    "website": "https://titleman.ai/docs/claude-connector",
+    "packages": [],
+    "remote_hosts": [
+      "titleman.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T17:49:03.95836Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://titleman.ai/docs/claude-connector",
+    "https://titleman.ai/_mcp/titleman"
+  ],
+  "discovered_at": "2026-09-22T11:48:02Z"
+}

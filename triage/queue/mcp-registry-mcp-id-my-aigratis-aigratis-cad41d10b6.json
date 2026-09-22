@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-id-my-aigratis-aigratis-cad41d10b6",
+  "source": "mcp-registry",
+  "key": "mcp:id.my.aigratis/aigratis",
+  "title": "MCP server id.my.aigratis/aigratis: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "id.my.aigratis/aigratis",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Free AI models and per-token prices across API gateways. Search, compare, estimate cost. Read-only.",
+    "repository": "",
+    "website": "https://aigratis.my.id/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "aigratis.my.id"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-18T03:14:46.386149Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://aigratis.my.id/mcp",
+    "https://aigratis.my.id/api/mcp"
+  ],
+  "discovered_at": "2026-09-22T11:48:04Z"
+}

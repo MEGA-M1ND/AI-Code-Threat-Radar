@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-thevicinityapp-www-vicinity-agen-b708e62e9b",
+  "source": "mcp-registry",
+  "key": "mcp:com.thevicinityapp.www/vicinity-agent-api",
+  "title": "MCP server com.thevicinityapp.www/vicinity-agent-api: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.thevicinityapp.www/vicinity-agent-api",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Spatial coordination for AI agents: read nearby activity or post intents; publishing is paid.",
+    "repository": "",
+    "website": "https://thevicinityapp.com",
+    "packages": [],
+    "remote_hosts": [
+      "thevicinityapp.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-21T12:17:23.926043Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://thevicinityapp.com",
+    "https://thevicinityapp.com/mcp"
+  ],
+  "discovered_at": "2026-09-22T11:48:03Z"
+}

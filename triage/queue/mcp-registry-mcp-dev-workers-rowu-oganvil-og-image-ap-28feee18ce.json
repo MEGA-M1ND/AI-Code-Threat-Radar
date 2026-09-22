@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-rowu-oganvil-og-image-ap-28feee18ce",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.rowu.oganvil/og-image-api",
+  "title": "MCP server dev.workers.rowu.oganvil/og-image-api: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.rowu.oganvil/og-image-api",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Generates 1200x630 OG social preview images (PNG/SVG). Tools: generate_og_image, get_quota.",
+    "repository": "",
+    "website": "https://oganvil.rowu.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "oganvil.rowu.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-18T00:45:52.851731Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://oganvil.rowu.workers.dev",
+    "https://oganvil.rowu.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-09-22T11:48:04Z"
+}

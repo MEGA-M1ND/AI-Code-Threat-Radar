@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-fr-plumail-plumail-b937ca43f4",
+  "source": "mcp-registry",
+  "key": "mcp:fr.plumail/plumail",
+  "title": "MCP server fr.plumail/plumail: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "fr.plumail/plumail",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Manage a Plumail email workspace: subscribers, segments, campaigns, transactional sends and stats.",
+    "repository": "",
+    "website": "https://plumail.fr/en/docs/api",
+    "packages": [],
+    "remote_hosts": [
+      "plumail.fr"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-20T22:14:59.548373Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://plumail.fr/en/docs/api",
+    "https://plumail.fr/api/mcp"
+  ],
+  "discovered_at": "2026-09-22T11:48:04Z"
+}
