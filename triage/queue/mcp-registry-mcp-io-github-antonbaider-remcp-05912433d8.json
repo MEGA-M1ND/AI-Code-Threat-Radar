@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-antonbaider-remcp-05912433d8",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.antonbaider/remcp",
+  "title": "MCP server io.github.antonbaider/remcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.antonbaider/remcp",
+    "rule": "status-change",
+    "version": "0.2.79",
+    "status": "deleted",
+    "description": "Securely use files, terminals, screenshots and processes on computers you pair with ReMCP.",
+    "repository": "https://github.com/antonbaider/remcp",
+    "website": "https://remcp.site",
+    "packages": [],
+    "remote_hosts": [
+      "remcp.site"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-21T13:01:23.545792Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/antonbaider/remcp",
+    "https://remcp.site",
+    "https://remcp.site/mcp"
+  ],
+  "discovered_at": "2026-09-23T11:47:46Z"
+}

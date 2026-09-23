@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-com-iwantmyname-mcp-4864aa503f",
+  "source": "mcp-registry",
+  "key": "mcp:com.iwantmyname/mcp",
+  "title": "MCP server com.iwantmyname/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.iwantmyname/mcp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Checks domain availability against iwantmyname's domain search, with a registration link.",
+    "repository": "",
+    "website": "https://iwantmyname.com/mcp",
+    "packages": [
+      "npm:@team-internet/iwmn-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-21T13:20:19.091934Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://iwantmyname.com/mcp"
+  ],
+  "discovered_at": "2026-09-23T11:47:45Z"
+}

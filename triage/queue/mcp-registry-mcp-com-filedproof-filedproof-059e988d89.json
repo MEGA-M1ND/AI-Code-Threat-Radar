@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-filedproof-filedproof-059e988d89",
+  "source": "mcp-registry",
+  "key": "mcp:com.filedproof/filedproof",
+  "title": "MCP server com.filedproof/filedproof: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.filedproof/filedproof",
+    "rule": "status-change",
+    "version": "0.8.0",
+    "status": "deprecated",
+    "description": "Primary-source SEC filing intelligence for AI agents, with exact evidence and provenance.",
+    "repository": "",
+    "website": "https://filedproof.com",
+    "packages": [],
+    "remote_hosts": [
+      "filedproof.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-11T19:01:52.815595Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://filedproof.com",
+    "https://filedproof.com/mcp"
+  ],
+  "discovered_at": "2026-09-23T11:47:45Z"
+}
