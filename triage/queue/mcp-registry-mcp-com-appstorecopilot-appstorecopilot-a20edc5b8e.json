@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-com-appstorecopilot-appstorecopilot-a20edc5b8e",
+  "source": "mcp-registry",
+  "key": "mcp:com.appstorecopilot/appstorecopilot",
+  "title": "MCP server com.appstorecopilot/appstorecopilot: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.appstorecopilot/appstorecopilot",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "AI-agent operations for App Store Connect and Google Play, with approval before live publishing.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "appstorecopilot.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-31T14:39:28.957559Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://appstorecopilot.com/api/mcp"
+  ],
+  "discovered_at": "2026-09-24T11:55:37Z"
+}

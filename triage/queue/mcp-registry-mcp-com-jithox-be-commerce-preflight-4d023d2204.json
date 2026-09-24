@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-jithox-be-commerce-preflight-4d023d2204",
+  "source": "mcp-registry",
+  "key": "mcp:com.jithox/be-commerce-preflight",
+  "title": "MCP server com.jithox/be-commerce-preflight: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.jithox/be-commerce-preflight",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deprecated",
+    "description": "Read-only commerce/checkout preflight (UCP/ACP). Returns evidence, never places orders.",
+    "repository": "",
+    "website": "https://jithox.com/mcp/be-commerce-preflight",
+    "packages": [],
+    "remote_hosts": [
+      "commerce.mcp.jithox.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-23T01:50:37.987397Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://jithox.com/mcp/be-commerce-preflight",
+    "https://commerce.mcp.jithox.com/mcp"
+  ],
+  "discovered_at": "2026-09-24T11:55:37Z"
+}

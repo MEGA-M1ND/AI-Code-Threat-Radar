@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-lightdrift-images-6c52f93a78",
+  "source": "mcp-registry",
+  "key": "mcp:ai.lightdrift/images",
+  "title": "MCP server ai.lightdrift/images: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.lightdrift/images",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Search images with text, reference images, or both via Voyage, with source licenses and attribution.",
+    "repository": "",
+    "website": "https://lightdrift.ai",
+    "packages": [],
+    "remote_hosts": [
+      "lightdrift.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-22T18:12:37.153794Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://lightdrift.ai",
+    "https://lightdrift.ai/mcp"
+  ],
+  "discovered_at": "2026-09-24T11:55:37Z"
+}

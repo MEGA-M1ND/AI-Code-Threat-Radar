@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-fugentic-siert-kt8f7x-01f7f80077",
+  "source": "mcp-registry",
+  "key": "mcp:ai.fugentic/siert-kt8f7x",
+  "title": "MCP server ai.fugentic/siert-kt8f7x: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.fugentic/siert-kt8f7x",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "Fugentic MCP server for siert-kt8f7x",
+    "repository": "",
+    "website": "https://siert-kt8f7x.mcp.fugentic.ai",
+    "packages": [],
+    "remote_hosts": [
+      "siert-kt8f7x.mcp.fugentic.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T17:18:05.526716Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://siert-kt8f7x.mcp.fugentic.ai",
+    "https://siert-kt8f7x.mcp.fugentic.ai/mcp"
+  ],
+  "discovered_at": "2026-09-24T11:55:37Z"
+}

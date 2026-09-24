@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-proofinbox-verify-db236cec74",
+  "source": "mcp-registry",
+  "key": "mcp:com.proofinbox/verify",
+  "title": "MCP server com.proofinbox/verify: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.proofinbox/verify",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "Prepaid email-verify credits for MCP agents via Stripe Link.",
+    "repository": "https://github.com/timdoes/proof-inbox-mcp",
+    "website": "https://proofinbox.com/connect",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.proofinbox.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-29T20:31:30.782729Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/timdoes/proof-inbox-mcp",
+    "https://proofinbox.com/connect",
+    "https://mcp.proofinbox.com/mcp"
+  ],
+  "discovered_at": "2026-09-24T11:55:38Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-noahmchugh-stinkyboy-feb786d57b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.noahmchugh/stinkyboy",
+  "title": "MCP server io.github.noahmchugh/stinkyboy: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.noahmchugh/stinkyboy",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "One integration, one wallet. Thousands of callable tools, paid per call in USDC via x402.",
+    "repository": "https://github.com/noahmchugh/stinkyboy-skill",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.stinkyboy.co"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-23T00:51:19.501584Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/noahmchugh/stinkyboy-skill",
+    "https://mcp.stinkyboy.co/mcp"
+  ],
+  "discovered_at": "2026-09-24T11:55:40Z"
+}
