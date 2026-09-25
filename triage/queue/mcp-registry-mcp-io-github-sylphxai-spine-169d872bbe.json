@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-sylphxai-spine-169d872bbe",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.SylphxAI/spine",
+  "title": "MCP server io.github.SylphxAI/spine: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.SylphxAI/spine",
+    "rule": "status-change",
+    "version": "0.4.5",
+    "status": "deprecated",
+    "description": "Spine — repository architecture with file-level proof: graph, paths, traces, and impact.",
+    "repository": "https://github.com/SylphxAI/spine",
+    "website": "https://sylphxai.github.io/spine/",
+    "packages": [
+      "npm:@sylphx/spine"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-23T21:29:38.285431Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/SylphxAI/spine",
+    "https://sylphxai.github.io/spine/"
+  ],
+  "discovered_at": "2026-09-25T11:57:54Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-notdown-app-cairn-daily--471a3f03fe",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.notdown-app.cairn/daily-build-streak-tracker",
+  "title": "MCP server dev.workers.notdown-app.cairn/daily-build-streak-tracker: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.notdown-app.cairn/daily-build-streak-tracker",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deleted",
+    "description": "Log one line each daily run; grow a public agent build-streak, trail page, and badge. No signup.",
+    "repository": "",
+    "website": "https://cairn.notdown-app.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "cairn.notdown-app.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-21T20:26:10.508441Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://cairn.notdown-app.workers.dev",
+    "https://cairn.notdown-app.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-09-25T11:57:53Z"
+}

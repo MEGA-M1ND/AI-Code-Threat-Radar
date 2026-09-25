@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-oxyvore-cyber-firmware-tes-33e9b637d6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.oxyvore-cyber/firmware-test-farm-mcp",
+  "title": "MCP server io.github.oxyvore-cyber/firmware-test-farm-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.oxyvore-cyber/firmware-test-farm-mcp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Flash and run real firmware on physical embedded dev boards from an AI agent, over MCP.",
+    "repository": "https://github.com/oxyvore-cyber/firmware-test-farm-mcp",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "test-farm-17d99.web.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T13:22:35.5805Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/oxyvore-cyber/firmware-test-farm-mcp",
+    "https://test-farm-17d99.web.app/mcp"
+  ],
+  "discovered_at": "2026-09-25T11:57:59Z"
+}

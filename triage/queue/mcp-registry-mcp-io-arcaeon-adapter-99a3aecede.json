@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-arcaeon-adapter-99a3aecede",
+  "source": "mcp-registry",
+  "key": "mcp:io.arcaeon/adapter",
+  "title": "MCP server io.arcaeon/adapter: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.arcaeon/adapter",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "MCP stdio proxy that logs the tool-call seam to the ledger without the agent's cooperation",
+    "repository": "https://github.com/dan8433-user/ledger",
+    "website": "https://arcaeon.io/proves",
+    "packages": [
+      "pypi:arcaeon-adapter"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-23T12:00:13.637769Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/dan8433-user/ledger",
+    "https://arcaeon.io/proves"
+  ],
+  "discovered_at": "2026-09-25T11:57:53Z"
+}

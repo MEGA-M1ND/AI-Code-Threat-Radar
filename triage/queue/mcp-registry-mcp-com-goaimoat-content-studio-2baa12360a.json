@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-goaimoat-content-studio-2baa12360a",
+  "source": "mcp-registry",
+  "key": "mcp:com.goaimoat/content-studio",
+  "title": "MCP server com.goaimoat/content-studio: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.goaimoat/content-studio",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Bilingual cross-border and AI content generation.",
+    "repository": "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+    "website": "https://goaimoat.com",
+    "packages": [],
+    "remote_hosts": [
+      "content.mcp.goaimoat.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-24T02:51:42.565866Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jayniebingyu-cyber/goaimoat-ai-visibility-mcp",
+    "https://goaimoat.com",
+    "https://content.mcp.goaimoat.com/mcp"
+  ],
+  "discovered_at": "2026-09-25T11:57:52Z"
+}
