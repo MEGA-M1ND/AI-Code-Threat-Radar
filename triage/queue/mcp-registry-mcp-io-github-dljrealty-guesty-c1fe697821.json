@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-dljrealty-guesty-c1fe697821",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.DLJRealty/guesty",
+  "title": "MCP server io.github.DLJRealty/guesty: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.DLJRealty/guesty",
+    "rule": "status-change",
+    "version": "0.11.2",
+    "status": "deprecated",
+    "description": "Guesty MCP server. 43 Guesty tools, read and write, free. Grounded replies, message-policy screen.",
+    "repository": "https://github.com/DLJRealty/guesty-mcp-server",
+    "website": "https://guestycopilot.com",
+    "packages": [
+      "npm:guesty-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-24T21:55:27.867542Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/DLJRealty/guesty-mcp-server",
+    "https://guestycopilot.com"
+  ],
+  "discovered_at": "2026-09-26T11:32:29Z"
+}

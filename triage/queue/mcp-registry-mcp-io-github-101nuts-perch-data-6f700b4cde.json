@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-101nuts-perch-data-6f700b4cde",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.101NUTS/perch-data",
+  "title": "MCP server io.github.101NUTS/perch-data: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.101NUTS/perch-data",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Six Apify actors: prediction-market weather data, tennis odds, Nashville permits, kitchen takeoffs.",
+    "repository": "https://github.com/101NUTS/perchdata-mcp",
+    "website": "https://apify.com/perchpermits",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-19T20:00:23.688143Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/101NUTS/perchdata-mcp",
+    "https://apify.com/perchpermits",
+    "https://mcp.apify.com/?tools=fetch-actor-details,get-actor-output,perchpermits/kalshi-weather-markets-nws,perchpermits/polymarket-weather-markets-stations,perchpermits/tennis-matches-odds-form,perchpermits/nashville-building-permits,perchpermits/kitchen-floor-plan-takeoff,perchpermits/apify-store-trends"
+  ],
+  "discovered_at": "2026-09-26T11:32:28Z"
+}

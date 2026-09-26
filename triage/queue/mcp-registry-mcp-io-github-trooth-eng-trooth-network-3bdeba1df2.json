@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-trooth-eng-trooth-network-3bdeba1df2",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.trooth-eng/trooth-network",
+  "title": "MCP server io.github.trooth-eng/trooth-network: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.trooth-eng/trooth-network",
+    "rule": "status-change",
+    "version": "1.1.3",
+    "status": "deleted",
+    "description": "Trooth is an infrastructure and cybersecurity company providing Machine-Readable Trust.",
+    "repository": "https://github.com/troothllc/trooth-mcp",
+    "website": "https://trooth.co",
+    "packages": [],
+    "remote_hosts": [
+      "api.trooth.co"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-09-25T20:25:11.807939Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/troothllc/trooth-mcp",
+    "https://trooth.co",
+    "https://api.trooth.co/public/mcp"
+  ],
+  "discovered_at": "2026-09-26T11:32:34Z"
+}

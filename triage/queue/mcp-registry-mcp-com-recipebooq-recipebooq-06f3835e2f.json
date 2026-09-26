@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-recipebooq-recipebooq-06f3835e2f",
+  "source": "mcp-registry",
+  "key": "mcp:com.recipebooq/recipebooq",
+  "title": "MCP server com.recipebooq/recipebooq: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.recipebooq/recipebooq",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "Design a React Native app in a browser and emit it as a real Expo project you own, iOS and Android.",
+    "repository": "",
+    "website": "https://recipebooq.com",
+    "packages": [],
+    "remote_hosts": [
+      "recipebooq.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-15T11:04:41.403475Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://recipebooq.com",
+    "https://recipebooq.com/api/mcp"
+  ],
+  "discovered_at": "2026-09-26T11:32:28Z"
+}

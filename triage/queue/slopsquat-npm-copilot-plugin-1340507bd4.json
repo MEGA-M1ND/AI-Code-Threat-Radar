@@ -1,0 +1,38 @@
+{
+  "id": "slopsquat-npm-copilot-plugin-1340507bd4",
+  "source": "slopsquat",
+  "key": "npm:copilot-plugin",
+  "title": "copilot-plugin (npm) resembles copilot",
+  "why": "copilot with a plausible-looking affix attached",
+  "suggested_category": "slopsquat-package",
+  "confidence": "low",
+  "evidence": {
+    "registry": "npm",
+    "name": "copilot-plugin",
+    "target": "copilot",
+    "rule": "affix",
+    "distance": 0,
+    "created": "2026-08-31T03:10:29.807Z",
+    "last_release": "2026-09-16T20:04:19.229Z",
+    "release_count": 4,
+    "versions": [
+      "0.2.0",
+      "0.2.1",
+      "0.3.0",
+      "0.4.0"
+    ],
+    "maintainers": [
+      "jrobador"
+    ],
+    "repository": "git+https://github.com/jrobador/copilot-plugin.git",
+    "description": "Delegate code review and coding tasks to GitHub Copilot from Claude Code or Cursor.",
+    "latest_version": "0.4.0",
+    "publisher": "jrobador",
+    "age_days": 26.3,
+    "found_via": "github-copilot"
+  },
+  "urls": [
+    "https://www.npmjs.com/package/copilot-plugin"
+  ],
+  "discovered_at": "2026-09-26T11:32:55Z"
+}
