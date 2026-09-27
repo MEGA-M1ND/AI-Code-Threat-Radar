@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-christopherzyx-vultax-rese-4766de84ba",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ChristopherZYX/vultax-research",
+  "title": "MCP server io.github.ChristopherZYX/vultax-research: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ChristopherZYX/vultax-research",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Vi market evidence, hypothetical price scenarios and published Vultax research.",
+    "repository": "https://github.com/ChristopherZYX/vultax-research-plugin",
+    "website": "https://vultax.com/vi-mcp",
+    "packages": [],
+    "remote_hosts": [
+      "vultax.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-12T23:12:11.896279Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ChristopherZYX/vultax-research-plugin",
+    "https://vultax.com/vi-mcp",
+    "https://vultax.com/vi-mcp"
+  ],
+  "discovered_at": "2026-09-27T12:11:14Z"
+}

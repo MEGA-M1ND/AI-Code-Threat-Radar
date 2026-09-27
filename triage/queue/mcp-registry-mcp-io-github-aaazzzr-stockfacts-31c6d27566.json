@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-aaazzzr-stockfacts-31c6d27566",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AAAZZZR/stockfacts",
+  "title": "MCP server io.github.AAAZZZR/stockfacts: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AAAZZZR/stockfacts",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "US stock market data for AI agents: SEC filings, financials, insider trades, 13F, options, macro.",
+    "repository": "",
+    "website": "https://livermore.club",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.livermore.club"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-21T13:30:37.483879Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://livermore.club",
+    "https://mcp.livermore.club/mcp"
+  ],
+  "discovered_at": "2026-09-27T12:11:14Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-focxle-agent-payments-virtual-ca-9f6a66e81d",
+  "source": "mcp-registry",
+  "key": "mcp:com.focxle/agent-payments-virtual-cards",
+  "title": "MCP server com.focxle/agent-payments-virtual-cards: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.focxle/agent-payments-virtual-cards",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deprecated",
+    "description": "Retired: Focxle no longer issues cards. Use com.focxle/b2b-agent-negotiation-governance.",
+    "repository": "",
+    "website": "https://focxle.com/fiat",
+    "packages": [],
+    "remote_hosts": [
+      "focxle.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T19:42:42.030773Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://focxle.com/fiat",
+    "https://focxle.com/api/v1/mcp/cards"
+  ],
+  "discovered_at": "2026-09-27T12:11:13Z"
+}
