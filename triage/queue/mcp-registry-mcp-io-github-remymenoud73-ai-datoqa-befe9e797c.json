@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-remymenoud73-ai-datoqa-befe9e797c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.remymenoud73-ai/datoqa",
+  "title": "MCP server io.github.remymenoud73-ai/datoqa: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.remymenoud73-ai/datoqa",
+    "rule": "status-change",
+    "version": "0.5.1",
+    "status": "deleted",
+    "description": "Free historical FX, country indicators and regional holidays with citations, dates and gaps.",
+    "repository": "",
+    "website": "https://datoqa.bhazarstudio.workers.dev/docs/quickstart",
+    "packages": [],
+    "remote_hosts": [
+      "datoqa.bhazarstudio.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-27T15:08:57.943218Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://datoqa.bhazarstudio.workers.dev/docs/quickstart",
+    "https://datoqa.bhazarstudio.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-09-28T14:08:08Z"
+}

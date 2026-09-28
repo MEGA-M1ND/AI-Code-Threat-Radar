@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-rubiic-rubiic-agent-922a41daf0",
+  "source": "mcp-registry",
+  "key": "mcp:com.rubiic/rubiic-agent",
+  "title": "MCP server com.rubiic/rubiic-agent: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.rubiic/rubiic-agent",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Start a new Rubiic video from a plain-language brief and see it through the agent's review steps.",
+    "repository": "https://github.com/rubiic-hq/rubiic-mcp",
+    "website": "https://rubiic.com",
+    "packages": [],
+    "remote_hosts": [
+      "rubiic.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-27T02:45:54.402079Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/rubiic-hq/rubiic-mcp",
+    "https://rubiic.com",
+    "https://rubiic.com/eve/agents/rubiic/eve/v1/mcp"
+  ],
+  "discovered_at": "2026-09-28T14:08:01Z"
+}

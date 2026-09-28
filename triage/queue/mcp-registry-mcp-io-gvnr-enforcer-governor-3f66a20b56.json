@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-gvnr-enforcer-governor-3f66a20b56",
+  "source": "mcp-registry",
+  "key": "mcp:io.gvnr/enforcer-governor",
+  "title": "MCP server io.gvnr/enforcer-governor: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.gvnr/enforcer-governor",
+    "rule": "status-change",
+    "version": "0.30.0",
+    "status": "deprecated",
+    "description": "GVNR (gvnr.io): stops AI agents overspending and running dangerous commands before they act.",
+    "repository": "https://github.com/instruxi-io/enforcer-governor",
+    "website": "https://gvnr.io",
+    "packages": [
+      "npm:enforcer-governor"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-24T12:16:29.89879Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/instruxi-io/enforcer-governor",
+    "https://gvnr.io"
+  ],
+  "discovered_at": "2026-09-28T14:08:09Z"
+}

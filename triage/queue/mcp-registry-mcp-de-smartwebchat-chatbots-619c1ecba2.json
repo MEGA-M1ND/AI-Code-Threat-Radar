@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-de-smartwebchat-chatbots-619c1ecba2",
+  "source": "mcp-registry",
+  "key": "mcp:de.smartwebchat/chatbots",
+  "title": "MCP server de.smartwebchat/chatbots: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "de.smartwebchat/chatbots",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Create and manage website chatbots for European SMBs: bots, chat, and captured leads.",
+    "repository": "",
+    "website": "https://smartwebchat.de",
+    "packages": [],
+    "remote_hosts": [
+      "smartwebchat.de"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-25T13:35:40.301473Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://smartwebchat.de",
+    "https://smartwebchat.de/api/mcp"
+  ],
+  "discovered_at": "2026-09-28T14:08:02Z"
+}

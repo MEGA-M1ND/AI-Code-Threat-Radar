@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-suparanku-suparanku-bf1813c5f6",
+  "source": "mcp-registry",
+  "key": "mcp:com.suparanku/suparanku",
+  "title": "MCP server com.suparanku/suparanku: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.suparanku/suparanku",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deprecated",
+    "description": "See and change how AI assistants describe your brand — AI representation management.",
+    "repository": "",
+    "website": "https://suparanku.com/ja/mcp/",
+    "packages": [],
+    "remote_hosts": [
+      "app.suparanku.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-21T12:46:05.3963Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://suparanku.com/ja/mcp/",
+    "https://app.suparanku.com/api/mcp/v1"
+  ],
+  "discovered_at": "2026-09-28T14:08:01Z"
+}

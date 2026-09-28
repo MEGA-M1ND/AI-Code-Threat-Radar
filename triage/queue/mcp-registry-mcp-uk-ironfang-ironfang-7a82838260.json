@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-uk-ironfang-ironfang-7a82838260",
+  "source": "mcp-registry",
+  "key": "mcp:uk.ironfang/ironfang",
+  "title": "MCP server uk.ironfang/ironfang: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "uk.ironfang/ironfang",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Screenshots, PDFs, QR codes, clips and template renders with a normal OAuth sign-in.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.ironfang.uk"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-31T22:16:29.225995Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.ironfang.uk/mcp"
+  ],
+  "discovered_at": "2026-09-28T14:08:09Z"
+}
