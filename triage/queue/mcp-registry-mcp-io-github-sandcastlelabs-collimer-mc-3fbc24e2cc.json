@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-sandcastlelabs-collimer-mc-3fbc24e2cc",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sandcastlelabs/collimer-mcp",
+  "title": "MCP server io.github.sandcastlelabs/collimer-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sandcastlelabs/collimer-mcp",
+    "rule": "status-change",
+    "version": "0.3.2",
+    "status": "deprecated",
+    "description": "Retired. Use Collimer's remote MCP server at https://app.collimer.com/mcp instead.",
+    "repository": "https://github.com/sandcastlelabs/collimer-mcp",
+    "website": "",
+    "packages": [
+      "npm:collimer-mcp"
+    ],
+    "remote_hosts": [
+      "app.collimer.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T15:37:36.152028Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/sandcastlelabs/collimer-mcp",
+    "https://app.collimer.com/mcp"
+  ],
+  "discovered_at": "2026-09-29T13:03:47Z"
+}

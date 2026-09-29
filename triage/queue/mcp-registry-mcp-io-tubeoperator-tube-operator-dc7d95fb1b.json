@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-tubeoperator-tube-operator-dc7d95fb1b",
+  "source": "mcp-registry",
+  "key": "mcp:io.tubeoperator/tube-operator",
+  "title": "MCP server io.tubeoperator/tube-operator: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.tubeoperator/tube-operator",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deprecated",
+    "description": "Your YouTube library in Claude, ChatGPT and Cursor: transcripts, breakdowns, summaries, search.",
+    "repository": "",
+    "website": "https://tubeoperator.io/?utm_source=mcp-registry&utm_medium=directory&utm_campaign=mcp-directories",
+    "packages": [],
+    "remote_hosts": [
+      "app.tubeoperator.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-27T14:30:00.487762Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tubeoperator.io/?utm_source=mcp-registry&utm_medium=directory&utm_campaign=mcp-directories",
+    "https://app.tubeoperator.io/mcp"
+  ],
+  "discovered_at": "2026-09-29T13:03:54Z"
+}

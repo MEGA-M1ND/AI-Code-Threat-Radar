@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-khsarvar-sifthound-feabfee6ce",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.khsarvar/sifthound",
+  "title": "MCP server io.github.khsarvar/sifthound: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.khsarvar/sifthound",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deleted",
+    "description": "Self-hosted, Tavily-compatible web search, extract, crawl and map tools for AI agents.",
+    "repository": "https://github.com/khsarvar/sifthound",
+    "website": "https://github.com/khsarvar/sifthound",
+    "packages": [
+      "pypi:sifthound"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-25T17:18:54.368934Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/khsarvar/sifthound",
+    "https://github.com/khsarvar/sifthound"
+  ],
+  "discovered_at": "2026-09-29T13:03:40Z"
+}

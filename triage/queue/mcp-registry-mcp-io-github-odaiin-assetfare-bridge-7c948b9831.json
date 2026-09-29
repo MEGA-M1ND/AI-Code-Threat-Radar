@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-odaiin-assetfare-bridge-7c948b9831",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.odaiin/assetfare-bridge",
+  "title": "MCP server io.github.odaiin/assetfare-bridge: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.odaiin/assetfare-bridge",
+    "rule": "status-change",
+    "version": "0.4.11",
+    "status": "deleted",
+    "description": "Non-custodial USDC bridge and cross-chain swap quotes: Solana to Base; unsigned, never signs/submits",
+    "repository": "https://github.com/odaiin/assetfare-mcp",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "api.assetfare.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-23T08:42:21.877464Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/odaiin/assetfare-mcp",
+    "https://api.assetfare.dev/mcp/bridge"
+  ],
+  "discovered_at": "2026-09-29T13:03:40Z"
+}
