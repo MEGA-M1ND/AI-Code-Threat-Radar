@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-eudi-wallet-mcp-bbb87a13ea",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/eudi-wallet-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/eudi-wallet-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/eudi-wallet-mcp",
+    "rule": "status-change",
+    "version": "1.0.4",
+    "status": "deprecated",
+    "description": "EUDI Wallet MCP — EU Digital Identity Wallet under eIDAS 2.0 for AI agent authentication via",
+    "repository": "https://github.com/CSOAI-ORG/eudi-wallet-mcp",
+    "website": "",
+    "packages": [
+      "pypi:eudi-wallet-mcp"
+    ],
+    "remote_hosts": [
+      "api.meok.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T14:11:22.509491Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/eudi-wallet-mcp",
+    "https://api.meok.ai/v1/a2a/eudi-wallet"
+  ],
+  "discovered_at": "2026-09-30T12:44:40Z"
+}

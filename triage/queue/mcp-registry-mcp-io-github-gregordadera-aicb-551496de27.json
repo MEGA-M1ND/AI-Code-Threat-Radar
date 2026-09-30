@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-gregordadera-aicb-551496de27",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.gregordadera/aicb",
+  "title": "MCP server io.github.gregordadera/aicb: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.gregordadera/aicb",
+    "rule": "status-change",
+    "version": "0.5.464.66",
+    "status": "deprecated",
+    "description": "Symbol-aware C# and .NET code context for AI coding assistants.",
+    "repository": "https://github.com/gregordadera/AICB",
+    "website": "https://github.com/gregordadera/AICB",
+    "packages": [
+      "nuget:AIContextBuilder"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T21:05:21.324729Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/gregordadera/AICB",
+    "https://github.com/gregordadera/AICB"
+  ],
+  "discovered_at": "2026-09-30T12:44:42Z"
+}

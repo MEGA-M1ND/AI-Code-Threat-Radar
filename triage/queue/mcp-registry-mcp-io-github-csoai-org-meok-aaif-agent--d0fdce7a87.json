@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-meok-aaif-agent--d0fdce7a87",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/meok-aaif-agent-card-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/meok-aaif-agent-card-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/meok-aaif-agent-card-mcp",
+    "rule": "status-change",
+    "version": "1.0.4",
+    "status": "deprecated",
+    "description": "MEOK AAIF Agent Card MCP — Linux Foundation AAIF agent identity bridge. Issues + verifies +",
+    "repository": "https://github.com/CSOAI-ORG/meok-aaif-agent-card-mcp",
+    "website": "",
+    "packages": [
+      "pypi:meok-aaif-agent-card-mcp"
+    ],
+    "remote_hosts": [
+      "api.meok.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:20:59.029431Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/meok-aaif-agent-card-mcp",
+    "https://api.meok.ai/v1/a2a/aaif-agent-card"
+  ],
+  "discovered_at": "2026-09-30T12:44:40Z"
+}

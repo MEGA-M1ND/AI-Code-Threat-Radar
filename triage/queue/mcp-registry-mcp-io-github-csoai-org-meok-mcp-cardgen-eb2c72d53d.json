@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-meok-mcp-cardgen-eb2c72d53d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/meok-mcp-cardgen-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/meok-mcp-cardgen-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/meok-mcp-cardgen-mcp",
+    "rule": "status-change",
+    "version": "1.0.3",
+    "status": "deprecated",
+    "description": "MEOK MCP Cardgen — generate signed .well-known MCP server cards (SEP-1649 + SEP-1960 + SEP-2127)",
+    "repository": "https://github.com/CSOAI-ORG/meok-mcp-cardgen-mcp",
+    "website": "",
+    "packages": [
+      "pypi:meok-mcp-cardgen-mcp"
+    ],
+    "remote_hosts": [
+      "api.meok.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:21:23.877106Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/meok-mcp-cardgen-mcp",
+    "https://api.meok.ai/v1/dev/mcp-cardgen"
+  ],
+  "discovered_at": "2026-09-30T12:44:40Z"
+}

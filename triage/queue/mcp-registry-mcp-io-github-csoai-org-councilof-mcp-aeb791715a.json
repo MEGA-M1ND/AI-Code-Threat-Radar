@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-councilof-mcp-aeb791715a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/councilof_mcp",
+  "title": "MCP server io.github.CSOAI-ORG/councilof_mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/councilof_mcp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "CouncilOf.AI MCP — the UK sovereign defence BFT council orchestrator. UK MOD + AUKUS Pillar 2 procur",
+    "repository": "https://github.com/CSOAI-ORG/councilof-mcp",
+    "website": "",
+    "packages": [
+      "pypi:councilof_mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-06T04:23:19.395144Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/councilof-mcp"
+  ],
+  "discovered_at": "2026-09-30T12:44:40Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-studio-lowlevel-normativa-drones-esp-d6aad1cab5",
+  "source": "mcp-registry",
+  "key": "mcp:studio.lowlevel/normativa-drones-espana",
+  "title": "MCP server studio.lowlevel/normativa-drones-espana: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "studio.lowlevel/normativa-drones-espana",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Normativa española de drones con fuente y fecha por regla: pasajes citables, zonas UAS, requisitos.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.lowlevel.studio"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-21T09:27:47.222297Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.lowlevel.studio/mcp"
+  ],
+  "discovered_at": "2026-09-30T12:44:43Z"
+}

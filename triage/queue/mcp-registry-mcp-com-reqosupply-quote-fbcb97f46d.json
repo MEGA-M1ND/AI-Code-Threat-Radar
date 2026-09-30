@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-reqosupply-quote-fbcb97f46d",
+  "source": "mcp-registry",
+  "key": "mcp:com.reqosupply/quote",
+  "title": "MCP server com.reqosupply/quote: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.reqosupply/quote",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deprecated",
+    "description": "Get wholesale quotes and order industrial, MRO, and operational supplies from a US B2B distributor.",
+    "repository": "",
+    "website": "https://www.reqosupply.com/agents",
+    "packages": [],
+    "remote_hosts": [
+      "www.reqosupply.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T23:45:01.036793Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.reqosupply.com/agents",
+    "https://www.reqosupply.com/mcp"
+  ],
+  "discovered_at": "2026-09-30T12:44:39Z"
+}

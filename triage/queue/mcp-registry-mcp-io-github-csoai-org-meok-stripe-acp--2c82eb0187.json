@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-meok-stripe-acp--2c82eb0187",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/meok-stripe-acp-checkout-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/meok-stripe-acp-checkout-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/meok-stripe-acp-checkout-mcp",
+    "rule": "status-change",
+    "version": "1.0.6",
+    "status": "deprecated",
+    "description": "MEOK Stripe ACP Checkout MCP — ChatGPT shopping bridge. Issues + verifies + signs Stripe Agentic",
+    "repository": "https://github.com/CSOAI-ORG/meok-stripe-acp-checkout-mcp",
+    "website": "",
+    "packages": [
+      "pypi:meok-stripe-acp-checkout-mcp"
+    ],
+    "remote_hosts": [
+      "api.meok.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:21:32.235791Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/meok-stripe-acp-checkout-mcp",
+    "https://api.meok.ai/v1/a2a/stripe-acp-checkout"
+  ],
+  "discovered_at": "2026-09-30T12:44:40Z"
+}

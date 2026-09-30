@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-oassis-web-d1d44593ff",
+  "source": "mcp-registry",
+  "key": "mcp:dev.oassis/web",
+  "title": "MCP server dev.oassis/web: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.oassis/web",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Read, map and crawl the web, and drive a real browser. Pay per call, no key, no signup.",
+    "repository": "",
+    "website": "https://api.oassis.dev",
+    "packages": [],
+    "remote_hosts": [
+      "api.oassis.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T22:39:30.365195Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.oassis.dev",
+    "https://api.oassis.dev/mcp"
+  ],
+  "discovered_at": "2026-09-30T12:44:40Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-mkna-mkna-d67bb23660",
+  "source": "mcp-registry",
+  "key": "mcp:ai.mkna/mkna",
+  "title": "MCP server ai.mkna/mkna: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.mkna/mkna",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Search and quote every law, decree, resolution, ruling and ordinance Ecuador publishes.",
+    "repository": "",
+    "website": "https://mkna.ai",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.mkna.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-24T03:24:01.722695Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mkna.ai",
+    "https://mcp.mkna.ai/mcp"
+  ],
+  "discovered_at": "2026-09-30T12:44:39Z"
+}

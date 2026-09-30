@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-iso-42005-impact-22c616c033",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/iso-42005-impact-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/iso-42005-impact-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/iso-42005-impact-mcp",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deprecated",
+    "description": "ISO/IEC 42005:2025 AI Impact Assessment MCP — first international standard for AI impact",
+    "repository": "https://github.com/CSOAI-ORG/iso-42005-impact-mcp",
+    "website": "",
+    "packages": [
+      "pypi:iso-42005-impact-mcp"
+    ],
+    "remote_hosts": [
+      "api.meok.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:20:39.11641Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/iso-42005-impact-mcp",
+    "https://api.meok.ai/v1/governance/iso-42005-impact"
+  ],
+  "discovered_at": "2026-09-30T12:44:40Z"
+}

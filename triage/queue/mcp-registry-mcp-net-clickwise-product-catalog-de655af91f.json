@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-net-clickwise-product-catalog-de655af91f",
+  "source": "mcp-registry",
+  "key": "mcp:net.clickwise/product-catalog",
+  "title": "MCP server net.clickwise/product-catalog: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.clickwise/product-catalog",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "GTIN product catalog statistics, product search and feeds with tracked affiliate links.",
+    "repository": "",
+    "website": "https://panel-v2.clickwise.net/en/product-catalog/",
+    "packages": [],
+    "remote_hosts": [
+      "panel-v2.clickwise.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-27T20:30:33.59312Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://panel-v2.clickwise.net/en/product-catalog/",
+    "https://panel-v2.clickwise.net/api/v1/mcp/"
+  ],
+  "discovered_at": "2026-09-30T12:44:43Z"
+}
