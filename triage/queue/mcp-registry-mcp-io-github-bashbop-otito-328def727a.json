@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-bashbop-otito-328def727a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.BASHBOP/otito",
+  "title": "MCP server io.github.BASHBOP/otito: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.BASHBOP/otito",
+    "rule": "status-change",
+    "version": "3.5.0",
+    "status": "deprecated",
+    "description": "Deterministic local repository context, impact analysis, and merge-readiness evidence for AI agents.",
+    "repository": "https://github.com/BASHBOP/otito",
+    "website": "https://bashbop.github.io/otito/",
+    "packages": [
+      "npm:@bashbop/otito"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-30T06:10:23.190953Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BASHBOP/otito",
+    "https://bashbop.github.io/otito/"
+  ],
+  "discovered_at": "2026-10-01T13:29:01Z"
+}

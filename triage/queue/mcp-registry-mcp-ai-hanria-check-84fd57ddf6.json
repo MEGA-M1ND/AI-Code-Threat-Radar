@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-hanria-check-84fd57ddf6",
+  "source": "mcp-registry",
+  "key": "mcp:ai.hanria/check",
+  "title": "MCP server ai.hanria/check: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.hanria/check",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "Check a proposed agent action against operator's rules: permit, deny or escalate, with the clause.",
+    "repository": "",
+    "website": "https://hanria.ai/",
+    "packages": [],
+    "remote_hosts": [
+      "check.hanria.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-29T01:52:40.995705Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://hanria.ai/",
+    "https://check.hanria.ai/mcp"
+  ],
+  "discovered_at": "2026-10-01T13:28:57Z"
+}

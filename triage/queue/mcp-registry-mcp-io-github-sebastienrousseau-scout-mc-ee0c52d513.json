@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-sebastienrousseau-scout-mc-ee0c52d513",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sebastienrousseau/scout-mcp",
+  "title": "MCP server io.github.sebastienrousseau/scout-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sebastienrousseau/scout-mcp",
+    "rule": "status-change",
+    "version": "0.0.8",
+    "status": "deleted",
+    "description": "Evaluate an MCP server with scout and verify scout attestations, from inside the agent. Read-only.",
+    "repository": "https://github.com/sebastienrousseau/scout-mcp",
+    "website": "https://github.com/sebastienrousseau/scout-mcp",
+    "packages": [
+      "oci:ghcr.io/sebastienrousseau/scout-mcp:0.0.8"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-27T14:38:59.239815Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/sebastienrousseau/scout-mcp",
+    "https://github.com/sebastienrousseau/scout-mcp"
+  ],
+  "discovered_at": "2026-10-01T13:29:12Z"
+}

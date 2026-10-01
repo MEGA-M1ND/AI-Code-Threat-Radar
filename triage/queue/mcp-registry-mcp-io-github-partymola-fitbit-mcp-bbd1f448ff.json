@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-partymola-fitbit-mcp-bbd1f448ff",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.partymola/fitbit-mcp",
+  "title": "MCP server io.github.partymola/fitbit-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.partymola/fitbit-mcp",
+    "rule": "status-change",
+    "version": "0.6.0",
+    "status": "deprecated",
+    "description": "Retired, superseded by google-health-mcp. Fitbit Web API shuts down 30 Sept 2026.",
+    "repository": "https://github.com/partymola/fitbit-mcp",
+    "website": "",
+    "packages": [
+      "pypi:fitbit-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-20T12:20:53.455016Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/partymola/fitbit-mcp"
+  ],
+  "discovered_at": "2026-10-01T13:29:10Z"
+}

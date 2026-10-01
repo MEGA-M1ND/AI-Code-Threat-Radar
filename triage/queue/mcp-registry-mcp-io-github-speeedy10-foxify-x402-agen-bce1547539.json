@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-speeedy10-foxify-x402-agen-bce1547539",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.speeedy10/foxify-x402-agent-commerce-payment-preflight",
+  "title": "MCP server io.github.speeedy10/foxify-x402-agent-commerce-payment-preflight: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.speeedy10/foxify-x402-agent-commerce-payment-preflight",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "x402 agent preflight: exact action authority plus payment mandate, destination, expiry and replay.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "xqmokxkbgewocuiinnot.supabase.co"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-24T10:13:46.144016Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://xqmokxkbgewocuiinnot.supabase.co/functions/v1/foxify-agent-commerce-mcp"
+  ],
+  "discovered_at": "2026-10-01T13:29:12Z"
+}

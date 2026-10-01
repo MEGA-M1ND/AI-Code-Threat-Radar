@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-elkinegor-linkbit-mcp-7ddca6ab44",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.elkinegor/linkbit-mcp",
+  "title": "MCP server io.github.elkinegor/linkbit-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.elkinegor/linkbit-mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Shorten URLs, bulk create, QR, and click analytics for LinkBit.",
+    "repository": "https://github.com/elkinegor/linkbit-mcp",
+    "website": "https://linkbit.live/mcp",
+    "packages": [
+      "npm:linkbit-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-29T13:08:00.158794Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/elkinegor/linkbit-mcp",
+    "https://linkbit.live/mcp"
+  ],
+  "discovered_at": "2026-10-01T13:29:08Z"
+}

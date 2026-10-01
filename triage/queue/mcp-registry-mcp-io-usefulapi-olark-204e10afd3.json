@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-usefulapi-olark-204e10afd3",
+  "source": "mcp-registry",
+  "key": "mcp:io.usefulapi/olark",
+  "title": "MCP server io.usefulapi/olark: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.usefulapi/olark",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Manage Olark live-chat operators and groups (teams): list, create, update, and assign to teams.",
+    "repository": "https://github.com/m190/usefulapi-mcp",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "olark.usefulapi.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-29T12:52:22.608304Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/m190/usefulapi-mcp",
+    "https://olark.usefulapi.io/mcp"
+  ],
+  "discovered_at": "2026-10-01T13:29:14Z"
+}

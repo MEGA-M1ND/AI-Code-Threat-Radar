@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-flatmark-flatmark-ad537ac6fc",
+  "source": "mcp-registry",
+  "key": "mcp:dev.flatmark/flatmark",
+  "title": "MCP server dev.flatmark/flatmark: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.flatmark/flatmark",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Document to Markdown MCP server: PDF, Word, PowerPoint, Excel and HTML, with OCR for large files.",
+    "repository": "https://github.com/flatmark-dev/flatmark",
+    "website": "https://flatmark.dev",
+    "packages": [],
+    "remote_hosts": [
+      "api.flatmark.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T11:10:43.09687Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/flatmark-dev/flatmark",
+    "https://flatmark.dev",
+    "https://api.flatmark.dev/mcp/"
+  ],
+  "discovered_at": "2026-10-01T13:28:59Z"
+}
