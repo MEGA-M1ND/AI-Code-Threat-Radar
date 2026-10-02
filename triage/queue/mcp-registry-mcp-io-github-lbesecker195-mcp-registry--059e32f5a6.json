@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-lbesecker195-mcp-registry--059e32f5a6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.lbesecker195/mcp-registry-search-find-mcp-servers-discover-install-mcp-tools-directory-catalog-marketplace",
+  "title": "MCP server io.github.lbesecker195/mcp-registry-search-find-mcp-servers-discover-install-mcp-tools-directory-catalog-marketplace: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.lbesecker195/mcp-registry-search-find-mcp-servers-discover-install-mcp-tools-directory-catalog-marketplace",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "MCP registry & directory: search, find & install 31k+ MCP servers & tools. Catalog and marketplace.",
+    "repository": "https://github.com/lbesecker195/MCP_Registry",
+    "website": "https://ai.mcpharbor.dev",
+    "packages": [],
+    "remote_hosts": [
+      "ai.mcpharbor.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-20T04:22:04.313874Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/lbesecker195/MCP_Registry",
+    "https://ai.mcpharbor.dev",
+    "https://ai.mcpharbor.dev/mcp"
+  ],
+  "discovered_at": "2026-10-02T12:47:46Z"
+}

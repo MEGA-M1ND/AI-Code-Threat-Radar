@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-host-chorus-mcp-c97b1d1e22",
+  "source": "mcp-registry",
+  "key": "mcp:host.chorus/mcp",
+  "title": "MCP server host.chorus/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "host.chorus/mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Publish websites from any AI agent. Live URL at <slug>.chorus.host in one call, no account needed.",
+    "repository": "",
+    "website": "https://chorus.host",
+    "packages": [],
+    "remote_hosts": [
+      "chorus.host"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-01T02:16:45.613452Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://chorus.host",
+    "https://chorus.host/mcp"
+  ],
+  "discovered_at": "2026-10-02T12:47:39Z"
+}
