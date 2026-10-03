@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-nero-engine-us-visa-bullet-44fbebf346",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Nero-Engine/us-visa-bulletin-monitor",
+  "title": "MCP server io.github.Nero-Engine/us-visa-bulletin-monitor: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Nero-Engine/us-visa-bulletin-monitor",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "US green card priority date cutoffs from the Visa Bulletin, with a verdict for your date.",
+    "repository": "",
+    "website": "https://apify.com/nerolabs/us-visa-bulletin-monitor",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-13T22:03:15.643178Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/nerolabs/us-visa-bulletin-monitor",
+    "https://mcp.apify.com/?tools=nerolabs/us-visa-bulletin-monitor"
+  ],
+  "discovered_at": "2026-10-03T11:47:39Z"
+}

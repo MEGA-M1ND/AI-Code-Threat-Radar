@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-rolloutsai-mails-agent-ema-29a6c73e16",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.RolloutsAI/mails-agent-email",
+  "title": "MCP server io.github.RolloutsAI/mails-agent-email: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.RolloutsAI/mails-agent-email",
+    "rule": "status-change",
+    "version": "0.2.9",
+    "status": "deleted",
+    "description": "A real inbox for AI agents: send, receive and thread email, behind a prompt-injection firewall.",
+    "repository": "",
+    "website": "https://mails.ai",
+    "packages": [
+      "npm:@mailsai/mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-04T08:09:14.4216Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mails.ai"
+  ],
+  "discovered_at": "2026-10-03T11:47:39Z"
+}

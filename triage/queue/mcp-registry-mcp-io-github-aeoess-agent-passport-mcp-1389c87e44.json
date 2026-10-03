@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-aeoess-agent-passport-mcp-1389c87e44",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.aeoess/agent-passport-mcp",
+  "title": "MCP server io.github.aeoess/agent-passport-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.aeoess/agent-passport-mcp",
+    "rule": "status-change",
+    "version": "6.1.0",
+    "status": "deleted",
+    "description": "Cryptographic identity, delegation, governance, and commerce for AI agents. 152 tools.",
+    "repository": "https://github.com/aeoess/agent-passport-mcp",
+    "website": "https://aeoess.com",
+    "packages": [
+      "npm:agent-passport-system-mcp"
+    ],
+    "remote_hosts": [
+      "mcp.aeoess.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-22T09:59:05.035349Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/aeoess/agent-passport-mcp",
+    "https://aeoess.com",
+    "https://mcp.aeoess.com/sse"
+  ],
+  "discovered_at": "2026-10-03T11:47:40Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-nero-engine-uk-waste-carri-da80863477",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Nero-Engine/uk-waste-carrier-monitor",
+  "title": "MCP server io.github.Nero-Engine/uk-waste-carrier-monitor: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Nero-Engine/uk-waste-carrier-monitor",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "UK Environment Agency waste carrier licence records, with alerts on status and expiry.",
+    "repository": "",
+    "website": "https://apify.com/nerolabs/uk-waste-carrier-monitor",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-13T22:03:13.691528Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/nerolabs/uk-waste-carrier-monitor",
+    "https://mcp.apify.com/?tools=nerolabs/uk-waste-carrier-monitor"
+  ],
+  "discovered_at": "2026-10-03T11:47:39Z"
+}

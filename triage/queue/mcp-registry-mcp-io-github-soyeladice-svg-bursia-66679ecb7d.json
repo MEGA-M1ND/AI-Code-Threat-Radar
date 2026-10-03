@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-soyeladice-svg-bursia-66679ecb7d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.soyeladice-svg/bursia",
+  "title": "MCP server io.github.soyeladice-svg/bursia: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.soyeladice-svg/bursia",
+    "rule": "status-change",
+    "version": "0.6.1",
+    "status": "deprecated",
+    "description": "Burs-IA public MCP entry point for capability discovery, bounded routing and interoperability.",
+    "repository": "",
+    "website": "https://burs-ia.com",
+    "packages": [],
+    "remote_hosts": [
+      "burs-ia-mcp-adapter-production.up.railway.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-22T19:48:25.167747Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://burs-ia.com",
+    "https://burs-ia-mcp-adapter-production.up.railway.app/mcp"
+  ],
+  "discovered_at": "2026-10-03T11:47:41Z"
+}

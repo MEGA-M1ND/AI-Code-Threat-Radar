@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-simonplmak-cloud-startup-v-5da2738038",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.simonplmak-cloud/startup-valuation",
+  "title": "MCP server io.github.simonplmak-cloud/startup-valuation: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.simonplmak-cloud/startup-valuation",
+    "rule": "status-change",
+    "version": "2.1.0",
+    "status": "deleted",
+    "description": "Startup valuation for AI agents: 14 tools, 80+ pre-revenue formulas.",
+    "repository": "https://github.com/simonplmak-cloud/startup-valuation",
+    "website": "https://startup-valuation.simonmak.com",
+    "packages": [
+      "pypi:startup-valuation"
+    ],
+    "remote_hosts": [
+      "startup-valuation.simonmak.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-02T15:53:27.309323Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/simonplmak-cloud/startup-valuation",
+    "https://startup-valuation.simonmak.com",
+    "https://startup-valuation.simonmak.com/api"
+  ],
+  "discovered_at": "2026-10-03T11:47:41Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-quietstance-workflow-assessment-b9659b3cba",
+  "source": "mcp-registry",
+  "key": "mcp:com.quietstance/workflow-assessment",
+  "title": "MCP server com.quietstance/workflow-assessment: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.quietstance/workflow-assessment",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Assess recurring workflows and submit an authorized sanitized inquiry for human review.",
+    "repository": "",
+    "website": "https://quietstance.com/workflow-assessment",
+    "packages": [],
+    "remote_hosts": [
+      "quietstance.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-27T01:58:59.729154Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://quietstance.com/workflow-assessment",
+    "https://quietstance.com/mcp"
+  ],
+  "discovered_at": "2026-10-03T11:47:39Z"
+}

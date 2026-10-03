@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-gi0tto-sluicer-11e4ffb947",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Gi0tto/sluicer",
+  "title": "MCP server io.github.Gi0tto/sluicer: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Gi0tto/sluicer",
+    "rule": "status-change",
+    "version": "0.10.0",
+    "status": "deleted",
+    "description": "The data a web page declares, with where each value came from. No model, no API key.",
+    "repository": "https://github.com/Gi0tto/sluicer",
+    "website": "https://gi0tto.github.io/sluicer/",
+    "packages": [
+      "pypi:sluicer"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T20:30:17.644575Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Gi0tto/sluicer",
+    "https://gi0tto.github.io/sluicer/"
+  ],
+  "discovered_at": "2026-10-03T11:47:39Z"
+}

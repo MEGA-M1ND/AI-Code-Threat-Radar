@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-autoview-com-mcp-f815870fff",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.autoview-com/mcp",
+  "title": "MCP server io.github.autoview-com/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.autoview-com/mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Trade across 22+ exchanges and brokers from any MCP-capable AI agent, no install required.",
+    "repository": "https://github.com/autoview-com/mcp",
+    "website": "https://autoview.com/",
+    "packages": [],
+    "remote_hosts": [
+      "api.autoview.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-06T01:47:57.649643Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/autoview-com/mcp",
+    "https://autoview.com/",
+    "https://api.autoview.com/mcp/"
+  ],
+  "discovered_at": "2026-10-03T11:47:40Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-simonplmak-cloud-vision-dr-ed47ac5c03",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.simonplmak-cloud/vision-driven-design",
+  "title": "MCP server io.github.simonplmak-cloud/vision-driven-design: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.simonplmak-cloud/vision-driven-design",
+    "rule": "status-change",
+    "version": "1.8.3",
+    "status": "deleted",
+    "description": "Spec-driven development MCP server: 8 phases, bi-directional traceability, 7 quality gates.",
+    "repository": "https://github.com/simonplmak-cloud/vision-driven-design",
+    "website": "https://vdd.simonmak.com",
+    "packages": [],
+    "remote_hosts": [
+      "vdd.simonmak.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-30T23:49:01.668131Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/simonplmak-cloud/vision-driven-design",
+    "https://vdd.simonmak.com",
+    "https://vdd.simonmak.com/api/mcp"
+  ],
+  "discovered_at": "2026-10-03T11:47:41Z"
+}

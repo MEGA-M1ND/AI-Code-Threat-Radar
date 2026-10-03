@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-tech-thecompound-compound-mcp-78ec09a2c4",
+  "source": "mcp-registry",
+  "key": "mcp:tech.thecompound/compound-mcp",
+  "title": "MCP server tech.thecompound/compound-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "tech.thecompound/compound-mcp",
+    "rule": "status-change",
+    "version": "0.5.0",
+    "status": "deprecated",
+    "description": "Compound Labs: eleven keyless lookups. Model pricing, dep health, stack cost, registries.",
+    "repository": "https://github.com/kyisaiah47/compound-mcp",
+    "website": "https://thecompound.tech",
+    "packages": [
+      "npm:compound-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-21T15:54:28.154667Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/kyisaiah47/compound-mcp",
+    "https://thecompound.tech"
+  ],
+  "discovered_at": "2026-10-03T11:47:42Z"
+}

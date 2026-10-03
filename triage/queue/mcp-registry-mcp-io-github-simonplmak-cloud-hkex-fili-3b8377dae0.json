@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-simonplmak-cloud-hkex-fili-3b8377dae0",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.simonplmak-cloud/hkex-filings",
+  "title": "MCP server io.github.simonplmak-cloud/hkex-filings: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.simonplmak-cloud/hkex-filings",
+    "rule": "status-change",
+    "version": "2.4.1",
+    "status": "deleted",
+    "description": "Live HKEx (Hong Kong Stock Exchange) regulatory filings for AI agents.",
+    "repository": "https://github.com/simonplmak-cloud/hkex-filing-scraper",
+    "website": "https://hkex-listco-updates.ascent-partners.com/",
+    "packages": [
+      "pypi:hkex-filing-scraper"
+    ],
+    "remote_hosts": [
+      "hkex-listco-updates.ascent-partners.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-30T23:49:40.36364Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/simonplmak-cloud/hkex-filing-scraper",
+    "https://hkex-listco-updates.ascent-partners.com/",
+    "https://hkex-listco-updates.ascent-partners.com/api/mcp"
+  ],
+  "discovered_at": "2026-10-03T11:47:41Z"
+}
