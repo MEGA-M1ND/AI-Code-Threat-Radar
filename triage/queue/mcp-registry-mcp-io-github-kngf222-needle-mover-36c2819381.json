@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-kngf222-needle-mover-36c2819381",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.kngf222/needle-mover",
+  "title": "MCP server io.github.kngf222/needle-mover: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.kngf222/needle-mover",
+    "rule": "status-change",
+    "version": "2026.9.26",
+    "status": "deleted",
+    "description": "Your AI walks the right questions in order and gives you a decision you can read and share.",
+    "repository": "",
+    "website": "https://needle-mover.gettrillion.ai",
+    "packages": [],
+    "remote_hosts": [
+      "needle-mover.gettrillion.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T16:10:17.200674Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://needle-mover.gettrillion.ai",
+    "https://needle-mover.gettrillion.ai/mcp"
+  ],
+  "discovered_at": "2026-10-04T12:30:26Z"
+}

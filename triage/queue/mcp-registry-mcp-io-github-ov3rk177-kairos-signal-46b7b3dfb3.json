@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-ov3rk177-kairos-signal-46b7b3dfb3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.OV3RK177/kairos-signal",
+  "title": "MCP server io.github.OV3RK177/kairos-signal: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.OV3RK177/kairos-signal",
+    "rule": "status-change",
+    "version": "3.5.1",
+    "status": "deprecated",
+    "description": "Provenance-first DePIN telemetry: 331 live networks + 129 Bittensor subnets, 10,508 series.",
+    "repository": "https://github.com/OV3RK177/kairos-mcp-server",
+    "website": "https://kairossignal.com",
+    "packages": [],
+    "remote_hosts": [
+      "kairossignal.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-24T19:28:23.343972Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/OV3RK177/kairos-mcp-server",
+    "https://kairossignal.com",
+    "https://kairossignal.com/mcp/"
+  ],
+  "discovered_at": "2026-10-04T12:30:24Z"
+}

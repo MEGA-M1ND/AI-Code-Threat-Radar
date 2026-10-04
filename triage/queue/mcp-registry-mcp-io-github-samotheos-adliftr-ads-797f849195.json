@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-samotheos-adliftr-ads-797f849195",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.samotheos/adliftr-ads",
+  "title": "MCP server io.github.samotheos/adliftr-ads: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.samotheos/adliftr-ads",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Launch campaigns, manage ads and analyze performance across Meta, TikTok, Google Ads and Snapchat.",
+    "repository": "",
+    "website": "https://adliftr.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.adliftr.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-02T09:56:36.912206Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://adliftr.com",
+    "https://api.adliftr.com/mcp"
+  ],
+  "discovered_at": "2026-10-04T12:30:27Z"
+}

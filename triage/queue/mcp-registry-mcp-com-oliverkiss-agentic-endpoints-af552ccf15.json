@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-oliverkiss-agentic-endpoints-af552ccf15",
+  "source": "mcp-registry",
+  "key": "mcp:com.oliverkiss/agentic-endpoints",
+  "title": "MCP server com.oliverkiss/agentic-endpoints: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.oliverkiss/agentic-endpoints",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Pay-per-call tools for autonomous agents, settled in USDC on Base via x402.",
+    "repository": "https://github.com/olie-kiss/agentic-endpoints",
+    "website": "https://ai.oliverkiss.com",
+    "packages": [],
+    "remote_hosts": [
+      "ai.oliverkiss.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-04T23:12:02.456042Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/olie-kiss/agentic-endpoints",
+    "https://ai.oliverkiss.com",
+    "https://ai.oliverkiss.com/mcp"
+  ],
+  "discovered_at": "2026-10-04T12:30:23Z"
+}

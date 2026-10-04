@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-nkodela-dhanvrit-5783b52b73",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.nkodela/dhanvrit",
+  "title": "MCP server io.github.nkodela/dhanvrit: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.nkodela/dhanvrit",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Personal finance assistant: track accounts, expenses, cash flow forecasts, and subscriptions.",
+    "repository": "https://github.com/nkodela/Dhanvrit",
+    "website": "https://dhanvrit.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.dhanvrit.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T11:17:10.366498Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/nkodela/Dhanvrit",
+    "https://dhanvrit.com",
+    "https://mcp.dhanvrit.com/mcp"
+  ],
+  "discovered_at": "2026-10-04T12:30:26Z"
+}

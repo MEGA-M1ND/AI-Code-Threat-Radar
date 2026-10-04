@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-no-agentic-directory-d63c61a4e6",
+  "source": "mcp-registry",
+  "key": "mcp:no.agentic/directory",
+  "title": "MCP server no.agentic/directory: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "no.agentic/directory",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Find GPU sellers for AI inference by model, cheapest first; pay per call with x402 (USDC on Base).",
+    "repository": "",
+    "website": "https://agentic.no",
+    "packages": [],
+    "remote_hosts": [
+      "agentic.no"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-02T15:11:37.040229Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agentic.no",
+    "https://agentic.no/mcp"
+  ],
+  "discovered_at": "2026-10-04T12:30:27Z"
+}

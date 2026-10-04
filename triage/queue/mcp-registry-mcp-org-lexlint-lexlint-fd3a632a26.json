@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-org-lexlint-lexlint-fd3a632a26",
+  "source": "mcp-registry",
+  "key": "mcp:org.lexlint/lexlint",
+  "title": "MCP server org.lexlint/lexlint: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "org.lexlint/lexlint",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Compliance lint for AI, scraping, and privacy law. Cited findings in 200 or more jurisdictions.",
+    "repository": "",
+    "website": "https://mcp.lexlint.org/docs",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.lexlint.org"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-27T05:24:23.741561Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.lexlint.org/docs",
+    "https://mcp.lexlint.org/mcp"
+  ],
+  "discovered_at": "2026-10-04T12:30:27Z"
+}
