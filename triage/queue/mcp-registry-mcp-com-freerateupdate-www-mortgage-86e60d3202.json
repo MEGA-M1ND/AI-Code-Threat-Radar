@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-freerateupdate-www-mortgage-86e60d3202",
+  "source": "mcp-registry",
+  "key": "mcp:com.freerateupdate.www/mortgage",
+  "title": "MCP server com.freerateupdate.www/mortgage: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.freerateupdate.www/mortgage",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Today's mortgage and home equity rates (HELOC, home equity loan, cash-out), lenders, start links.",
+    "repository": "",
+    "website": "https://www.freerateupdate.com/mortgage-home-equity-mcp",
+    "packages": [],
+    "remote_hosts": [
+      "fru-api.freerateupdate.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T17:24:35.42021Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.freerateupdate.com/mortgage-home-equity-mcp",
+    "https://fru-api.freerateupdate.com/mcp"
+  ],
+  "discovered_at": "2026-10-05T14:53:57Z"
+}

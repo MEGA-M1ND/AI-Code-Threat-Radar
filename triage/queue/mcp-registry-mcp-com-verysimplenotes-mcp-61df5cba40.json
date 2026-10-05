@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-verysimplenotes-mcp-61df5cba40",
+  "source": "mcp-registry",
+  "key": "mcp:com.verysimplenotes/mcp",
+  "title": "MCP server com.verysimplenotes/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.verysimplenotes/mcp",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Markdown notes in folders, with files, that your AI assistant can read, write and organise.",
+    "repository": "",
+    "website": "https://verysimplenotes.com/api",
+    "packages": [],
+    "remote_hosts": [
+      "verysimplenotes.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-02T05:01:36.110262Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://verysimplenotes.com/api",
+    "https://verysimplenotes.com/mcp"
+  ],
+  "discovered_at": "2026-10-05T14:54:20Z"
+}

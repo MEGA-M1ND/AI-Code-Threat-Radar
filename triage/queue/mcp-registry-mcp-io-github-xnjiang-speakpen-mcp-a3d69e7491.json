@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-xnjiang-speakpen-mcp-a3d69e7491",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.xnjiang/speakpen-mcp",
+  "title": "MCP server io.github.xnjiang/speakpen-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.xnjiang/speakpen-mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Read-only access to your SpeakPen voice notes: search, read transcripts, list recent ideas.",
+    "repository": "",
+    "website": "https://speakpen.app",
+    "packages": [],
+    "remote_hosts": [
+      "speakpen.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-02T08:44:41.764554Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://speakpen.app",
+    "https://speakpen.app/mcp"
+  ],
+  "discovered_at": "2026-10-05T14:55:35Z"
+}

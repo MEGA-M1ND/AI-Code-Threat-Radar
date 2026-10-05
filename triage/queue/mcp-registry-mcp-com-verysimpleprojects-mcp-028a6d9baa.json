@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-verysimpleprojects-mcp-028a6d9baa",
+  "source": "mcp-registry",
+  "key": "mcp:com.verysimpleprojects/mcp",
+  "title": "MCP server com.verysimpleprojects/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.verysimpleprojects/mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Personal project management with AI agents: numbered tickets, statuses, files, a thread per ticket.",
+    "repository": "",
+    "website": "https://verysimpleprojects.com/api",
+    "packages": [],
+    "remote_hosts": [
+      "verysimpleprojects.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-22T11:30:15.456777Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://verysimpleprojects.com/api",
+    "https://verysimpleprojects.com/mcp"
+  ],
+  "discovered_at": "2026-10-05T14:54:20Z"
+}
