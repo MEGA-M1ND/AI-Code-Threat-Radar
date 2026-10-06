@@ -44,33 +44,33 @@
     "veim": "security-holding",
     "yarsg": "security-holding"
   },
-  "npm_cursor": 61,
+  "npm_cursor": 8,
   "npm_last_window": [
-    "aws-toolkit-vscode",
-    "cache-manager",
-    "cacheable",
-    "cacheable-request",
-    "canvas-nest.js",
-    "claude-agent-sdk",
-    "claude-token-updater",
-    "clawdbot",
-    "codex-cli",
-    "codexui-android",
-    "create-mcp-use-app",
-    "echarts-for-react",
-    "editable-contracts",
-    "figma-developer-mcp",
-    "flat-cache",
-    "github-copilot",
-    "google-genai",
-    "hamus.js",
-    "http-metrics-middleware",
-    "huggingface-hub",
-    "ids-enterprise-mcp-server",
-    "jest-canvas-mock",
-    "langchain",
-    "langchain-core",
-    "langgraph"
+    "lite-serper-mcp-server",
+    "llama-index",
+    "llamaindex",
+    "mcp-remote",
+    "modelcontextprotocol",
+    "nextmove-mcp",
+    "openai-agents",
+    "openclaw",
+    "picasso-plugin-q",
+    "picasso.js",
+    "sentence-transformers",
+    "size-sensor",
+    "tiktoken",
+    "timeago.js",
+    "transformers",
+    "web-scraper-mcp",
+    "windsurf",
+    "claude-code",
+    "mcp-server-browserbase",
+    "magnet-link",
+    "qbittorrent",
+    "tinycolor",
+    "transmission",
+    "gemini-cli",
+    "server-filesystem"
   ],
   "pypi_details": {
     "TransformerST": {
@@ -344,9 +344,9 @@
       "summary": "CLI Agente de IA (DeepSeek | OpenAI | Gemini | Grok) para terminal, com contexto de projeto e ferramentas de dev."
     }
   },
-  "pypi_etag": "\"uyn9oOsGpD6Zzmd5/p9a+g\"",
+  "pypi_etag": "\"cs0Yoxpy0qbqWNYhBwvI4Q\"",
   "pypi_last_sweep": {
     "hits": 31,
-    "names": 906380
+    "names": 907037
   }
 }

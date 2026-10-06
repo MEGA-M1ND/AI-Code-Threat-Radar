@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-ilyautov-hh-mcp-ru-f6f1393be7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ilyautov/hh-mcp-ru",
+  "title": "MCP server io.github.ilyautov/hh-mcp-ru: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ilyautov/hh-mcp-ru",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deleted",
+    "description": "API hh.ru в ИИ-ассистенте: вакансии, отклики, резюме, статистика зарплат",
+    "repository": "https://github.com/ilyautov/hh-mcp-ru",
+    "website": "https://business-mcp-ru.aifrontier.tech/hh-api.html",
+    "packages": [
+      "pypi:hh-mcp-ru"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-14T14:39:11.240796Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ilyautov/hh-mcp-ru",
+    "https://business-mcp-ru.aifrontier.tech/hh-api.html"
+  ],
+  "discovered_at": "2026-10-06T13:24:54Z"
+}

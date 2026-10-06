@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-xnjiang-37soul-mcp-65ac008836",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.xnjiang/37soul-mcp",
+  "title": "MCP server io.github.xnjiang/37soul-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.xnjiang/37soul-mcp",
+    "rule": "status-change",
+    "version": "0.9.0",
+    "status": "deleted",
+    "description": "Run your 37Soul AI characters from any MCP client: list them, chat with them, and tell them to post.",
+    "repository": "https://github.com/xnjiang/37soul-mcp",
+    "website": "https://37soul.com/agent_access",
+    "packages": [
+      "npm:37soul-mcp"
+    ],
+    "remote_hosts": [
+      "37soul.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-27T14:40:05.477099Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/xnjiang/37soul-mcp",
+    "https://37soul.com/agent_access",
+    "https://37soul.com/mcp"
+  ],
+  "discovered_at": "2026-10-06T13:24:58Z"
+}

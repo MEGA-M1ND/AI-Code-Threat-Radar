@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-gmcfuerte-yootheme-mcp-1effb251e4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.gmcfuerte/yootheme-mcp",
+  "title": "MCP server io.github.gmcfuerte/yootheme-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.gmcfuerte/yootheme-mcp",
+    "rule": "status-change",
+    "version": "0.11.3",
+    "status": "deleted",
+    "description": "YOOtheme Pro 5 on WordPress and Joomla: layouts, customizer, settings. Free reads, paid writes.",
+    "repository": "",
+    "website": "https://fuerteventuratv.net/en/cms/yootheme-mcp",
+    "packages": [
+      "pypi:yootheme-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T10:31:53.718664Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://fuerteventuratv.net/en/cms/yootheme-mcp"
+  ],
+  "discovered_at": "2026-10-06T13:24:52Z"
+}

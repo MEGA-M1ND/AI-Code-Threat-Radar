@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-n24q02m-better-code-review-c301b6db9e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.n24q02m/better-code-review-graph",
+  "title": "MCP server io.github.n24q02m/better-code-review-graph: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.n24q02m/better-code-review-graph",
+    "rule": "status-change",
+    "version": "3.29.6",
+    "status": "deleted",
+    "description": "Token-efficient code review knowledge graph: semantic search and call-graph resolution.",
+    "repository": "https://github.com/n24q02m/crg.git",
+    "website": "",
+    "packages": [
+      "pypi:better-code-review-graph"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-29T20:49:32.024706Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/n24q02m/crg.git"
+  ],
+  "discovered_at": "2026-10-06T13:24:54Z"
+}

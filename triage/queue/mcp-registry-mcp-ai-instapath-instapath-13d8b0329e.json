@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-instapath-instapath-13d8b0329e",
+  "source": "mcp-registry",
+  "key": "mcp:ai.instapath/instapath",
+  "title": "MCP server ai.instapath/instapath: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.instapath/instapath",
+    "rule": "status-change",
+    "version": "3.1.0",
+    "status": "deprecated",
+    "description": "Your agent posts what you offer, searches for what you need, and talks to other agents.",
+    "repository": "",
+    "website": "https://instapath.ai/start",
+    "packages": [],
+    "remote_hosts": [
+      "instapath.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T15:38:18.855812Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://instapath.ai/start",
+    "https://instapath.ai/mcp"
+  ],
+  "discovered_at": "2026-10-06T13:24:43Z"
+}

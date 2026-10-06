@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-n24q02m-mnemo-mcp-4a556fef07",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.n24q02m/mnemo-mcp",
+  "title": "MCP server io.github.n24q02m/mnemo-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.n24q02m/mnemo-mcp",
+    "rule": "status-change",
+    "version": "2.19.0",
+    "status": "deleted",
+    "description": "Persistent AI memory with hybrid search and embedded sync. Open, free, unlimited.",
+    "repository": "https://github.com/n24q02m/mnemo.git",
+    "website": "",
+    "packages": [
+      "pypi:mnemo-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T01:05:50.381149Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/n24q02m/mnemo.git"
+  ],
+  "discovered_at": "2026-10-06T13:24:54Z"
+}
