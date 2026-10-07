@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-changhuliu-projectpermit-947cfee638",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ChanghuLiu/projectpermit",
+  "title": "MCP server io.github.ChanghuLiu/projectpermit: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ChanghuLiu/projectpermit",
+    "rule": "status-change",
+    "version": "0.4.1",
+    "status": "deleted",
+    "description": "Building permit requirements MCP for contractors and AI agents across 7 Canadian municipalities.",
+    "repository": "https://github.com/ChanghuLiu/projectpermit-mcp",
+    "website": "https://projectpermit-api-v2-production.up.railway.app",
+    "packages": [],
+    "remote_hosts": [
+      "projectpermit-mcp-production.up.railway.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-29T20:30:32.448279Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ChanghuLiu/projectpermit-mcp",
+    "https://projectpermit-api-v2-production.up.railway.app",
+    "https://projectpermit-mcp-production.up.railway.app/mcp"
+  ],
+  "discovered_at": "2026-10-07T13:34:36Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-kevegonz-dev-momus-marketp-afa4c93a3b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.kevegonz-dev/momus-marketplace",
+  "title": "MCP server io.github.kevegonz-dev/momus-marketplace: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.kevegonz-dev/momus-marketplace",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Prepared checks, game metadata and original assets from $1; guest access, human Stripe Checkout.",
+    "repository": "",
+    "website": "https://market.momusdigital.com/agents",
+    "packages": [],
+    "remote_hosts": [
+      "market.momusdigital.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T21:08:29.859507Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://market.momusdigital.com/agents",
+    "https://market.momusdigital.com/mcp"
+  ],
+  "discovered_at": "2026-10-07T13:34:40Z"
+}

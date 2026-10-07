@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-seungmiyoon-korean-tax-mcp-acf1392695",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.seungmiyoon/korean-tax-mcp",
+  "title": "MCP server io.github.seungmiyoon/korean-tax-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.seungmiyoon/korean-tax-mcp",
+    "rule": "status-change",
+    "version": "0.4.0",
+    "status": "deprecated",
+    "description": "Korea tax law: NTS rulings, court/tribunal decisions, basic rules, treaties, point-in-time statutes",
+    "repository": "https://github.com/seungmiyoon/korean-tax-mcp",
+    "website": "",
+    "packages": [
+      "pypi:korean-tax-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-01T11:56:27.366475Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/seungmiyoon/korean-tax-mcp"
+  ],
+  "discovered_at": "2026-10-07T13:34:43Z"
+}

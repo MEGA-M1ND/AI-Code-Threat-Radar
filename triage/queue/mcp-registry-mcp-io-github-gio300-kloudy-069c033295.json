@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-gio300-kloudy-069c033295",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Gio300/kloudy",
+  "title": "MCP server io.github.Gio300/kloudy: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Gio300/kloudy",
+    "rule": "status-change",
+    "version": "0.4.1",
+    "status": "deleted",
+    "description": "One MCP for IDEs and bots: finds the right tool and runs it. Free, no key. Install: npx kloudy",
+    "repository": "https://github.com/Gio300/kloudy-open",
+    "website": "https://kloudy.ai",
+    "packages": [
+      "npm:kloudy"
+    ],
+    "remote_hosts": [
+      "kloudy.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-04T08:27:53.707928Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Gio300/kloudy-open",
+    "https://kloudy.ai",
+    "https://kloudy.ai/mcp"
+  ],
+  "discovered_at": "2026-10-07T13:34:36Z"
+}

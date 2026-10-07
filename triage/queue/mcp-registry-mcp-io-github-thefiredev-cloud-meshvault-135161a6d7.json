@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-thefiredev-cloud-meshvault-135161a6d7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.thefiredev-cloud/meshvault-connectors",
+  "title": "MCP server io.github.thefiredev-cloud/meshvault-connectors: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.thefiredev-cloud/meshvault-connectors",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Read-only tools: EMS protocols, courts and judges, NPI and FDA data, GPU fit for open models.",
+    "repository": "https://github.com/thefiredev-cloud/meshvault-connectors",
+    "website": "https://thefiredev.com/connectors",
+    "packages": [],
+    "remote_hosts": [
+      "thefiredev.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-06T06:34:43.003581Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/thefiredev-cloud/meshvault-connectors",
+    "https://thefiredev.com/connectors",
+    "https://thefiredev.com/mcp"
+  ],
+  "discovered_at": "2026-10-07T13:34:43Z"
+}

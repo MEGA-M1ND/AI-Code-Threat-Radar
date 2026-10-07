@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-com-sudowhizzy-sudowhizzy-68ab4e69c3",
+  "source": "mcp-registry",
+  "key": "mcp:com.sudowhizzy/sudowhizzy",
+  "title": "MCP server com.sudowhizzy/sudowhizzy: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.sudowhizzy/sudowhizzy",
+    "rule": "status-change",
+    "version": "0.17.2",
+    "status": "deprecated",
+    "description": "Renamed to AskYourStack: use com.askyourstack/askyourstack. Same service, now at askyourstack.com.",
+    "repository": "https://github.com/shopwhizzy/askyourstack-mcp",
+    "website": "https://askyourstack.com",
+    "packages": [],
+    "remote_hosts": [
+      "sudowhizzy.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T09:31:53.746044Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/shopwhizzy/askyourstack-mcp",
+    "https://askyourstack.com",
+    "https://sudowhizzy.com/mcp",
+    "https://sudowhizzy.com/mcp/{address}"
+  ],
+  "discovered_at": "2026-10-07T13:34:35Z"
+}

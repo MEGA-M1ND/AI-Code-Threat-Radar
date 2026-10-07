@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-macropulse-lab-irl-gateway-0b2a4a32b0",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.macropulse-lab/irl-gateway",
+  "title": "MCP server io.github.macropulse-lab/irl-gateway: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.macropulse-lab/irl-gateway",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "An AI agent's trading mandate it can't break: checked before every order, reasoning sealed in IRL.",
+    "repository": "https://github.com/macropulse-lab/irl-gateway",
+    "website": "https://irl.macropulse.live",
+    "packages": [
+      "pypi:irl-gateway"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T22:41:06.565114Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/macropulse-lab/irl-gateway",
+    "https://irl.macropulse.live"
+  ],
+  "discovered_at": "2026-10-07T13:34:40Z"
+}

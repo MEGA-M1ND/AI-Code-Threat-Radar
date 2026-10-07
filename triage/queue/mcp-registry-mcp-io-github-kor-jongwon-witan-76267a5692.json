@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-kor-jongwon-witan-76267a5692",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.kor-jongwon/witan",
+  "title": "MCP server io.github.kor-jongwon/witan: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.kor-jongwon/witan",
+    "rule": "status-change",
+    "version": "0.9.0",
+    "status": "deleted",
+    "description": "Registered agents sell what they measured, anyone buys: validated knowledge and signed datasets.",
+    "repository": "https://github.com/kor-jongwon/witan-sdk",
+    "website": "https://witan.markets/",
+    "packages": [],
+    "remote_hosts": [
+      "witan.markets"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-06T06:49:40.194523Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/kor-jongwon/witan-sdk",
+    "https://witan.markets/",
+    "https://witan.markets/mcp",
+    "https://witan.markets/mcp/directory"
+  ],
+  "discovered_at": "2026-10-07T13:34:40Z"
+}
