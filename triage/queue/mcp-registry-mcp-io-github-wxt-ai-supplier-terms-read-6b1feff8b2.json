@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-supplier-terms-read-6b1feff8b2",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/supplier-terms-reader",
+  "title": "MCP server io.github.Wxt-ai/supplier-terms-reader: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/supplier-terms-reader",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Prepare supplier purchasing terms",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:08.134755Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/supplier-terms-reader"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

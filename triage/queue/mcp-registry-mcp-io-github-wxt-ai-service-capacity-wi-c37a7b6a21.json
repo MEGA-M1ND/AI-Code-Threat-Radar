@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-service-capacity-wi-c37a7b6a21",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/service-capacity-window-planner",
+  "title": "MCP server io.github.Wxt-ai/service-capacity-window-planner: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/service-capacity-window-planner",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Select a service capacity window",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:33.960362Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/service-capacity-window-planner"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

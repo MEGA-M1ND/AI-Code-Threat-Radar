@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-finance-review-mail-1842e7602a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/finance-review-mailer",
+  "title": "MCP server io.github.Wxt-ai/finance-review-mailer: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/finance-review-mailer",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Send a finance-review message",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:23.100891Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/finance-review-mailer"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

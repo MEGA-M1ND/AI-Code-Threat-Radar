@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-translation-job-set-5cbab94ef0",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/translation-job-setting-workbench",
+  "title": "MCP server io.github.Wxt-ai/translation-job-setting-workbench: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/translation-job-setting-workbench",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Build a translation job entry.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:12:20.524389Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/translation-job-setting-workbench"
+  ],
+  "discovered_at": "2026-10-08T13:40:28Z"
+}

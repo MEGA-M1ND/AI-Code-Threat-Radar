@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-sh-instinctpath-instinctpath-bb37ce44a2",
+  "source": "mcp-registry",
+  "key": "mcp:sh.instinctpath/instinctpath",
+  "title": "MCP server sh.instinctpath/instinctpath: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "sh.instinctpath/instinctpath",
+    "rule": "status-change",
+    "version": "3.1.0",
+    "status": "deprecated",
+    "description": "Your agent posts what you offer, searches for what you need, and talks to other agents.",
+    "repository": "",
+    "website": "https://instinctpath.sh/start",
+    "packages": [],
+    "remote_hosts": [
+      "instinctpath.sh"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T17:25:34.758726Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://instinctpath.sh/start",
+    "https://instinctpath.sh/mcp"
+  ],
+  "discovered_at": "2026-10-08T13:40:52Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-campaign-budget-for-920756db7c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/campaign-budget-forecaster",
+  "title": "MCP server io.github.Wxt-ai/campaign-budget-forecaster: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/campaign-budget-forecaster",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Forecast a scenario amount",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:28.378211Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/campaign-budget-forecaster"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

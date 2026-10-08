@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-brenton-keller-telegram-ch-0f879d26f0",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.brenton-keller/telegram-channel-scraper",
+  "title": "MCP server io.github.brenton-keller/telegram-channel-scraper: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.brenton-keller/telegram-channel-scraper",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Public Telegram channel posts, views, reactions, media and subscriber counts. No login needed.",
+    "repository": "",
+    "website": "https://apify.com/brenton8907/telegram-channel-scraper",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-08T20:47:35.912021Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/brenton8907/telegram-channel-scraper",
+    "https://mcp.apify.com/?tools=brenton8907/telegram-channel-scraper"
+  ],
+  "discovered_at": "2026-10-08T13:40:28Z"
+}

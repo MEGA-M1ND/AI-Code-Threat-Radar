@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-fulfillment-reserva-60e94625a4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/fulfillment-reservation-ledger",
+  "title": "MCP server io.github.Wxt-ai/fulfillment-reservation-ledger: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/fulfillment-reservation-ledger",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Record a fulfillment reservation",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:21.155034Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/fulfillment-reservation-ledger"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

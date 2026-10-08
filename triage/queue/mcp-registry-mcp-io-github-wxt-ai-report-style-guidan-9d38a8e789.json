@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-report-style-guidan-9d38a8e789",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/report-style-guidance-complete",
+  "title": "MCP server io.github.Wxt-ai/report-style-guidance-complete: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/report-style-guidance-complete",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Set the style guidance for an executive report.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:13:11.896552Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/report-style-guidance-complete"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

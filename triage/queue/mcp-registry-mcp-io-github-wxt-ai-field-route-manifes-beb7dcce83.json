@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-field-route-manifes-beb7dcce83",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/field-route-manifest-identifier",
+  "title": "MCP server io.github.Wxt-ai/field-route-manifest-identifier: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/field-route-manifest-identifier",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Sequence stops for a field route.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:00:36.302195Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/field-route-manifest-identifier"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

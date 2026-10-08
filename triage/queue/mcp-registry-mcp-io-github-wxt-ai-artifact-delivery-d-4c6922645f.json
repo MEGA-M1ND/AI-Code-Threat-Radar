@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-artifact-delivery-d-4c6922645f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/artifact-delivery-desk",
+  "title": "MCP server io.github.Wxt-ai/artifact-delivery-desk: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/artifact-delivery-desk",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Register an artifact delivery route",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:54.285808Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/artifact-delivery-desk"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

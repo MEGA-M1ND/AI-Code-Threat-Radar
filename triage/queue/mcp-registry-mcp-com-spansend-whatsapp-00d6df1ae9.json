@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-spansend-whatsapp-00d6df1ae9",
+  "source": "mcp-registry",
+  "key": "mcp:com.spansend/whatsapp",
+  "title": "MCP server com.spansend/whatsapp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.spansend/whatsapp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "WhatsApp for agents: link a number, list chats, send only after confirm to a real chat.",
+    "repository": "",
+    "website": "https://api.spansend.com/activation",
+    "packages": [],
+    "remote_hosts": [
+      "api.spansend.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T21:03:03.183378Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.spansend.com/activation",
+    "https://api.spansend.com/mcp/"
+  ],
+  "discovered_at": "2026-10-08T13:40:17Z"
+}

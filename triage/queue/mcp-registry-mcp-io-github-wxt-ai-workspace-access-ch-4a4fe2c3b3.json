@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-workspace-access-ch-4a4fe2c3b3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/workspace-access-checklist-workbench",
+  "title": "MCP server io.github.Wxt-ai/workspace-access-checklist-workbench: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/workspace-access-checklist-workbench",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Create an access review checklist.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:12:14.618249Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/workspace-access-checklist-workbench"
+  ],
+  "discovered_at": "2026-10-08T13:40:28Z"
+}

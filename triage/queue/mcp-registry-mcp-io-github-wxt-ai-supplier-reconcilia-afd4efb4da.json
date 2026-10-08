@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-supplier-reconcilia-afd4efb4da",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/supplier-reconciliation-desk",
+  "title": "MCP server io.github.Wxt-ai/supplier-reconciliation-desk: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/supplier-reconciliation-desk",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Reconcile supplier names",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:20:01.739143Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/supplier-reconciliation-desk"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

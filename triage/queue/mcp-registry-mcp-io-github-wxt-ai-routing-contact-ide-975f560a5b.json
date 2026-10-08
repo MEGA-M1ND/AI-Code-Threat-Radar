@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-routing-contact-ide-975f560a5b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/routing-contact-identifier",
+  "title": "MCP server io.github.Wxt-ai/routing-contact-identifier: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/routing-contact-identifier",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Select a contact for a client brief.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:12:14.612747Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/routing-contact-identifier"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

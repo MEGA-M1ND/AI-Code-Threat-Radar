@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-referral-handoff-re-02a7c71eb7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/referral-handoff-reader",
+  "title": "MCP server io.github.Wxt-ai/referral-handoff-reader: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/referral-handoff-reader",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Prepare a referral handoff digest",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:09.992346Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/referral-handoff-reader"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

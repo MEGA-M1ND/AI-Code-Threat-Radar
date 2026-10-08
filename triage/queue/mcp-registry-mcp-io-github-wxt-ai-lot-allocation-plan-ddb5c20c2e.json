@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-lot-allocation-plan-ddb5c20c2e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/lot-allocation-planner",
+  "title": "MCP server io.github.Wxt-ai/lot-allocation-planner: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/lot-allocation-planner",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Plan a lot allocation",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:22.166889Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/lot-allocation-planner"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

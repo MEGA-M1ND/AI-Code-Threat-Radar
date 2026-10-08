@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-artifact-export-rou-8482d3a039",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/artifact-export-route-complete",
+  "title": "MCP server io.github.Wxt-ai/artifact-export-route-complete: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/artifact-export-route-complete",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Plan the delivery route for an artifact.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:13:12.263635Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/artifact-export-route-complete"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

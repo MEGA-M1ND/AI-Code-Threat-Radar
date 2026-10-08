@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-invoice-matching-de-cc662515be",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/invoice-matching-desk",
+  "title": "MCP server io.github.Wxt-ai/invoice-matching-desk: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/invoice-matching-desk",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Build an invoice reconciliation summary",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:50.641317Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/invoice-matching-desk"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

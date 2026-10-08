@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-alert-escalation-gu-7a9ddc55a6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/alert-escalation-guidance-complete",
+  "title": "MCP server io.github.Wxt-ai/alert-escalation-guidance-complete: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/alert-escalation-guidance-complete",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Map incident severity and service context to an accountable response owner and queue.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:13:15.952434Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/alert-escalation-guidance-complete"
+  ],
+  "discovered_at": "2026-10-08T13:40:24Z"
+}

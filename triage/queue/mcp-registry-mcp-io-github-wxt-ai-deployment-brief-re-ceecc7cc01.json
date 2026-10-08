@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-deployment-brief-re-ceecc7cc01",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/deployment-brief-register",
+  "title": "MCP server io.github.Wxt-ai/deployment-brief-register: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/deployment-brief-register",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Register a deployment region",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:35.407815Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/deployment-brief-register"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-coordination-calend-47c1e81316",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/coordination-calendar-desk",
+  "title": "MCP server io.github.Wxt-ai/coordination-calendar-desk: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/coordination-calendar-desk",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Create a coordination calendar entry",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:05.082343Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/coordination-calendar-desk"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-task-priority-guida-d4951a5472",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/task-priority-guidance-workbench",
+  "title": "MCP server io.github.Wxt-ai/task-priority-guidance-workbench: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/task-priority-guidance-workbench",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Build an operations task schedule.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:12:41.903662Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/task-priority-guidance-workbench"
+  ],
+  "discovered_at": "2026-10-08T13:40:28Z"
+}

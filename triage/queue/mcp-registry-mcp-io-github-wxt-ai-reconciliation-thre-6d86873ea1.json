@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-reconciliation-thre-6d86873ea1",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/reconciliation-threshold-planner",
+  "title": "MCP server io.github.Wxt-ai/reconciliation-threshold-planner: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/reconciliation-threshold-planner",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Derive an invoice-match threshold",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:51.554664Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/reconciliation-threshold-planner"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

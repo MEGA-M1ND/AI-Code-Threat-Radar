@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-workspace-access-co-7a50854b86",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/workspace-access-comparator",
+  "title": "MCP server io.github.Wxt-ai/workspace-access-comparator: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/workspace-access-comparator",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Compare workspace access lists",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:20.063495Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/workspace-access-comparator"
+  ],
+  "discovered_at": "2026-10-08T13:40:28Z"
+}

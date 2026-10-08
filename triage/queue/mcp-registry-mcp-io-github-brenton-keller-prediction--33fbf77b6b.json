@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-brenton-keller-prediction--33fbf77b6b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.brenton-keller/prediction-markets-data",
+  "title": "MCP server io.github.brenton-keller/prediction-markets-data: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.brenton-keller/prediction-markets-data",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Live Kalshi + Polymarket prices, orderbooks, trades, results. Pay per result via Apify.",
+    "repository": "",
+    "website": "https://apify.com/brenton8907/prediction-markets-data",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-08T19:34:44.780107Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/brenton8907/prediction-markets-data",
+    "https://mcp.apify.com/?tools=brenton8907/prediction-markets-data"
+  ],
+  "discovered_at": "2026-10-08T13:40:28Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-release-branch-poli-bf632d02c3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/release-branch-policy-complete",
+  "title": "MCP server io.github.Wxt-ai/release-branch-policy-complete: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/release-branch-policy-complete",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Select a branch for a release.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:13:07.817911Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/release-branch-policy-complete"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

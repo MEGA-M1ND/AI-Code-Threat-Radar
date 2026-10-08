@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-calendar-handoff-re-d268a50197",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/calendar-handoff-reader",
+  "title": "MCP server io.github.Wxt-ai/calendar-handoff-reader: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/calendar-handoff-reader",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Normalize a calendar handoff",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:06.137737Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/calendar-handoff-reader"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

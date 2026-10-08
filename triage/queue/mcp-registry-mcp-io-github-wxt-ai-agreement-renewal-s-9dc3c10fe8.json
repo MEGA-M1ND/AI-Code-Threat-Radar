@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-agreement-renewal-s-9dc3c10fe8",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/agreement-renewal-schedule-identifier",
+  "title": "MCP server io.github.Wxt-ai/agreement-renewal-schedule-identifier: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/agreement-renewal-schedule-identifier",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Prepare an agreement obligation schedule.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:00:26.490965Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/agreement-renewal-schedule-identifier"
+  ],
+  "discovered_at": "2026-10-08T13:40:24Z"
+}

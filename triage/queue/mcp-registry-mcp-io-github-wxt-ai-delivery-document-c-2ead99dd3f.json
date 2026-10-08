@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-delivery-document-c-2ead99dd3f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/delivery-document-composer",
+  "title": "MCP server io.github.Wxt-ai/delivery-document-composer: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/delivery-document-composer",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Compose a delivery signature section",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:46.951504Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/delivery-document-composer"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

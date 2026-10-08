@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-notification-cadenc-0568fd56d4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/notification-cadence-guidance-identifier",
+  "title": "MCP server io.github.Wxt-ai/notification-cadence-guidance-identifier: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/notification-cadence-guidance-identifier",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Choose a notification cadence and deduplication key for an operations update stream.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:12:56.529905Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/notification-cadence-guidance-identifier"
+  ],
+  "discovered_at": "2026-10-08T13:40:27Z"
+}

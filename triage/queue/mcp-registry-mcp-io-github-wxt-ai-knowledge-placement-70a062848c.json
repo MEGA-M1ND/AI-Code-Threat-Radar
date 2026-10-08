@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-knowledge-placement-70a062848c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/knowledge-placement-planner",
+  "title": "MCP server io.github.Wxt-ai/knowledge-placement-planner: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/knowledge-placement-planner",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Plan a knowledge-base placement path",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:26.440729Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/knowledge-placement-planner"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

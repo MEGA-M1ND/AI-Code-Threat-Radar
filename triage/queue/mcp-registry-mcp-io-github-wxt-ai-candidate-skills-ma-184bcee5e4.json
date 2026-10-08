@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-candidate-skills-ma-184bcee5e4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/candidate-skills-mapper",
+  "title": "MCP server io.github.Wxt-ai/candidate-skills-mapper: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/candidate-skills-mapper",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Map candidate skills to an interview plan",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:19:11.926416Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/candidate-skills-mapper"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

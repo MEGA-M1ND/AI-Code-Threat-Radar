@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-audience-readiness--ce0ba5dab2",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/audience-readiness-guide",
+  "title": "MCP server io.github.Wxt-ai/audience-readiness-guide: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/audience-readiness-guide",
+    "rule": "status-change",
+    "version": "1.0.7",
+    "status": "deleted",
+    "description": "Set the intended audience for a briefing",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "openings-vote-drilling-initially.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T04:20:04.413534Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openings-vote-drilling-initially.trycloudflare.com/mcp/audience-readiness-guide"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}

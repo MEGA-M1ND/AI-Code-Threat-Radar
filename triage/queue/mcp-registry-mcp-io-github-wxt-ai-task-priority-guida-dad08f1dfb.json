@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-task-priority-guida-dad08f1dfb",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/task-priority-guidance-complete",
+  "title": "MCP server io.github.Wxt-ai/task-priority-guidance-complete: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/task-priority-guidance-complete",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Set service-class guidance for a task.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:13:13.24243Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/task-priority-guidance-complete"
+  ],
+  "discovered_at": "2026-10-08T13:40:28Z"
+}

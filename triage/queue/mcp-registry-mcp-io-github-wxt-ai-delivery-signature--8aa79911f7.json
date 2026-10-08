@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wxt-ai-delivery-signature--8aa79911f7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Wxt-ai/delivery-signature-requirement-complete",
+  "title": "MCP server io.github.Wxt-ai/delivery-signature-requirement-complete: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Wxt-ai/delivery-signature-requirement-complete",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Determine a signature requirement.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "determination-unlimited-consultancy-spy.trycloudflare.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:13:11.566518Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://determination-unlimited-consultancy-spy.trycloudflare.com/mcp/delivery-signature-requirement-complete"
+  ],
+  "discovered_at": "2026-10-08T13:40:26Z"
+}
