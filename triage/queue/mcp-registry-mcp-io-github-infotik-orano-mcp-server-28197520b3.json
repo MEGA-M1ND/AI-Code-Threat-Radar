@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-infotik-orano-mcp-server-28197520b3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.infotik/orano-mcp-server",
+  "title": "MCP server io.github.infotik/orano-mcp-server: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.infotik/orano-mcp-server",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Read-only MCP server exposing a user ORANO library to their own AI agent.",
+    "repository": "https://github.com/infotik/orano-mcp-server",
+    "website": "https://oranoai.com/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.oranoai.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-04T15:19:02.611939Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/infotik/orano-mcp-server",
+    "https://oranoai.com/mcp",
+    "https://api.oranoai.com/mcp/"
+  ],
+  "discovered_at": "2026-10-09T13:25:56Z"
+}

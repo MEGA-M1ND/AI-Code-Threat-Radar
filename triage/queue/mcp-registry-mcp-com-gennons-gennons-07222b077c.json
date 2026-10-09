@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-gennons-gennons-07222b077c",
+  "source": "mcp-registry",
+  "key": "mcp:com.gennons/gennons",
+  "title": "MCP server com.gennons/gennons: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.gennons/gennons",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Design emails from a brief, send tests, send to your lists now or scheduled, and read delivery.",
+    "repository": "",
+    "website": "https://gennons.com/docs/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "gennons.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-13T14:38:33.758658Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://gennons.com/docs/mcp",
+    "https://gennons.com/api/mcp"
+  ],
+  "discovered_at": "2026-10-09T13:25:44Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-andthezhang-arammayhem-5d5f5f9571",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.andthezhang/arammayhem",
+  "title": "MCP server io.github.andthezhang/arammayhem: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.andthezhang/arammayhem",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "ARAM Mayhem builds, tiers, augments, combos and patch notes with canonical page citations.",
+    "repository": "https://github.com/andthezhang/arammayhem-mcp",
+    "website": "https://arammayhem.com/use-with-ai/",
+    "packages": [],
+    "remote_hosts": [
+      "arammayhem.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T07:04:57.163065Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/andthezhang/arammayhem-mcp",
+    "https://arammayhem.com/use-with-ai/",
+    "https://arammayhem.com/mcp"
+  ],
+  "discovered_at": "2026-10-09T13:25:50Z"
+}

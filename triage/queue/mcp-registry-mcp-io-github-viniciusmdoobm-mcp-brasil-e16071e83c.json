@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-viniciusmdoobm-mcp-brasil-e16071e83c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.viniciusmdoobm/mcp-brasil",
+  "title": "MCP server io.github.viniciusmdoobm/mcp-brasil: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.viniciusmdoobm/mcp-brasil",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deleted",
+    "description": "Dados brasileiros para agentes de IA: CEP, CNPJ, bancos, taxas, feriados, clima e FIPE.",
+    "repository": "https://github.com/viniciusmdoobm/mcp-brasil",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp-brasil-fvll.onrender.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T04:13:22.850517Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/viniciusmdoobm/mcp-brasil",
+    "https://mcp-brasil-fvll.onrender.com/mcp"
+  ],
+  "discovered_at": "2026-10-09T13:26:01Z"
+}

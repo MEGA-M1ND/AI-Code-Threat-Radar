@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-vdmeu-registrum-mcp-0d7a76d980",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.vdmeu/registrum-mcp",
+  "title": "MCP server io.github.vdmeu/registrum-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.vdmeu/registrum-mcp",
+    "rule": "status-change",
+    "version": "2.0.13",
+    "status": "deleted",
+    "description": "UK company data: profiles, iXBRL financials, directors, PSC chains, ECCTA. Hosted, no key.",
+    "repository": "https://github.com/vdmeu/registrum-mcp",
+    "website": "",
+    "packages": [
+      "npm:@registrum/mcp"
+    ],
+    "remote_hosts": [
+      "registrum.co.uk"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T13:31:09.908226Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/vdmeu/registrum-mcp",
+    "https://registrum.co.uk/api/mcp"
+  ],
+  "discovered_at": "2026-10-09T13:25:59Z"
+}
