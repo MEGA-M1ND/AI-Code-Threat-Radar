@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-andypgray-loadbearing-f75512665c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.andypgray/loadbearing",
+  "title": "MCP server io.github.andypgray/loadbearing: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.andypgray/loadbearing",
+    "rule": "status-change",
+    "version": "0.8.0",
+    "status": "deleted",
+    "description": "Checks .NET solutions against a fluent C# architecture spec and explains the rules to agents.",
+    "repository": "https://github.com/andypgray/loadbearing",
+    "website": "",
+    "packages": [
+      "nuget:Zphil.LoadBearing.Cli"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-12T21:49:52.289702Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/andypgray/loadbearing"
+  ],
+  "discovered_at": "2026-10-10T12:41:41Z"
+}

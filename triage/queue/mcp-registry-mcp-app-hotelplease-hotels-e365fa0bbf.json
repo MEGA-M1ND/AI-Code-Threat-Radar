@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-app-hotelplease-hotels-e365fa0bbf",
+  "source": "mcp-registry",
+  "key": "mcp:app.hotelplease/hotels",
+  "title": "MCP server app.hotelplease/hotels: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.hotelplease/hotels",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "The hotels worth going out of your way for: researched profiles, medals, Michelin Keys.",
+    "repository": "",
+    "website": "https://hotelplease.app/assistants",
+    "packages": [],
+    "remote_hosts": [
+      "hotelplease.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T03:17:33.018835Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://hotelplease.app/assistants",
+    "https://hotelplease.app/mcp"
+  ],
+  "discovered_at": "2026-10-10T12:41:39Z"
+}

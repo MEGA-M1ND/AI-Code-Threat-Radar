@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-griffden-botphone-bc6c85d298",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Griffden/botphone",
+  "title": "MCP server io.github.Griffden/botphone: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Griffden/botphone",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Give your Muse a phone number. BotPhone answers your business line and reports every call back.",
+    "repository": "",
+    "website": "https://www.botphone.tel/products/muse-receptionist",
+    "packages": [],
+    "remote_hosts": [
+      "auth.botphone.tel"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-21T04:44:16.255108Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.botphone.tel/products/muse-receptionist",
+    "https://auth.botphone.tel/mcp"
+  ],
+  "discovered_at": "2026-10-10T12:41:40Z"
+}

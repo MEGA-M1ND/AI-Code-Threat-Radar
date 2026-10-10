@@ -44,33 +44,33 @@
     "veim": "security-holding",
     "yarsg": "security-holding"
   },
-  "npm_cursor": 5,
+  "npm_cursor": 30,
   "npm_last_window": [
-    "langchain",
-    "langchain-core",
-    "langgraph",
-    "lite-serper-mcp-server",
-    "llama-index",
-    "llamaindex",
-    "mcp-remote",
-    "modelcontextprotocol",
-    "nextmove-mcp",
-    "openai-agents",
-    "openclaw",
-    "picasso-plugin-q",
-    "picasso.js",
-    "sentence-transformers",
-    "size-sensor",
-    "tiktoken",
-    "timeago.js",
-    "transformers",
-    "web-scraper-mcp",
-    "windsurf",
-    "claude-code",
-    "mcp-server-browserbase",
-    "magnet-link",
-    "qbittorrent",
-    "tinycolor"
+    "transmission",
+    "gemini-cli",
+    "server-filesystem",
+    "enterprise-cloud",
+    "workspace",
+    "pnpm-audit-junit",
+    "mcp-ui-client",
+    "postman-mcp-cli",
+    "postman-mcp-server",
+    "claude-context-mcp",
+    "mcp-server-relytone",
+    "sdr-mcp-server",
+    "anvil2-mcp",
+    "react-router",
+    "react-router-devtools",
+    "react-start",
+    "router-cli",
+    "router-core",
+    "router-devtools",
+    "router-devtools-core",
+    "router-generator",
+    "router-plugin",
+    "router-utils",
+    "router-vite-plugin",
+    "solid-router"
   ],
   "pypi_details": {
     "TransformerST": {
@@ -262,6 +262,15 @@
       "release_count": 6,
       "summary": "The Secure-by-Default Execution Framework for LLM Agents."
     },
+    "opencraw": {
+      "author": "",
+      "checked": "2026-10-10T12:41:52Z",
+      "created": "2026-10-09T22:10:16.395730Z",
+      "home_page": "https://pypi.org/project/opencraw/",
+      "last_release": "2026-10-09T23:50:45.109551Z",
+      "release_count": 4,
+      "summary": "Build OpenCraw recipes in Python, drive the real OpenCraw CLI, and write hooks in Python."
+    },
     "openlaw": {
       "author": "Yehuda Deutsch",
       "checked": "2026-10-07T13:34:51Z",
@@ -344,9 +353,9 @@
       "summary": "CLI Agente de IA (DeepSeek | OpenAI | Gemini | Grok) para terminal, com contexto de projeto e ferramentas de dev."
     }
   },
-  "pypi_etag": "\"5A7b+92QueCLkJowr4oNyw\"",
+  "pypi_etag": "\"TxcKF9BkSNHJSdN5QEQqmQ\"",
   "pypi_last_sweep": {
-    "hits": 31,
-    "names": 909583
+    "hits": 32,
+    "names": 910324
   }
 }

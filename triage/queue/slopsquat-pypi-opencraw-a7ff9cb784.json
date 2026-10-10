@@ -1,0 +1,27 @@
+{
+  "id": "slopsquat-pypi-opencraw-a7ff9cb784",
+  "source": "slopsquat",
+  "key": "pypi:opencraw",
+  "title": "opencraw (pypi) resembles openclaw",
+  "why": "1 character edit from openclaw",
+  "suggested_category": "slopsquat-package",
+  "confidence": "high",
+  "evidence": {
+    "registry": "pypi",
+    "name": "opencraw",
+    "target": "openclaw",
+    "rule": "edit",
+    "distance": 1,
+    "created": "2026-10-09T22:10:16.395730Z",
+    "last_release": "2026-10-09T23:50:45.109551Z",
+    "release_count": 4,
+    "summary": "Build OpenCraw recipes in Python, drive the real OpenCraw CLI, and write hooks in Python.",
+    "author": "",
+    "home_page": "https://pypi.org/project/opencraw/",
+    "age_days": 0.6
+  },
+  "urls": [
+    "https://pypi.org/project/opencraw/"
+  ],
+  "discovered_at": "2026-10-10T12:41:52Z"
+}
