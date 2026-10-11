@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-delaney470-withnettle-befae15242",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.delaney470/withnettle",
+  "title": "MCP server io.github.delaney470/withnettle: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.delaney470/withnettle",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Project management shared by people and AI agents, with persistent project state through MCP.",
+    "repository": "",
+    "website": "https://withnettle.com/",
+    "packages": [],
+    "remote_hosts": [
+      "withnettle.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-01T14:53:32.047673Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://withnettle.com/",
+    "https://withnettle.com/mcp"
+  ],
+  "discovered_at": "2026-10-11T13:03:02Z"
+}

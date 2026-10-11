@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-gimarcus-signal-199c919031",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.gimarcus/signal",
+  "title": "MCP server io.github.gimarcus/signal: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.gimarcus/signal",
+    "rule": "status-change",
+    "version": "1.2.1",
+    "status": "deprecated",
+    "description": "Moved to com.stackenhance/signal: the same server, now published under the StackEnhance domain.",
+    "repository": "",
+    "website": "https://stackenhance.com/signal",
+    "packages": [],
+    "remote_hosts": [
+      "stackenhance.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T12:48:39.677649Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://stackenhance.com/signal",
+    "https://stackenhance.com/api/mcp"
+  ],
+  "discovered_at": "2026-10-11T13:03:02Z"
+}

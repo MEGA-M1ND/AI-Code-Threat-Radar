@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-website-ansi-ansi-2d605c69d5",
+  "source": "mcp-registry",
+  "key": "mcp:website.ansi/ansi",
+  "title": "MCP server website.ansi/ansi: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "website.ansi/ansi",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Download video and audio from TikTok, YouTube, Instagram and 1800+ sites; get transcripts.",
+    "repository": "",
+    "website": "https://ansi.website/developers",
+    "packages": [],
+    "remote_hosts": [
+      "ansi.website"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-02T05:33:00.634741Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ansi.website/developers",
+    "https://ansi.website/mcp"
+  ],
+  "discovered_at": "2026-10-11T13:03:05Z"
+}

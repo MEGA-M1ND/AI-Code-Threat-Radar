@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-fi4all-algoum-861e5133f3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.fi4all/algoum",
+  "title": "MCP server io.github.fi4all/algoum: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.fi4all/algoum",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "SEC EDGAR insider trades (Form 4/5), 8-K events and 13F holdings as clean JSON.",
+    "repository": "https://github.com/fi4all/algoum-mcp",
+    "website": "https://algoum.de/",
+    "packages": [],
+    "remote_hosts": [
+      "api.algoum.de"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T10:48:59.786309Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/fi4all/algoum-mcp",
+    "https://algoum.de/",
+    "https://api.algoum.de/v1/mcp"
+  ],
+  "discovered_at": "2026-10-11T13:03:02Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-atushi1841-kensho-kema-8adfe9ae88",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.atushi1841/kensho-kema",
+  "title": "MCP server io.github.atushi1841/kensho-kema: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.atushi1841/kensho-kema",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Japan X/Twitter sweepstakes data from ke-ma.net. Tools: search, history, prize movers.",
+    "repository": "https://github.com/atushi1841/kensho-kema",
+    "website": "",
+    "packages": [
+      "mcpb:https://github.com/atushi1841/kensho-kema/releases/download/v1.0.0/server.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T21:38:52.680393Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/atushi1841/kensho-kema"
+  ],
+  "discovered_at": "2026-10-11T13:03:01Z"
+}

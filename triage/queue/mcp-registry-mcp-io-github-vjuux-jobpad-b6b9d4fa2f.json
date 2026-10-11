@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-vjuux-jobpad-b6b9d4fa2f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.vjuux/jobpad",
+  "title": "MCP server io.github.vjuux/jobpad: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.vjuux/jobpad",
+    "rule": "status-change",
+    "version": "0.6.0",
+    "status": "deleted",
+    "description": "Search real job openings and check job post markup, pay transparency rules and pay conversions.",
+    "repository": "",
+    "website": "https://rolefig.com/developers#mcp",
+    "packages": [],
+    "remote_hosts": [
+      "rolefig.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T23:10:44.077476Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://rolefig.com/developers#mcp",
+    "https://rolefig.com/mcp"
+  ],
+  "discovered_at": "2026-10-11T13:03:03Z"
+}

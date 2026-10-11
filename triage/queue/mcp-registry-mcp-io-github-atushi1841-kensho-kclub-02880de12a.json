@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-atushi1841-kensho-kclub-02880de12a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.atushi1841/kensho-kclub",
+  "title": "MCP server io.github.atushi1841/kensho-kclub: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.atushi1841/kensho-kclub",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Japan X/Twitter sweepstakes data from kenshou.club. Tools: search, history, prize movers.",
+    "repository": "https://github.com/atushi1841/kensho-kclub",
+    "website": "",
+    "packages": [
+      "mcpb:https://github.com/atushi1841/kensho-kclub/releases/download/v1.0.0/server.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T21:36:49.647323Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/atushi1841/kensho-kclub"
+  ],
+  "discovered_at": "2026-10-11T13:03:01Z"
+}

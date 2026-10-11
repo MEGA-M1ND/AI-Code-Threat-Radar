@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-eu-financialreports-mcp-server-feab0f3e0d",
+  "source": "mcp-registry",
+  "key": "mcp:eu.financialreports/mcp-server",
+  "title": "MCP server eu.financialreports/mcp-server: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "eu.financialreports/mcp-server",
+    "rule": "status-change",
+    "version": "1.4.105",
+    "status": "deleted",
+    "description": "Regulatory filings, XBRL financials and company data from securities regulators worldwide",
+    "repository": "https://github.com/financial-reports/financial-reports-mcp-server",
+    "website": "https://financialfilings.com/mcp/",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.financialfilings.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-09T08:53:52.259817Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/financial-reports/financial-reports-mcp-server",
+    "https://financialfilings.com/mcp/",
+    "https://mcp.financialfilings.com/mcp"
+  ],
+  "discovered_at": "2026-10-11T13:03:00Z"
+}

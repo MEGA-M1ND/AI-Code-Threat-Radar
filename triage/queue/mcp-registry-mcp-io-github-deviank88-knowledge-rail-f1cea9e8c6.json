@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-deviank88-knowledge-rail-f1cea9e8c6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Deviank88/knowledge-rail",
+  "title": "MCP server io.github.Deviank88/knowledge-rail: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Deviank88/knowledge-rail",
+    "rule": "status-change",
+    "version": "2.8.7",
+    "status": "deleted",
+    "description": "Persistent, evidence-backed project knowledge and task context for coding agents.",
+    "repository": "https://github.com/Deviank88/KnowledgeRail",
+    "website": "",
+    "packages": [
+      "npm:knowledge-rail"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-22T13:09:31.134837Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Deviank88/KnowledgeRail"
+  ],
+  "discovered_at": "2026-10-11T13:03:00Z"
+}

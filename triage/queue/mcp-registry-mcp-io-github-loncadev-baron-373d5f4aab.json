@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-loncadev-baron-373d5f4aab",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.loncadev/baron",
+  "title": "MCP server io.github.loncadev/baron: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.loncadev/baron",
+    "rule": "status-change",
+    "version": "0.43.0",
+    "status": "deprecated",
+    "description": "Let your coding agent write to your work tracker: issues, branches, PRs and CI, one contract.",
+    "repository": "https://github.com/loncadev/baron",
+    "website": "",
+    "packages": [
+      "npm:@lonca/baron-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-06T10:06:01.894708Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/loncadev/baron"
+  ],
+  "discovered_at": "2026-10-11T13:03:02Z"
+}

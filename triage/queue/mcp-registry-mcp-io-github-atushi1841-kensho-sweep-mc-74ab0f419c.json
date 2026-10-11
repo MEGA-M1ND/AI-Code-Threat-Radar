@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-atushi1841-kensho-sweep-mc-74ab0f419c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.atushi1841/kensho-sweep-mcp",
+  "title": "MCP server io.github.atushi1841/kensho-sweep-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.atushi1841/kensho-sweep-mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Japan X/Twitter sweepstakes campaign data (1133 records). Tools: search, history, movers.",
+    "repository": "https://github.com/atushi1841/kensho-sweep-mcp",
+    "website": "",
+    "packages": [
+      "mcpb:https://github.com/atushi1841/kensho-sweep-mcp/releases/download/v1.0.0/server.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T21:39:13.991561Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/atushi1841/kensho-sweep-mcp"
+  ],
+  "discovered_at": "2026-10-11T13:03:01Z"
+}
