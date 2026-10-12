@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ltd-rednet-rednet-b88b77975b",
+  "source": "mcp-registry",
+  "key": "mcp:ltd.rednet/rednet",
+  "title": "MCP server ltd.rednet/rednet: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ltd.rednet/rednet",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Matched public tenders, 12M past awards, buyer and supplier profiles, renewals, grants, web search",
+    "repository": "",
+    "website": "https://rednet.ltd",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.rednet.ltd"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-29T14:37:14.853845Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://rednet.ltd",
+    "https://mcp.rednet.ltd/mcp"
+  ],
+  "discovered_at": "2026-10-12T15:42:20Z"
+}

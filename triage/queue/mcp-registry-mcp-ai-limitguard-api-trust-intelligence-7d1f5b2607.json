@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-ai-limitguard-api-trust-intelligence-7d1f5b2607",
+  "source": "mcp-registry",
+  "key": "mcp:ai.limitguard.api/trust-intelligence",
+  "title": "MCP server ai.limitguard.api/trust-intelligence: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.limitguard.api/trust-intelligence",
+    "rule": "status-change",
+    "version": "2.10.0",
+    "status": "deleted",
+    "description": "Lead validation over MCP: KVK/KBO register, EU VAT, sanctions and email checks with sources.",
+    "repository": "https://github.com/jwconsultancyteam/limitguard-mcp",
+    "website": "https://limitguard.ai",
+    "packages": [],
+    "remote_hosts": [
+      "api.limitguard.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T09:14:53.758361Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jwconsultancyteam/limitguard-mcp",
+    "https://limitguard.ai",
+    "https://api.limitguard.ai/mcp"
+  ],
+  "discovered_at": "2026-10-12T15:40:50Z"
+}

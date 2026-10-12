@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-golproductions-envie-dcad5abddf",
+  "source": "mcp-registry",
+  "key": "mcp:com.golproductions/envie",
+  "title": "MCP server com.golproductions/envie: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.golproductions/envie",
+    "rule": "status-change",
+    "version": "0.8.9",
+    "status": "deleted",
+    "description": "Your AI writes HTML; Envie renders it to video on your machine, verifies it and shows it back.",
+    "repository": "https://github.com/golproductions/envie",
+    "website": "https://golproductions.com/envie",
+    "packages": [
+      "npm:@golproductions/envie"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-24T20:06:16.639179Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/golproductions/envie",
+    "https://golproductions.com/envie"
+  ],
+  "discovered_at": "2026-10-12T15:41:12Z"
+}

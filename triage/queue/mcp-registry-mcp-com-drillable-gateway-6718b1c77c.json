@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-drillable-gateway-6718b1c77c",
+  "source": "mcp-registry",
+  "key": "mcp:com.drillable/gateway",
+  "title": "MCP server com.drillable/gateway: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.drillable/gateway",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deleted",
+    "description": "Pinned, versioned sources: search finds cited spans, query selects things, trace reaches the bytes.",
+    "repository": "",
+    "website": "https://drillable.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.drillable.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-19T14:27:53.256342Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://drillable.com",
+    "https://mcp.drillable.com"
+  ],
+  "discovered_at": "2026-10-12T15:41:07Z"
+}

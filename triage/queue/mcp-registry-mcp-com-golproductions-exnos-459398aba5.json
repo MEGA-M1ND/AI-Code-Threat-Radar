@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-golproductions-exnos-459398aba5",
+  "source": "mcp-registry",
+  "key": "mcp:com.golproductions/exnos",
+  "title": "MCP server com.golproductions/exnos: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.golproductions/exnos",
+    "rule": "status-change",
+    "version": "0.7.2",
+    "status": "deleted",
+    "description": "Read-only live state of your Chrome tabs for AI agents: fields, console errors, network, storage.",
+    "repository": "https://github.com/golproductions/exnos",
+    "website": "https://golproductions.com/exnos",
+    "packages": [
+      "npm:@golproductions/exnos"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-01T03:43:30.406304Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/golproductions/exnos",
+    "https://golproductions.com/exnos"
+  ],
+  "discovered_at": "2026-10-12T15:41:12Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-diglabo-kanji-prints-8cc4684172",
+  "source": "mcp-registry",
+  "key": "mcp:com.diglabo/kanji-prints",
+  "title": "MCP server com.diglabo/kanji-prints: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.diglabo/kanji-prints",
+    "rule": "status-change",
+    "version": "0.2.24",
+    "status": "deprecated",
+    "description": "Kanji worksheets (Kanken 10-2, radicals, antonyms, yojijukugo, wrong kanji). Review link, no login.",
+    "repository": "",
+    "website": "https://diglabo.com/ja/kanji/ai-tools",
+    "packages": [],
+    "remote_hosts": [
+      "api.diglabo.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T04:58:19.626468Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://diglabo.com/ja/kanji/ai-tools",
+    "https://api.diglabo.com/kanji/mcp-guest"
+  ],
+  "discovered_at": "2026-10-12T15:41:07Z"
+}
