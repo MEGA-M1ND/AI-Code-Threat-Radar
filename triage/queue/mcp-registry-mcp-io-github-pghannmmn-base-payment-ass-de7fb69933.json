@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-pghannmmn-base-payment-ass-de7fb69933",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.PGhannmmn/base-payment-assurance",
+  "title": "MCP server io.github.PGhannmmn/base-payment-assurance: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.PGhannmmn/base-payment-assurance",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Dual-RPC Base USDC payment assurance with safe finality and exact transfer matching.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "base-payment-assurance-002.qqqa16521-dce.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T15:23:07.546888Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://base-payment-assurance-002.qqqa16521-dce.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-10-13T14:22:01Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-app-getjopp-jobs-5bfa1ab269",
+  "source": "mcp-registry",
+  "key": "mcp:app.getjopp/jobs",
+  "title": "MCP server app.getjopp/jobs: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.getjopp/jobs",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Search open jobs in Switzerland and Liechtenstein and read jopp job briefs.",
+    "repository": "",
+    "website": "https://getjopp.app",
+    "packages": [],
+    "remote_hosts": [
+      "getjopp.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T08:21:27.720098Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://getjopp.app",
+    "https://getjopp.app/mcp"
+  ],
+  "discovered_at": "2026-10-13T14:21:26Z"
+}

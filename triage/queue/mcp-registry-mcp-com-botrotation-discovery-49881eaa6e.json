@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-botrotation-discovery-49881eaa6e",
+  "source": "mcp-registry",
+  "key": "mcp:com.botrotation/discovery",
+  "title": "MCP server com.botrotation/discovery: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.botrotation/discovery",
+    "rule": "status-change",
+    "version": "1.5.0",
+    "status": "deleted",
+    "description": "Public bot-rental discovery: plans, payment routes, VFT evidence, history, terms and onboarding.",
+    "repository": "",
+    "website": "https://botrotation.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.botrotation.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T13:04:03.149818Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://botrotation.com",
+    "https://api.botrotation.com/mcp"
+  ],
+  "discovered_at": "2026-10-13T14:21:34Z"
+}

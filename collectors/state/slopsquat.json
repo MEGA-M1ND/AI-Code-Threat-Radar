@@ -44,33 +44,33 @@
     "veim": "security-holding",
     "yarsg": "security-holding"
   },
-  "npm_cursor": 2,
+  "npm_cursor": 27,
   "npm_last_window": [
-    "huggingface-hub",
-    "ids-enterprise-mcp-server",
-    "jest-canvas-mock",
-    "langchain",
-    "langchain-core",
-    "langgraph",
-    "lite-serper-mcp-server",
-    "llama-index",
-    "llamaindex",
-    "mcp-remote",
-    "modelcontextprotocol",
-    "nextmove-mcp",
-    "openai-agents",
-    "openclaw",
-    "picasso-plugin-q",
-    "picasso.js",
-    "sentence-transformers",
-    "size-sensor",
-    "tiktoken",
-    "timeago.js",
-    "transformers",
-    "web-scraper-mcp",
-    "windsurf",
-    "claude-code",
-    "mcp-server-browserbase"
+    "magnet-link",
+    "qbittorrent",
+    "tinycolor",
+    "transmission",
+    "gemini-cli",
+    "server-filesystem",
+    "enterprise-cloud",
+    "workspace",
+    "pnpm-audit-junit",
+    "mcp-ui-client",
+    "postman-mcp-cli",
+    "postman-mcp-server",
+    "claude-context-mcp",
+    "mcp-server-relytone",
+    "sdr-mcp-server",
+    "anvil2-mcp",
+    "react-router",
+    "react-router-devtools",
+    "react-start",
+    "router-cli",
+    "router-core",
+    "router-devtools",
+    "router-devtools-core",
+    "router-generator",
+    "router-plugin"
   ],
   "pypi_details": {
     "TransformerST": {
@@ -353,9 +353,9 @@
       "summary": "CLI Agente de IA (DeepSeek | OpenAI | Gemini | Grok) para terminal, com contexto de projeto e ferramentas de dev."
     }
   },
-  "pypi_etag": "\"OjUnby5CpFzan5HeIgPSeg\"",
+  "pypi_etag": "\"urdQzlFZZ60OjOO/h5ovAg\"",
   "pypi_last_sweep": {
     "hits": 32,
-    "names": 911967
+    "names": 912805
   }
 }

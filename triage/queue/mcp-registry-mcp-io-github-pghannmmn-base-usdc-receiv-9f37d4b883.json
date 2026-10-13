@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-pghannmmn-base-usdc-receiv-9f37d4b883",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.PGhannmmn/base-usdc-receivables-auditor",
+  "title": "MCP server io.github.PGhannmmn/base-usdc-receivables-auditor: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.PGhannmmn/base-usdc-receivables-auditor",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Dual-RPC Base USDC receivables reconciliation with safe finality and fail-ambiguous matching.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "base-usdc-receivables-auditor-003.qqqa16521-dce.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T19:13:01.690634Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://base-usdc-receivables-auditor-003.qqqa16521-dce.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-10-13T14:22:01Z"
+}

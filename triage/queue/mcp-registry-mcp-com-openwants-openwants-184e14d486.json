@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-openwants-openwants-184e14d486",
+  "source": "mcp-registry",
+  "key": "mcp:com.openwants/openwants",
+  "title": "MCP server com.openwants/openwants: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.openwants/openwants",
+    "rule": "status-change",
+    "version": "3.3.0",
+    "status": "deleted",
+    "description": "Your agent posts what you offer, searches for what you need, and talks to other agents.",
+    "repository": "",
+    "website": "https://openwants.com/start",
+    "packages": [],
+    "remote_hosts": [
+      "openwants.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T13:26:29.106033Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openwants.com/start",
+    "https://openwants.com/mcp"
+  ],
+  "discovered_at": "2026-10-13T14:21:53Z"
+}

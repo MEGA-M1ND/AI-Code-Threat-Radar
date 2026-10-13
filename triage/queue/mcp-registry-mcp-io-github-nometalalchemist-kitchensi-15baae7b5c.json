@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-nometalalchemist-kitchensi-15baae7b5c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.nometalalchemist/kitchensink4word",
+  "title": "MCP server io.github.nometalalchemist/kitchensink4word: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.nometalalchemist/kitchensink4word",
+    "rule": "status-change",
+    "version": "2.1.3",
+    "status": "deleted",
+    "description": "Word (.docx) MCP server: 221 operations, live editing, tracked changes, citations, mail merge.",
+    "repository": "https://github.com/KitchenSink4AI/KitchenSink4Word",
+    "website": "https://kitchensink4.ai/KitchenSink4Word/",
+    "packages": [
+      "pypi:kitchensink4word"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-09-20T12:27:06.052762Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/KitchenSink4AI/KitchenSink4Word",
+    "https://kitchensink4.ai/KitchenSink4Word/"
+  ],
+  "discovered_at": "2026-10-13T14:22:26Z"
+}

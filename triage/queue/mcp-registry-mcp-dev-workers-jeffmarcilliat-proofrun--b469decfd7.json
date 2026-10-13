@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-jeffmarcilliat-proofrun--b469decfd7",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.jeffmarcilliat.proofrun-closed/proofrun",
+  "title": "MCP server dev.workers.jeffmarcilliat.proofrun-closed/proofrun: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.jeffmarcilliat.proofrun-closed/proofrun",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "ProofRun: bounded HTTP acceptance checks for agent deployments. $0.01 USDC per pack.",
+    "repository": "",
+    "website": "https://proofrun-closed.jeffmarcilliat.workers.dev/",
+    "packages": [],
+    "remote_hosts": [
+      "proofrun-closed.jeffmarcilliat.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T20:01:52.40306Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://proofrun-closed.jeffmarcilliat.workers.dev/",
+    "https://proofrun-closed.jeffmarcilliat.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-10-13T14:21:57Z"
+}

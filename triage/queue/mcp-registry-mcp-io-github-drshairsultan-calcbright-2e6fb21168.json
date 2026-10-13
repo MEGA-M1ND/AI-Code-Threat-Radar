@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-drshairsultan-calcbright-2e6fb21168",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.drshairsultan/calcbright",
+  "title": "MCP server io.github.drshairsultan/calcbright: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.drshairsultan/calcbright",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "100+ accurate calculators & converters: mortgage, loan, tax, BMI, dates, units, currency and more.",
+    "repository": "",
+    "website": "https://calcbright.com/developers",
+    "packages": [],
+    "remote_hosts": [
+      "calcbright.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T13:40:32.176949Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://calcbright.com/developers",
+    "https://calcbright.com/mcp"
+  ],
+  "discovered_at": "2026-10-13T14:22:04Z"
+}

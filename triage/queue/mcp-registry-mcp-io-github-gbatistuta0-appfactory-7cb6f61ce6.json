@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-gbatistuta0-appfactory-7cb6f61ce6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.gbatistuta0/appfactory",
+  "title": "MCP server io.github.gbatistuta0/appfactory: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.gbatistuta0/appfactory",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deleted",
+    "description": "Lets your coding agent ship a SwiftUI iOS subscription app from idea to TestFlight.",
+    "repository": "https://github.com/gbatistuta0/appfactory",
+    "website": "",
+    "packages": [
+      "pypi:appfactory"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T12:42:48.729569Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/gbatistuta0/appfactory"
+  ],
+  "discovered_at": "2026-10-13T14:22:09Z"
+}

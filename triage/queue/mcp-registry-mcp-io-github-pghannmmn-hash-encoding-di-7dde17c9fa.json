@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-pghannmmn-hash-encoding-di-7dde17c9fa",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.PGhannmmn/hash-encoding-direct-credits",
+  "title": "MCP server io.github.PGhannmmn/hash-encoding-direct-credits: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.PGhannmmn/hash-encoding-direct-credits",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Deterministic SHA, HMAC, Base64 and JWT decode tools with prepaid direct-USDC API credits on Base.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "hash-encoding-001d.qqqa16521-dce.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-06T23:51:51.370498Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://hash-encoding-001d.qqqa16521-dce.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-10-13T14:22:01Z"
+}
