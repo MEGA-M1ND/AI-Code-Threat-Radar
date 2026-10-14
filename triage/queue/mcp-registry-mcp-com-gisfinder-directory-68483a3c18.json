@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-gisfinder-directory-68483a3c18",
+  "source": "mcp-registry",
+  "key": "mcp:com.gisfinder/directory",
+  "title": "MCP server com.gisfinder/directory: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.gisfinder/directory",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Official US government offices and pages for property, land and GIS questions, link-checked.",
+    "repository": "",
+    "website": "https://www.gisfinder.com/developers",
+    "packages": [],
+    "remote_hosts": [
+      "api.gisfinder.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T18:55:47.88516Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.gisfinder.com/developers",
+    "https://api.gisfinder.com/mcp"
+  ],
+  "discovered_at": "2026-10-14T12:03:22Z"
+}
