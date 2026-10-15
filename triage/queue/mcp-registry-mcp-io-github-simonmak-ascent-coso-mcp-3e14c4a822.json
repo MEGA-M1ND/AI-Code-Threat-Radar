@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-simonmak-ascent-coso-mcp-3e14c4a822",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.simonmak-ascent/coso-mcp",
+  "title": "MCP server io.github.simonmak-ascent/coso-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.simonmak-ascent/coso-mcp",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "Open COSO internal-control review MCP: scope, risk, controls, sampling, testing, workpapers.",
+    "repository": "https://github.com/simonmak-ascent/coso-mcp",
+    "website": "",
+    "packages": [
+      "npm:@simonmak-ascent/coso-mcp"
+    ],
+    "remote_hosts": [
+      "internal-control.ascent-partners.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T05:18:15.715741Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/simonmak-ascent/coso-mcp",
+    "https://internal-control.ascent-partners.com/mcp"
+  ],
+  "discovered_at": "2026-10-15T11:40:36Z"
+}

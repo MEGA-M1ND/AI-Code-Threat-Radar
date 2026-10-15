@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-app-floot-shadowgraph-live-shadowgra-ea85ca5046",
+  "source": "mcp-registry",
+  "key": "mcp:app.floot.shadowgraph-live/shadowgraph",
+  "title": "MCP server app.floot.shadowgraph-live/shadowgraph: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.floot.shadowgraph-live/shadowgraph",
+    "rule": "status-change",
+    "version": "2.3.3",
+    "status": "deleted",
+    "description": "Global evidence-ranked relationship intelligence for AI agents via MPP.",
+    "repository": "",
+    "website": "https://shadowgraph-live.floot.app",
+    "packages": [],
+    "remote_hosts": [
+      "shadowgraph-live.floot.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-13T16:36:16.823866Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://shadowgraph-live.floot.app",
+    "https://shadowgraph-live.floot.app/_api/mcp"
+  ],
+  "discovered_at": "2026-10-15T11:40:26Z"
+}

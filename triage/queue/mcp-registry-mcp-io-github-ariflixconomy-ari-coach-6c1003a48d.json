@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-ariflixconomy-ari-coach-6c1003a48d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ariflixconomy/ari-coach",
+  "title": "MCP server io.github.ariflixconomy/ari-coach: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ariflixconomy/ari-coach",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Second opinion on a hard decision from Ari, an AI with its own memory. Slow (2-4 min), paid.",
+    "repository": "",
+    "website": "https://api.flixconomy.ai/coach",
+    "packages": [],
+    "remote_hosts": [
+      "api.flixconomy.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T14:10:08.635061Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.flixconomy.ai/coach",
+    "https://api.flixconomy.ai/mcp"
+  ],
+  "discovered_at": "2026-10-15T11:40:33Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-datosmcp-datos-fba5cd03e6",
+  "source": "mcp-registry",
+  "key": "mcp:com.datosmcp/datos",
+  "title": "MCP server com.datosmcp/datos: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.datosmcp/datos",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "Official public data for Central America and the Dominican Republic, down to the municipality.",
+    "repository": "",
+    "website": "https://datosmcp.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.datosmcp.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T14:57:35.406634Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://datosmcp.com",
+    "https://mcp.datosmcp.com/mcp"
+  ],
+  "discovered_at": "2026-10-15T11:40:27Z"
+}

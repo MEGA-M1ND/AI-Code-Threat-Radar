@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-simonmak-ascent-opencode-w-fa4cfb190f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.simonmak-ascent/opencode-workbench",
+  "title": "MCP server io.github.simonmak-ascent/opencode-workbench: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.simonmak-ascent/opencode-workbench",
+    "rule": "status-change",
+    "version": "4.0.1",
+    "status": "deleted",
+    "description": "Provision an OpenCode workbench and MCP stack on any Linux box, local or over SSH.",
+    "repository": "https://github.com/simonmak-ascent/opencode-workbench",
+    "website": "",
+    "packages": [
+      "npm:@simonmak-ascent/opencode-workbench"
+    ],
+    "remote_hosts": [
+      "opencode-workbench.simonmak.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T00:48:18.769038Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/simonmak-ascent/opencode-workbench",
+    "https://opencode-workbench.simonmak.com/mcp"
+  ],
+  "discovered_at": "2026-10-15T11:40:36Z"
+}

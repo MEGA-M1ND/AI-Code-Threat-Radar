@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-trade-novo-options-dr-novo-f0d5f0d9b9",
+  "source": "mcp-registry",
+  "key": "mcp:trade.novo-options/dr-novo",
+  "title": "MCP server trade.novo-options/dr-novo: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "trade.novo-options/dr-novo",
+    "rule": "status-change",
+    "version": "1.40.0",
+    "status": "deleted",
+    "description": "Dealer gamma maps for SPY, QQQ, IWM and 90+ cryptos, plus NoVo's own session record. 20 free tools.",
+    "repository": "",
+    "website": "https://novo-options.trade/developers",
+    "packages": [],
+    "remote_hosts": [
+      "novo-options.trade"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T22:26:06.469688Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://novo-options.trade/developers",
+    "https://novo-options.trade/api/mcp"
+  ],
+  "discovered_at": "2026-10-15T11:40:38Z"
+}

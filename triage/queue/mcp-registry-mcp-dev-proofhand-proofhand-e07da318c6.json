@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-proofhand-proofhand-e07da318c6",
+  "source": "mcp-registry",
+  "key": "mcp:dev.proofhand/proofhand",
+  "title": "MCP server dev.proofhand/proofhand: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.proofhand/proofhand",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Human QA on real phones and browsers for your coding agent. Pass/fail per step, with screenshots.",
+    "repository": "",
+    "website": "https://proofhand.dev",
+    "packages": [],
+    "remote_hosts": [
+      "proofhand.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-01T15:16:42.326374Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://proofhand.dev",
+    "https://proofhand.dev/api/mcp"
+  ],
+  "discovered_at": "2026-10-15T11:40:29Z"
+}

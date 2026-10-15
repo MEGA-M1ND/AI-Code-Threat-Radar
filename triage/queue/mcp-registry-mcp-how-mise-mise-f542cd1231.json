@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-how-mise-mise-f542cd1231",
+  "source": "mcp-registry",
+  "key": "mcp:how.mise/mise",
+  "title": "MCP server how.mise/mise: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "how.mise/mise",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Ad-free recipes with amounts in every step: search, scale, plan meals, build shopping lists.",
+    "repository": "",
+    "website": "https://mise.how/agents",
+    "packages": [],
+    "remote_hosts": [
+      "mise.how"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T15:51:26.897854Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mise.how/agents",
+    "https://mise.how/mcp"
+  ],
+  "discovered_at": "2026-10-15T11:40:29Z"
+}

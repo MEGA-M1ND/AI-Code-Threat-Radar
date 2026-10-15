@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-toreva-kit-448ea57dde",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.toreva/kit",
+  "title": "MCP server io.github.toreva/kit: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.toreva/kit",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "Policy-checked Solana wallet actions with user-set limits, unsigned transactions, and receipts.",
+    "repository": "https://github.com/toreva/kit",
+    "website": "",
+    "packages": [
+      "npm:@toreva/mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T01:27:10.209641Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/toreva/kit"
+  ],
+  "discovered_at": "2026-10-15T11:40:37Z"
+}

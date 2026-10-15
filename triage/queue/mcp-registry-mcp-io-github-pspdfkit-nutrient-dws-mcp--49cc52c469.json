@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-pspdfkit-nutrient-dws-mcp--49cc52c469",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.PSPDFKit/nutrient-dws-mcp-server",
+  "title": "MCP server io.github.PSPDFKit/nutrient-dws-mcp-server: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.PSPDFKit/nutrient-dws-mcp-server",
+    "rule": "status-change",
+    "version": "0.1.3",
+    "status": "deprecated",
+    "description": "Nutrient Processor + Data Extraction MCP: convert, OCR, sign, redact, and extract PDFs/Office docs.",
+    "repository": "https://github.com/PSPDFKit/nutrient-dws-mcp-server",
+    "website": "",
+    "packages": [
+      "npm:@nutrient-sdk/dws-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T00:12:12.095928Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/PSPDFKit/nutrient-dws-mcp-server"
+  ],
+  "discovered_at": "2026-10-15T11:40:31Z"
+}

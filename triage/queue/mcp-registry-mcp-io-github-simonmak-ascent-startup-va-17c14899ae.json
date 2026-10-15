@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-simonmak-ascent-startup-va-17c14899ae",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.simonmak-ascent/startup-valuation",
+  "title": "MCP server io.github.simonmak-ascent/startup-valuation: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.simonmak-ascent/startup-valuation",
+    "rule": "status-change",
+    "version": "2.1.3",
+    "status": "deleted",
+    "description": "Startup valuation for AI agents: 14 tools, 80+ pre-revenue formulas.",
+    "repository": "https://github.com/simonmak-ascent/startup-valuation",
+    "website": "https://startup-valuation.ascent-partners.com",
+    "packages": [
+      "pypi:startup-valuation"
+    ],
+    "remote_hosts": [
+      "startup-valuation.ascent-partners.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T13:01:49.616128Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/simonmak-ascent/startup-valuation",
+    "https://startup-valuation.ascent-partners.com",
+    "https://startup-valuation.ascent-partners.com/api"
+  ],
+  "discovered_at": "2026-10-15T11:40:36Z"
+}
