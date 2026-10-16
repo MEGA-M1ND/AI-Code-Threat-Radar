@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-tech-thecompound-storeready-8948fd1d09",
+  "source": "mcp-registry",
+  "key": "mcp:tech.thecompound/storeready",
+  "title": "MCP server tech.thecompound/storeready: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "tech.thecompound/storeready",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "StoreReady: Whether AI app builders produce apps that pass App Store review.",
+    "repository": "https://github.com/kyisaiah47/openlookup",
+    "website": "https://storeready.thecompound.tech",
+    "packages": [
+      "npm:storeready-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T12:15:30.85123Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/kyisaiah47/openlookup",
+    "https://storeready.thecompound.tech"
+  ],
+  "discovered_at": "2026-10-16T11:34:58Z"
+}

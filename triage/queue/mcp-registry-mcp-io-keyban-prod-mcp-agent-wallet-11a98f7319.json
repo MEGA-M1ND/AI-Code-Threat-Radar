@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-keyban-prod-mcp-agent-wallet-11a98f7319",
+  "source": "mcp-registry",
+  "key": "mcp:io.keyban.prod.mcp/agent-wallet",
+  "title": "MCP server io.keyban.prod.mcp/agent-wallet: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.keyban.prod.mcp/agent-wallet",
+    "rule": "status-change",
+    "version": "0.4.6",
+    "status": "deprecated",
+    "description": "Give an AI agent its own blockchain wallet: balances, USDC transfers, x402 payments under policy.",
+    "repository": "",
+    "website": "https://keyban.io",
+    "packages": [
+      "npm:@keyban/agent-wallet-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T13:31:20.409554Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://keyban.io"
+  ],
+  "discovered_at": "2026-10-16T11:34:57Z"
+}

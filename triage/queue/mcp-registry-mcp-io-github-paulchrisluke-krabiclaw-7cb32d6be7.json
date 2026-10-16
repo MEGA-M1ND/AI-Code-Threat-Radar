@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-paulchrisluke-krabiclaw-7cb32d6be7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.paulchrisluke/krabiclaw",
+  "title": "MCP server io.github.paulchrisluke/krabiclaw: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.paulchrisluke/krabiclaw",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Manage and publish restaurant and local business websites through MCP.",
+    "repository": "https://github.com/paulchrisluke/krabiclaw",
+    "website": "https://krabiclaw.com",
+    "packages": [],
+    "remote_hosts": [
+      "krabiclaw.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-07T03:47:24.242359Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/paulchrisluke/krabiclaw",
+    "https://krabiclaw.com",
+    "https://krabiclaw.com/api/mcp"
+  ],
+  "discovered_at": "2026-10-16T11:34:55Z"
+}

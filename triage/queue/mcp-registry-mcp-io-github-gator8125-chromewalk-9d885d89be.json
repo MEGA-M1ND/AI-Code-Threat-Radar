@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-gator8125-chromewalk-9d885d89be",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.gator8125/chromewalk",
+  "title": "MCP server io.github.gator8125/chromewalk: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.gator8125/chromewalk",
+    "rule": "status-change",
+    "version": "14.0.0",
+    "status": "deleted",
+    "description": "Local browser automation for AI agents: real-browser fetch, capture, smoke tests, cross-engine QA.",
+    "repository": "https://github.com/gator8125/ChromeWalk-MCP",
+    "website": "https://chromewalk.com",
+    "packages": [
+      "mcpb:https://github.com/gator8125/ChromeWalk-MCP/releases/download/v14.0.0/chromewalk-14.0.0-win32-x64.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T19:42:23.19033Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/gator8125/ChromeWalk-MCP",
+    "https://chromewalk.com"
+  ],
+  "discovered_at": "2026-10-16T11:34:51Z"
+}

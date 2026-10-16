@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-ondraulehla-mcp-pulse-11caf86ebe",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ondraulehla/mcp-pulse",
+  "title": "MCP server io.github.ondraulehla/mcp-pulse: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ondraulehla/mcp-pulse",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "Health and token cost of every remote MCP registry server, probed daily. Look up, search, or probe.",
+    "repository": "https://github.com/ondraulehla/mcp-pulse",
+    "website": "https://mcp-pulse.ulehla.dev",
+    "packages": [],
+    "remote_hosts": [
+      "mcp-pulse.ulehla.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T22:02:51.974881Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ondraulehla/mcp-pulse",
+    "https://mcp-pulse.ulehla.dev",
+    "https://mcp-pulse.ulehla.dev/mcp"
+  ],
+  "discovered_at": "2026-10-16T11:34:55Z"
+}

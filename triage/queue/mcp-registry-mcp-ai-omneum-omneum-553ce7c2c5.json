@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-ai-omneum-omneum-553ce7c2c5",
+  "source": "mcp-registry",
+  "key": "mcp:ai.omneum/omneum",
+  "title": "MCP server ai.omneum/omneum: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.omneum/omneum",
+    "rule": "status-change",
+    "version": "1.0.6",
+    "status": "deleted",
+    "description": "Evaluate your agent's context for unreliable sources, dependencies, redundant and stale claims.",
+    "repository": "https://github.com/cole-h06/omneum",
+    "website": "",
+    "packages": [
+      "mcpb:https://github.com/cole-h06/omneum/releases/download/v1.0.3/omneum-local-1.0.3.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T21:11:12.101166Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/cole-h06/omneum"
+  ],
+  "discovered_at": "2026-10-16T11:34:20Z"
+}

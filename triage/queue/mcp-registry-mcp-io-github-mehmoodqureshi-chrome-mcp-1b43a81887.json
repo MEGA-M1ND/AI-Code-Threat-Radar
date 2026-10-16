@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-mehmoodqureshi-chrome-mcp-1b43a81887",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Mehmoodqureshi/chrome-mcp",
+  "title": "MCP server io.github.Mehmoodqureshi/chrome-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Mehmoodqureshi/chrome-mcp",
+    "rule": "status-change",
+    "version": "0.9.25",
+    "status": "deleted",
+    "description": "Drive your real Chrome over MCP: real logins and cookies, multi-tab automation, deny-all by default.",
+    "repository": "https://github.com/Mehmoodqureshi/chrome-mcp",
+    "website": "https://mcp-browser-extension.com",
+    "packages": [
+      "npm:@mehmoodqureshi/chrome-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T10:56:08.281487Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Mehmoodqureshi/chrome-mcp",
+    "https://mcp-browser-extension.com"
+  ],
+  "discovered_at": "2026-10-16T11:34:35Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-synion-studio-eaf5616efa",
+  "source": "mcp-registry",
+  "key": "mcp:io.synion/studio",
+  "title": "MCP server io.synion/studio: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.synion/studio",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "The AI video studio: records your web app, writes and voices the script, renders a tutorial MP4.",
+    "repository": "",
+    "website": "https://synion.io",
+    "packages": [],
+    "remote_hosts": [
+      "synion.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T10:23:52.41032Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://synion.io",
+    "https://synion.io/mcp"
+  ],
+  "discovered_at": "2026-10-16T11:34:57Z"
+}
