@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-kriptonianlabs-xrpl-7cbcc8f1cd",
+  "source": "mcp-registry",
+  "key": "mcp:com.kriptonianlabs/xrpl",
+  "title": "MCP server com.kriptonianlabs/xrpl: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.kriptonianlabs/xrpl",
+    "rule": "status-change",
+    "version": "0.16.0",
+    "status": "deleted",
+    "description": "XRPL fees, order books, CLOB/AMM slippage for agents. Free /mcp; x402 pay-per-call at /mcp/pro.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "api.kriptonianlabs.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T18:33:36.451782Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.kriptonianlabs.com/mcp",
+    "https://api.kriptonianlabs.com/mcp/pro"
+  ],
+  "discovered_at": "2026-10-17T10:54:21Z"
+}

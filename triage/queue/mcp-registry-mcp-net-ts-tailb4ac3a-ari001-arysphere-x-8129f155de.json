@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-net-ts-tailb4ac3a-ari001-arysphere-x-8129f155de",
+  "source": "mcp-registry",
+  "key": "mcp:net.ts.tailb4ac3a.ari001/arysphere-x402",
+  "title": "MCP server net.ts.tailb4ac3a.ari001/arysphere-x402: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.ts.tailb4ac3a.ari001/arysphere-x402",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Pay-per-call onchain reads (Base, Ethereum, Gnosis), token verdicts and LLM chat over x402 USDC",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "ari001.tailb4ac3a.ts.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T18:26:39.029044Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ari001.tailb4ac3a.ts.net/mcp"
+  ],
+  "discovered_at": "2026-10-17T10:55:11Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-ai-inxy-seo-audit-8d1bcc7975",
+  "source": "mcp-registry",
+  "key": "mcp:ai.inxy/seo-audit",
+  "title": "MCP server ai.inxy/seo-audit: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.inxy/seo-audit",
+    "rule": "status-change",
+    "version": "1.4.0",
+    "status": "deprecated",
+    "description": "Free SEO & AI-search (AEO) audits for any site or Shopify store, with emailed weekly score reports.",
+    "repository": "https://github.com/riverliu8/inxy-mcp",
+    "website": "https://inxy.ai/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "inxy.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-23T07:21:03.796134Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/riverliu8/inxy-mcp",
+    "https://inxy.ai/mcp",
+    "https://inxy.ai/api/mcp"
+  ],
+  "discovered_at": "2026-10-17T10:54:01Z"
+}

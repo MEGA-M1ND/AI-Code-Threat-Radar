@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-casafari-mcp-d22fcb62fd",
+  "source": "mcp-registry",
+  "key": "mcp:com.casafari/mcp",
+  "title": "MCP server com.casafari/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.casafari/mcp",
+    "rule": "status-change",
+    "version": "3.4.2",
+    "status": "deprecated",
+    "description": "Property data intelligence, built for AI agents: Europe's most complete property index.",
+    "repository": "",
+    "website": "https://developers.casafari.com/docs",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.casafari.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T04:06:48.864865Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://developers.casafari.com/docs",
+    "https://mcp.casafari.com/"
+  ],
+  "discovered_at": "2026-10-17T10:54:17Z"
+}

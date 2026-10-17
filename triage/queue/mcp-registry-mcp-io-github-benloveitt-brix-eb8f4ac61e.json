@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-benloveitt-brix-eb8f4ac61e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.BenLoveitt/brix",
+  "title": "MCP server io.github.BenLoveitt/brix: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.BenLoveitt/brix",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Manage digital signage screens: health, content, casts, emergency messages, proof of play.",
+    "repository": "",
+    "website": "https://brixsignage.com/developers/mcp/",
+    "packages": [],
+    "remote_hosts": [
+      "api.brixsignage.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-30T23:11:46.429692Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://brixsignage.com/developers/mcp/",
+    "https://api.brixsignage.com/v1/mcp"
+  ],
+  "discovered_at": "2026-10-17T10:54:27Z"
+}

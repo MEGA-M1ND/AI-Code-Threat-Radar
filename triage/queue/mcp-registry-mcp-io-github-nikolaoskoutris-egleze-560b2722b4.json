@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-nikolaoskoutris-egleze-560b2722b4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.nikolaoskoutris/egleze",
+  "title": "MCP server io.github.nikolaoskoutris/egleze: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.nikolaoskoutris/egleze",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Search verified podcast moments and episode summaries with canonical Egleze links.",
+    "repository": "",
+    "website": "https://egleze.com/api.html",
+    "packages": [],
+    "remote_hosts": [
+      "egleze-mcp-server.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-16T07:53:42.322635Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://egleze.com/api.html",
+    "https://egleze-mcp-server.onrender.com/mcp"
+  ],
+  "discovered_at": "2026-10-17T10:55:02Z"
+}

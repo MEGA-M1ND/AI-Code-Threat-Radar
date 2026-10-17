@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-opusgrowth-ads-mcp-bfe5c588cb",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.opusgrowth/ads-mcp",
+  "title": "MCP server io.github.opusgrowth/ads-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.opusgrowth/ads-mcp",
+    "rule": "status-change",
+    "version": "1.3.2",
+    "status": "deleted",
+    "description": "Run Google, Meta, Microsoft, TikTok and LinkedIn Ads from Claude or ChatGPT. Writes need approval.",
+    "repository": "https://github.com/opusgrowth/Opus-Growth-The-MCP-Connector-for-Ad-Platforms",
+    "website": "https://opus-growth.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.opus-growth.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-20T21:44:59.982199Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/opusgrowth/Opus-Growth-The-MCP-Connector-for-Ad-Platforms",
+    "https://opus-growth.com",
+    "https://mcp.opus-growth.com/mcp"
+  ],
+  "discovered_at": "2026-10-17T10:55:06Z"
+}
