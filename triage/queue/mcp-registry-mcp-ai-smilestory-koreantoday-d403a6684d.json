@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-smilestory-koreantoday-d403a6684d",
+  "source": "mcp-registry",
+  "key": "mcp:ai.smilestory/koreantoday",
+  "title": "MCP server ai.smilestory/koreantoday: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.smilestory/koreantoday",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Search and read recent articles of The Korean Today, with source links and dates.",
+    "repository": "",
+    "website": "https://thekoreantoday.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp-koreantoday.smilestory.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-13T15:17:01.975641Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://thekoreantoday.com",
+    "https://mcp-koreantoday.smilestory.ai/mcp"
+  ],
+  "discovered_at": "2026-10-18T11:19:27Z"
+}

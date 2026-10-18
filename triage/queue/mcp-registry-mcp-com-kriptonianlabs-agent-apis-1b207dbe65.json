@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-kriptonianlabs-agent-apis-1b207dbe65",
+  "source": "mcp-registry",
+  "key": "mcp:com.kriptonianlabs/agent-apis",
+  "title": "MCP server com.kriptonianlabs/agent-apis: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.kriptonianlabs/agent-apis",
+    "rule": "status-change",
+    "version": "0.17.1",
+    "status": "deleted",
+    "description": "Read-only XRPL and Solana data for agents: fees, slippage, readiness. Free /mcp; x402 /mcp/pro.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "api.kriptonianlabs.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-16T14:45:00.520915Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.kriptonianlabs.com/mcp",
+    "https://api.kriptonianlabs.com/mcp/pro"
+  ],
+  "discovered_at": "2026-10-18T11:19:30Z"
+}

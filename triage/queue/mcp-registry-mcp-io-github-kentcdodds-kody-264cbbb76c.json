@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-kentcdodds-kody-264cbbb76c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.kentcdodds/kody",
+  "title": "MCP server io.github.kentcdodds/kody: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.kentcdodds/kody",
+    "rule": "status-change",
+    "version": "1.0.5",
+    "status": "deleted",
+    "description": "Your agents' cloud for individuals and teams. Search, execute, packages, jobs, and credentials.",
+    "repository": "https://github.com/kentcdodds/kody",
+    "website": "https://kody.codes",
+    "packages": [],
+    "remote_hosts": [
+      "kody.codes"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T18:50:13.051258Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/kentcdodds/kody",
+    "https://kody.codes",
+    "https://kody.codes/mcp"
+  ],
+  "discovered_at": "2026-10-18T11:19:50Z"
+}
