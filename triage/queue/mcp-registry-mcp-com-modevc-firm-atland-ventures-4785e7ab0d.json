@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-atland-ventures-4785e7ab0d",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-atland-ventures",
+  "title": "MCP server com.modevc/firm-atland-ventures: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-atland-ventures",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (Minnesota), sector focus, and fund benchmarks for Atland.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/atland-ventures/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:43:56.039057Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/atland-ventures/",
+    "https://modevc.com/api/mcp/firm-atland-ventures"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

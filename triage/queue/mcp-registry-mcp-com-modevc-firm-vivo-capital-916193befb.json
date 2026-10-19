@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-vivo-capital-916193befb",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-vivo-capital",
+  "title": "MCP server com.modevc/firm-vivo-capital: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-vivo-capital",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (California), sector focus, and fund benchmarks for Vivo.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/vivo-capital/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:45:57.20532Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/vivo-capital/",
+    "https://modevc.com/api/mcp/firm-vivo-capital"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

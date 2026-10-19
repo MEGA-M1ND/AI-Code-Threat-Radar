@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-verdansk69-bidwell-health-526abae5e4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.verdansk69/bidwell-health",
+  "title": "MCP server io.github.verdansk69/bidwell-health: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.verdansk69/bidwell-health",
+    "rule": "status-change",
+    "version": "0.5.0",
+    "status": "deprecated",
+    "description": "Public Bidwell Health service information, state availability, care limits, and visit guidance.",
+    "repository": "",
+    "website": "https://bidwell-health-connector.netlify.app/",
+    "packages": [],
+    "remote_hosts": [
+      "bidwell-health-connector.netlify.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T18:40:11.606073Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://bidwell-health-connector.netlify.app/",
+    "https://bidwell-health-connector.netlify.app/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:59Z"
+}

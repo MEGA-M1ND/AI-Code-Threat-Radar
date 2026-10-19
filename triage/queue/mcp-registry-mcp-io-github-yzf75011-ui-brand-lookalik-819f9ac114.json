@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-yzf75011-ui-brand-lookalik-819f9ac114",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.yzf75011-ui/brand-lookalike-watch",
+  "title": "MCP server io.github.yzf75011-ui/brand-lookalike-watch: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.yzf75011-ui/brand-lookalike-watch",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Phishing/typosquat domains imitating a brand, from CT logs. Weekly email: $2.99/mo on Gumroad.",
+    "repository": "https://github.com/yzf75011-ui/prelaunch-radar-mcp",
+    "website": "https://slama13.gumroad.com/l/snvpxl",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T22:20:27.7266Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/yzf75011-ui/prelaunch-radar-mcp",
+    "https://slama13.gumroad.com/l/snvpxl",
+    "https://mcp.apify.com/?tools=prelaunch-radar/brand-lookalike-watch"
+  ],
+  "discovered_at": "2026-10-19T13:33:59Z"
+}

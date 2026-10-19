@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-site-chatgpt-no-qt-noqt-yumi-wheel-e-af744395ea",
+  "source": "mcp-registry",
+  "key": "mcp:site.chatgpt.no-qt.noqt/yumi-wheel-evidence",
+  "title": "MCP server site.chatgpt.no-qt.noqt/yumi-wheel-evidence: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "site.chatgpt.no-qt.noqt/yumi-wheel-evidence",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Batch PyPI wheel filenames and reported metadata; no downloads or compatibility checks.",
+    "repository": "",
+    "website": "https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence",
+    "packages": [],
+    "remote_hosts": [
+      "noqt.no-qt.chatgpt.site"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T07:15:11.860513Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://noqt.no-qt.chatgpt.site/yumi/wheel-evidence",
+    "https://noqt.no-qt.chatgpt.site/api/yumi/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:34:06Z"
+}

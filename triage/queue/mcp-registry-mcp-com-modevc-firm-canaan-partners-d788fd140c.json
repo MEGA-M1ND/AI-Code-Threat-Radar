@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-canaan-partners-d788fd140c",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-canaan-partners",
+  "title": "MCP server com.modevc/firm-canaan-partners: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-canaan-partners",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (California), sector focus, and fund benchmarks for Canaan.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/canaan-partners/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:43:49.721035Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/canaan-partners/",
+    "https://modevc.com/api/mcp/firm-canaan-partners"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

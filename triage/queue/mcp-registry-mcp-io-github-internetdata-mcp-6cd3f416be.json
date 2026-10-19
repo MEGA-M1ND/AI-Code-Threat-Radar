@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-internetdata-mcp-6cd3f416be",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.internetdata/mcp",
+  "title": "MCP server io.github.internetdata/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.internetdata/mcp",
+    "rule": "status-change",
+    "version": "3.1.5",
+    "status": "deleted",
+    "description": "List InternetData's IP and ASN databases, your license for each, what one holds, and its digests.",
+    "repository": "https://github.com/internetdata/mcp",
+    "website": "https://internetdata.io",
+    "packages": [
+      "npm:internetdata-mcp"
+    ],
+    "remote_hosts": [
+      "mcp.internetdata.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-17T07:18:19.399059Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/internetdata/mcp",
+    "https://internetdata.io",
+    "https://mcp.internetdata.io/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:27Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-tactivus-connect-connect-9ae09f35d6",
+  "source": "mcp-registry",
+  "key": "mcp:com.tactivus.connect/connect",
+  "title": "MCP server com.tactivus.connect/connect: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.tactivus.connect/connect",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "QuickBooks Online MCP server for accounting firms: multi-company access, approvals, audit log.",
+    "repository": "",
+    "website": "https://connect.tactivus.com/quickbooks-mcp",
+    "packages": [],
+    "remote_hosts": [
+      "connect.tactivus.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-17T19:54:15.033442Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://connect.tactivus.com/quickbooks-mcp",
+    "https://connect.tactivus.com/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:09Z"
+}

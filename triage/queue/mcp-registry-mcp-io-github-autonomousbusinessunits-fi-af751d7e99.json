@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-autonomousbusinessunits-fi-af751d7e99",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AutonomousBusinessUnits/findable",
+  "title": "MCP server io.github.AutonomousBusinessUnits/findable: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AutonomousBusinessUnits/findable",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Public website audits and sourced SEO/AEO content drafts, ready for your review.",
+    "repository": "",
+    "website": "https://thefindable.co/",
+    "packages": [],
+    "remote_hosts": [
+      "thefindable.co"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T21:13:50.868188Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://thefindable.co/",
+    "https://thefindable.co/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:13Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-rtp-global-3883736e40",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-rtp-global",
+  "title": "MCP server com.modevc/firm-rtp-global: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-rtp-global",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (California), sector focus, and fund benchmarks for RTP.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/rtp-global/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:45:27.046742Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/rtp-global/",
+    "https://modevc.com/api/mcp/firm-rtp-global"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

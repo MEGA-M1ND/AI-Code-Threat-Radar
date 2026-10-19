@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-vpndetection-io-mcp-aae75ae982",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.vpndetection-io/mcp",
+  "title": "MCP server io.github.vpndetection-io/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.vpndetection-io/mcp",
+    "rule": "status-change",
+    "version": "6.1.1",
+    "status": "deleted",
+    "description": "VPN, proxy, Tor, hosting and CDN detection for any IP address, from the VPNDetection API.",
+    "repository": "https://github.com/vpndetection-io/mcp",
+    "website": "https://vpndetection.io",
+    "packages": [
+      "npm:vpndetection-mcp"
+    ],
+    "remote_hosts": [
+      "mcp.vpndetection.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T16:30:25.40788Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/vpndetection-io/mcp",
+    "https://vpndetection.io",
+    "https://mcp.vpndetection.io/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:59Z"
+}

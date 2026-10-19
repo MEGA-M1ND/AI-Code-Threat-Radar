@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-insight-partners-a1906aba82",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-insight-partners",
+  "title": "MCP server com.modevc/firm-insight-partners: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-insight-partners",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (New York), sector focus, and fund benchmarks for Insight.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/insight-partners/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:45:19.781497Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/insight-partners/",
+    "https://modevc.com/api/mcp/firm-insight-partners"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

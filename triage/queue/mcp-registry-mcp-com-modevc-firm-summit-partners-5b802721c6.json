@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-summit-partners-5b802721c6",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-summit-partners",
+  "title": "MCP server com.modevc/firm-summit-partners: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-summit-partners",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (Massachusetts), sector focus, and fund benchmarks for.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/summit-partners/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:44:00.325248Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/summit-partners/",
+    "https://modevc.com/api/mcp/firm-summit-partners"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

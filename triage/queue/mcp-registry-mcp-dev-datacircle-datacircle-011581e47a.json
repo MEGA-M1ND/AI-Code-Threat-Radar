@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-datacircle-datacircle-011581e47a",
+  "source": "mcp-registry",
+  "key": "mcp:dev.datacircle/datacircle",
+  "title": "MCP server dev.datacircle/datacircle: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.datacircle/datacircle",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "Query your favorite B2B data APIs through us. Same request, same price, no markup.",
+    "repository": "",
+    "website": "https://docs.datacircle.dev/mcp-server",
+    "packages": [],
+    "remote_hosts": [
+      "api.datacircle.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-09T10:06:41.607674Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://docs.datacircle.dev/mcp-server",
+    "https://api.datacircle.dev/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:09Z"
+}

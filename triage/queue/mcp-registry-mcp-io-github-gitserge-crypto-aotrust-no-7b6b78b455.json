@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-gitserge-crypto-aotrust-no-7b6b78b455",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.GitSerge-crypto/aotrust-notary",
+  "title": "MCP server io.github.GitSerge-crypto/aotrust-notary: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.GitSerge-crypto/aotrust-notary",
+    "rule": "status-change",
+    "version": "2.3.4",
+    "status": "deleted",
+    "description": "Cryptographic proof of existence for AI agents. Base x402, NEAR anchored. Free tier.",
+    "repository": "https://github.com/GitSerge-crypto/aotrust-skills",
+    "website": "",
+    "packages": [
+      "pypi:aotrust-protocol"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-19T22:20:34.239954Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/GitSerge-crypto/aotrust-skills"
+  ],
+  "discovered_at": "2026-10-19T13:33:13Z"
+}

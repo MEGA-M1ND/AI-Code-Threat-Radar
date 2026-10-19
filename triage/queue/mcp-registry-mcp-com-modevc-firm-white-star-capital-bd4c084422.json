@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-white-star-capital-bd4c084422",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-white-star-capital",
+  "title": "MCP server com.modevc/firm-white-star-capital: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-white-star-capital",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (New York), sector focus, and fund benchmarks for White.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/white-star-capital/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:45:47.380193Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/white-star-capital/",
+    "https://modevc.com/api/mcp/firm-white-star-capital"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-bessemer-venture-par-ce4e3c8475",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-bessemer-venture-partners",
+  "title": "MCP server com.modevc/firm-bessemer-venture-partners: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-bessemer-venture-partners",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (California), sector focus, and fund benchmarks for.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/bessemer-venture-partners/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:43:48.619095Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/bessemer-venture-partners/",
+    "https://modevc.com/api/mcp/firm-bessemer-venture-partners"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

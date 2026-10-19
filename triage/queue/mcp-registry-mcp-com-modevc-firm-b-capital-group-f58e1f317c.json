@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-b-capital-group-f58e1f317c",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-b-capital-group",
+  "title": "MCP server com.modevc/firm-b-capital-group: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-b-capital-group",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (New York), sector focus, and fund benchmarks for B Capital.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/b-capital-group/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:43:43.769702Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/b-capital-group/",
+    "https://modevc.com/api/mcp/firm-b-capital-group"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

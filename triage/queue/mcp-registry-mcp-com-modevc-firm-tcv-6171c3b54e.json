@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-tcv-6171c3b54e",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-tcv",
+  "title": "MCP server com.modevc/firm-tcv: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-tcv",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (California), sector focus, and fund benchmarks for TCV in.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/tcv/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:44:01.118615Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/tcv/",
+    "https://modevc.com/api/mcp/firm-tcv"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

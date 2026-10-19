@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-yzf75011-ui-prelaunch-rada-cc49d809ab",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.yzf75011-ui/prelaunch-radar-mcp",
+  "title": "MCP server io.github.yzf75011-ui/prelaunch-radar-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.yzf75011-ui/prelaunch-radar-mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "New and pre-launch Shopify stores from public CT logs: RDAP date, niche, country. No PII.",
+    "repository": "https://github.com/yzf75011-ui/prelaunch-radar-mcp",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T15:14:38.066671Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/yzf75011-ui/prelaunch-radar-mcp",
+    "https://mcp.apify.com/?tools=prelaunch-radar/new-shopify-stores-pre-launch-radar"
+  ],
+  "discovered_at": "2026-10-19T13:33:59Z"
+}

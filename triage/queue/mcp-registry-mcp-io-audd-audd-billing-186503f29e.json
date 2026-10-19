@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-audd-audd-billing-186503f29e",
+  "source": "mcp-registry",
+  "key": "mcp:io.audd/audd-billing",
+  "title": "MCP server io.audd/audd-billing: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.audd/audd-billing",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "AudD account tools: usage stats, billing, API token, plans, payment links, API docs, and API calls",
+    "repository": "",
+    "website": "https://docs.audd.io/mcp/",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.audd.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T10:35:11.750296Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://docs.audd.io/mcp/",
+    "https://mcp.audd.io"
+  ],
+  "discovered_at": "2026-10-19T13:33:11Z"
+}

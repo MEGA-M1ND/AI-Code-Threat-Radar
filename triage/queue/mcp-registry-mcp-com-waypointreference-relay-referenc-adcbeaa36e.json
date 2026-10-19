@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-waypointreference-relay-referenc-adcbeaa36e",
+  "source": "mcp-registry",
+  "key": "mcp:com.waypointreference/relay-reference",
+  "title": "MCP server com.waypointreference/relay-reference: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.waypointreference/relay-reference",
+    "rule": "status-change",
+    "version": "2026.10.3",
+    "status": "deleted",
+    "description": "Search relay guides, retrieve synthetic fixtures, and validate example rows.",
+    "repository": "",
+    "website": "https://waypointreference.com",
+    "packages": [],
+    "remote_hosts": [
+      "waypointreference.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-17T16:49:14.679219Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://waypointreference.com",
+    "https://waypointreference.com/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:09Z"
+}

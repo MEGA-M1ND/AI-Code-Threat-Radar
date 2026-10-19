@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-acedatacloud-mcp-sora-68e27cd9d6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AceDataCloud/mcp-sora",
+  "title": "MCP server io.github.AceDataCloud/mcp-sora: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AceDataCloud/mcp-sora",
+    "rule": "status-change",
+    "version": "2026.10.8.0",
+    "status": "deprecated",
+    "description": "MCP server for OpenAI Sora AI video generation",
+    "repository": "https://github.com/AceDataCloud/SoraMCP",
+    "website": "https://sora.mcp.acedata.cloud",
+    "packages": [
+      "pypi:mcp-sora"
+    ],
+    "remote_hosts": [
+      "sora.mcp.acedata.cloud"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T01:36:24.165928Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/AceDataCloud/SoraMCP",
+    "https://sora.mcp.acedata.cloud",
+    "https://sora.mcp.acedata.cloud/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:11Z"
+}

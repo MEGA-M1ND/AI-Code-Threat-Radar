@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-ra-capital-managemen-536fb23c7e",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-ra-capital-management",
+  "title": "MCP server com.modevc/firm-ra-capital-management: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-ra-capital-management",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (Massachusetts), sector focus, and fund benchmarks for RA.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/ra-capital-management/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:43:38.906202Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/ra-capital-management/",
+    "https://modevc.com/api/mcp/firm-ra-capital-management"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

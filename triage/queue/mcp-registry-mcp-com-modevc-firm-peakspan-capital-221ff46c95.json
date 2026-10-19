@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-peakspan-capital-221ff46c95",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-peakspan-capital",
+  "title": "MCP server com.modevc/firm-peakspan-capital: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-peakspan-capital",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (California), sector focus, and fund benchmarks for.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/peakspan-capital/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:46:09.193868Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/peakspan-capital/",
+    "https://modevc.com/api/mcp/firm-peakspan-capital"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

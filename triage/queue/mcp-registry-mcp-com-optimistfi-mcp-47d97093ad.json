@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-optimistfi-mcp-47d97093ad",
+  "source": "mcp-registry",
+  "key": "mcp:com.optimistfi/mcp",
+  "title": "MCP server com.optimistfi/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.optimistfi/mcp",
+    "rule": "status-change",
+    "version": "1.30.0",
+    "status": "deleted",
+    "description": "Perpetual futures across 40 venues, perps prop firms and sourced theses on 6,100+ US stocks.",
+    "repository": "",
+    "website": "https://optimistfi.com/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.optimistfi.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-17T17:54:39.338589Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://optimistfi.com/mcp",
+    "https://mcp.optimistfi.com/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

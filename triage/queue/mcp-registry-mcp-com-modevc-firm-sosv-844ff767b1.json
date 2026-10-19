@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-sosv-844ff767b1",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-sosv",
+  "title": "MCP server com.modevc/firm-sosv: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-sosv",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (New Jersey), sector focus, and fund benchmarks for SOSV in.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/sosv/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:46:12.273047Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/sosv/",
+    "https://modevc.com/api/mcp/firm-sosv"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

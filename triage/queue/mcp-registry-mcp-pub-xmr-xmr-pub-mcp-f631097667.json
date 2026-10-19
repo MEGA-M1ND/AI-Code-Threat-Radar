@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-pub-xmr-xmr-pub-mcp-f631097667",
+  "source": "mcp-registry",
+  "key": "mcp:pub.xmr/xmr-pub-mcp",
+  "title": "MCP server pub.xmr/xmr-pub-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "pub.xmr/xmr-pub-mcp",
+    "rule": "status-change",
+    "version": "2.1.0",
+    "status": "deleted",
+    "description": "Read-only Monero node, fee, mempool and payment checks. Free telemetry; x402 on Base or Solana.",
+    "repository": "",
+    "website": "https://xmr.pub/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "xmr.pub"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-17T13:57:53.057284Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://xmr.pub/mcp",
+    "https://xmr.pub/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:34:06Z"
+}

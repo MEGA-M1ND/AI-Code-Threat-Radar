@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-northern-light-ventu-4861353130",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-northern-light-venture-capital",
+  "title": "MCP server com.modevc/firm-northern-light-venture-capital: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-northern-light-venture-capital",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (California), sector focus, and fund benchmarks for.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/northern-light-venture-capital/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:43:59.326704Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/northern-light-venture-capital/",
+    "https://modevc.com/api/mcp/firm-northern-light-venture-capital"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

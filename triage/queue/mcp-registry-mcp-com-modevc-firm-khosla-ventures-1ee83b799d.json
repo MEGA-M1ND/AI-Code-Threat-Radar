@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-khosla-ventures-1ee83b799d",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-khosla-ventures",
+  "title": "MCP server com.modevc/firm-khosla-ventures: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-khosla-ventures",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (California), sector focus, and fund benchmarks for Khosla.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/khosla-ventures/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:46:06.307644Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/khosla-ventures/",
+    "https://modevc.com/api/mcp/firm-khosla-ventures"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

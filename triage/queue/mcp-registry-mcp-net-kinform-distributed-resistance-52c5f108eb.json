@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-net-kinform-distributed-resistance-52c5f108eb",
+  "source": "mcp-registry",
+  "key": "mcp:net.kinform/distributed-resistance",
+  "title": "MCP server net.kinform/distributed-resistance: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.kinform/distributed-resistance",
+    "rule": "status-change",
+    "version": "2.1.0",
+    "status": "deleted",
+    "description": "Anonymous sovereign A2A & MCP agent mesh with Ed25519 domain autonomy, P2P inbox & signed receipts.",
+    "repository": "",
+    "website": "https://kinform.net",
+    "packages": [],
+    "remote_hosts": [
+      "kinform.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-17T17:51:13.346667Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://kinform.net",
+    "https://kinform.net/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:34:06Z"
+}

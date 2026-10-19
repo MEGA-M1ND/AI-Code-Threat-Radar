@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-five-elms-capital-1534f4c7b4",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-five-elms-capital",
+  "title": "MCP server com.modevc/firm-five-elms-capital: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-five-elms-capital",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (Missouri), sector focus, and fund benchmarks for Five Elms.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/five-elms-capital/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:43:42.520982Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/five-elms-capital/",
+    "https://modevc.com/api/mcp/firm-five-elms-capital"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}

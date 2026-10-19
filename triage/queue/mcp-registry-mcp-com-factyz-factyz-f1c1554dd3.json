@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-factyz-factyz-f1c1554dd3",
+  "source": "mcp-registry",
+  "key": "mcp:com.factyz/factyz",
+  "title": "MCP server com.factyz/factyz: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.factyz/factyz",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Cotisations Urssaf, seuils micro et TVA, échéances : le calcul officiel pour auto-entrepreneur",
+    "repository": "",
+    "website": "https://factyz.com",
+    "packages": [],
+    "remote_hosts": [
+      "app.factyz.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T13:28:54.001951Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://factyz.com",
+    "https://app.factyz.com/mcp"
+  ],
+  "discovered_at": "2026-10-19T13:33:03Z"
+}

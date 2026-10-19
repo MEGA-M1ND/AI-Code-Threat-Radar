@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-modevc-firm-general-catalyst-1f1e59f02a",
+  "source": "mcp-registry",
+  "key": "mcp:com.modevc/firm-general-catalyst",
+  "title": "MCP server com.modevc/firm-general-catalyst: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.modevc/firm-general-catalyst",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deprecated",
+    "description": "Query partner roster, headquarters (Massachusetts), sector focus, and fund benchmarks for.",
+    "repository": "",
+    "website": "https://modevc.com/investors/firm/general-catalyst/",
+    "packages": [],
+    "remote_hosts": [
+      "modevc.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T01:44:02.505048Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://modevc.com/investors/firm/general-catalyst/",
+    "https://modevc.com/api/mcp/firm-general-catalyst"
+  ],
+  "discovered_at": "2026-10-19T13:33:08Z"
+}
