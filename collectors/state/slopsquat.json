@@ -44,33 +44,33 @@
     "veim": "security-holding",
     "yarsg": "security-holding"
   },
-  "npm_cursor": 21,
+  "npm_cursor": 46,
   "npm_last_window": [
-    "timeago.js",
-    "transformers",
-    "web-scraper-mcp",
-    "windsurf",
-    "claude-code",
-    "mcp-server-browserbase",
-    "magnet-link",
-    "qbittorrent",
-    "tinycolor",
-    "transmission",
-    "gemini-cli",
-    "server-filesystem",
-    "enterprise-cloud",
-    "workspace",
-    "pnpm-audit-junit",
-    "mcp-ui-client",
-    "postman-mcp-cli",
-    "postman-mcp-server",
-    "claude-context-mcp",
-    "mcp-server-relytone",
-    "sdr-mcp-server",
-    "anvil2-mcp",
-    "react-router",
-    "react-router-devtools",
-    "react-start"
+    "router-cli",
+    "router-core",
+    "router-devtools",
+    "router-devtools-core",
+    "router-generator",
+    "router-plugin",
+    "router-utils",
+    "router-vite-plugin",
+    "solid-router",
+    "virtual-file-routes",
+    "vue-router",
+    "anthropic",
+    "mcp-integration",
+    "amazon-q",
+    "anthropic-sdk",
+    "aws-toolkit-vscode",
+    "cache-manager",
+    "cacheable",
+    "cacheable-request",
+    "canvas-nest.js",
+    "claude-agent-sdk",
+    "claude-token-updater",
+    "clawdbot",
+    "codex-cli",
+    "codexui-android"
   ],
   "pypi_details": {
     "TransformerST": {
@@ -353,9 +353,9 @@
       "summary": "CLI Agente de IA (DeepSeek | OpenAI | Gemini | Grok) para terminal, com contexto de projeto e ferramentas de dev."
     }
   },
-  "pypi_etag": "\"Rvdgc3MLsgviqs0JGqgAgQ\"",
+  "pypi_etag": "\"zocjtDGgAqTS4mpVUOSnOg\"",
   "pypi_last_sweep": {
     "hits": 32,
-    "names": 917636
+    "names": 918585
   }
 }

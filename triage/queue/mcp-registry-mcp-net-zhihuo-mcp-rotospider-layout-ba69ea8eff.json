@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-net-zhihuo-mcp-rotospider-layout-ba69ea8eff",
+  "source": "mcp-registry",
+  "key": "mcp:net.zhihuo.mcp/rotospider-layout",
+  "title": "MCP server net.zhihuo.mcp/rotospider-layout: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.zhihuo.mcp/rotospider-layout",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deprecated",
+    "description": "Rotomolding mold-on-arm layout feasibility: which molds fit on a machine arm/spider, and how.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.zhihuo.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T03:29:55.741581Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.zhihuo.net/roto/mcp"
+  ],
+  "discovered_at": "2026-10-20T11:48:44Z"
+}

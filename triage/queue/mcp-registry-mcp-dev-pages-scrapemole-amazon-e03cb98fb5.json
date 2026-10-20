@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-pages-scrapemole-amazon-e03cb98fb5",
+  "source": "mcp-registry",
+  "key": "mcp:dev.pages.scrapemole/amazon",
+  "title": "MCP server dev.pages.scrapemole/amazon: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.pages.scrapemole/amazon",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Pay-per-call x402 Amazon product, search and review data for AI agents. USDC on Base, no API key.",
+    "repository": "",
+    "website": "https://scrapemole.pages.dev",
+    "packages": [],
+    "remote_hosts": [
+      "scrapemole-api.vercel.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-13T10:07:36.318841Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://scrapemole.pages.dev",
+    "https://scrapemole-api.vercel.app/mcp"
+  ],
+  "discovered_at": "2026-10-20T11:48:23Z"
+}

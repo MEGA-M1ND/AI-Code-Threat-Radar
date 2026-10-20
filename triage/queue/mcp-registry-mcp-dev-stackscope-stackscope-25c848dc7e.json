@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-dev-stackscope-stackscope-25c848dc7e",
+  "source": "mcp-registry",
+  "key": "mcp:dev.stackscope/stackscope",
+  "title": "MCP server dev.stackscope/stackscope: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.stackscope/stackscope",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "What new websites are built with. Track adopters of your product, export with published contacts.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.stackscope.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-27T08:42:14.741165Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.stackscope.dev"
+  ],
+  "discovered_at": "2026-10-20T11:48:23Z"
+}

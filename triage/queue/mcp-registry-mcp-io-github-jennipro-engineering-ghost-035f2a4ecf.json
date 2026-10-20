@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-jennipro-engineering-ghost-035f2a4ecf",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jennipro-engineering/ghost-market-web",
+  "title": "MCP server io.github.jennipro-engineering/ghost-market-web: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jennipro-engineering/ghost-market-web",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Search live local & nationwide retail stock, check prices, and run zero-click AI agent checkouts.",
+    "repository": "https://github.com/jennipro-engineering/ghost-market-web",
+    "website": "https://shop.jennipro.com",
+    "packages": [],
+    "remote_hosts": [
+      "shop.jennipro.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T18:02:07.400927Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jennipro-engineering/ghost-market-web",
+    "https://shop.jennipro.com",
+    "https://shop.jennipro.com/mcp"
+  ],
+  "discovered_at": "2026-10-20T11:48:33Z"
+}

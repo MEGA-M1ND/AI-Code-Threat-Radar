@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-perseus-computing-llc-pers-8bb396f90b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Perseus-Computing-LLC/perseus-vault",
+  "title": "MCP server io.github.Perseus-Computing-LLC/perseus-vault: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Perseus-Computing-LLC/perseus-vault",
+    "rule": "status-change",
+    "version": "2.23.2",
+    "status": "deleted",
+    "description": "Persistent, encrypted, deterministic memory for AI agents. Local-first, 173 canonical tools.",
+    "repository": "https://github.com/Perseus-Computing-LLC/perseus-vault",
+    "website": "https://github.com/Perseus-Computing-LLC/perseus-vault",
+    "packages": [
+      "oci:ghcr.io/perseus-computing-llc/perseus-vault:2.23.2"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-26T03:19:28.186666Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Perseus-Computing-LLC/perseus-vault",
+    "https://github.com/Perseus-Computing-LLC/perseus-vault"
+  ],
+  "discovered_at": "2026-10-20T11:48:28Z"
+}
