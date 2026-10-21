@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-sharan01x-usetested-fe66d04a02",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sharan01x/usetested",
+  "title": "MCP server io.github.sharan01x/usetested: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sharan01x/usetested",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Receipts-verified reviews of x402 services and paid APIs, before your agent pays.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "usetested.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-21T09:12:57.554021Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://usetested.com/mcp"
+  ],
+  "discovered_at": "2026-10-21T12:00:34Z"
+}

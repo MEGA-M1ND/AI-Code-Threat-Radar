@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-xoyabunx-everycalc-1e73025bb1",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.xOyabunx/everycalc",
+  "title": "MCP server io.github.xOyabunx/everycalc: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.xOyabunx/everycalc",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "8 free finance calculators as MCP tools: mortgage, refinance, loans, interest, salary, tips.",
+    "repository": "https://github.com/xOyabunx/everycalc",
+    "website": "https://everycalc.xyz",
+    "packages": [],
+    "remote_hosts": [
+      "everycalc.xyz"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-10T11:00:02.416213Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/xOyabunx/everycalc",
+    "https://everycalc.xyz",
+    "https://everycalc.xyz/mcp"
+  ],
+  "discovered_at": "2026-10-21T12:00:34Z"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "mcp-registry-mcp-com-scento-perfume-compendium-aa2a18f0ca",
+  "source": "mcp-registry",
+  "key": "mcp:com.scento/perfume-compendium",
+  "title": "MCP server com.scento/perfume-compendium: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.scento/perfume-compendium",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Free perfume & fragrance API and MCP server: notes, families, similar scents, 700+ perfumes. No key.",
+    "repository": "https://github.com/Scento-com/perfume-compendium",
+    "website": "https://www.scento.com/developers",
+    "packages": [
+      "npm:scento-perfume-compendium",
+      "pypi:scento-perfume-compendium"
+    ],
+    "remote_hosts": [
+      "www.scento.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-21T03:03:45.861161Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Scento-com/perfume-compendium",
+    "https://www.scento.com/developers",
+    "https://www.scento.com/mcp"
+  ],
+  "discovered_at": "2026-10-21T12:00:00Z"
+}

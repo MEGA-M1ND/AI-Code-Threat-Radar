@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-fortripengineering-fortrip-b90be081f7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.FortripEngineering/fortrip-hotels",
+  "title": "MCP server io.github.FortripEngineering/fortrip-hotels: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.FortripEngineering/fortrip-hotels",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Search hotels worldwide, compare live room rates, and create booking payment links.",
+    "repository": "",
+    "website": "https://fortrip.ai",
+    "packages": [],
+    "remote_hosts": [
+      "fortrip.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-20T09:29:12.683832Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://fortrip.ai",
+    "https://fortrip.ai/api/mcp"
+  ],
+  "discovered_at": "2026-10-21T12:00:06Z"
+}

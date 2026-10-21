@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-withnocatch-shiplist-9405f95d55",
+  "source": "mcp-registry",
+  "key": "mcp:com.withnocatch/shiplist",
+  "title": "MCP server com.withnocatch/shiplist: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.withnocatch/shiplist",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Search the Shiplist product directory and submit your product from your own agent.",
+    "repository": "",
+    "website": "https://shiplist.withnocatch.com/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "shiplist.withnocatch.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-17T06:15:59.21851Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://shiplist.withnocatch.com/mcp",
+    "https://shiplist.withnocatch.com/mcp"
+  ],
+  "discovered_at": "2026-10-21T12:00:03Z"
+}
