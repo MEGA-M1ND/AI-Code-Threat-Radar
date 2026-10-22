@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-datura-ai-lium-docs-6461b1a40a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Datura-ai/lium-docs",
+  "title": "MCP server io.github.Datura-ai/lium-docs: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Datura-ai/lium-docs",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Search and read the Lium GPU rental docs: pods, CLI, SDK, REST API and agent guides.",
+    "repository": "https://github.com/Datura-ai/lium-skill",
+    "website": "https://docs.lium.io/developers/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "docs.lium.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-01T04:17:57.05082Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Datura-ai/lium-skill",
+    "https://docs.lium.io/developers/mcp",
+    "https://docs.lium.io/mcp"
+  ],
+  "discovered_at": "2026-10-22T12:03:14Z"
+}

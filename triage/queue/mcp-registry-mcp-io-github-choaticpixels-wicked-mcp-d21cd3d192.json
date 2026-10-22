@@ -1,0 +1,31 @@
+{
+  "id": "mcp-registry-mcp-io-github-choaticpixels-wicked-mcp-d21cd3d192",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.choaticpixels/wicked-mcp",
+  "title": "MCP server io.github.choaticpixels/wicked-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.choaticpixels/wicked-mcp",
+    "rule": "status-change",
+    "version": "1.5.0",
+    "status": "deprecated",
+    "description": "MOVED to io.github.WickedAPI/wicked-mcp. Use npx -y @wickedlabs/wicked-mcp or mcp.wickedapi.com/mcp.",
+    "repository": "https://github.com/WickedAPI/wicked-mcp",
+    "website": "https://mcp.wickedapi.com",
+    "packages": [],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-10-21T23:12:14.011977Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/WickedAPI/wicked-mcp",
+    "https://mcp.wickedapi.com"
+  ],
+  "discovered_at": "2026-10-22T12:03:20Z"
+}

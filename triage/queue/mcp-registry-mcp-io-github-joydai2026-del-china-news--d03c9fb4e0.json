@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-joydai2026-del-china-news--d03c9fb4e0",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.joydai2026-del/china-news-feed",
+  "title": "MCP server io.github.joydai2026-del/china-news-feed: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.joydai2026-del/china-news-feed",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "China news (EN/ZH), Weibo 微博/Baidu 百度/Zhihu 知乎 hot lists and deletion watch from public data.",
+    "repository": "https://github.com/joydai2026-del/china-news-feed-mcp",
+    "website": "https://github.com/joydai2026-del/china-news-feed-mcp",
+    "packages": [],
+    "remote_hosts": [
+      "china-news-feed-mcp.joyd-ai-2026.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T02:14:41.388911Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/joydai2026-del/china-news-feed-mcp",
+    "https://github.com/joydai2026-del/china-news-feed-mcp",
+    "https://china-news-feed-mcp.joyd-ai-2026.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-10-22T12:03:26Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-paraloncloud-mcp-rentals-969087559b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ParalonCloud/mcp-rentals",
+  "title": "MCP server io.github.ParalonCloud/mcp-rentals: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ParalonCloud/mcp-rentals",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Rent GPUs on ParalonCloud, or as a provider manage your nodes, prices and earnings.",
+    "repository": "https://github.com/ParalonCloud/mcp-rentals",
+    "website": "https://paraloncloud.com/docs/rental-api/mcp",
+    "packages": [
+      "npm:@paraloncloud/mcp-rentals"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-21T18:21:45.245382Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ParalonCloud/mcp-rentals",
+    "https://paraloncloud.com/docs/rental-api/mcp"
+  ],
+  "discovered_at": "2026-10-22T12:03:16Z"
+}
