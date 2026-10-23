@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-kaneky-jobpost-4b0dca3042",
+  "source": "mcp-registry",
+  "key": "mcp:dev.kaneky/jobpost",
+  "title": "MCP server dev.kaneky/jobpost: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.kaneky/jobpost",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deleted",
+    "description": "Read the job posting from any career page: title, employer, dates, salary. Paid per call, x402.",
+    "repository": "",
+    "website": "https://jobpost.kaneky.dev/",
+    "packages": [],
+    "remote_hosts": [
+      "jobpost.kaneky.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-17T21:08:22.200813Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://jobpost.kaneky.dev/",
+    "https://jobpost.kaneky.dev/mcp"
+  ],
+  "discovered_at": "2026-10-23T11:48:33Z"
+}

@@ -18,7 +18,7 @@
     "last_release": "2026-10-17T15:47:36.274574Z",
     "release_count": 15,
     "summary": "Build OpenCraw recipes in Python, drive the real OpenCraw CLI, and write hooks in Python.",
-    "age_days": 12.6
+    "age_days": 13.6
   },
   "urls": [
     "https://pypi.org/project/opencraw/"

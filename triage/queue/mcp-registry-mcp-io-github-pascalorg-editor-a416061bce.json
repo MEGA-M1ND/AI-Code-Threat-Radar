@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-pascalorg-editor-a416061bce",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.pascalorg/editor",
+  "title": "MCP server io.github.pascalorg/editor: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.pascalorg/editor",
+    "rule": "status-change",
+    "version": "0.6.1",
+    "status": "deleted",
+    "description": "Create, inspect, validate, and save editable 3D building scenes with Pascal's hosted MCP server.",
+    "repository": "",
+    "website": "https://editor.pascal.app/docs/developers/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "editor.pascal.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-09T21:24:37.106824Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://editor.pascal.app/docs/developers/mcp",
+    "https://editor.pascal.app/api/mcp"
+  ],
+  "discovered_at": "2026-10-23T11:49:27Z"
+}

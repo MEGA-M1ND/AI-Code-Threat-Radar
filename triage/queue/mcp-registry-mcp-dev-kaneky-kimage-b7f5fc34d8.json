@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-kaneky-kimage-b7f5fc34d8",
+  "source": "mcp-registry",
+  "key": "mcp:dev.kaneky/kimage",
+  "title": "MCP server dev.kaneky/kimage: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.kaneky/kimage",
+    "rule": "status-change",
+    "version": "0.18.4",
+    "status": "deleted",
+    "description": "Generate original images from text; prompts and results are content-checked. Paid per image, x402.",
+    "repository": "",
+    "website": "https://kimage.kaneky.dev/",
+    "packages": [],
+    "remote_hosts": [
+      "kimage.kaneky.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-25T22:51:26.689854Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://kimage.kaneky.dev/",
+    "https://kimage.kaneky.dev/mcp"
+  ],
+  "discovered_at": "2026-10-23T11:48:33Z"
+}

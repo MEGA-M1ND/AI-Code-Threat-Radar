@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-codelives-ainecto-14b5ebfd46",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.codelives/ainecto",
+  "title": "MCP server io.github.codelives/ainecto: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.codelives/ainecto",
+    "rule": "status-change",
+    "version": "0.8.1",
+    "status": "deprecated",
+    "description": "AiNecto MCP connector for workspace, document, ERD, diagram, task, and attachment workflows.",
+    "repository": "https://github.com/codelives/ainecto",
+    "website": "https://ainecto.com",
+    "packages": [
+      "npm:@ainecto/mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T11:33:06.620072Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/codelives/ainecto",
+    "https://ainecto.com"
+  ],
+  "discovered_at": "2026-10-23T11:49:05Z"
+}

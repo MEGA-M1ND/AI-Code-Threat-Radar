@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-reticle-red-laser-jobs-966eb9275c",
+  "source": "mcp-registry",
+  "key": "mcp:com.reticle-red/laser-jobs",
+  "title": "MCP server com.reticle-red/laser-jobs: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.reticle-red/laser-jobs",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Find the Reticle Red tool for a laser engraving job: outputs, credit cost and a link. Read-only.",
+    "repository": "",
+    "website": "https://reticle-red.com/ai-assistants",
+    "packages": [],
+    "remote_hosts": [
+      "reticle-red.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T13:12:16.734878Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://reticle-red.com/ai-assistants",
+    "https://reticle-red.com/mcp"
+  ],
+  "discovered_at": "2026-10-23T11:48:30Z"
+}
