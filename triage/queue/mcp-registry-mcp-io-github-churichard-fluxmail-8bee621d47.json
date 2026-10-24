@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-churichard-fluxmail-8bee621d47",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.churichard/fluxmail",
+  "title": "MCP server io.github.churichard/fluxmail: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.churichard/fluxmail",
+    "rule": "status-change",
+    "version": "0.12.0",
+    "status": "deprecated",
+    "description": "Read, search, draft, send, and organize email through Gmail, Outlook, and IMAP/SMTP mailboxes.",
+    "repository": "https://github.com/churichard/fluxmail",
+    "website": "https://fluxmail.ai",
+    "packages": [
+      "npm:fluxmail"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T16:54:56.553265Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/churichard/fluxmail",
+    "https://fluxmail.ai"
+  ],
+  "discovered_at": "2026-10-24T11:13:45Z"
+}

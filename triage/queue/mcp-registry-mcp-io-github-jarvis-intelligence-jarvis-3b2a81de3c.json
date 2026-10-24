@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-jarvis-intelligence-jarvis-3b2a81de3c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jarvis-intelligence/jarvis",
+  "title": "MCP server io.github.jarvis-intelligence/jarvis: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jarvis-intelligence/jarvis",
+    "rule": "status-change",
+    "version": "0.8.0",
+    "status": "deleted",
+    "description": "Local-first SCIP code navigation and Zoekt search over your own indexed repositories",
+    "repository": "https://github.com/jarvis-intelligence/jarvis",
+    "website": "",
+    "packages": [
+      "pypi:jarvis-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-10T01:52:10.952208Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jarvis-intelligence/jarvis"
+  ],
+  "discovered_at": "2026-10-24T11:13:50Z"
+}

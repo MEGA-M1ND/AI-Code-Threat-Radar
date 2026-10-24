@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-navshainc-noshup-public-77599279e0",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.navshainc/noshup-public",
+  "title": "MCP server io.github.navshainc/noshup-public: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.navshainc/noshup-public",
+    "rule": "status-change",
+    "version": "1.0.3",
+    "status": "deleted",
+    "description": "Canadian grocery flyer deals and recipes by item, store, postal code, cuisine, or diet. No auth.",
+    "repository": "",
+    "website": "https://noshup.ca/",
+    "packages": [],
+    "remote_hosts": [
+      "api.noshup.ca"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-23T03:53:51.046895Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://noshup.ca/",
+    "https://api.noshup.ca/mcp-public"
+  ],
+  "discovered_at": "2026-10-24T11:13:50Z"
+}

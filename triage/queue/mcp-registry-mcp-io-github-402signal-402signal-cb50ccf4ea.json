@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-402signal-402signal-cb50ccf4ea",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.402signal/402signal",
+  "title": "MCP server io.github.402signal/402signal: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.402signal/402signal",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deleted",
+    "description": "Fail-closed live-endpoint x402 router. POST /route, $0.01 USDC on Base, Solana, Algorand.",
+    "repository": "",
+    "website": "https://402signal.com",
+    "packages": [],
+    "remote_hosts": [
+      "402signal.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-30T14:38:10.626854Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://402signal.com",
+    "https://402signal.com/mcp"
+  ],
+  "discovered_at": "2026-10-24T11:13:39Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-jlohmeier-smart-calendars--9757251fad",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jlohmeier/smart-calendars-ai",
+  "title": "MCP server io.github.jlohmeier/smart-calendars-ai: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jlohmeier/smart-calendars-ai",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deleted",
+    "description": "Create and update subscription calendars from ChatGPT, Claude, or Codex.",
+    "repository": "",
+    "website": "https://www.smartcalendars.ai/en/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.smartcalendars.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T09:48:51.796649Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.smartcalendars.ai/en/mcp",
+    "https://api.smartcalendars.ai/mcp"
+  ],
+  "discovered_at": "2026-10-24T11:13:50Z"
+}

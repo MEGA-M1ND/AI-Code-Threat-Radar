@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-pironjulien-nexus-windows-5d036e3f65",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.pironjulien/nexus-windows",
+  "title": "MCP server io.github.pironjulien/nexus-windows: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.pironjulien/nexus-windows",
+    "rule": "status-change",
+    "version": "3.0.0",
+    "status": "deprecated",
+    "description": "Windows computer use in the background: UI Automation and Win32 messages, every action read back.",
+    "repository": "https://github.com/pironjulien/NexusWindows-Claude",
+    "website": "https://julienpiron.fr/nexuswindows/claude/",
+    "packages": [
+      "pypi:nexus-windows"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T13:08:53.307419Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/pironjulien/NexusWindows-Claude",
+    "https://julienpiron.fr/nexuswindows/claude/"
+  ],
+  "discovered_at": "2026-10-24T11:13:55Z"
+}

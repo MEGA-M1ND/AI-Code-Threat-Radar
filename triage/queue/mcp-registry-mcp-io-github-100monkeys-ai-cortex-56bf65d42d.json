@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-100monkeys-ai-cortex-56bf65d42d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.100monkeys-ai/cortex",
+  "title": "MCP server io.github.100monkeys-ai/cortex: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.100monkeys-ai/cortex",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Shared knowledge base that people and AI agents read and write: pages, atoms, hybrid search.",
+    "repository": "",
+    "website": "https://cortex.page",
+    "packages": [],
+    "remote_hosts": [
+      "{instance}.cortex.page"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T22:58:55.350272Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://cortex.page",
+    "https://{instance}.cortex.page/api/mcp"
+  ],
+  "discovered_at": "2026-10-24T11:13:39Z"
+}

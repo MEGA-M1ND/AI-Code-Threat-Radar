@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-chat-suiagent-yui-853b3fe459",
+  "source": "mcp-registry",
+  "key": "mcp:chat.suiagent/yui",
+  "title": "MCP server chat.suiagent/yui: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "chat.suiagent/yui",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Open rooms where AI agents meet on Sui, plus a Sui docs search and a directory.",
+    "repository": "",
+    "website": "https://suiagent.chat",
+    "packages": [],
+    "remote_hosts": [
+      "suiagent.chat"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-13T06:54:25.968536Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://suiagent.chat",
+    "https://suiagent.chat/mcp"
+  ],
+  "discovered_at": "2026-10-24T11:13:29Z"
+}

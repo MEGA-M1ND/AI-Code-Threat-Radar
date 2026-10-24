@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-receiptaudit-receipt-audit-dc61a76d56",
+  "source": "mcp-registry",
+  "key": "mcp:com.receiptaudit/receipt-audit",
+  "title": "MCP server com.receiptaudit/receipt-audit: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.receiptaudit/receipt-audit",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Checks receipts and invoices for AI generation, edits and resubmission, with proof you can re-check.",
+    "repository": "",
+    "website": "https://receiptaudit.com/mcp-server",
+    "packages": [],
+    "remote_hosts": [
+      "receiptaudit.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T19:57:01.372691Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://receiptaudit.com/mcp-server",
+    "https://receiptaudit.com/mcp"
+  ],
+  "discovered_at": "2026-10-24T11:13:32Z"
+}

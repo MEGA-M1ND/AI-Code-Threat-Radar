@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-sh-openpath-openpath-e96a112a3e",
+  "source": "mcp-registry",
+  "key": "mcp:sh.openpath/openpath",
+  "title": "MCP server sh.openpath/openpath: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "sh.openpath/openpath",
+    "rule": "status-change",
+    "version": "3.6.0",
+    "status": "deprecated",
+    "description": "Live jobs (Austin and remote) and Austin local businesses; message the owner through Openpath.",
+    "repository": "",
+    "website": "https://openpath.sh/start",
+    "packages": [],
+    "remote_hosts": [
+      "openpath.sh"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T15:29:36.72863Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openpath.sh/start",
+    "https://openpath.sh/mcp/search",
+    "https://openpath.sh/mcp"
+  ],
+  "discovered_at": "2026-10-24T11:14:04Z"
+}

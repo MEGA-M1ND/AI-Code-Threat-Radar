@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-dev-wagate-wagate-2da010b1c0",
+  "source": "mcp-registry",
+  "key": "mcp:dev.wagate/wagate",
+  "title": "MCP server dev.wagate/wagate: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.wagate/wagate",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deleted",
+    "description": "Read WhatsApp chats and groups, and send messages when allowed, through the WaGate API.",
+    "repository": "",
+    "website": "https://wagate.dev/docs/mcp",
+    "packages": [
+      "npm:@wagate/mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-21T06:05:02.705292Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://wagate.dev/docs/mcp"
+  ],
+  "discovered_at": "2026-10-24T11:13:39Z"
+}

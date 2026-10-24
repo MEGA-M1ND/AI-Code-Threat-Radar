@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-applied-form-engine-658c6c19ea",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Applied-Form/engine",
+  "title": "MCP server io.github.Applied-Form/engine: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Applied-Form/engine",
+    "rule": "status-change",
+    "version": "3.3.1",
+    "status": "deprecated",
+    "description": "Lint rendered pages against a design system in a real browser, across six widths, with the fix.",
+    "repository": "https://github.com/Applied-Form/engine",
+    "website": "https://github.com/Applied-Form/engine",
+    "packages": [
+      "npm:@appliedform/engine"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T11:42:22.31668Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Applied-Form/engine",
+    "https://github.com/Applied-Form/engine"
+  ],
+  "discovered_at": "2026-10-24T11:13:39Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-com-letkite-letkite-dev-f7495eac2c",
+  "source": "mcp-registry",
+  "key": "mcp:com.letkite/letkite-dev",
+  "title": "MCP server com.letkite/letkite-dev: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.letkite/letkite-dev",
+    "rule": "status-change",
+    "version": "1.7.0-rc.2",
+    "status": "deprecated",
+    "description": "Run commands and manage files on your own machines. Needs a LetKite account; OAuth sign-in.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.dev.letkite.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T06:52:13.740384Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.dev.letkite.com/mcp"
+  ],
+  "discovered_at": "2026-10-24T11:13:32Z"
+}

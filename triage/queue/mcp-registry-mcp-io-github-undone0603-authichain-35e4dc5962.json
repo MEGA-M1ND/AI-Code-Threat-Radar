@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-undone0603-authichain-35e4dc5962",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.undone0603/authichain",
+  "title": "MCP server io.github.undone0603/authichain: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.undone0603/authichain",
+    "rule": "status-change",
+    "version": "1.3.2",
+    "status": "deleted",
+    "description": "Look up AuthiChain product records. x402 paid verification and on-chain anchoring in development.",
+    "repository": "",
+    "website": "https://authichain.com",
+    "packages": [],
+    "remote_hosts": [
+      "authichain.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-16T13:13:37.063118Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://authichain.com",
+    "https://authichain.com/mcp"
+  ],
+  "discovered_at": "2026-10-24T11:13:58Z"
+}

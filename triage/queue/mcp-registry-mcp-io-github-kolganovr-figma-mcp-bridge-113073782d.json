@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-kolganovr-figma-mcp-bridge-113073782d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.kolganovr/figma-mcp-bridge",
+  "title": "MCP server io.github.kolganovr/figma-mcp-bridge: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.kolganovr/figma-mcp-bridge",
+    "rule": "status-change",
+    "version": "4.2.7",
+    "status": "deprecated",
+    "description": "Write to a live Figma canvas, get a screenshot back, and roll back mistakes. Zero deps, free plan.",
+    "repository": "https://github.com/kolganovr/figma-mcp-bridge",
+    "website": "https://github.com/kolganovr/figma-mcp-bridge#quickstart",
+    "packages": [
+      "npm:@kolganovr/figma-mcp-bridge"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T12:32:44.108558Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/kolganovr/figma-mcp-bridge",
+    "https://github.com/kolganovr/figma-mcp-bridge#quickstart"
+  ],
+  "discovered_at": "2026-10-24T11:13:50Z"
+}
