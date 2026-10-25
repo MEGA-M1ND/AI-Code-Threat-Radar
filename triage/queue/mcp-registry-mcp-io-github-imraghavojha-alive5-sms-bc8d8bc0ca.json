@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-imraghavojha-alive5-sms-bc8d8bc0ca",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.imraghavojha/alive5-sms",
+  "title": "MCP server io.github.imraghavojha/alive5-sms: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.imraghavojha/alive5-sms",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "List SMS lines, send texts and read recent inbound messages with Alive5.",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "npm:alive5-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T07:36:47.416328Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-10-25T11:43:39Z"
+}

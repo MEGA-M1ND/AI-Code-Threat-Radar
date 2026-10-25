@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-wygogogo19-robotbase-mcp-52350a3b69",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.wygogogo19/robotbase-mcp",
+  "title": "MCP server io.github.wygogogo19/robotbase-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.wygogogo19/robotbase-mcp",
+    "rule": "status-change",
+    "version": "0.32.0",
+    "status": "deleted",
+    "description": "Agent MCP: 65 tools — 5-chain verification, risk, prediction & crypto trends, 17 web tools.",
+    "repository": "https://github.com/wygogogo19/robotbase-mcp",
+    "website": "https://robotbase.cc/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "robotbase.cc"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T06:12:23.080157Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/wygogogo19/robotbase-mcp",
+    "https://robotbase.cc/mcp",
+    "https://robotbase.cc/mcp"
+  ],
+  "discovered_at": "2026-10-25T11:43:46Z"
+}

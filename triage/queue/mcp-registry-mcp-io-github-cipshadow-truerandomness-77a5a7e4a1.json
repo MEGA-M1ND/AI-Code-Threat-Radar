@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-cipshadow-truerandomness-77a5a7e4a1",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.cipshadow/truerandomness",
+  "title": "MCP server io.github.cipshadow/truerandomness: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.cipshadow/truerandomness",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Verified random integers via free MCP tools, plus Tempo-paid signed random certificates.",
+    "repository": "",
+    "website": "https://random.cipblujdea.com",
+    "packages": [],
+    "remote_hosts": [
+      "random.cipblujdea.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T11:04:55.998012Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://random.cipblujdea.com",
+    "https://random.cipblujdea.com/mcp"
+  ],
+  "discovered_at": "2026-10-25T11:43:19Z"
+}

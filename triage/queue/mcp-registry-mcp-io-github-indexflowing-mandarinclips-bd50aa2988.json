@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-indexflowing-mandarinclips-bd50aa2988",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.IndexFlowing/mandarinclips-mcp",
+  "title": "MCP server io.github.IndexFlowing/mandarinclips-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.IndexFlowing/mandarinclips-mcp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Search 180,000+ authentic Chinese cinema clips, HSK grammar, and expressions for TCSL educators.",
+    "repository": "https://github.com/IndexFlowing/MandarinClips-mcp",
+    "website": "",
+    "packages": [
+      "npm:mandarinclips-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T18:14:49.907569Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/IndexFlowing/MandarinClips-mcp"
+  ],
+  "discovered_at": "2026-10-25T11:43:18Z"
+}

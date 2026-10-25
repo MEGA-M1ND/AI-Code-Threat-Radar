@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-coolsapiens-linkedin-mcp-3d30387edd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CoolSapiens/linkedin-mcp",
+  "title": "MCP server io.github.CoolSapiens/linkedin-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CoolSapiens/linkedin-mcp",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "The safest LinkedIn MCP: your Agents read DMs, search your network and draft messages you send.",
+    "repository": "https://github.com/CoolSapiens/linkedin-mcp",
+    "website": "https://www.talktohumans.app",
+    "packages": [],
+    "remote_hosts": [
+      "api.talktohumans.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T09:36:32.46632Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CoolSapiens/linkedin-mcp",
+    "https://www.talktohumans.app",
+    "https://api.talktohumans.app/mcp"
+  ],
+  "discovered_at": "2026-10-25T11:43:18Z"
+}

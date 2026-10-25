@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-freema-openclaw-mcp-f1fc2f2ef7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.freema/openclaw-mcp",
+  "title": "MCP server io.github.freema/openclaw-mcp: package affix",
+  "why": "ships npm package openclaw-mcp, openclaw with a plausible-looking affix attached",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "low",
+  "evidence": {
+    "server": "io.github.freema/openclaw-mcp",
+    "rule": "package-affix",
+    "version": "1.8.0",
+    "status": "active",
+    "description": "MCP server bridging Claude.ai/Desktop with self-hosted OpenClaw via OAuth 2.1.",
+    "repository": "https://github.com/freema/openclaw-mcp",
+    "website": "https://openclaw-mcp.cloud",
+    "packages": [
+      "npm:openclaw-mcp",
+      "oci:ghcr.io/freema/openclaw-mcp:1.8.0"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-25T07:44:52.482445Z",
+    "all_signals": [
+      "package-affix"
+    ]
+  },
+  "urls": [
+    "https://github.com/freema/openclaw-mcp",
+    "https://openclaw-mcp.cloud"
+  ],
+  "discovered_at": "2026-10-25T11:43:33Z"
+}

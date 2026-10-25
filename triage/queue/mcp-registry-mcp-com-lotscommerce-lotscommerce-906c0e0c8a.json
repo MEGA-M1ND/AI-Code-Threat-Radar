@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-lotscommerce-lotscommerce-906c0e0c8a",
+  "source": "mcp-registry",
+  "key": "mcp:com.lotscommerce/lotscommerce",
+  "title": "MCP server com.lotscommerce/lotscommerce: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.lotscommerce/lotscommerce",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Your online store: products, stock, orders, customers and payments into your own account.",
+    "repository": "",
+    "website": "https://lotscommerce.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.lotscommerce.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T06:23:21.36705Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://lotscommerce.com",
+    "https://api.lotscommerce.com/mcp"
+  ],
+  "discovered_at": "2026-10-25T11:43:17Z"
+}

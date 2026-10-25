@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-contenta-software-contenta-conve-16fdbe7c23",
+  "source": "mcp-registry",
+  "key": "mcp:com.contenta-software/contenta-converter",
+  "title": "MCP server com.contenta-software/contenta-converter: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.contenta-software/contenta-converter",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deprecated",
+    "description": "Batch-convert, resize and edit images on your Windows PC: 100+ formats, PDF albums, metadata",
+    "repository": "https://github.com/contentasoftware/mcp-launcher",
+    "website": "https://www.contenta-converter.com/",
+    "packages": [
+      "npm:@contentasoft/contenta-converter-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T04:43:04.661916Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/contentasoftware/mcp-launcher",
+    "https://www.contenta-converter.com/"
+  ],
+  "discovered_at": "2026-10-25T11:43:14Z"
+}

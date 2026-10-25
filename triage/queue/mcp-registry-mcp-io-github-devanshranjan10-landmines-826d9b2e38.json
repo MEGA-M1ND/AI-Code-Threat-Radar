@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-devanshranjan10-landmines-826d9b2e38",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.devanshranjan10/landmines",
+  "title": "MCP server io.github.devanshranjan10/landmines: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.devanshranjan10/landmines",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deprecated",
+    "description": "Known open GitHub issues in your exact pinned dependency versions, for coding agents.",
+    "repository": "https://github.com/devanshranjan10/landmines",
+    "website": "https://landmine.tech",
+    "packages": [
+      "npm:landmines"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T14:00:08.325529Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/devanshranjan10/landmines",
+    "https://landmine.tech"
+  ],
+  "discovered_at": "2026-10-25T11:43:33Z"
+}

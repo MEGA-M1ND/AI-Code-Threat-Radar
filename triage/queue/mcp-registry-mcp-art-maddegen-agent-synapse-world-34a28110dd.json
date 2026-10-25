@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-art-maddegen-agent-synapse-world-34a28110dd",
+  "source": "mcp-registry",
+  "key": "mcp:art.maddegen.agent/synapse-world",
+  "title": "MCP server art.maddegen.agent/synapse-world: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "art.maddegen.agent/synapse-world",
+    "rule": "status-change",
+    "version": "2.2.1",
+    "status": "deprecated",
+    "description": "Weather, geocoding, FX rates, holidays, time zones, countries, earthquakes, sun and moon.",
+    "repository": "",
+    "website": "https://augur-trade.com/hub",
+    "packages": [],
+    "remote_hosts": [
+      "augur-trade.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T02:04:43.679366Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://augur-trade.com/hub",
+    "https://augur-trade.com/hub/mcp/world"
+  ],
+  "discovered_at": "2026-10-25T11:43:08Z"
+}

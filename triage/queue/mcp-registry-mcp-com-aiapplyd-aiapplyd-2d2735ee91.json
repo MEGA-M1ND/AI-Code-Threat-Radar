@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-com-aiapplyd-aiapplyd-2d2735ee91",
+  "source": "mcp-registry",
+  "key": "mcp:com.aiapplyd/aiapplyd",
+  "title": "MCP server com.aiapplyd/aiapplyd: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.aiapplyd/aiapplyd",
+    "rule": "status-change",
+    "version": "1.9.0",
+    "status": "deprecated",
+    "description": "Auto-Apply That Ends on an Interview. Job matches, per-role resumes, apply, approve, track receipts.",
+    "repository": "https://github.com/aiapplyd/aiapplyd-mcp",
+    "website": "https://aiapplyd.com/mcps",
+    "packages": [
+      "npm:aiapplyd-mcp"
+    ],
+    "remote_hosts": [
+      "mcp.aiapplyd.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T07:40:57.874058Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/aiapplyd/aiapplyd-mcp",
+    "https://aiapplyd.com/mcps",
+    "https://mcp.aiapplyd.com/mcp"
+  ],
+  "discovered_at": "2026-10-25T11:43:14Z"
+}
