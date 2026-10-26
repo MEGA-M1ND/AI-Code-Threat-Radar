@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-shariar-k-agoranome-fbe19035d2",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.shariar-k/agoranome",
+  "title": "MCP server io.github.shariar-k/agoranome: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.shariar-k/agoranome",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "Get your x402 API found and bought: lint, Bazaar rank, buyer panel, demand gaps. Paid in USDC.",
+    "repository": "",
+    "website": "https://agoranome.com/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.agoranome.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-25T15:50:39.768073Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agoranome.com/mcp",
+    "https://api.agoranome.com/mcp"
+  ],
+  "discovered_at": "2026-10-26T13:15:36Z"
+}

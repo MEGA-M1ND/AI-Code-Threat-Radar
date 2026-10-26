@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-norcalnappy-atlasofplantba-d8198752c6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Norcalnappy/atlasofplantbased-pct",
+  "title": "MCP server io.github.Norcalnappy/atlasofplantbased-pct: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Norcalnappy/atlasofplantbased-pct",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Read-only Pacific Crest Trail data: legs by trail mile, towns, passes and lakes, and vegan resupply.",
+    "repository": "https://github.com/Norcalnappy/atlasofplantbased-mcp",
+    "website": "https://atlasofplantbased.com/api/",
+    "packages": [],
+    "remote_hosts": [
+      "atlasofplantbased.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T05:40:59.939037Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Norcalnappy/atlasofplantbased-mcp",
+    "https://atlasofplantbased.com/api/",
+    "https://atlasofplantbased.com/mcp"
+  ],
+  "discovered_at": "2026-10-26T13:15:35Z"
+}

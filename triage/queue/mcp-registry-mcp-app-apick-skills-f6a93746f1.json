@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-app-apick-skills-f6a93746f1",
+  "source": "mcp-registry",
+  "key": "mcp:app.apick/skills",
+  "title": "MCP server app.apick/skills: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.apick/skills",
+    "rule": "status-change",
+    "version": "3.10.0",
+    "status": "deprecated",
+    "description": "Search, quote and run reviewed Skills; points are charged only when a validated result returns",
+    "repository": "https://github.com/lead788/apick-mcp",
+    "website": "https://apick.app/dev_guide/skills",
+    "packages": [],
+    "remote_hosts": [
+      "apick.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-04T11:50:25.74418Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/lead788/apick-mcp",
+    "https://apick.app/dev_guide/skills",
+    "https://apick.app/mcp/skills"
+  ],
+  "discovered_at": "2026-10-26T13:15:33Z"
+}

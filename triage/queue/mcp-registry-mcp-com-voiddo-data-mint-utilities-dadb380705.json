@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-voiddo-data-mint-utilities-dadb380705",
+  "source": "mcp-registry",
+  "key": "mcp:com.voiddo.data/mint-utilities",
+  "title": "MCP server com.voiddo.data/mint-utilities: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.voiddo.data/mint-utilities",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deprecated",
+    "description": "26 deterministic tools: PDF, image, QR, CSV/Excel, HTML to PDF, DNS/RDAP, FX rates, time zones.",
+    "repository": "",
+    "website": "https://data.voiddo.com",
+    "packages": [],
+    "remote_hosts": [
+      "data.voiddo.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T13:05:54.770107Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://data.voiddo.com",
+    "https://data.voiddo.com/mcp"
+  ],
+  "discovered_at": "2026-10-26T13:15:34Z"
+}

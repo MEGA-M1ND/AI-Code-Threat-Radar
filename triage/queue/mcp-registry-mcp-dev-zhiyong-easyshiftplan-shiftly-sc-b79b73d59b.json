@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-zhiyong-easyshiftplan-shiftly-sc-b79b73d59b",
+  "source": "mcp-registry",
+  "key": "mcp:dev.zhiyong.easyshiftplan/shiftly-scheduling",
+  "title": "MCP server dev.zhiyong.easyshiftplan/shiftly-scheduling: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.zhiyong.easyshiftplan/shiftly-scheduling",
+    "rule": "status-change",
+    "version": "0.2.8",
+    "status": "deprecated",
+    "description": "No-login MCP demo for isolated fictional staff schedules; drafts are never saved or published.",
+    "repository": "",
+    "website": "https://easyshiftplan.zhiyong.dev/for-ai-assistants?utm_source=mcp_registry&utm_medium=directory&utm_campaign=public_demo",
+    "packages": [],
+    "remote_hosts": [
+      "easyshiftplan.zhiyong.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T17:14:13.578887Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://easyshiftplan.zhiyong.dev/for-ai-assistants?utm_source=mcp_registry&utm_medium=directory&utm_campaign=public_demo",
+    "https://easyshiftplan.zhiyong.dev/mcp/demo"
+  ],
+  "discovered_at": "2026-10-26T13:15:34Z"
+}

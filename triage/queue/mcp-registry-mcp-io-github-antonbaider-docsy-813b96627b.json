@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-antonbaider-docsy-813b96627b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.antonbaider/docsy",
+  "title": "MCP server io.github.antonbaider/docsy: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.antonbaider/docsy",
+    "rule": "status-change",
+    "version": "1.0.5",
+    "status": "deprecated",
+    "description": "Read versioned developer documentation with original source links using five public MCP tools.",
+    "repository": "https://github.com/antonbaider/docsy-plugin",
+    "website": "https://docsy.remcp.site",
+    "packages": [],
+    "remote_hosts": [
+      "docsy.remcp.site"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T16:01:28.986354Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/antonbaider/docsy-plugin",
+    "https://docsy.remcp.site",
+    "https://docsy.remcp.site/mcp"
+  ],
+  "discovered_at": "2026-10-26T13:15:35Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-xyz-forsale-offers-faa1af02cc",
+  "source": "mcp-registry",
+  "key": "mcp:xyz.forsale/offers",
+  "title": "MCP server xyz.forsale/offers: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "xyz.forsale/offers",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Make price offers on Shopify products; get counters, single-use codes and checkout links.",
+    "repository": "",
+    "website": "https://forsale.xyz",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.forsale.xyz"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T23:57:47.304316Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://forsale.xyz",
+    "https://mcp.forsale.xyz/mcp"
+  ],
+  "discovered_at": "2026-10-26T13:15:37Z"
+}

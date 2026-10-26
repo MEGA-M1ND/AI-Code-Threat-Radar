@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-arthiqlabs-vedaksha-ea929bfd48",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.arthiqlabs/vedaksha",
+  "title": "MCP server io.github.arthiqlabs/vedaksha: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.arthiqlabs/vedaksha",
+    "rule": "status-change",
+    "version": "10.0.0",
+    "status": "deprecated",
+    "description": "Vedic astrology and astronomical ephemeris: kundali, panchanga, dashas, vargas, transits",
+    "repository": "https://github.com/arthiqlabs/vedaksha",
+    "website": "https://vedaksha.net",
+    "packages": [
+      "oci:ghcr.io/arthiqlabs/vedaksha-mcp:v10.0.0"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T18:47:19.632224Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/arthiqlabs/vedaksha",
+    "https://vedaksha.net"
+  ],
+  "discovered_at": "2026-10-26T13:15:35Z"
+}
