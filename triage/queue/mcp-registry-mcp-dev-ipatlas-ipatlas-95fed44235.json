@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-ipatlas-ipatlas-95fed44235",
+  "source": "mcp-registry",
+  "key": "mcp:dev.ipatlas/ipatlas",
+  "title": "MCP server dev.ipatlas/ipatlas: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.ipatlas/ipatlas",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "IP geolocation: country, EU status, region, city, time zone and ASN for any IPv4/IPv6 address.",
+    "repository": "",
+    "website": "https://ipatlas.dev/ai-agents",
+    "packages": [],
+    "remote_hosts": [
+      "api.ipatlas.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T00:55:41.025973Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ipatlas.dev/ai-agents",
+    "https://api.ipatlas.dev/mcp"
+  ],
+  "discovered_at": "2026-10-27T12:23:33Z"
+}

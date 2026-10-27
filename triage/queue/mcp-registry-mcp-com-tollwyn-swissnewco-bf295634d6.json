@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-com-tollwyn-swissnewco-bf295634d6",
+  "source": "mcp-registry",
+  "key": "mcp:com.tollwyn/swissnewco",
+  "title": "MCP server com.tollwyn/swissnewco: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.tollwyn/swissnewco",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Daily feed of new Swiss companies from the SHAB gazette, with website and email where found.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "swissnewco.tollwyn.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T16:33:39.585812Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://swissnewco.tollwyn.com/mcp"
+  ],
+  "discovered_at": "2026-10-27T12:23:33Z"
+}

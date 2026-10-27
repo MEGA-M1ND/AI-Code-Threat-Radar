@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-oscout-scout-16d0c87b48",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.oscout/scout",
+  "title": "MCP server io.github.oscout/scout: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.oscout/scout",
+    "rule": "status-change",
+    "version": "0.2.108",
+    "status": "deprecated",
+    "description": "Coordinate local coding agents and track handoffs. For high-trust developer pilots.",
+    "repository": "https://github.com/oscout/scout",
+    "website": "https://openscout.app/docs/integrations",
+    "packages": [
+      "npm:@openscout/scout"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-22T23:06:44.058503Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/oscout/scout",
+    "https://openscout.app/docs/integrations"
+  ],
+  "discovered_at": "2026-10-27T12:23:34Z"
+}

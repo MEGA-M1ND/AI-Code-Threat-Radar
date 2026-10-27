@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-tollwyn-uidwatch-70c2941e24",
+  "source": "mcp-registry",
+  "key": "mcp:com.tollwyn/uidwatch",
+  "title": "MCP server com.tollwyn/uidwatch: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.tollwyn/uidwatch",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Swiss bankruptcy, liquidation and register alerts for a UID list. Source: SHAB. Webhook, API, email.",
+    "repository": "",
+    "website": "https://uidwatch.tollwyn.com/?via=mcp-registry",
+    "packages": [],
+    "remote_hosts": [
+      "uidwatch.tollwyn.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T06:58:11.13094Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://uidwatch.tollwyn.com/?via=mcp-registry",
+    "https://uidwatch.tollwyn.com/mcp"
+  ],
+  "discovered_at": "2026-10-27T12:23:33Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-fadeynotchenko-netrun-25e5ab41f2",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.fadeynotchenko/netrun",
+  "title": "MCP server io.github.fadeynotchenko/netrun: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.fadeynotchenko/netrun",
+    "rule": "status-change",
+    "version": "0.3.1",
+    "status": "deleted",
+    "description": "Publish websites and Telegram bots to Netrun — upload a folder from your editor, get a URL",
+    "repository": "https://github.com/fadeynotchenko/netrun-mcp",
+    "website": "https://netrun.io/mcp",
+    "packages": [
+      "npm:netrun-mcp"
+    ],
+    "remote_hosts": [
+      "api.netrun.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T22:25:16.760653Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/fadeynotchenko/netrun-mcp",
+    "https://netrun.io/mcp",
+    "https://api.netrun.io/v1/mcp"
+  ],
+  "discovered_at": "2026-10-27T12:23:34Z"
+}

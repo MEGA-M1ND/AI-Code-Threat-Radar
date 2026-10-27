@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-jittator-jittator-03ac8ffa72",
+  "source": "mcp-registry",
+  "key": "mcp:com.jittator/jittator",
+  "title": "MCP server com.jittator/jittator: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.jittator/jittator",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deleted",
+    "description": "Screenshots and PDFs of web pages or your HTML/Markdown, paid per call in sats. No account.",
+    "repository": "",
+    "website": "https://jittator.com/docs#mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.jittator.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-26T09:17:06.561503Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://jittator.com/docs#mcp",
+    "https://api.jittator.com/mcp"
+  ],
+  "discovered_at": "2026-10-27T12:23:33Z"
+}

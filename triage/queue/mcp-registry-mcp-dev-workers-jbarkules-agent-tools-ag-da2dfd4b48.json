@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-jbarkules-agent-tools-ag-da2dfd4b48",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.jbarkules.agent-tools/agent-tools",
+  "title": "MCP server dev.workers.jbarkules.agent-tools/agent-tools: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.jbarkules.agent-tools/agent-tools",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "x402 agent tools: invoice/PDF extract, OCR, email risk, web to markdown, domain, FX, time",
+    "repository": "",
+    "website": "https://agent-tools.jbarkules.workers.dev/llms.txt",
+    "packages": [],
+    "remote_hosts": [
+      "agent-tools.jbarkules.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-22T17:53:50.868142Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agent-tools.jbarkules.workers.dev/llms.txt",
+    "https://agent-tools.jbarkules.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-10-27T12:23:33Z"
+}

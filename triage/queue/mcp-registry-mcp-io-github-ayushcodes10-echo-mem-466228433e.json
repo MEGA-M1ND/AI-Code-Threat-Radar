@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-ayushcodes10-echo-mem-466228433e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ayushcodes10/echo-mem",
+  "title": "MCP server io.github.ayushcodes10/echo-mem: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ayushcodes10/echo-mem",
+    "rule": "status-change",
+    "version": "0.5.3",
+    "status": "deleted",
+    "description": "Shared memory for AI agents, as a graph in your own Postgres. Writes never call an LLM.",
+    "repository": "https://github.com/echo-mem/echo-mem",
+    "website": "https://echo-mem.com",
+    "packages": [
+      "pypi:echo-mem"
+    ],
+    "remote_hosts": [
+      "api.echo-mem.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-09-26T21:15:04.992094Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/echo-mem/echo-mem",
+    "https://echo-mem.com",
+    "https://api.echo-mem.com/mcp"
+  ],
+  "discovered_at": "2026-10-27T12:23:34Z"
+}

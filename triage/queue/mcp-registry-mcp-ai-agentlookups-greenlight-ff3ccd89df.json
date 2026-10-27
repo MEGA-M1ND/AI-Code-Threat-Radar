@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-agentlookups-greenlight-ff3ccd89df",
+  "source": "mcp-registry",
+  "key": "mcp:ai.agentlookups/greenlight",
+  "title": "MCP server ai.agentlookups/greenlight: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.agentlookups/greenlight",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "US plug-in solar (balcony solar) law registry with a daily UL 3700 certification watch.",
+    "repository": "",
+    "website": "https://solar.agentlookups.ai",
+    "packages": [],
+    "remote_hosts": [
+      "solar.agentlookups.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-26T18:02:50.186676Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://solar.agentlookups.ai",
+    "https://solar.agentlookups.ai/mcp"
+  ],
+  "discovered_at": "2026-10-27T12:23:32Z"
+}
