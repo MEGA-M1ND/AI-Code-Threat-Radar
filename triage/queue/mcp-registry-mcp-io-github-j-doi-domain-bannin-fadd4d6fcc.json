@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-j-doi-domain-bannin-fadd4d6fcc",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.j-doi/domain-bannin",
+  "title": "MCP server io.github.j-doi/domain-bannin: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.j-doi/domain-bannin",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "ドメインの設定を調べる MCP サーバー。SPF / DKIM / DMARC・DNS・SSL 証明書・セキュリティヘッダ・サブドメイン・類似ドメインを、公開情報だけで確認します。登録不要・無料。",
+    "repository": "https://github.com/j-doi/domain-shield",
+    "website": "https://domain-bannin.jp/",
+    "packages": [],
+    "remote_hosts": [
+      "domain-bannin.jp"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T16:47:39.202276Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/j-doi/domain-shield",
+    "https://domain-bannin.jp/",
+    "https://domain-bannin.jp/api/mcp"
+  ],
+  "discovered_at": "2026-10-28T13:09:09Z"
+}

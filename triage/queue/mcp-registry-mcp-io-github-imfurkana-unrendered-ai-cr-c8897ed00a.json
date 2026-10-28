@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-imfurkana-unrendered-ai-cr-c8897ed00a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.imfurkana/unrendered-ai-crawler-checker",
+  "title": "MCP server io.github.imfurkana/unrendered-ai-crawler-checker: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.imfurkana/unrendered-ai-crawler-checker",
+    "rule": "status-change",
+    "version": "0.1.3",
+    "status": "deleted",
+    "description": "AI crawler checker: shows which page content GPTBot and ClaudeBot can't read without JavaScript.",
+    "repository": "https://github.com/imfurkana/unrendered-ai-crawler-checker-mcp",
+    "website": "https://missiongrowth.io/tools/unrendered",
+    "packages": [
+      "npm:unrendered-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-04T13:18:13.608833Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/imfurkana/unrendered-ai-crawler-checker-mcp",
+    "https://missiongrowth.io/tools/unrendered"
+  ],
+  "discovered_at": "2026-10-28T13:09:09Z"
+}

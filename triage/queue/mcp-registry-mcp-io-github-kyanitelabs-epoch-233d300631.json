@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-kyanitelabs-epoch-233d300631",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.KyaniteLabs/Epoch",
+  "title": "MCP server io.github.KyaniteLabs/Epoch: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.KyaniteLabs/Epoch",
+    "rule": "status-change",
+    "version": "0.5.2",
+    "status": "deprecated",
+    "description": "Epoch time estimation MCP server for PERT, COCOMO, Monte Carlo, calibration, cost, and risk.",
+    "repository": "https://github.com/KyaniteLabs/Epoch",
+    "website": "https://kyanitelabs.github.io/Epoch/",
+    "packages": [
+      "npm:@kyanitelabs/epoch"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T15:50:26.09361Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/KyaniteLabs/Epoch",
+    "https://kyanitelabs.github.io/Epoch/"
+  ],
+  "discovered_at": "2026-10-28T13:09:08Z"
+}

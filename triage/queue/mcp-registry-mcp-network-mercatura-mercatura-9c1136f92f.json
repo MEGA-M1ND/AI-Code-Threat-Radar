@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-network-mercatura-mercatura-9c1136f92f",
+  "source": "mcp-registry",
+  "key": "mcp:network.mercatura/mercatura",
+  "title": "MCP server network.mercatura/mercatura: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "network.mercatura/mercatura",
+    "rule": "status-change",
+    "version": "1.7.0",
+    "status": "deprecated",
+    "description": "Claim a $10 Vlad account for an AI agent and open factor accounts on Robinhood Chain.",
+    "repository": "",
+    "website": "https://mercatura.network/developers",
+    "packages": [],
+    "remote_hosts": [
+      "mercatura.network"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-27T12:46:40.991388Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mercatura.network/developers",
+    "https://mercatura.network/mcp"
+  ],
+  "discovered_at": "2026-10-28T13:09:10Z"
+}

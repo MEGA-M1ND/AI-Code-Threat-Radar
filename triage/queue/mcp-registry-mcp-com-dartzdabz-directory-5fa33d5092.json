@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-dartzdabz-directory-5fa33d5092",
+  "source": "mcp-registry",
+  "key": "mcp:com.dartzdabz/directory",
+  "title": "MCP server com.dartzdabz/directory: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.dartzdabz/directory",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Read-only search of 2,189 AI agent tools (MCP servers, x402 APIs) with daily automated trust scores.",
+    "repository": "",
+    "website": "https://dartzdabz.com/",
+    "packages": [],
+    "remote_hosts": [
+      "dartzdabz.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T03:27:40.926921Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://dartzdabz.com/",
+    "https://dartzdabz.com/mcp/"
+  ],
+  "discovered_at": "2026-10-28T13:09:07Z"
+}

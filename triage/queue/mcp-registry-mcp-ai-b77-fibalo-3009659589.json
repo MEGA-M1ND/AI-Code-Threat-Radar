@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-b77-fibalo-3009659589",
+  "source": "mcp-registry",
+  "key": "mcp:ai.b77/fibalo",
+  "title": "MCP server ai.b77/fibalo: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.b77/fibalo",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Moved to de.fibalo/mcp. Connect to https://mcp.fibalo.de/mcp for Fibalo bookkeeping.",
+    "repository": "",
+    "website": "https://fibalo.de",
+    "packages": [],
+    "remote_hosts": [
+      "fibalo.b77.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-21T17:18:15.860309Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://fibalo.de",
+    "https://fibalo.b77.ai/mcp"
+  ],
+  "discovered_at": "2026-10-28T13:09:06Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-geonode-scraper-b3823a8af8",
+  "source": "mcp-registry",
+  "key": "mcp:io.geonode/scraper",
+  "title": "MCP server io.geonode/scraper: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.geonode/scraper",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Extract web pages, crawl and map sites, search the web. Extract needs no key; other tools need one.",
+    "repository": "",
+    "website": "https://docs.geonode.com/docs/scraper-api/guides/mcp/00_overview",
+    "packages": [],
+    "remote_hosts": [
+      "scraper.geonode.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T12:11:27.765704Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://docs.geonode.com/docs/scraper-api/guides/mcp/00_overview",
+    "https://scraper.geonode.io/mcp"
+  ],
+  "discovered_at": "2026-10-28T13:09:08Z"
+}

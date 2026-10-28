@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-zambodotdev-zambo-66273589fd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zambodotdev/zambo",
+  "title": "MCP server io.github.zambodotdev/zambo: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zambodotdev/zambo",
+    "rule": "status-change",
+    "version": "4.0.0",
+    "status": "deleted",
+    "description": "Give your AI hands. One URL. Type a job. Get a receipt.",
+    "repository": "https://github.com/zambodotdev/zambo-mcp",
+    "website": "https://zambo.dev",
+    "packages": [],
+    "remote_hosts": [
+      "zambo.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-11T21:38:07.544779Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/zambodotdev/zambo-mcp",
+    "https://zambo.dev",
+    "https://zambo.dev/api/mcp"
+  ],
+  "discovered_at": "2026-10-28T13:09:10Z"
+}
