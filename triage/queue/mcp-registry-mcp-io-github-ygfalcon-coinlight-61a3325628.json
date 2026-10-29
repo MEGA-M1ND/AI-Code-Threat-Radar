@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-ygfalcon-coinlight-61a3325628",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ygfalcon/coinlight",
+  "title": "MCP server io.github.ygfalcon/coinlight: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ygfalcon/coinlight",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deprecated",
+    "description": "31 x402 crypto tools: honeypot sell-check, cross-chain portfolio, tx explainer, launches.",
+    "repository": "",
+    "website": "https://coinlight-app.vercel.app",
+    "packages": [],
+    "remote_hosts": [
+      "coinlight-app.vercel.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T19:53:00.797793Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://coinlight-app.vercel.app",
+    "https://coinlight-app.vercel.app/mcp"
+  ],
+  "discovered_at": "2026-10-29T13:16:09Z"
+}

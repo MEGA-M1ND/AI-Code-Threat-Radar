@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-stream-govideo-govideo-3a17060049",
+  "source": "mcp-registry",
+  "key": "mcp:stream.govideo/govideo",
+  "title": "MCP server stream.govideo/govideo: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "stream.govideo/govideo",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Drop in a video, get a link that plays anywhere — plus chapters, player styling and analytics.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "api.govideo.stream"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-24T09:58:18.46566Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.govideo.stream/mcp"
+  ],
+  "discovered_at": "2026-10-29T13:16:11Z"
+}

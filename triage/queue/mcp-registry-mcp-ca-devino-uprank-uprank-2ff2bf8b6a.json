@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ca-devino-uprank-uprank-2ff2bf8b6a",
+  "source": "mcp-registry",
+  "key": "mcp:ca.devino.uprank/uprank",
+  "title": "MCP server ca.devino.uprank/uprank: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ca.devino.uprank/uprank",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Research, draft and score cited SEO articles with claim-level evidence and hard quality gates.",
+    "repository": "",
+    "website": "https://uprank.devino.ca",
+    "packages": [],
+    "remote_hosts": [
+      "uprank.devino.ca"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T19:20:09.306194Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://uprank.devino.ca",
+    "https://uprank.devino.ca/api/mcp"
+  ],
+  "discovered_at": "2026-10-29T13:15:59Z"
+}

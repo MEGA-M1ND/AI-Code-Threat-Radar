@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-agenttools-cloud-agent-too-ac496cf745",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AgentTools-Cloud/agent-tools-mcp",
+  "title": "MCP server io.github.AgentTools-Cloud/agent-tools-mcp: package affix",
+  "why": "ships pypi package agent-tools-mcp, agent-tools with a plausible-looking affix attached",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "low",
+  "evidence": {
+    "server": "io.github.AgentTools-Cloud/agent-tools-mcp",
+    "rule": "package-affix",
+    "version": "0.3.0",
+    "status": "active",
+    "description": "Discover x402 services, MCP servers and A2A agents by intent — agent-tools.cloud directory.",
+    "repository": "https://github.com/AgentTools-Cloud/AgentToolsCollection",
+    "website": "https://agent-tools.cloud",
+    "packages": [
+      "pypi:agent-tools-mcp"
+    ],
+    "remote_hosts": [
+      "agent-tools.cloud"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T03:06:49.624909Z",
+    "all_signals": [
+      "package-affix"
+    ]
+  },
+  "urls": [
+    "https://github.com/AgentTools-Cloud/AgentToolsCollection",
+    "https://agent-tools.cloud",
+    "https://agent-tools.cloud/mcp-discovery/"
+  ],
+  "discovered_at": "2026-10-29T13:16:01Z"
+}

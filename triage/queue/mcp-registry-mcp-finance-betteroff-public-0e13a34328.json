@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-finance-betteroff-public-0e13a34328",
+  "source": "mcp-registry",
+  "key": "mcp:finance.betteroff/public",
+  "title": "MCP server finance.betteroff/public: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "finance.betteroff/public",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Anonymous public tools for BetterOff. See the published agent boundary before use.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "betteroff.finance"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-28T19:20:27.906799Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://betteroff.finance/mcp"
+  ],
+  "discovered_at": "2026-10-29T13:16:00Z"
+}

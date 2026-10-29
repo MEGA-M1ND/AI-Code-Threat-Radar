@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-sh-stipple-openwarrant-verify-7af5b9bd12",
+  "source": "mcp-registry",
+  "key": "mcp:sh.stipple/openwarrant-verify",
+  "title": "MCP server sh.stipple/openwarrant-verify: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "sh.stipple/openwarrant-verify",
+    "rule": "status-change",
+    "version": "0.1.5",
+    "status": "deleted",
+    "description": "Fact-check citations: resolve, match, support claims. Arithmetic rechecked. Free to start.",
+    "repository": "https://github.com/Sketchjar/stipple-mcp",
+    "website": "https://www.stipple.sh/fact-check",
+    "packages": [],
+    "remote_hosts": [
+      "www.stipple.sh"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-29T23:01:06.061003Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Sketchjar/stipple-mcp",
+    "https://www.stipple.sh/fact-check",
+    "https://www.stipple.sh/mcp-verify"
+  ],
+  "discovered_at": "2026-10-29T13:16:11Z"
+}
