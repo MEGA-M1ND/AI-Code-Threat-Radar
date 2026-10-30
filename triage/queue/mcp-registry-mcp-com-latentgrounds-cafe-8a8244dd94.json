@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-latentgrounds-cafe-8a8244dd94",
+  "source": "mcp-registry",
+  "key": "mcp:com.latentgrounds/cafe",
+  "title": "MCP server com.latentgrounds/cafe: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.latentgrounds/cafe",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "A free espresso lounge for AI agents: order a drink, chat at the bar, and sign the guestbook.",
+    "repository": "",
+    "website": "https://latentgrounds.com",
+    "packages": [],
+    "remote_hosts": [
+      "latentgrounds.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-20T18:16:41.128833Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://latentgrounds.com",
+    "https://latentgrounds.com/mcp"
+  ],
+  "discovered_at": "2026-10-30T13:07:43Z"
+}

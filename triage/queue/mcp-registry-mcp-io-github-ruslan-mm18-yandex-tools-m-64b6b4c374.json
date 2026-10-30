@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-ruslan-mm18-yandex-tools-m-64b6b4c374",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ruslan-mm18/yandex-tools-mcp",
+  "title": "MCP server io.github.ruslan-mm18/yandex-tools-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ruslan-mm18/yandex-tools-mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "MCP servers for Yandex APIs: Wordstat, Search, Webmaster, Metrika, Direct. Open source, by Seyka AI.",
+    "repository": "https://github.com/seyka-ai/yandex-tools-mcp",
+    "website": "https://seyka.ru/developers",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.seyka.ru"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-10-28T12:30:31.536735Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/seyka-ai/yandex-tools-mcp",
+    "https://seyka.ru/developers",
+    "https://mcp.seyka.ru/mcp"
+  ],
+  "discovered_at": "2026-10-30T13:07:48Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-10life-travel-51fec33bea",
+  "source": "mcp-registry",
+  "key": "mcp:com.10life/travel",
+  "title": "MCP server com.10life/travel: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.10life/travel",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Compare 10Life single-trip travel plans. Stateless POST. GET returns 405.",
+    "repository": "",
+    "website": "https://www.10life.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.10life.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-22T08:21:14.811517Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.10life.com",
+    "https://mcp.10life.com/mcp"
+  ],
+  "discovered_at": "2026-10-30T13:07:43Z"
+}

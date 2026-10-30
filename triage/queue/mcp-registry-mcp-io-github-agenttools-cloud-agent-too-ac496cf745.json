@@ -9,7 +9,7 @@
   "evidence": {
     "server": "io.github.AgentTools-Cloud/agent-tools-mcp",
     "rule": "package-affix",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "status": "active",
     "description": "Discover x402 services, MCP servers and A2A agents by intent — agent-tools.cloud directory.",
     "repository": "https://github.com/AgentTools-Cloud/AgentToolsCollection",
@@ -22,7 +22,7 @@
     ],
     "unauditable": false,
     "namespace_mismatch": false,
-    "published_at": "2026-10-29T03:06:49.624909Z",
+    "published_at": "2026-10-29T14:49:28.960855Z",
     "all_signals": [
       "package-affix"
     ]

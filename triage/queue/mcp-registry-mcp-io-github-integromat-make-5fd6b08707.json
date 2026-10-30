@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-integromat-make-5fd6b08707",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.integromat/make",
+  "title": "MCP server io.github.integromat/make: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.integromat/make",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deleted",
+    "description": "Build, run and debug Make automation scenarios.",
+    "repository": "https://github.com/integromat/make-skills",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.make.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T09:26:36.886327Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/integromat/make-skills",
+    "https://mcp.make.com/v2"
+  ],
+  "discovered_at": "2026-10-30T13:07:46Z"
+}

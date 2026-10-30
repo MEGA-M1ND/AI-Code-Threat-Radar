@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-cn-com-ihaola-haola-pe-5035da658d",
+  "source": "mcp-registry",
+  "key": "mcp:cn.com.ihaola/haola-pe",
+  "title": "MCP server cn.com.ihaola/haola-pe: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "cn.com.ihaola/haola-pe",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "企业团检分档报价与企业咨询、个人体检方案推荐、门店查询、体检预约、订单与体检件查询、体检常见问题。合作体检机构 800+ 门店，覆盖 240+ 城市，其中 540+ 门店支持 AI 直接查询与预约。",
+    "repository": "",
+    "website": "https://www.ihaola.com.cn/",
+    "packages": [],
+    "remote_hosts": [
+      "ai.ihaola.com.cn"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-30T09:29:44.086763Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.ihaola.com.cn/",
+    "https://ai.ihaola.com.cn/api/mcp/haola-pe"
+  ],
+  "discovered_at": "2026-10-30T13:07:43Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-sarmadahsan-paidfor-256dc14287",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sarmadahsan/paidfor",
+  "title": "MCP server io.github.sarmadahsan/paidfor: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sarmadahsan/paidfor",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deleted",
+    "description": "Check an x402 seller before paying: verdict, failure rate and evidence from paid calls on Base.",
+    "repository": "",
+    "website": "https://paidfor.dev/install",
+    "packages": [
+      "npm:@paidfor/mcp"
+    ],
+    "remote_hosts": [
+      "mcp.paidfor.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T02:59:11.89053Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://paidfor.dev/install",
+    "https://mcp.paidfor.dev/mcp"
+  ],
+  "discovered_at": "2026-10-30T13:07:48Z"
+}
