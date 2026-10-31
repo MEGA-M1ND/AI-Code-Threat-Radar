@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-drone-airspace-g-003f787a5c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/drone-airspace-governance-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/drone-airspace-governance-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/drone-airspace-governance-mcp",
+    "rule": "status-change",
+    "version": "1.0.16",
+    "status": "deprecated",
+    "description": "Drone Airspace Governance MCP Server by MEOK AI Labs",
+    "repository": "https://github.com/CSOAI-ORG/drone-airspace-governance-mcp",
+    "website": "",
+    "packages": [
+      "pypi:drone-airspace-governance-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:19:54.950959Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/drone-airspace-governance-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

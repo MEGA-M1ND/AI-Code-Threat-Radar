@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-myworkingmemory-email-veri-53bf645860",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.myworkingmemory/email-verifier-bulk",
+  "title": "MCP server io.github.myworkingmemory/email-verifier-bulk: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.myworkingmemory/email-verifier-bulk",
+    "rule": "status-change",
+    "version": "2026.10.29",
+    "status": "deleted",
+    "description": "Bulk email verification for lists and Apify datasets; MillionVerifier BYOK, unbilled duplicates.",
+    "repository": "",
+    "website": "https://apify.com/myworkingmemory/email-verifier-bulk",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-28T14:28:00.422469Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/myworkingmemory/email-verifier-bulk",
+    "https://mcp.apify.com/?tools=myworkingmemory/email-verifier-bulk"
+  ],
+  "discovered_at": "2026-10-31T12:44:41Z"
+}

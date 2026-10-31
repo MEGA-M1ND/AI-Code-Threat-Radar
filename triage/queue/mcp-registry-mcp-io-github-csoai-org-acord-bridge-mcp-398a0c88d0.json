@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-acord-bridge-mcp-398a0c88d0",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/acord-bridge-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/acord-bridge-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/acord-bridge-mcp",
+    "rule": "status-change",
+    "version": "0.1.3",
+    "status": "deprecated",
+    "description": "Bridge ACORD insurance messages to ONE OS — parse, validate, map, govern (Solvency II / GDPR /",
+    "repository": "https://github.com/CSOAI-ORG/acord-bridge-mcp",
+    "website": "",
+    "packages": [
+      "pypi:acord-bridge-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:30:10.054161Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/acord-bridge-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

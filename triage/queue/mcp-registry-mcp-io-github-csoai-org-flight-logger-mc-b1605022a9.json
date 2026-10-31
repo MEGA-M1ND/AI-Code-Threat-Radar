@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-flight-logger-mc-b1605022a9",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/flight-logger-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/flight-logger-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/flight-logger-mcp",
+    "rule": "status-change",
+    "version": "1.0.11",
+    "status": "deprecated",
+    "description": "Flight Logger MCP Server by MEOK AI Labs",
+    "repository": "https://github.com/CSOAI-ORG/flight-logger-mcp",
+    "website": "",
+    "packages": [
+      "pypi:flight-logger-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:20:14.067796Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/flight-logger-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

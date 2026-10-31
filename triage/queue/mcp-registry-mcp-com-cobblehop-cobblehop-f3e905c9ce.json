@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-cobblehop-cobblehop-f3e905c9ce",
+  "source": "mcp-registry",
+  "key": "mcp:com.cobblehop/cobblehop",
+  "title": "MCP server com.cobblehop/cobblehop: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.cobblehop/cobblehop",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Transit trip plans and live departures for Massachusetts: MBTA, regional buses, Amtrak, ferries.",
+    "repository": "",
+    "website": "https://cobblehop.com",
+    "packages": [],
+    "remote_hosts": [
+      "cobblehop.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-30T05:58:15.900689Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://cobblehop.com",
+    "https://cobblehop.com/mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:39Z"
+}

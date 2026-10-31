@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-fix-bridge-mcp-7f3a615840",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/fix-bridge-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/fix-bridge-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/fix-bridge-mcp",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deprecated",
+    "description": "FIX trading-protocol bridge — parse, map, govern (MiFID II / MAR).",
+    "repository": "https://github.com/CSOAI-ORG/fix-bridge-mcp",
+    "website": "",
+    "packages": [
+      "pypi:fix-bridge-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:30:27.698453Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/fix-bridge-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

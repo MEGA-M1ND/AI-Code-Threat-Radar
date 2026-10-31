@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-c2pa-watermark-m-e743a420a6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/c2pa-watermark-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/c2pa-watermark-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/c2pa-watermark-mcp",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "C2PA Watermark & Provenance MCP server. Built with c2pa-python.",
+    "repository": "https://github.com/CSOAI-ORG/c2pa-watermark-mcp",
+    "website": "",
+    "packages": [
+      "pypi:c2pa-watermark-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:19:04.037133Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/c2pa-watermark-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

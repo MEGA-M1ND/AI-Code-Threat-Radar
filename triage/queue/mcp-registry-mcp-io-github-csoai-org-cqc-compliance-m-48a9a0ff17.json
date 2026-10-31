@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-cqc-compliance-m-48a9a0ff17",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/cqc-compliance-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/cqc-compliance-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/cqc-compliance-mcp",
+    "rule": "status-change",
+    "version": "1.0.6",
+    "status": "deprecated",
+    "description": "cqc-compliance-mcp for domiciliary opticians",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "pypi:cqc-compliance-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:30:57.527314Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-icon-generator-a-d1a5fa8f80",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/icon-generator-ai-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/icon-generator-ai-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/icon-generator-ai-mcp",
+    "rule": "status-change",
+    "version": "1.0.11",
+    "status": "deprecated",
+    "description": "Icon Generator Ai MCP Server by MEOK AI Labs",
+    "repository": "https://github.com/CSOAI-ORG/icon-generator-ai-mcp",
+    "website": "",
+    "packages": [
+      "pypi:icon-generator-ai-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:20:32.562157Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/icon-generator-ai-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

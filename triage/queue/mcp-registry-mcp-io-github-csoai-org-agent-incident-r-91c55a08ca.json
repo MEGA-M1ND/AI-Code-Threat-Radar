@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-agent-incident-r-91c55a08ca",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/agent-incident-reporter-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/agent-incident-reporter-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/agent-incident-reporter-mcp",
+    "rule": "status-change",
+    "version": "1.0.4",
+    "status": "deprecated",
+    "description": "Signed, hash-chained, tamper-evident AI incident records. EU AI Act Article 73 serious-incident repo",
+    "repository": "",
+    "website": "https://csoai.org/fabric/agent-incident-reporter-mcp",
+    "packages": [
+      "pypi:agent-incident-reporter-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:30:49.875148Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://csoai.org/fabric/agent-incident-reporter-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

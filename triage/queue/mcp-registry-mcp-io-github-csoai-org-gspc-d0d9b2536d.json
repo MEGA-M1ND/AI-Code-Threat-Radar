@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-gspc-d0d9b2536d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/gspc",
+  "title": "MCP server io.github.CSOAI-ORG/gspc: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/gspc",
+    "rule": "status-change",
+    "version": "1.4.4",
+    "status": "deprecated",
+    "description": "Independent AI-governance measurement MCP. Free reads + x402 evidence. Measurement not cert.",
+    "repository": "https://github.com/CSOAI-ORG/councilof-ai",
+    "website": "",
+    "packages": [
+      "npm:csoai-gspc-mcp"
+    ],
+    "remote_hosts": [
+      "councilof.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T00:52:17.587811Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/councilof-ai",
+    "https://councilof.ai/mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

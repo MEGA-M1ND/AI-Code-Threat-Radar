@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-fda-samd-mcp-95fbbd49f7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/fda-samd-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/fda-samd-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/fda-samd-mcp",
+    "rule": "status-change",
+    "version": "1.0.11",
+    "status": "deprecated",
+    "description": "FDA AI/ML Software as a Medical Device Action Plan + 510(k) + PMA + De Novo pathways for US MedT...",
+    "repository": "https://github.com/CSOAI-ORG/fda-samd-mcp",
+    "website": "",
+    "packages": [
+      "pypi:fda-samd-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:20:07.205039Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/fda-samd-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

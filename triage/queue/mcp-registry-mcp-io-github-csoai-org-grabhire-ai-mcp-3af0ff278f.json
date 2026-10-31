@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-grabhire-ai-mcp-3af0ff278f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/grabhire-ai-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/grabhire-ai-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/grabhire-ai-mcp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "GrabHire.AI MCP server. UK grab lorry + tipper hire. Tools: estimate load volume, get grab lorry...",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "pypi:grabhire-ai-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:31:10.503264Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

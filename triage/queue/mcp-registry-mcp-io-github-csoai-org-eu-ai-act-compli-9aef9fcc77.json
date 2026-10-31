@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-eu-ai-act-compli-9aef9fcc77",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/eu-ai-act-compliance-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/eu-ai-act-compliance-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/eu-ai-act-compliance-mcp",
+    "rule": "status-change",
+    "version": "1.8.15",
+    "status": "deprecated",
+    "description": "Eu Ai Act Compliance MCP Server by MEOK AI Labs",
+    "repository": "https://github.com/CSOAI-ORG/eu-ai-act-compliance-mcp",
+    "website": "https://meok.ai/eu-ai-act-compliance-mcp",
+    "packages": [
+      "pypi:eu-ai-act-compliance-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:20:02.30908Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/eu-ai-act-compliance-mcp",
+    "https://meok.ai/eu-ai-act-compliance-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

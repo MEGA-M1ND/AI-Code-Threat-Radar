@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-asem-batawy-vicatoo-6c855785de",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ASEM-BATAWY/vicatoo",
+  "title": "MCP server io.github.ASEM-BATAWY/vicatoo: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ASEM-BATAWY/vicatoo",
+    "rule": "status-change",
+    "version": "0.9.0",
+    "status": "deleted",
+    "description": "Search VICATOO hotels by traveler needs, features, location, and landmarks with factual evidence.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.vicatoo.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-29T13:43:57.200404Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.vicatoo.com/mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-council-signal-m-6037ae4653",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/council-signal-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/council-signal-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/council-signal-mcp",
+    "rule": "status-change",
+    "version": "0.1.3",
+    "status": "deprecated",
+    "description": "Signed AI measurement (13-axis, deterministic judge). Measurement, not certification; monitored cont",
+    "repository": "https://github.com/CSOAI-ORG/csoai-static-deploy2",
+    "website": "",
+    "packages": [
+      "pypi:council-signal-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-06T04:12:49.145665Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/csoai-static-deploy2"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

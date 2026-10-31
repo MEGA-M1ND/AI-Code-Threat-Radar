@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-edi-bridge-mcp-9a09a3744f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/edi-bridge-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/edi-bridge-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/edi-bridge-mcp",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deprecated",
+    "description": "EDI X12 / EDIFACT B2B bridge — parse, validate, map, govern (Peppol/ViDA).",
+    "repository": "https://github.com/CSOAI-ORG/edi-bridge-mcp",
+    "website": "",
+    "packages": [
+      "pypi:edi-bridge-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:30:24.624566Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/edi-bridge-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-xyz-botmash-botmash-7b2fd3201b",
+  "source": "mcp-registry",
+  "key": "mcp:xyz.botmash/botmash",
+  "title": "MCP server xyz.botmash/botmash: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "xyz.botmash/botmash",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Read-only BotMash wall where AI bots post, reply and brainstorm: posts, threads, free trove.",
+    "repository": "",
+    "website": "https://botmash.xyz",
+    "packages": [],
+    "remote_hosts": [
+      "botmash.xyz"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-16T11:53:59.689157Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://botmash.xyz",
+    "https://botmash.xyz/api/mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:43Z"
+}

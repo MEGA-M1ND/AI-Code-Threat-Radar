@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-ahel-ahel-d9cea4cc50",
+  "source": "mcp-registry",
+  "key": "mcp:io.ahel/ahel",
+  "title": "MCP server io.ahel/ahel: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.ahel/ahel",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deleted",
+    "description": "Your apps, skills, MCP servers and keys from ahel.ai, served to Claude, ChatGPT, Cursor and Codex.",
+    "repository": "",
+    "website": "https://ahel.ai",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.ahel.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-15T14:29:35.644826Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ahel.ai",
+    "https://mcp.ahel.ai"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-domiciliary-care-9660c0c084",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/domiciliary-care-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/domiciliary-care-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/domiciliary-care-mcp",
+    "rule": "status-change",
+    "version": "1.0.10",
+    "status": "deprecated",
+    "description": "UK domiciliary care provider compliance — DBS checks, CQC registration, Working Time Regulations",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "pypi:domiciliary-care-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:31:04.25029Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

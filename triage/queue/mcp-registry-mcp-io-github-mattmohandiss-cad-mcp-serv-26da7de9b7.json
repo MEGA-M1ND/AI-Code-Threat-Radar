@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-mattmohandiss-cad-mcp-serv-26da7de9b7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.mattmohandiss/cad-mcp-server",
+  "title": "MCP server io.github.mattmohandiss/cad-mcp-server: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.mattmohandiss/cad-mcp-server",
+    "rule": "status-change",
+    "version": "0.8.1",
+    "status": "deprecated",
+    "description": "Measure STEP CAD files with your AI assistant: walls, clearances, draft, and revision diffs.",
+    "repository": "https://github.com/mattmohandiss/cad-mcp-server",
+    "website": "https://github.com/mattmohandiss/cad-mcp-server#readme",
+    "packages": [
+      "npm:cad-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T01:53:40.175764Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/mattmohandiss/cad-mcp-server",
+    "https://github.com/mattmohandiss/cad-mcp-server#readme"
+  ],
+  "discovered_at": "2026-10-31T12:44:41Z"
+}

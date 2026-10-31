@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-csoai-governance-5d811a6581",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/csoai-governance-crosswalk-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/csoai-governance-crosswalk-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/csoai-governance-crosswalk-mcp",
+    "rule": "status-change",
+    "version": "1.0.18",
+    "status": "deprecated",
+    "description": "Csoai Governance Crosswalk MCP server. Tools: query crosswalk, crosswalk bridge, compliance gap anal",
+    "repository": "https://github.com/CSOAI-ORG/csoai-governance-crosswalk-mcp",
+    "website": "",
+    "packages": [
+      "pypi:csoai-governance-crosswalk-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-06T04:12:56.175986Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/csoai-governance-crosswalk-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-gdpr-compliance--f1c24db9c4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/gdpr-compliance-ai-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/gdpr-compliance-ai-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/gdpr-compliance-ai-mcp",
+    "rule": "status-change",
+    "version": "1.1.14",
+    "status": "deprecated",
+    "description": "Gdpr Compliance Ai MCP Server by MEOK AI Labs",
+    "repository": "https://github.com/CSOAI-ORG/gdpr-compliance-ai-mcp",
+    "website": "https://meok.ai/gdpr-compliance-ai-mcp",
+    "packages": [
+      "pypi:gdpr-compliance-ai-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-19T15:20:17.045725Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CSOAI-ORG/gdpr-compliance-ai-mcp",
+    "https://meok.ai/gdpr-compliance-ai-mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

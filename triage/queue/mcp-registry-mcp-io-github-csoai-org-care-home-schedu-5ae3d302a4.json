@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-care-home-schedu-5ae3d302a4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/care-home-scheduling-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/care-home-scheduling-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/care-home-scheduling-mcp",
+    "rule": "status-change",
+    "version": "1.0.6",
+    "status": "deprecated",
+    "description": "care-home-scheduling-mcp for domiciliary opticians",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "pypi:care-home-scheduling-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:30:53.811401Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

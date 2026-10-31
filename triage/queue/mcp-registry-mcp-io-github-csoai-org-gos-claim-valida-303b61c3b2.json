@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-gos-claim-valida-303b61c3b2",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/gos-claim-validator-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/gos-claim-validator-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/gos-claim-validator-mcp",
+    "rule": "status-change",
+    "version": "1.0.6",
+    "status": "deprecated",
+    "description": "Validate NHS General Ophthalmic Services (GOS) claims pre-submission. Catches errors in GOS 1-6",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "pypi:gos-claim-validator-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:31:07.806414Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-delboy-mcp-3fd860008f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/delboy-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/delboy-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/delboy-mcp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "DELBOY companion-MCP — neutral provenance/attestation layer for agentic finance. Witness only: signs",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "pypi:delboy-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-06T04:10:57.086077Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-csoai-org-dispense-record--70bbe056da",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CSOAI-ORG/dispense-record-mcp",
+  "title": "MCP server io.github.CSOAI-ORG/dispense-record-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CSOAI-ORG/dispense-record-mcp",
+    "rule": "status-change",
+    "version": "1.0.10",
+    "status": "deprecated",
+    "description": "GOC-compliant optical dispense record validation. Captures prescription, lens choice, fitting",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "pypi:dispense-record-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-05T17:31:00.409593Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-10-31T12:44:40Z"
+}

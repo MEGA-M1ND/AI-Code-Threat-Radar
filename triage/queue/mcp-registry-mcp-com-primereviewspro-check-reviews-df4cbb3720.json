@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-com-primereviewspro-check-reviews-df4cbb3720",
+  "source": "mcp-registry",
+  "key": "mcp:com.primereviewspro/check-reviews",
+  "title": "MCP server com.primereviewspro/check-reviews: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.primereviewspro/check-reviews",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Detect fake or manipulated product reviews from Amazon, Trustpilot, Google and Etsy.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "primereviewspro.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-03T19:05:05.74662Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://primereviewspro.com/mcp"
+  ],
+  "discovered_at": "2026-10-31T12:44:39Z"
+}
