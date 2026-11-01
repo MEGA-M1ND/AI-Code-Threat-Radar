@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-booklint-desk-7a2abf3455",
+  "source": "mcp-registry",
+  "key": "mcp:com.booklint/desk",
+  "title": "MCP server com.booklint/desk: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.booklint/desk",
+    "rule": "status-change",
+    "version": "0.4.0",
+    "status": "deleted",
+    "description": "Checks an agent's trades, spend, bookings and offers against its owner's limits. Facts, not advice.",
+    "repository": "",
+    "website": "https://booklint.com",
+    "packages": [],
+    "remote_hosts": [
+      "booklint.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T13:45:15.957217Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://booklint.com",
+    "https://booklint.com/mcp"
+  ],
+  "discovered_at": "2026-11-01T13:35:06Z"
+}

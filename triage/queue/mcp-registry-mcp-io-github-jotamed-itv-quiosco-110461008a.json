@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-jotamed-itv-quiosco-110461008a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jotamed/itv-quiosco",
+  "title": "MCP server io.github.jotamed/itv-quiosco: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jotamed/itv-quiosco",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deleted",
+    "description": "ITV España: estaciones, tarifas y citas parciales (x402). Farmacias de guardia Madrid ciudad gratis.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "itv-quiosco-mcp.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-29T20:46:13.907588Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://itv-quiosco-mcp.onrender.com/mcp"
+  ],
+  "discovered_at": "2026-11-01T13:35:08Z"
+}

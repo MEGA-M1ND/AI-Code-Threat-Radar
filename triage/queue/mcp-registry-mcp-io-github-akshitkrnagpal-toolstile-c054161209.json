@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-akshitkrnagpal-toolstile-c054161209",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.akshitkrnagpal/toolstile",
+  "title": "MCP server io.github.akshitkrnagpal/toolstile: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.akshitkrnagpal/toolstile",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Managed MCP gateway with OAuth, per-agent permissions, shared accounts and activity logs.",
+    "repository": "",
+    "website": "https://toolstile.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.toolstile.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-31T22:30:31.206189Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://toolstile.com",
+    "https://mcp.toolstile.com/mcp"
+  ],
+  "discovered_at": "2026-11-01T13:35:08Z"
+}

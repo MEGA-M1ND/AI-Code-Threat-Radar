@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-booklint-stamp-1566707f59",
+  "source": "mcp-registry",
+  "key": "mcp:com.booklint/stamp",
+  "title": "MCP server com.booklint/stamp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.booklint/stamp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Signed timestamp receipts for a SHA-256 hash. Send only the hash; we never see the document.",
+    "repository": "",
+    "website": "https://booklint-stamp.fly.dev",
+    "packages": [],
+    "remote_hosts": [
+      "booklint-stamp.fly.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T12:17:52.033074Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://booklint-stamp.fly.dev",
+    "https://booklint-stamp.fly.dev/mcp"
+  ],
+  "discovered_at": "2026-11-01T13:35:06Z"
+}
