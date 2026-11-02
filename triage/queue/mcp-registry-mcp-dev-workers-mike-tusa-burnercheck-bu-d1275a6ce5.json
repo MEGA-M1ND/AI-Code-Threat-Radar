@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-mike-tusa-burnercheck-bu-d1275a6ce5",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.mike-tusa.burnercheck/burnercheck",
+  "title": "MCP server dev.workers.mike-tusa.burnercheck/burnercheck: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.mike-tusa.burnercheck/burnercheck",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deleted",
+    "description": "Disposable email checker: disposable, role, free-mail and look-alike flags. List-based, no MX.",
+    "repository": "",
+    "website": "https://burnercheck.mike-tusa.workers.dev/",
+    "packages": [],
+    "remote_hosts": [
+      "burnercheck.mike-tusa.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T01:56:04.174829Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://burnercheck.mike-tusa.workers.dev/",
+    "https://burnercheck.mike-tusa.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-02T16:11:48Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-gadgethumans-gadgethumans-mcp-843d4455a5",
+  "source": "mcp-registry",
+  "key": "mcp:com.gadgethumans/gadgethumans-mcp",
+  "title": "MCP server com.gadgethumans/gadgethumans-mcp: status change",
+  "why": "the registry moved this server from deleted to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.gadgethumans/gadgethumans-mcp",
+    "rule": "status-change",
+    "version": "1.0.9",
+    "status": "deprecated",
+    "description": "Hosted MCP endpoint — 46 tools + 300+ REST endpoints. Free tier, no API keys, no signup.",
+    "repository": "https://github.com/gadgethumans-dev/gadgethumans-mcp",
+    "website": "https://gadgethumans.com/mcp-servers",
+    "packages": [
+      "npm:gadgethumans-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-02T08:17:44.35482Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/gadgethumans-dev/gadgethumans-mcp",
+    "https://gadgethumans.com/mcp-servers"
+  ],
+  "discovered_at": "2026-11-02T16:11:47Z"
+}

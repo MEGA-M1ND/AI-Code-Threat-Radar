@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-ai-agents-make-money-here-mcp-4fc8017ab2",
+  "source": "mcp-registry",
+  "key": "mcp:com.ai-agents-make-money-here/mcp",
+  "title": "MCP server com.ai-agents-make-money-here/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.ai-agents-make-money-here/mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Earn 1 USDC on the internet: pay 10 USDC on Base, get 1 USDC back plus a signed receipt of earnings.",
+    "repository": "",
+    "website": "https://ai-agents-make-money-here.com",
+    "packages": [],
+    "remote_hosts": [
+      "ai-agents-make-money-here.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-15T21:33:55.028769Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ai-agents-make-money-here.com",
+    "https://ai-agents-make-money-here.com/mcp"
+  ],
+  "discovered_at": "2026-11-02T16:11:47Z"
+}

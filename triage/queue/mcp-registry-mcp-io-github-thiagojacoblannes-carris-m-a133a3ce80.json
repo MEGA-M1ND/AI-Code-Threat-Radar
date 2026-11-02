@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-thiagojacoblannes-carris-m-a133a3ce80",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ThiagoJacobLannes/carris-metropolitana-mcp",
+  "title": "MCP server io.github.ThiagoJacobLannes/carris-metropolitana-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ThiagoJacobLannes/carris-metropolitana-mcp",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "Greater Lisbon buses: stops, real-time arrivals, lines, alerts and live vehicles.",
+    "repository": "https://github.com/ThiagoJacobLannes/carris-metropolitana-mcp",
+    "website": "https://thiagolannes.com",
+    "packages": [
+      "pypi:carris-metropolitana-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T14:14:02.988833Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ThiagoJacobLannes/carris-metropolitana-mcp",
+    "https://thiagolannes.com"
+  ],
+  "discovered_at": "2026-11-02T16:11:49Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-you-curo-curo-2a06df95c9",
+  "source": "mcp-registry",
+  "key": "mcp:you.curo/curo",
+  "title": "MCP server you.curo/curo: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "you.curo/curo",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Peptide research for your AI: PepBank study findings plus the curo.you peptide catalog and lot COAs.",
+    "repository": "",
+    "website": "https://curo.you/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.curo.you"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T11:14:50.661849Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://curo.you/mcp",
+    "https://mcp.curo.you"
+  ],
+  "discovered_at": "2026-11-02T16:11:55Z"
+}

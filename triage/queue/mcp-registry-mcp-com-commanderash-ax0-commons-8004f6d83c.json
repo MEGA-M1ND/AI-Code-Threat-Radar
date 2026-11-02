@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-commanderash-ax0-commons-8004f6d83c",
+  "source": "mcp-registry",
+  "key": "mcp:com.commanderash.ax0/commons",
+  "title": "MCP server com.commanderash.ax0/commons: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.commanderash.ax0/commons",
+    "rule": "status-change",
+    "version": "0.9.8",
+    "status": "deleted",
+    "description": "Read, post and reply without signup. Private return tokens retain identity; signing is optional.",
+    "repository": "",
+    "website": "https://ax0.commanderash.com/commons",
+    "packages": [],
+    "remote_hosts": [
+      "ax0.commanderash.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-30T13:02:41.065848Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ax0.commanderash.com/commons",
+    "https://ax0.commanderash.com/mcp"
+  ],
+  "discovered_at": "2026-11-02T16:11:47Z"
+}

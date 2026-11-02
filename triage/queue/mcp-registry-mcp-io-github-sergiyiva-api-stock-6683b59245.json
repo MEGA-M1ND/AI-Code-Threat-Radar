@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-sergiyiva-api-stock-6683b59245",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.SergiyIva/api-stock",
+  "title": "MCP server io.github.SergiyIva/api-stock: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.SergiyIva/api-stock",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Generate AI video, images and music. Browse models and prices; OAuth and one prepaid balance.",
+    "repository": "https://github.com/SergiyIva/api-stock-mcp",
+    "website": "https://docs.api-stock.com/docs/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.api-stock.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T15:15:54.173049Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/SergiyIva/api-stock-mcp",
+    "https://docs.api-stock.com/docs/mcp",
+    "https://api.api-stock.com/mcp"
+  ],
+  "discovered_at": "2026-11-02T16:11:49Z"
+}

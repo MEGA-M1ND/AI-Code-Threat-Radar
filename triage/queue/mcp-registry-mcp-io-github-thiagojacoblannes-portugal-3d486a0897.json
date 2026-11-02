@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-thiagojacoblannes-portugal-3d486a0897",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ThiagoJacobLannes/portugal-medicines-mcp",
+  "title": "MCP server io.github.ThiagoJacobLannes/portugal-medicines-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ThiagoJacobLannes/portugal-medicines-mcp",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "Medicine shortages (Infarmed) and pharmacies on duty or open now in Portugal.",
+    "repository": "https://github.com/ThiagoJacobLannes/portugal-medicines-mcp",
+    "website": "https://thiagolannes.com",
+    "packages": [
+      "pypi:portugal-medicines-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T14:14:04.928522Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ThiagoJacobLannes/portugal-medicines-mcp",
+    "https://thiagolannes.com"
+  ],
+  "discovered_at": "2026-11-02T16:11:49Z"
+}

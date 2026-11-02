@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-vericto-sql-firewall-00ddfd7e61",
+  "source": "mcp-registry",
+  "key": "mcp:com.vericto/sql-firewall",
+  "title": "MCP server com.vericto/sql-firewall: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.vericto/sql-firewall",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Database guardrails for AI agents: check SQL against your Vericto rules before it runs.",
+    "repository": "",
+    "website": "https://vericto.com/docs/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.vericto.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-01T16:04:44.354985Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://vericto.com/docs/mcp",
+    "https://mcp.vericto.com/mcp"
+  ],
+  "discovered_at": "2026-11-02T16:11:48Z"
+}

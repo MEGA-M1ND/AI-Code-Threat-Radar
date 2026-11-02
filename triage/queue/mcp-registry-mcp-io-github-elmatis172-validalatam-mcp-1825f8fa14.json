@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-elmatis172-validalatam-mcp-1825f8fa14",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.elmatis172/validalatam-mcp",
+  "title": "MCP server io.github.elmatis172/validalatam-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.elmatis172/validalatam-mcp",
+    "rule": "status-change",
+    "version": "0.2.2",
+    "status": "deleted",
+    "description": "Validate LatAm tax, ID and bank numbers: CUIT, CPF, CNPJ, RFC, CURP, RUT, NIT, RUC, CLABE",
+    "repository": "https://github.com/elmatis172/validalatam-mcp",
+    "website": "",
+    "packages": [
+      "pypi:validalatam-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-28T12:33:07.73896Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/elmatis172/validalatam-mcp"
+  ],
+  "discovered_at": "2026-11-02T16:11:49Z"
+}

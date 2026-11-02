@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-fr-intelunix-mcp-shop-cartmelai-mais-c85c9193be",
+  "source": "mcp-registry",
+  "key": "mcp:fr.intelunix.mcp.shop-cartmelai/maison-moustache",
+  "title": "MCP server fr.intelunix.mcp.shop-cartmelai/maison-moustache: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "fr.intelunix.mcp.shop-cartmelai/maison-moustache",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "Cat product catalog, scoped carts and buyer orders. Test storefront with synthetic payments only.",
+    "repository": "",
+    "website": "https://shop-cartmelai.mcp.intelunix.fr/",
+    "packages": [],
+    "remote_hosts": [
+      "console-cartmelai.mcp.intelunix.fr",
+      "mcp-cartmelai.mcp.intelunix.fr"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-01T11:40:46.775855Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://shop-cartmelai.mcp.intelunix.fr/",
+    "https://console-cartmelai.mcp.intelunix.fr/mcp/storefront",
+    "https://mcp-cartmelai.mcp.intelunix.fr/mcp"
+  ],
+  "discovered_at": "2026-11-02T16:11:48Z"
+}

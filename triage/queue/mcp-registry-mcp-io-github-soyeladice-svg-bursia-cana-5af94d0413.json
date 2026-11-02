@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-soyeladice-svg-bursia-cana-5af94d0413",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.soyeladice-svg/bursia-canary",
+  "title": "MCP server io.github.soyeladice-svg/bursia-canary: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.soyeladice-svg/bursia-canary",
+    "rule": "status-change",
+    "version": "0.7.2-canary",
+    "status": "deprecated",
+    "description": "Bursia MCP canary: 8 compatibility tools + 7 visitor tools with verified operator grants.",
+    "repository": "https://github.com/soyeladice-svg/-burs-ia-interop-lab.",
+    "website": "https://burs-ia.com",
+    "packages": [],
+    "remote_hosts": [
+      "phase1b-github-mcp-gateway-canary-20260918-bursia-interop-lab.soyeladice.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-18T11:50:22.274622Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/soyeladice-svg/-burs-ia-interop-lab.",
+    "https://burs-ia.com",
+    "https://phase1b-github-mcp-gateway-canary-20260918-bursia-interop-lab.soyeladice.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-02T16:11:52Z"
+}

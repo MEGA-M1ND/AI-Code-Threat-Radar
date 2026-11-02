@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-thiagojacoblannes-sns-port-d00a70d00c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ThiagoJacobLannes/sns-portugal-mcp",
+  "title": "MCP server io.github.ThiagoJacobLannes/sns-portugal-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ThiagoJacobLannes/sns-portugal-mcp",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "Portugal's national health service open data: hospitals, emergency and waiting times.",
+    "repository": "https://github.com/ThiagoJacobLannes/sns-portugal-mcp",
+    "website": "https://thiagolannes.com",
+    "packages": [
+      "pypi:sns-portugal-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T14:13:44.770562Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ThiagoJacobLannes/sns-portugal-mcp",
+    "https://thiagolannes.com"
+  ],
+  "discovered_at": "2026-11-02T16:11:49Z"
+}
