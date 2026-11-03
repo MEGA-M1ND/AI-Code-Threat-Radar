@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-boy-373-mcp-marketplace-d32d43c9a1",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.boy-373/mcp-marketplace",
+  "title": "MCP server io.github.boy-373/mcp-marketplace: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.boy-373/mcp-marketplace",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Search 25000+ MCP servers via AI. MCP SSE and A2A supported.",
+    "repository": "https://github.com/boy-373/mcp-marketplace",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.pianam.cn"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-25T04:01:32.94524Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/boy-373/mcp-marketplace",
+    "https://mcp.pianam.cn/search/sse"
+  ],
+  "discovered_at": "2026-11-03T14:26:33Z"
+}

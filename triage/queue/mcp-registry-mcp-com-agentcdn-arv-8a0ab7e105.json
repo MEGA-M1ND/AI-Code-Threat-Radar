@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-agentcdn-arv-8a0ab7e105",
+  "source": "mcp-registry",
+  "key": "mcp:com.agentcdn/arv",
+  "title": "MCP server com.agentcdn/arv: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.agentcdn/arv",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "Agent-Ready Video (ARV): search video moments, moment context, rights, and signed playback",
+    "repository": "",
+    "website": "https://agentcdn.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.agentcdn.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-24T15:56:23.858587Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agentcdn.com",
+    "https://mcp.agentcdn.com/c/{publisher}/mcp"
+  ],
+  "discovered_at": "2026-11-03T14:26:32Z"
+}

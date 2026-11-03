@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-work-doingwork-home-c166385b09",
+  "source": "mcp-registry",
+  "key": "mcp:work.doingwork/home",
+  "title": "MCP server work.doingwork/home: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "work.doingwork/home",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Get quotes from local shops for a home repair or project anywhere in the US. Free for homeowners.",
+    "repository": "",
+    "website": "https://doingwork.work/connectors/",
+    "packages": [],
+    "remote_hosts": [
+      "app.doingwork.work"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-17T22:16:49.010313Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://doingwork.work/connectors/",
+    "https://app.doingwork.work/mcp/home"
+  ],
+  "discovered_at": "2026-11-03T14:26:35Z"
+}

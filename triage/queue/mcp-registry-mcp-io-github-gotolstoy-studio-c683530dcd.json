@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-gotolstoy-studio-c683530dcd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.GoTolstoy/studio",
+  "title": "MCP server io.github.GoTolstoy/studio: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.GoTolstoy/studio",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Create ecommerce images and videos with Tolstoy Studio and manage the media in your Tolstoy library.",
+    "repository": "",
+    "website": "https://platform.gotolstoy.com/settings/mcp?server=studio",
+    "packages": [],
+    "remote_hosts": [
+      "apilb.gotolstoy.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T11:57:16.609633Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://platform.gotolstoy.com/settings/mcp?server=studio",
+    "https://apilb.gotolstoy.com/mcp/v1/mcp"
+  ],
+  "discovered_at": "2026-11-03T14:26:33Z"
+}

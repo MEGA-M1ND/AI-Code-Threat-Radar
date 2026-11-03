@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-apistock-apihubs-eb7677972a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.APIStock/apihubs",
+  "title": "MCP server io.github.APIStock/apihubs: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.APIStock/apihubs",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Generate AI video, images and music. Browse models and prices; OAuth and one prepaid balance.",
+    "repository": "",
+    "website": "https://docs.apihubs.ru/docs/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.apihubs.ru"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T11:30:35.131671Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://docs.apihubs.ru/docs/mcp",
+    "https://api.apihubs.ru/mcp"
+  ],
+  "discovered_at": "2026-11-03T14:26:32Z"
+}

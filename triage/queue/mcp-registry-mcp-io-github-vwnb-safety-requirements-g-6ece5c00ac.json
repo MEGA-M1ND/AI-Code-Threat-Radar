@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-vwnb-safety-requirements-g-6ece5c00ac",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.vwnb/safety-requirements-god",
+  "title": "MCP server io.github.vwnb/safety-requirements-god: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.vwnb/safety-requirements-god",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Manage functional-safety requirements and lifecycle traceability.",
+    "repository": "https://github.com/vwnb/safety-requirements-god",
+    "website": "https://wcgw.world/",
+    "packages": [],
+    "remote_hosts": [
+      "safety-requirements-god.vercel.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T17:09:05.324676Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/vwnb/safety-requirements-god",
+    "https://wcgw.world/",
+    "https://safety-requirements-god.vercel.app/mcp"
+  ],
+  "discovered_at": "2026-11-03T14:26:34Z"
+}

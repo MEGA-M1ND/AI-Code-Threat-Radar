@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-app-befana-befana-2eca484e0f",
+  "source": "mcp-registry",
+  "key": "mcp:app.befana/befana",
+  "title": "MCP server app.befana/befana: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.befana/befana",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "Ad-free recipes with amounts in every step: search, scale, plan meals, build shopping lists.",
+    "repository": "",
+    "website": "https://befana.app/agents",
+    "packages": [],
+    "remote_hosts": [
+      "befana.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T15:58:23.350149Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://befana.app/agents",
+    "https://befana.app/mcp"
+  ],
+  "discovered_at": "2026-11-03T14:26:32Z"
+}

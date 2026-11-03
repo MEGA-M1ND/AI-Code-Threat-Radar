@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-itsmeadamdamroma-mazzagrp-f98a6c276f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.itsmeadamdamroma/mazzagrp",
+  "title": "MCP server io.github.itsmeadamdamroma/mazzagrp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.itsmeadamdamroma/mazzagrp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "21 AI APIs pay-per-call with USDC on Base via x402. No keys, no signup.",
+    "repository": "https://github.com/itsmeadamdamroma/mcp-server",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mazzagrp.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T21:34:58.963738Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/itsmeadamdamroma/mcp-server",
+    "https://mazzagrp.com/mcp"
+  ],
+  "discovered_at": "2026-11-03T14:26:33Z"
+}

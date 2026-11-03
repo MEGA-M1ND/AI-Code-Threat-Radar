@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-jfarcand-iphone-mirroir-mc-119107636c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jfarcand/iphone-mirroir-mcp",
+  "title": "MCP server io.github.jfarcand/iphone-mirroir-mcp: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jfarcand/iphone-mirroir-mcp",
+    "rule": "status-change",
+    "version": "0.4.1",
+    "status": "deleted",
+    "description": "Control a real iPhone through macOS iPhone Mirroring: screenshot, tap, swipe, type.",
+    "repository": "https://github.com/jfarcand/iphone-mirroir-mcp",
+    "website": "",
+    "packages": [
+      "npm:iphone-mirroir-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-02-09T01:54:27.85412Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jfarcand/iphone-mirroir-mcp"
+  ],
+  "discovered_at": "2026-11-03T14:26:33Z"
+}
