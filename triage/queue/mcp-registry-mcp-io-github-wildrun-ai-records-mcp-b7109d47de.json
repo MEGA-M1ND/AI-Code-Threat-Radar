@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wildrun-ai-records-mcp-b7109d47de",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.wildrun-ai/records-mcp",
+  "title": "MCP server io.github.wildrun-ai/records-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.wildrun-ai/records-mcp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "US public-records lookups for AI agents (FEC, SEC, sanctions, courts), paid per call via x402.",
+    "repository": "https://github.com/wildrun-ai/records-mcp",
+    "website": "",
+    "packages": [
+      "npm:wildrun-records-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-03T01:36:21.291164Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/wildrun-ai/records-mcp"
+  ],
+  "discovered_at": "2026-11-04T14:40:56Z"
+}

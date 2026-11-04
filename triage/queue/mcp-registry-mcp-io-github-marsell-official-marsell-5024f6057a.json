@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-marsell-official-marsell-5024f6057a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Marsell-Official/marsell",
+  "title": "MCP server io.github.Marsell-Official/marsell: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Marsell-Official/marsell",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Manage content, marketing and sales in Marsell with your own AI. Read work and act with permission.",
+    "repository": "https://github.com/Marsell-Official/mcp",
+    "website": "https://docs.getmarsell.com/developers/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "getmarsell.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-27T04:57:57.121626Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Marsell-Official/mcp",
+    "https://docs.getmarsell.com/developers/mcp",
+    "https://getmarsell.com/mcp"
+  ],
+  "discovered_at": "2026-11-04T14:40:54Z"
+}

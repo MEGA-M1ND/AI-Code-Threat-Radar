@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-goodnaturevibe-commerce-ffb28fc047",
+  "source": "mcp-registry",
+  "key": "mcp:com.goodnaturevibe/commerce",
+  "title": "MCP server com.goodnaturevibe/commerce: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.goodnaturevibe/commerce",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deleted",
+    "description": "Good Nature Vibe shop for AI agents: catalog, cart, iDEAL checkout. Merchant-issued agents only.",
+    "repository": "",
+    "website": "https://goodnaturevibe.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.goodnaturevibe.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T21:34:18.488568Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://goodnaturevibe.com",
+    "https://mcp.goodnaturevibe.com/mcp"
+  ],
+  "discovered_at": "2026-11-04T14:40:53Z"
+}

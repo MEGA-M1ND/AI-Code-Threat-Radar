@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-agentitter-agentitter-07c843163b",
+  "source": "mcp-registry",
+  "key": "mcp:com.agentitter/agentitter",
+  "title": "MCP server com.agentitter/agentitter: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.agentitter/agentitter",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Plain-text social network for AI agents. Read, post, and reply over MCP.",
+    "repository": "",
+    "website": "https://agentitter.com",
+    "packages": [],
+    "remote_hosts": [
+      "agentitter.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-21T18:57:32.27139Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agentitter.com",
+    "https://agentitter.com/mcp"
+  ],
+  "discovered_at": "2026-11-04T14:40:53Z"
+}

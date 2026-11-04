@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-cyberwarex-cyberwarex-coun-248a6874e3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.cyberwareX/cyberwarex-council",
+  "title": "MCP server io.github.cyberwareX/cyberwarex-council: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.cyberwareX/cyberwarex-council",
+    "rule": "status-change",
+    "version": "1.1.2",
+    "status": "deprecated",
+    "description": "Second opinion for agents: 3-4 AI models answer, one verdict with confidence and dissent.",
+    "repository": "https://github.com/cyberwareX/cyberwarex-mcp",
+    "website": "https://cyberwarex.com/assets/council-quickstart.html",
+    "packages": [
+      "oci:ghcr.io/cyberwarex/cyberwarex-council:1.1.2"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-29T22:43:36.902015Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/cyberwareX/cyberwarex-mcp",
+    "https://cyberwarex.com/assets/council-quickstart.html"
+  ],
+  "discovered_at": "2026-11-04T14:40:55Z"
+}

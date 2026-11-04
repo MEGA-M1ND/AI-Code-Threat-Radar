@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-app-connectmyshop-etsy-3e3c29c9a6",
+  "source": "mcp-registry",
+  "key": "mcp:app.connectmyshop/etsy",
+  "title": "MCP server app.connectmyshop/etsy: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.connectmyshop/etsy",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Manage your Etsy shop from your AI: bulk-edit listings, prices and drafts. You approve every change.",
+    "repository": "",
+    "website": "https://connectmyshop.app",
+    "packages": [],
+    "remote_hosts": [
+      "connectmyshop.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T11:02:26.909025Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://connectmyshop.app",
+    "https://connectmyshop.app/mcp"
+  ],
+  "discovered_at": "2026-11-04T14:40:53Z"
+}

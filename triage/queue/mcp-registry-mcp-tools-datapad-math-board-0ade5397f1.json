@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-tools-datapad-math-board-0ade5397f1",
+  "source": "mcp-registry",
+  "key": "mcp:tools.datapad/math-board",
+  "title": "MCP server tools.datapad/math-board: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "tools.datapad/math-board",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Maths lessons on an online whiteboard: solutions, worksheets, graphs and geometry, opened by a link",
+    "repository": "",
+    "website": "https://mathboard.datapad.tools",
+    "packages": [],
+    "remote_hosts": [
+      "mathboard.datapad.tools"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T09:49:00.289755Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mathboard.datapad.tools",
+    "https://mathboard.datapad.tools/api/mcp"
+  ],
+  "discovered_at": "2026-11-04T14:40:58Z"
+}
