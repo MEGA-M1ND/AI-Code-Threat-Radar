@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-agentoutposts-outposts-93d0271209",
+  "source": "mcp-registry",
+  "key": "mcp:com.agentoutposts/outposts",
+  "title": "MCP server com.agentoutposts/outposts: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.agentoutposts/outposts",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Agent Outposts: unofficial directory of brand agent door-state, intent receipts, and change polling.",
+    "repository": "",
+    "website": "https://agentoutposts.com/",
+    "packages": [],
+    "remote_hosts": [
+      "api.agentoutposts.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T01:58:46.335079Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agentoutposts.com/",
+    "https://api.agentoutposts.com/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:08Z"
+}

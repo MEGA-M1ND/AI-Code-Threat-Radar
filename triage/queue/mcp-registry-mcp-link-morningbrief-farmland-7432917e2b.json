@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-link-morningbrief-farmland-7432917e2b",
+  "source": "mcp-registry",
+  "key": "mcp:link.morningbrief/farmland",
+  "title": "MCP server link.morningbrief/farmland: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "link.morningbrief/farmland",
+    "rule": "status-change",
+    "version": "1.1.2",
+    "status": "deleted",
+    "description": "USDA farmland values and county cash rents for AI agents. NASS data, 3 tools, free, no key.",
+    "repository": "",
+    "website": "https://morningbrief.link",
+    "packages": [],
+    "remote_hosts": [
+      "land.morningbrief.link"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T20:14:46.438885Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://morningbrief.link",
+    "https://land.morningbrief.link/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:13Z"
+}

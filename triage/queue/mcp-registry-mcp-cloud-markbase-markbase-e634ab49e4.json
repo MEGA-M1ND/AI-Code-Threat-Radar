@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-cloud-markbase-markbase-e634ab49e4",
+  "source": "mcp-registry",
+  "key": "mcp:cloud.markbase/markbase",
+  "title": "MCP server cloud.markbase/markbase: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "cloud.markbase/markbase",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "Shared Markdown memory for your agents: docs, typed collections, files, skills and Dispatch.",
+    "repository": "",
+    "website": "https://bench47.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.bench47.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T00:01:56.620402Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://bench47.com",
+    "https://api.bench47.com/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:08Z"
+}

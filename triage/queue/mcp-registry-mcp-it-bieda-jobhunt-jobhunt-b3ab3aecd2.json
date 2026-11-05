@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-it-bieda-jobhunt-jobhunt-b3ab3aecd2",
+  "source": "mcp-registry",
+  "key": "mcp:it.bieda.jobhunt/jobhunt",
+  "title": "MCP server it.bieda.jobhunt/jobhunt: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "it.bieda.jobhunt/jobhunt",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Track job applications: find the ones to follow up on, add jobs, update status, notes and steps.",
+    "repository": "",
+    "website": "https://jobhunt.bieda.it/docs/assistant.html",
+    "packages": [],
+    "remote_hosts": [
+      "jobhunt.bieda.it"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-10T11:47:24.628337Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://jobhunt.bieda.it/docs/assistant.html",
+    "https://jobhunt.bieda.it/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:13Z"
+}

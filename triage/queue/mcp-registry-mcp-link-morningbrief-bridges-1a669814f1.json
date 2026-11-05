@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-link-morningbrief-bridges-1a669814f1",
+  "source": "mcp-registry",
+  "key": "mcp:link.morningbrief/bridges",
+  "title": "MCP server link.morningbrief/bridges: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "link.morningbrief/bridges",
+    "rule": "status-change",
+    "version": "1.1.2",
+    "status": "deleted",
+    "description": "FHWA bridge inventory: 624,193 bridges, condition, posting, clearance. 10 tools, free, no key.",
+    "repository": "",
+    "website": "https://morningbrief.link/bridges/",
+    "packages": [],
+    "remote_hosts": [
+      "bridges.morningbrief.link"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T20:24:16.9442Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://morningbrief.link/bridges/",
+    "https://bridges.morningbrief.link/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:13Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-link-morningbrief-facility-complianc-6b818ea266",
+  "source": "mcp-registry",
+  "key": "mcp:link.morningbrief/facility-compliance",
+  "title": "MCP server link.morningbrief/facility-compliance: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "link.morningbrief/facility-compliance",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "EPA facility compliance: 3.2M regulated facilities, unified compliance profiles. No key.",
+    "repository": "",
+    "website": "https://morningbrief.link/facilities/",
+    "packages": [],
+    "remote_hosts": [
+      "facilities.morningbrief.link"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T20:30:17.360436Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://morningbrief.link/facilities/",
+    "https://facilities.morningbrief.link/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:13Z"
+}

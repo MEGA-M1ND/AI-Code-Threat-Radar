@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-evalgate-evalgate-455a941c66",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.evalgate/evalgate",
+  "title": "MCP server io.github.evalgate/evalgate: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.evalgate/evalgate",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Create and run AI evaluations, record traces, and inspect results with scoped organization access.",
+    "repository": "",
+    "website": "https://www.evalgate.com/docs/platform/mcp-integration",
+    "packages": [],
+    "remote_hosts": [
+      "www.evalgate.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T14:33:11.738552Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.evalgate.com/docs/platform/mcp-integration",
+    "https://www.evalgate.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:11Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-matiasmaquieira96-risk-mcp-891ec65c7b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.matiasmaquieira96/risk-mcp",
+  "title": "MCP server io.github.matiasmaquieira96/risk-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.matiasmaquieira96/risk-mcp",
+    "rule": "status-change",
+    "version": "0.4.54",
+    "status": "deprecated",
+    "description": "Company data and KYB API for 35 countries: monitoring, financial statements, insolvency, sanctions",
+    "repository": "https://github.com/matiasmaquieira96/prometiam-risk-mcp",
+    "website": "https://www.prometiam.com/risk-api",
+    "packages": [
+      "npm:prometiam-risk-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-03T08:01:27.989218Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/matiasmaquieira96/prometiam-risk-mcp",
+    "https://www.prometiam.com/risk-api"
+  ],
+  "discovered_at": "2026-11-05T14:46:11Z"
+}

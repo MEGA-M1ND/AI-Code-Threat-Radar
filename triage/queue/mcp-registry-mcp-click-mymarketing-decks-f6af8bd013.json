@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-click-mymarketing-decks-f6af8bd013",
+  "source": "mcp-registry",
+  "key": "mcp:click.mymarketing/decks",
+  "title": "MCP server click.mymarketing/decks: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "click.mymarketing/decks",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Apresentações, temas, edição e exportação",
+    "repository": "",
+    "website": "https://ciromaciel.click/mcp/decks",
+    "packages": [],
+    "remote_hosts": [
+      "decks.worker.mymarketing.click"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-21T17:24:09.654731Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ciromaciel.click/mcp/decks",
+    "https://decks.worker.mymarketing.click/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:08Z"
+}

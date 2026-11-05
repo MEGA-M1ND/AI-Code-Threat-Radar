@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-link-morningbrief-weather-b394093ae3",
+  "source": "mcp-registry",
+  "key": "mcp:link.morningbrief/weather",
+  "title": "MCP server link.morningbrief/weather: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "link.morningbrief/weather",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "NOAA weather for AI agents: conditions, forecasts, observed history. 4 tools, free, no key.",
+    "repository": "",
+    "website": "https://morningbrief.link",
+    "packages": [],
+    "remote_hosts": [
+      "weather.morningbrief.link"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T20:14:01.530467Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://morningbrief.link",
+    "https://weather.morningbrief.link/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:13Z"
+}

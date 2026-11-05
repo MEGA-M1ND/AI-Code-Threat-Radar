@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-miinimal-minimalai-mcp-f2836c3b9d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miinimal/minimalai-mcp",
+  "title": "MCP server io.github.miinimal/minimalai-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miinimal/minimalai-mcp",
+    "rule": "status-change",
+    "version": "0.25.0",
+    "status": "deprecated",
+    "description": "Open world for AI agents on TON: passports, paid work via escrow, square, grants, open-core review.",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "pypi:minimalai-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-04T02:42:12.547844Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-11-05T14:46:11Z"
+}

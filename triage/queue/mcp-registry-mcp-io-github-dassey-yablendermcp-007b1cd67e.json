@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-dassey-yablendermcp-007b1cd67e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.dassey/yablendermcp",
+  "title": "MCP server io.github.dassey/yablendermcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.dassey/yablendermcp",
+    "rule": "status-change",
+    "version": "2.3.1",
+    "status": "deleted",
+    "description": "Local-only Blender 5.1 for AI agents: modeling, rendering, 3D-print prep. No keys, no cloud.",
+    "repository": "https://github.com/dassey/YABlenderMCP",
+    "website": "https://github.com/dassey/YABlenderMCP",
+    "packages": [
+      "pypi:yab-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-04T05:07:19.517724Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/dassey/YABlenderMCP",
+    "https://github.com/dassey/YABlenderMCP"
+  ],
+  "discovered_at": "2026-11-05T14:46:11Z"
+}

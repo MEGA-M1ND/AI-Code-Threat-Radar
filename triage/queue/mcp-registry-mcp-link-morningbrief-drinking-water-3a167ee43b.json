@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-link-morningbrief-drinking-water-3a167ee43b",
+  "source": "mcp-registry",
+  "key": "mcp:link.morningbrief/drinking-water",
+  "title": "MCP server link.morningbrief/drinking-water: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "link.morningbrief/drinking-water",
+    "rule": "status-change",
+    "version": "1.1.2",
+    "status": "deleted",
+    "description": "EPA drinking water data: 434,757 public water systems, violations, lead & copper, PFAS. No key.",
+    "repository": "",
+    "website": "https://morningbrief.link/water/",
+    "packages": [],
+    "remote_hosts": [
+      "water.morningbrief.link"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T20:24:16.432088Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://morningbrief.link/water/",
+    "https://water.morningbrief.link/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:13Z"
+}

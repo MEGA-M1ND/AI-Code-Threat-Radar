@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-wildrunai-wildrunai-c9a5388740",
+  "source": "mcp-registry",
+  "key": "mcp:com.wildrunai/wildrunai",
+  "title": "MCP server com.wildrunai/wildrunai: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.wildrunai/wildrunai",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "SEO, AEO and GEO service for Bend and Central Oregon, plus the article archive as Markdown.",
+    "repository": "",
+    "website": "https://wildrunai.com",
+    "packages": [],
+    "remote_hosts": [
+      "wildrunai.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-26T21:47:52.826232Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://wildrunai.com",
+    "https://wildrunai.com/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:09Z"
+}

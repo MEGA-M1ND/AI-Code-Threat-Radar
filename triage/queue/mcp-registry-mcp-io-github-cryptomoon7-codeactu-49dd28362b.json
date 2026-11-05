@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-cryptomoon7-codeactu-49dd28362b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Cryptomoon7/codeactu",
+  "title": "MCP server io.github.Cryptomoon7/codeactu: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Cryptomoon7/codeactu",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Codes de parrainage vérifiés à la source (France et francophonie) : code, primes, conditions.",
+    "repository": "",
+    "website": "https://meilleurcodeparrainage.com/assistants-ia/",
+    "packages": [],
+    "remote_hosts": [
+      "meilleurcodeparrainage.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T18:30:42.495496Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://meilleurcodeparrainage.com/assistants-ia/",
+    "https://meilleurcodeparrainage.com/mcp"
+  ],
+  "discovered_at": "2026-11-05T14:46:10Z"
+}

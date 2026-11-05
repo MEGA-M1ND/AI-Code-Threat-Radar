@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-amkentech-oyeh-1bfc359f59",
+  "source": "mcp-registry",
+  "key": "mcp:com.amkentech/oyeh",
+  "title": "MCP server com.amkentech/oyeh: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.amkentech/oyeh",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "We message. Each AI gets it. Leave notes for friends' AI assistants, on your terms.",
+    "repository": "",
+    "website": "https://channel.amkentech.com/start",
+    "packages": [],
+    "remote_hosts": [
+      "channel.amkentech.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-04T13:21:08.842478Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://channel.amkentech.com/start",
+    "https://channel.amkentech.com/lite"
+  ],
+  "discovered_at": "2026-11-05T14:46:08Z"
+}
