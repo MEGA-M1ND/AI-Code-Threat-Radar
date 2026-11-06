@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-app-withglint-recallradar-recallrada-554f5da7b4",
+  "source": "mcp-registry",
+  "key": "mcp:app.withglint.recallradar/recallradar",
+  "title": "MCP server app.withglint.recallradar/recallradar: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.withglint.recallradar/recallradar",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Search U.S. FDA, USDA FSIS, and CPSC recalls, fetch one, or diff since a date. API key or x402.",
+    "repository": "",
+    "website": "https://recallradar.withglint.app/docs",
+    "packages": [],
+    "remote_hosts": [
+      "recallradar.withglint.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-14T08:10:59.228762Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://recallradar.withglint.app/docs",
+    "https://recallradar.withglint.app/mcp"
+  ],
+  "discovered_at": "2026-11-06T14:24:08Z"
+}

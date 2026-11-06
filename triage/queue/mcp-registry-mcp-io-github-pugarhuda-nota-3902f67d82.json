@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-pugarhuda-nota-3902f67d82",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.PugarHuda/nota",
+  "title": "MCP server io.github.PugarHuda/nota: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.PugarHuda/nota",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Read-only crypto research skills that check a price, RSI and ATR against independent sources.",
+    "repository": "https://github.com/PugarHuda/nota",
+    "website": "https://nota-ryo.vercel.app",
+    "packages": [],
+    "remote_hosts": [
+      "nota-ryo.vercel.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-10T13:26:24.877966Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/PugarHuda/nota",
+    "https://nota-ryo.vercel.app",
+    "https://nota-ryo.vercel.app/mcp"
+  ],
+  "discovered_at": "2026-11-06T14:24:10Z"
+}

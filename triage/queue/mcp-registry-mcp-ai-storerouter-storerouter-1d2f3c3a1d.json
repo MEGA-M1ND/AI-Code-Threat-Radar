@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-storerouter-storerouter-1d2f3c3a1d",
+  "source": "mcp-registry",
+  "key": "mcp:ai.storerouter/storerouter",
+  "title": "MCP server ai.storerouter/storerouter: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.storerouter/storerouter",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Search and look up products across thousands of online stores, normalized into one schema.",
+    "repository": "",
+    "website": "https://storerouter.ai/docs/mcp/overview",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.storerouter.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-04T16:39:11.194521Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://storerouter.ai/docs/mcp/overview",
+    "https://mcp.storerouter.ai/mcp"
+  ],
+  "discovered_at": "2026-11-06T14:24:08Z"
+}

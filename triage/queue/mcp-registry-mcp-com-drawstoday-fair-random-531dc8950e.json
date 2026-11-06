@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-drawstoday-fair-random-531dc8950e",
+  "source": "mcp-registry",
+  "key": "mcp:com.drawstoday/fair-random",
+  "title": "MCP server com.drawstoday/fair-random: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.drawstoday/fair-random",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Fair, reproducible randomness for agents: dice, coins, integers, list picks, shuffles, with seeds.",
+    "repository": "",
+    "website": "https://drawstoday.com/",
+    "packages": [],
+    "remote_hosts": [
+      "drawstoday.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-31T05:10:41.074675Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://drawstoday.com/",
+    "https://drawstoday.com/mcp/random"
+  ],
+  "discovered_at": "2026-11-06T14:24:09Z"
+}

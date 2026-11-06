@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-cyberpunk11147-cyberwarex--8bef821e5c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.CyberPunk11147/cyberwarex-voice-stt",
+  "title": "MCP server io.github.CyberPunk11147/cyberwarex-voice-stt: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.CyberPunk11147/cyberwarex-voice-stt",
+    "rule": "status-change",
+    "version": "1.5.0",
+    "status": "deprecated",
+    "description": "Speech-to-text transcription for AI agents.",
+    "repository": "https://github.com/CyberPunk11147/cyberwarex-mcp",
+    "website": "https://cyberwarex.com",
+    "packages": [
+      "oci:ghcr.io/cyberpunk11147/cyberwarex-voice-stt:1.5.0"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-10T11:13:10.209015Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/CyberPunk11147/cyberwarex-mcp",
+    "https://cyberwarex.com"
+  ],
+  "discovered_at": "2026-11-06T14:24:10Z"
+}

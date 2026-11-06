@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-hanaprism-lottery-numbers-54fdd44888",
+  "source": "mcp-registry",
+  "key": "mcp:com.hanaprism/lottery-numbers",
+  "title": "MCP server com.hanaprism/lottery-numbers: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.hanaprism/lottery-numbers",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Lottery picks in any format, past draws, ticket check, and a link for numbers drawn from a sentence.",
+    "repository": "",
+    "website": "https://hanaprism.com/",
+    "packages": [],
+    "remote_hosts": [
+      "hanaprism.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-31T00:31:50.17739Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://hanaprism.com/",
+    "https://hanaprism.com/mcp/lottery"
+  ],
+  "discovered_at": "2026-11-06T14:24:09Z"
+}

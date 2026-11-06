@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-dadiosity-dadiosity-20a84686e4",
+  "source": "mcp-registry",
+  "key": "mcp:com.dadiosity/dadiosity",
+  "title": "MCP server com.dadiosity/dadiosity: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.dadiosity/dadiosity",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "One short daily lesson and a simple evening plan for parents of toddlers.",
+    "repository": "https://github.com/wdlcmu/dadiosity",
+    "website": "https://dadiosity.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.dadiosity.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T03:53:16.713821Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/wdlcmu/dadiosity",
+    "https://dadiosity.com",
+    "https://mcp.dadiosity.com/mcp"
+  ],
+  "discovered_at": "2026-11-06T14:24:09Z"
+}

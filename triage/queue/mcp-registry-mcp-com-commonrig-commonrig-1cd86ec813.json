@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-commonrig-commonrig-1cd86ec813",
+  "source": "mcp-registry",
+  "key": "mcp:com.commonrig/commonrig",
+  "title": "MCP server com.commonrig/commonrig: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.commonrig/commonrig",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Agent operating kit for Claude Code and Codex: rules, hooks, work ledger, protocols and rig doctor.",
+    "repository": "",
+    "website": "https://commonrig.com",
+    "packages": [],
+    "remote_hosts": [
+      "commonrig.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T01:06:30.058688Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://commonrig.com",
+    "https://commonrig.com/mcp"
+  ],
+  "discovered_at": "2026-11-06T14:24:09Z"
+}

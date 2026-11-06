@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-intoperson-tools-lottery-numbers-53f3e2fdf3",
+  "source": "mcp-registry",
+  "key": "mcp:com.intoperson.tools/lottery-numbers",
+  "title": "MCP server com.intoperson.tools/lottery-numbers: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.intoperson.tools/lottery-numbers",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Lottery picks in any format, past draws, ticket check, and a link for numbers drawn from a sentence.",
+    "repository": "",
+    "website": "https://tools.intoperson.com/",
+    "packages": [],
+    "remote_hosts": [
+      "tools.intoperson.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-27T05:40:27.769375Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tools.intoperson.com/",
+    "https://tools.intoperson.com/mcp/lottery"
+  ],
+  "discovered_at": "2026-11-06T14:24:09Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-turbonotify-whatsapp-14d80c175b",
+  "source": "mcp-registry",
+  "key": "mcp:com.turbonotify/whatsapp",
+  "title": "MCP server com.turbonotify/whatsapp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.turbonotify/whatsapp",
+    "rule": "status-change",
+    "version": "0.1.5",
+    "status": "deleted",
+    "description": "Send and receive WhatsApp messages from your AI agent, on your own number, with Turbo Notify.",
+    "repository": "https://github.com/turbo-notify/agent-skills",
+    "website": "https://docs.turbonotify.com/en/agents/mcp-server/",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.turbonotify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-06T10:53:35.923432Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/turbo-notify/agent-skills",
+    "https://docs.turbonotify.com/en/agents/mcp-server/",
+    "https://mcp.turbonotify.com"
+  ],
+  "discovered_at": "2026-11-06T14:24:09Z"
+}

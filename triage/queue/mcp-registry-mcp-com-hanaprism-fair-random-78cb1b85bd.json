@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-hanaprism-fair-random-78cb1b85bd",
+  "source": "mcp-registry",
+  "key": "mcp:com.hanaprism/fair-random",
+  "title": "MCP server com.hanaprism/fair-random: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.hanaprism/fair-random",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Fair, reproducible randomness for agents: dice, coins, integers, list picks, shuffles, with seeds.",
+    "repository": "",
+    "website": "https://hanaprism.com/",
+    "packages": [],
+    "remote_hosts": [
+      "hanaprism.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-31T00:31:50.363884Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://hanaprism.com/",
+    "https://hanaprism.com/mcp/random"
+  ],
+  "discovered_at": "2026-11-06T14:24:09Z"
+}
