@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-hashgrid-sdk-0ecc26a527",
+  "source": "mcp-registry",
+  "key": "mcp:ai.hashgrid/sdk",
+  "title": "MCP server ai.hashgrid/sdk: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.hashgrid/sdk",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "Search that learns from feedback, over text and images: embeds locally, sends DNA only vectors.",
+    "repository": "https://github.com/hashgrid-labs/sdk",
+    "website": "https://dna.hashgrid.ai",
+    "packages": [
+      "pypi:hashgrid"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T09:33:41.0938Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/hashgrid-labs/sdk",
+    "https://dna.hashgrid.ai"
+  ],
+  "discovered_at": "2026-11-07T13:14:50Z"
+}

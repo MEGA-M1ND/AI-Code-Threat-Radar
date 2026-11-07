@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-so-rails-jobbot-54557c6da6",
+  "source": "mcp-registry",
+  "key": "mcp:so.rails/jobbot",
+  "title": "MCP server so.rails/jobbot: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "so.rails/jobbot",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "A job search where every document line cites a fact you can check; nothing is sent for you.",
+    "repository": "",
+    "website": "https://jobbot.rails.so/",
+    "packages": [],
+    "remote_hosts": [
+      "jobbot.rails.so"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T20:36:47.118433Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://jobbot.rails.so/",
+    "https://jobbot.rails.so/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:53Z"
+}

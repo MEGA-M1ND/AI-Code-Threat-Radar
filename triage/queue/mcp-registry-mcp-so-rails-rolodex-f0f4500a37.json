@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-so-rails-rolodex-f0f4500a37",
+  "source": "mcp-registry",
+  "key": "mcp:so.rails/rolodex",
+  "title": "MCP server so.rails/rolodex: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "so.rails/rolodex",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Relationship memory: who owes the next move, with the evidence behind every line.",
+    "repository": "",
+    "website": "https://rolodex.rails.so/",
+    "packages": [],
+    "remote_hosts": [
+      "rolodex.rails.so"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T20:36:45.888234Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://rolodex.rails.so/",
+    "https://rolodex.rails.so/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:53Z"
+}

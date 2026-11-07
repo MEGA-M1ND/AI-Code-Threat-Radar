@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-so-rails-tutor-7c099df9f5",
+  "source": "mcp-registry",
+  "key": "mcp:so.rails/tutor",
+  "title": "MCP server so.rails/tutor: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "so.rails/tutor",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Practice Spanish, French or Russian in short conversations, with corrections.",
+    "repository": "",
+    "website": "https://tutor.rails.so/",
+    "packages": [],
+    "remote_hosts": [
+      "tutor.rails.so"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T20:36:46.811563Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tutor.rails.so/",
+    "https://tutor.rails.so/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:53Z"
+}

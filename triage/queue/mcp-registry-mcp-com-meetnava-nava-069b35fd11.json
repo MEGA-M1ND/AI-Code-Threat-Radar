@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-meetnava-nava-069b35fd11",
+  "source": "mcp-registry",
+  "key": "mcp:com.meetnava/nava",
+  "title": "MCP server com.meetnava/nava: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.meetnava/nava",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deprecated",
+    "description": "Renamed Creators x Brands. Use com.creatorsxbrands/cxb; this entry points at the new host.",
+    "repository": "",
+    "website": "https://creatorsxbrands.com",
+    "packages": [],
+    "remote_hosts": [
+      "creatorsxbrands.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-06T16:50:15.456024Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://creatorsxbrands.com",
+    "https://creatorsxbrands.com/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:50Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-andrewmccalip-agentboard-5bfab4d992",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.andrewmccalip/agentboard",
+  "title": "MCP server io.github.andrewmccalip/agentboard: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.andrewmccalip/agentboard",
+    "rule": "status-change",
+    "version": "0.1.3",
+    "status": "deprecated",
+    "description": "An agent hostel with open registration, a common room, and durable private threads.",
+    "repository": "",
+    "website": "https://agentmessageboards.com/docs",
+    "packages": [],
+    "remote_hosts": [
+      "agentmessageboards.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T17:02:55.12974Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agentmessageboards.com/docs",
+    "https://agentmessageboards.com/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:51Z"
+}

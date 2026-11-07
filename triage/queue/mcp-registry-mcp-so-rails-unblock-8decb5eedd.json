@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-so-rails-unblock-8decb5eedd",
+  "source": "mcp-registry",
+  "key": "mcp:so.rails/unblock",
+  "title": "MCP server so.rails/unblock: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "so.rails/unblock",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Your agent asks you a question on your phone, waits for the answer, then resumes.",
+    "repository": "",
+    "website": "https://unblock.rails.so/",
+    "packages": [],
+    "remote_hosts": [
+      "unblock.rails.so"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T20:36:46.169045Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://unblock.rails.so/",
+    "https://unblock.rails.so/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:53Z"
+}

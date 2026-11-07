@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-matthewrusk-nugit-7fb42994fa",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.matthewrusk/nugit",
+  "title": "MCP server io.github.matthewrusk/nugit: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.matthewrusk/nugit",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Save selected AI-generated answers as private Nugs in your personal NugIt library.",
+    "repository": "https://github.com/matthewrusk/nugit",
+    "website": "https://nugit.ai/ai/copilot",
+    "packages": [],
+    "remote_hosts": [
+      "nugit.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-01T00:54:09.971359Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/matthewrusk/nugit",
+    "https://nugit.ai/ai/copilot",
+    "https://nugit.ai/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:52Z"
+}

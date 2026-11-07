@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-lol-masti-tunnel-ezremote-48814037ae",
+  "source": "mcp-registry",
+  "key": "mcp:lol.masti.tunnel/ezremote",
+  "title": "MCP server lol.masti.tunnel/ezremote: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "lol.masti.tunnel/ezremote",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "Use a person's computer after they approve it there: files, Terminal, browser, local MCP.",
+    "repository": "",
+    "website": "https://tunnel.masti.lol/",
+    "packages": [],
+    "remote_hosts": [
+      "tunnel.masti.lol"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T20:36:04.728589Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tunnel.masti.lol/",
+    "https://tunnel.masti.lol/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:53Z"
+}

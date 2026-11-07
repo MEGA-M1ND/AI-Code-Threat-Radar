@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-hybridforgelab-shipshape-m-82037b0586",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.hybridforgelab/shipshape-mcp",
+  "title": "MCP server io.github.hybridforgelab/shipshape-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.hybridforgelab/shipshape-mcp",
+    "rule": "status-change",
+    "version": "0.2.3",
+    "status": "deprecated",
+    "description": "Dockerfile and Kubernetes lint for AI agents: Pod Security Standards, A–F grade, a fix per finding.",
+    "repository": "https://github.com/hybridforgelab/shipshape-mcp",
+    "website": "https://shipshape.hybridforgelab.com/integration.html#mcp-server",
+    "packages": [
+      "pypi:hybridforgelab-shipshape-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T23:27:38.103167Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/hybridforgelab/shipshape-mcp",
+    "https://shipshape.hybridforgelab.com/integration.html#mcp-server"
+  ],
+  "discovered_at": "2026-11-07T13:14:52Z"
+}

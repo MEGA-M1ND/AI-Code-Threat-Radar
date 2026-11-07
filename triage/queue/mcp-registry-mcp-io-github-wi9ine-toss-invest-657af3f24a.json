@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-wi9ine-toss-invest-657af3f24a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.wi9ine/toss-invest",
+  "title": "MCP server io.github.wi9ine/toss-invest: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.wi9ine/toss-invest",
+    "rule": "status-change",
+    "version": "0.4.1",
+    "status": "deprecated",
+    "description": "Access Toss Securities market, account, and opt-in trading APIs through MCP.",
+    "repository": "https://github.com/wi9ine/toss-invest-sdk",
+    "website": "",
+    "packages": [
+      "npm:@wi9ine/toss-invest-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T14:53:20.665992Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/wi9ine/toss-invest-sdk"
+  ],
+  "discovered_at": "2026-11-07T13:14:52Z"
+}

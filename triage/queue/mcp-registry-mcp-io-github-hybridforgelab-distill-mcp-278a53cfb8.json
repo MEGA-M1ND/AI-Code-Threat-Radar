@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-hybridforgelab-distill-mcp-278a53cfb8",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.hybridforgelab/distill-mcp",
+  "title": "MCP server io.github.hybridforgelab/distill-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.hybridforgelab/distill-mcp",
+    "rule": "status-change",
+    "version": "0.2.3",
+    "status": "deprecated",
+    "description": "Web pages to clean Markdown for AI agents, honouring robots.txt and AI opt-outs.",
+    "repository": "https://github.com/hybridforgelab/distill-mcp",
+    "website": "https://distill.hybridforgelab.com/integration.html#mcp-server",
+    "packages": [
+      "pypi:hybridforgelab-distill-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T23:27:30.098901Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/hybridforgelab/distill-mcp",
+    "https://distill.hybridforgelab.com/integration.html#mcp-server"
+  ],
+  "discovered_at": "2026-11-07T13:14:52Z"
+}

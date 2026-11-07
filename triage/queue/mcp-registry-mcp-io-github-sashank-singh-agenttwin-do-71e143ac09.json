@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-sashank-singh-agenttwin-do-71e143ac09",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Sashank-Singh/agenttwin-docs",
+  "title": "MCP server io.github.Sashank-Singh/agenttwin-docs: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Sashank-Singh/agenttwin-docs",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Search AgentTwin agent testing guides, Node CLI commands and supported synthetic service contracts.",
+    "repository": "",
+    "website": "https://agenttwin.si/developers/",
+    "packages": [],
+    "remote_hosts": [
+      "agenttwin.si"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T00:08:41.71259Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agenttwin.si/developers/",
+    "https://agenttwin.si/mcp/docs"
+  ],
+  "discovered_at": "2026-11-07T13:14:51Z"
+}

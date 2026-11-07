@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-dbhurley-ppl-70c46fd839",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.dbhurley/ppl",
+  "title": "MCP server io.github.dbhurley/ppl: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.dbhurley/ppl",
+    "rule": "status-change",
+    "version": "1.2.1",
+    "status": "deprecated",
+    "description": "Personal CRM operated by AI agents. Read relationship context before acting, write back after.",
+    "repository": "https://github.com/ppl-crm/ppl",
+    "website": "https://ppl.gift",
+    "packages": [],
+    "remote_hosts": [
+      "ppl.gift"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-10-03T16:17:58.288803Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ppl-crm/ppl",
+    "https://ppl.gift",
+    "https://ppl.gift/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:52Z"
+}

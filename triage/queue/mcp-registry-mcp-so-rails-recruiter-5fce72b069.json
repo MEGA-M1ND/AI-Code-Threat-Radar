@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-so-rails-recruiter-5fce72b069",
+  "source": "mcp-registry",
+  "key": "mcp:so.rails/recruiter",
+  "title": "MCP server so.rails/recruiter: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "so.rails/recruiter",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Paste a role; get candidates with evidence per requirement and outreach drafts you approve.",
+    "repository": "",
+    "website": "https://recruiter.rails.so/",
+    "packages": [],
+    "remote_hosts": [
+      "recruiter.rails.so"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T20:36:45.643678Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://recruiter.rails.so/",
+    "https://recruiter.rails.so/mcp"
+  ],
+  "discovered_at": "2026-11-07T13:14:53Z"
+}
