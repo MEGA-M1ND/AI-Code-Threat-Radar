@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-pironjulien-nexus-windows--8f53d87861",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.pironjulien/nexus-windows-antigravity",
+  "title": "MCP server io.github.pironjulien/nexus-windows-antigravity: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.pironjulien/nexus-windows-antigravity",
+    "rule": "status-change",
+    "version": "3.6.0",
+    "status": "deprecated",
+    "description": "Windows computer use in the background for Antigravity: UI Automation, Win32 messages, read back.",
+    "repository": "https://github.com/pironjulien/NexusWindows-Antigravity",
+    "website": "https://julienpiron.fr/nexuswindows/antigravity/",
+    "packages": [
+      "pypi:nexus-windows-antigravity"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-28T17:15:34.974087Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/pironjulien/NexusWindows-Antigravity",
+    "https://julienpiron.fr/nexuswindows/antigravity/"
+  ],
+  "discovered_at": "2026-11-08T13:36:20Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-sparka-sparka-4d7d596e52",
+  "source": "mcp-registry",
+  "key": "mcp:io.sparka/sparka",
+  "title": "MCP server io.sparka/sparka: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.sparka/sparka",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Your AI sets up live quizzes, polls and word clouds. People join on their phones with a PIN or QR.",
+    "repository": "",
+    "website": "https://sparka.io",
+    "packages": [],
+    "remote_hosts": [
+      "sparka.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T05:41:47.805941Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://sparka.io",
+    "https://sparka.io/mcp"
+  ],
+  "discovered_at": "2026-11-08T13:36:20Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-top-comunicate-publishing-74d50c7f71",
+  "source": "mcp-registry",
+  "key": "mcp:top.comunicate/publishing",
+  "title": "MCP server top.comunicate/publishing: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "top.comunicate/publishing",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Publish press releases and advertorials on 3,800+ news sites: catalogue, prices, orders.",
+    "repository": "https://github.com/adrianncraciun-cmd/public-mcp",
+    "website": "https://comunicate.top/en/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "app.comunicate.top"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-08T23:52:59.329394Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/adrianncraciun-cmd/public-mcp",
+    "https://comunicate.top/en/mcp",
+    "https://app.comunicate.top/mcp"
+  ],
+  "discovered_at": "2026-11-08T13:36:22Z"
+}

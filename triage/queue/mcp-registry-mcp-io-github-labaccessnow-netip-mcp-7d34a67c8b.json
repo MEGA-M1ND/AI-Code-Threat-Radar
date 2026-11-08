@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-labaccessnow-netip-mcp-7d34a67c8b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.labaccessnow/netip-mcp",
+  "title": "MCP server io.github.labaccessnow/netip-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.labaccessnow/netip-mcp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Subnet math, port and MAC lookups, DNS, DNSBL, TLS cert inspection, public IP. No account.",
+    "repository": "https://github.com/labaccessnow/netip-mcp",
+    "website": "https://whatismynetip.com/",
+    "packages": [
+      "oci:ghcr.io/labaccessnow/netip-mcp:0.1.0"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-06T16:51:52.797156Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/labaccessnow/netip-mcp",
+    "https://whatismynetip.com/"
+  ],
+  "discovered_at": "2026-11-08T13:36:19Z"
+}

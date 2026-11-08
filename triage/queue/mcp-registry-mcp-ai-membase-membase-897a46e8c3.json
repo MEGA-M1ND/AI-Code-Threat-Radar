@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-ai-membase-membase-897a46e8c3",
+  "source": "mcp-registry",
+  "key": "mcp:ai.membase/membase",
+  "title": "MCP server ai.membase/membase: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.membase/membase",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Long-term memory for you and your AIs: search memories, read the profile, add facts and documents.",
+    "repository": "https://github.com/unibaseio/membase",
+    "website": "https://app.membase.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.app.membase.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-20T06:42:03.633416Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/unibaseio/membase",
+    "https://app.membase.com",
+    "https://api.app.membase.com/mcp-http"
+  ],
+  "discovered_at": "2026-11-08T13:36:17Z"
+}

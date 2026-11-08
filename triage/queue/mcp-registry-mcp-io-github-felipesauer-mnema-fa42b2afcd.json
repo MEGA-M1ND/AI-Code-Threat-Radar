@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-felipesauer-mnema-fa42b2afcd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.felipesauer/mnema",
+  "title": "MCP server io.github.felipesauer/mnema: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.felipesauer/mnema",
+    "rule": "status-change",
+    "version": "0.1.5",
+    "status": "deprecated",
+    "description": "Signed, append-only decision records for AI coding agents, over MCP. Verify them offline.",
+    "repository": "https://github.com/felipesauer/mnema",
+    "website": "https://felipesauer.github.io/mnema/",
+    "packages": [
+      "npm:@mnema/code"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-04T21:39:32.846177Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/felipesauer/mnema",
+    "https://felipesauer.github.io/mnema/"
+  ],
+  "discovered_at": "2026-11-08T13:36:18Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-pironjulien-nexus-windows--cc9197091c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.pironjulien/nexus-windows-codex",
+  "title": "MCP server io.github.pironjulien/nexus-windows-codex: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.pironjulien/nexus-windows-codex",
+    "rule": "status-change",
+    "version": "3.7.4",
+    "status": "deprecated",
+    "description": "Windows computer use in the background for Codex: UI Automation, Win32 messages, read back.",
+    "repository": "https://github.com/pironjulien/NexusWindows-Codex",
+    "website": "https://julienpiron.fr/nexuswindows/codex/",
+    "packages": [
+      "npm:nexus-windows-codex"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-28T18:20:36.693205Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/pironjulien/NexusWindows-Codex",
+    "https://julienpiron.fr/nexuswindows/codex/"
+  ],
+  "discovered_at": "2026-11-08T13:36:20Z"
+}

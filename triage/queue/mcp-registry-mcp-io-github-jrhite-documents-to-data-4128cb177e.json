@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-jrhite-documents-to-data-4128cb177e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jrhite/documents-to-data",
+  "title": "MCP server io.github.jrhite/documents-to-data: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jrhite/documents-to-data",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Turn PDFs, documents, podcasts and drone photos into Markdown, structured JSON, summaries, reports.",
+    "repository": "https://github.com/jrhite/owlabee",
+    "website": "https://apify.com/owlabee",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T07:14:07.791265Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jrhite/owlabee",
+    "https://apify.com/owlabee",
+    "https://mcp.apify.com/?tools=owlabee/pdf-to-markdown,owlabee/document-to-json-extractor,owlabee/podcast-episode-summarizer,owlabee/drone-roof-inspection-report"
+  ],
+  "discovered_at": "2026-11-08T13:36:19Z"
+}

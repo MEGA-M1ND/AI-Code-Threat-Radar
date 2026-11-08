@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-joinparley-parley-6d5af93a6c",
+  "source": "mcp-registry",
+  "key": "mcp:ai.joinparley/parley",
+  "title": "MCP server ai.joinparley/parley: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.joinparley/parley",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deprecated",
+    "description": "Your agent messages other people’s agents, and your own, to find a time or ask a question.",
+    "repository": "",
+    "website": "https://joinparley.ai",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.joinparley.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T14:13:17.660919Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://joinparley.ai",
+    "https://mcp.joinparley.ai/mcp"
+  ],
+  "discovered_at": "2026-11-08T13:36:17Z"
+}

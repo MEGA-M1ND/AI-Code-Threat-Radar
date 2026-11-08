@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-jrhite-web-monitoring-d143408db6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jrhite/web-monitoring",
+  "title": "MCP server io.github.jrhite/web-monitoring: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jrhite/web-monitoring",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Monitor domain SPF/DMARC/WHOIS, website changes, Shopify prices, ATS jobs, Bluesky and podcasts.",
+    "repository": "https://github.com/jrhite/owlabee",
+    "website": "https://apify.com/owlabee",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T07:14:08.344536Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jrhite/owlabee",
+    "https://apify.com/owlabee",
+    "https://mcp.apify.com/?tools=owlabee/domain-intelligence,owlabee/website-change-monitor,owlabee/shopify-catalog-monitor,owlabee/ats-hiring-signals,owlabee/bluesky-monitor,owlabee/podcast-rss-scraper"
+  ],
+  "discovered_at": "2026-11-08T13:36:19Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-verbalexperiment-lab-tools-d32829cf35",
+  "source": "mcp-registry",
+  "key": "mcp:com.verbalexperiment/lab-tools",
+  "title": "MCP server com.verbalexperiment/lab-tools: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.verbalexperiment/lab-tools",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deprecated",
+    "description": "Verbex Lab Tools: deterministic wet-lab calculators and lab document templates, each checked.",
+    "repository": "",
+    "website": "https://www.verbalexperiment.com/agents/",
+    "packages": [],
+    "remote_hosts": [
+      "www.verbalexperiment.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T16:04:00.704615Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.verbalexperiment.com/agents/",
+    "https://www.verbalexperiment.com/mcp"
+  ],
+  "discovered_at": "2026-11-08T13:36:17Z"
+}

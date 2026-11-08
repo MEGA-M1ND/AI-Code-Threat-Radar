@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-labaccessnow-secops-field--877d0789e1",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.labaccessnow/secops-field-notes-mcp",
+  "title": "MCP server io.github.labaccessnow/secops-field-notes-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.labaccessnow/secops-field-notes-mcp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "CVSS scoring, IOC extraction, email header triage, hash/JWT/timestamp decoding, CISA KEV lookup.",
+    "repository": "https://github.com/labaccessnow/secops-field-notes-mcp",
+    "website": "https://secopsfieldnotes.com/",
+    "packages": [
+      "oci:ghcr.io/labaccessnow/secops-field-notes-mcp:0.1.0"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-06T18:28:06.651074Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/labaccessnow/secops-field-notes-mcp",
+    "https://secopsfieldnotes.com/"
+  ],
+  "discovered_at": "2026-11-08T13:36:19Z"
+}

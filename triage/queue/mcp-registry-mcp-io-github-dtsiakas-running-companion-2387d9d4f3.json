@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-dtsiakas-running-companion-2387d9d4f3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Dtsiakas/running-companion",
+  "title": "MCP server io.github.Dtsiakas/running-companion: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Dtsiakas/running-companion",
+    "rule": "status-change",
+    "version": "0.3.3",
+    "status": "deleted",
+    "description": "Your own Garmin running and health data: readiness, runs, sleep, trends and patterns. Self-hosted.",
+    "repository": "https://github.com/Dtsiakas/running-companion",
+    "website": "https://github.com/Dtsiakas/running-companion#quick-start",
+    "packages": [
+      "oci:ghcr.io/dtsiakas/running-companion:0.3.3"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-06T23:44:35.066652Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Dtsiakas/running-companion",
+    "https://github.com/Dtsiakas/running-companion#quick-start"
+  ],
+  "discovered_at": "2026-11-08T13:36:18Z"
+}

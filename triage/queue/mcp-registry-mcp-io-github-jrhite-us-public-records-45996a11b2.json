@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-jrhite-us-public-records-45996a11b2",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jrhite/us-public-records",
+  "title": "MCP server io.github.jrhite/us-public-records: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jrhite/us-public-records",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "US public records as JSON: building permits, Grants.gov/SAM.gov, OSHA/EPA, recalls, licenses, PACER.",
+    "repository": "https://github.com/jrhite/owlabee",
+    "website": "https://apify.com/owlabee",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T07:14:08.066Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jrhite/owlabee",
+    "https://apify.com/owlabee",
+    "https://mcp.apify.com/?tools=owlabee/building-permits-scraper,owlabee/accela-energov-permit-scraper,owlabee/grants-gov-api,owlabee/gov-opportunity-fit-scorer,owlabee/osha-epa-enforcement-report,owlabee/product-recall-feed,owlabee/us-license-verifier,owlabee/federal-court-docket-monitor"
+  ],
+  "discovered_at": "2026-11-08T13:36:19Z"
+}
