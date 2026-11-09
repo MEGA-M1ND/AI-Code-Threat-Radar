@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-johnisanerd-successfactors-eb9f51e940",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.johnisanerd/successfactors-jobs",
+  "title": "MCP server io.github.johnisanerd/successfactors-jobs: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.johnisanerd/successfactors-jobs",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "SAP SuccessFactors public career-site jobs via an Apify Actor, hosted MCP.",
+    "repository": "https://github.com/johnisanerd/claude-skill-successfactors-jobs-api",
+    "website": "https://apify.com/johnvc/sap-successfactors-jobs-api?fpr=9n7kx3&fp_sid=mcpregistry",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-08T17:53:46.691355Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/johnisanerd/claude-skill-successfactors-jobs-api",
+    "https://apify.com/johnvc/sap-successfactors-jobs-api?fpr=9n7kx3&fp_sid=mcpregistry",
+    "https://mcp.apify.com/?tools=johnvc/sap-successfactors-jobs-api"
+  ],
+  "discovered_at": "2026-11-09T16:35:20Z"
+}

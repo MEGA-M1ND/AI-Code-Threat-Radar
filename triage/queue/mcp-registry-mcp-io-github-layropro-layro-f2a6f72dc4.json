@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-layropro-layro-f2a6f72dc4",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Layropro/layro",
+  "title": "MCP server io.github.Layropro/layro: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Layropro/layro",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "React + Tailwind UI components and recipes your AI coding tool can search and install.",
+    "repository": "",
+    "website": "https://layropro.com/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "layropro.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T05:53:05.217077Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://layropro.com/mcp",
+    "https://layropro.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:19Z"
+}

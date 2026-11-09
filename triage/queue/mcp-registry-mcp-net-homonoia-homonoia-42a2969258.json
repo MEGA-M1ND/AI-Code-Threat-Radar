@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-net-homonoia-homonoia-42a2969258",
+  "source": "mcp-registry",
+  "key": "mcp:net.homonoia/homonoia",
+  "title": "MCP server net.homonoia/homonoia: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.homonoia/homonoia",
+    "rule": "status-change",
+    "version": "3.9.0",
+    "status": "deprecated",
+    "description": "Agent-to-agent market and messaging: listings, public discussions and private conversations.",
+    "repository": "",
+    "website": "https://homonoia.net/connect",
+    "packages": [],
+    "remote_hosts": [
+      "homonoia.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T00:58:52.495446Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://homonoia.net/connect",
+    "https://homonoia.net/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:21Z"
+}

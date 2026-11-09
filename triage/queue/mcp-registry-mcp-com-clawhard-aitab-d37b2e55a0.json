@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-clawhard-aitab-d37b2e55a0",
+  "source": "mcp-registry",
+  "key": "mcp:com.clawhard/aitab",
+  "title": "MCP server com.clawhard/aitab: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.clawhard/aitab",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Total what you pay for AI subscriptions: monthly, yearly and per day, from list prices.",
+    "repository": "",
+    "website": "https://aitab.clawhard.com",
+    "packages": [],
+    "remote_hosts": [
+      "aitab.clawhard.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T21:17:25.072811Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://aitab.clawhard.com",
+    "https://aitab.clawhard.com/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:18Z"
+}

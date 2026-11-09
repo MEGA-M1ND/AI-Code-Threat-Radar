@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-clawhard-fluff-b94345a421",
+  "source": "mcp-registry",
+  "key": "mcp:com.clawhard/fluff",
+  "title": "MCP server com.clawhard/fluff: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.clawhard/fluff",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Find filler and buzzwords in text and score how much of it says nothing.",
+    "repository": "",
+    "website": "https://fluff.clawhard.com",
+    "packages": [],
+    "remote_hosts": [
+      "fluff.clawhard.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T21:17:25.427746Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://fluff.clawhard.com",
+    "https://fluff.clawhard.com/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:18Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-cn-pianam-mcp-mcp-gateway-68e3586cb7",
+  "source": "mcp-registry",
+  "key": "mcp:cn.pianam.mcp/mcp-gateway",
+  "title": "MCP server cn.pianam.mcp/mcp-gateway: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "cn.pianam.mcp/mcp-gateway",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "One AI endpoint to search and call 22k+ MCP servers; 50+ hosted tools work instantly, no key.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.pianam.cn"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-04T06:21:24.758739Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.pianam.cn/ai/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:17Z"
+}

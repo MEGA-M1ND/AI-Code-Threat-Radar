@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-clawhard-lingo-c6b60d07b6",
+  "source": "mcp-registry",
+  "key": "mcp:com.clawhard/lingo",
+  "title": "MCP server com.clawhard/lingo: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.clawhard/lingo",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Turn vague design requests like \"make it pop\" into precise design terms and a brief.",
+    "repository": "",
+    "website": "https://lingo.clawhard.com",
+    "packages": [],
+    "remote_hosts": [
+      "lingo.clawhard.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T21:17:25.812864Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://lingo.clawhard.com",
+    "https://lingo.clawhard.com/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:18Z"
+}

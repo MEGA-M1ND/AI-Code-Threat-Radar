@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-clawhard-tells-9823ea43b7",
+  "source": "mcp-registry",
+  "key": "mcp:com.clawhard/tells",
+  "title": "MCP server com.clawhard/tells: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.clawhard/tells",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Score text 0 to 100 for chatbot habits like filler, em dashes and buzzwords, each one marked.",
+    "repository": "",
+    "website": "https://tells.clawhard.com",
+    "packages": [],
+    "remote_hosts": [
+      "tells.clawhard.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T21:17:26.710364Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tells.clawhard.com",
+    "https://tells.clawhard.com/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:18Z"
+}

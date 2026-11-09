@@ -1,0 +1,40 @@
+{
+  "id": "mcp-registry-mcp-com-usegithubthing-ugt-928fae585d",
+  "source": "mcp-registry",
+  "key": "mcp:com.usegithubthing/ugt",
+  "title": "MCP server com.usegithubthing/ugt: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.usegithubthing/ugt",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deprecated",
+    "description": "Get open-source GitHub projects running on your computer, with your AI app",
+    "repository": "https://github.com/auscaster/ugt",
+    "website": "https://usegithubthing.com",
+    "packages": [
+      "mcpb:https://github.com/auscaster/ugt/releases/download/v0.3.0/ugt-mcp-darwin-arm64.mcpb",
+      "mcpb:https://github.com/auscaster/ugt/releases/download/v0.3.0/ugt-mcp-darwin-amd64.mcpb",
+      "mcpb:https://github.com/auscaster/ugt/releases/download/v0.3.0/ugt-mcp-linux-amd64.mcpb",
+      "mcpb:https://github.com/auscaster/ugt/releases/download/v0.3.0/ugt-mcp-linux-arm64.mcpb",
+      "mcpb:https://github.com/auscaster/ugt/releases/download/v0.3.0/ugt-mcp-windows-amd64.mcpb"
+    ],
+    "remote_hosts": [
+      "mcp.usegithubthing.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T09:23:58.979436Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/auscaster/ugt",
+    "https://usegithubthing.com",
+    "https://mcp.usegithubthing.com/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:18Z"
+}

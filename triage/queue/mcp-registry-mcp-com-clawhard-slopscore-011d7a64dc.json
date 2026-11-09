@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-clawhard-slopscore-011d7a64dc",
+  "source": "mcp-registry",
+  "key": "mcp:com.clawhard/slopscore",
+  "title": "MCP server com.clawhard/slopscore: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.clawhard/slopscore",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Score a public website 0 to 100 for the design habits that make it look AI-made.",
+    "repository": "",
+    "website": "https://slopscore.clawhard.com",
+    "packages": [],
+    "remote_hosts": [
+      "slopscore.clawhard.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T21:17:26.310997Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://slopscore.clawhard.com",
+    "https://slopscore.clawhard.com/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:18Z"
+}

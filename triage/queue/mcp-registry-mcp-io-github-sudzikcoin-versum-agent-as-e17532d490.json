@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-sudzikcoin-versum-agent-as-e17532d490",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sudzikcoin/versum-agent-assistant",
+  "title": "MCP server io.github.sudzikcoin/versum-agent-assistant: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sudzikcoin/versum-agent-assistant",
+    "rule": "status-change",
+    "version": "1.6.2",
+    "status": "deprecated",
+    "description": "Find local US businesses: what they offer, prices from their own sites, and how to order or book.",
+    "repository": "https://github.com/sudzikcoin/versum-agent-assistant",
+    "website": "https://versum.suverse.io",
+    "packages": [],
+    "remote_hosts": [
+      "versum.suverse.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T20:40:30.86506Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/sudzikcoin/versum-agent-assistant",
+    "https://versum.suverse.io",
+    "https://versum.suverse.io/mcp"
+  ],
+  "discovered_at": "2026-11-09T16:35:21Z"
+}
