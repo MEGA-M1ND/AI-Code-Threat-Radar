@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miradero-ayoh-b305d408cf",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miradero/ayoh",
+  "title": "MCP server io.github.miradero/ayoh: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miradero/ayoh",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Chat, mail, boards, notes, calendar, contacts and digests in one AI app, free on your Cloudflare.",
+    "repository": "",
+    "website": "https://ayoh.dev",
+    "packages": [],
+    "remote_hosts": [
+      "ayoh.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T22:25:41.313072Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ayoh.dev",
+    "https://ayoh.dev/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

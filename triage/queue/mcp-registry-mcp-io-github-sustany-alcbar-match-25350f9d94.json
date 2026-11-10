@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-sustany-alcbar-match-25350f9d94",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sustany/alcbar-match",
+  "title": "MCP server io.github.sustany/alcbar-match: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sustany/alcbar-match",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "Find, compare and price licensed U.S. lawyers from official licensing records. Not legal advice.",
+    "repository": "",
+    "website": "https://directory.esqcopilot.com/",
+    "packages": [],
+    "remote_hosts": [
+      "match.esqcopilot.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T14:52:43.105363Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://directory.esqcopilot.com/",
+    "https://match.esqcopilot.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

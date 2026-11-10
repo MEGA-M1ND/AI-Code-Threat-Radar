@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-leadsfreshdb-leads-fresh-db-e4e379b08c",
+  "source": "mcp-registry",
+  "key": "mcp:com.leadsfreshdb/leads-fresh-db",
+  "title": "MCP server com.leadsfreshdb/leads-fresh-db: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.leadsfreshdb/leads-fresh-db",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Live prices and quotes for fresh, filtered phone leads in any country, plus a free 200-number sample",
+    "repository": "",
+    "website": "https://leadsfreshdb.com/",
+    "packages": [],
+    "remote_hosts": [
+      "leadsfreshdb.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T17:09:23.485457Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://leadsfreshdb.com/",
+    "https://leadsfreshdb.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:36Z"
+}

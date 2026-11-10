@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miradero-bitepods-099749fcd5",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miradero/bitepods",
+  "title": "MCP server io.github.miradero/bitepods: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miradero/bitepods",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Free podcast clip maker: share the exact moment of an episode from YouTube, Spotify or Apple.",
+    "repository": "",
+    "website": "https://bitepods.com",
+    "packages": [],
+    "remote_hosts": [
+      "bitepods.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T22:25:41.823723Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://bitepods.com",
+    "https://bitepods.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

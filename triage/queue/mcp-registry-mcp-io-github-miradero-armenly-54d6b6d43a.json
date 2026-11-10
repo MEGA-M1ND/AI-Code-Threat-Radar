@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miradero-armenly-54d6b6d43a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miradero/armenly",
+  "title": "MCP server io.github.miradero/armenly: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miradero/armenly",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Free Armenian music streaming: 1,800+ artists and 60,000 songs, from pop and rabiz to duduk.",
+    "repository": "",
+    "website": "https://armenly.com",
+    "packages": [],
+    "remote_hosts": [
+      "armenly.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T22:25:40.836579Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://armenly.com",
+    "https://armenly.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

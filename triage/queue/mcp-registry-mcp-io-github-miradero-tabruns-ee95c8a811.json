@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miradero-tabruns-ee95c8a811",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miradero/tabruns",
+  "title": "MCP server io.github.miradero/tabruns: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miradero/tabruns",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Dental insurance estimates in dollars: what a PPO plan pays and what the patient owes.",
+    "repository": "",
+    "website": "https://tabruns.com",
+    "packages": [],
+    "remote_hosts": [
+      "tabruns.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T22:33:26.212177Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tabruns.com",
+    "https://tabruns.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

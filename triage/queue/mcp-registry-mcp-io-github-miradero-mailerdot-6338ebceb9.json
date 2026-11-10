@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miradero-mailerdot-6338ebceb9",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miradero/mailerdot",
+  "title": "MCP server io.github.miradero/mailerdot: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miradero/mailerdot",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Your city's free daily newsletter: local news, weather and events in a five-minute morning read.",
+    "repository": "",
+    "website": "https://mailerdot.com",
+    "packages": [],
+    "remote_hosts": [
+      "mailerdot.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T22:33:24.629351Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mailerdot.com",
+    "https://mailerdot.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

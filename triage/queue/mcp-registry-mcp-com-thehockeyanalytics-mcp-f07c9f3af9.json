@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-thehockeyanalytics-mcp-f07c9f3af9",
+  "source": "mcp-registry",
+  "key": "mcp:com.thehockeyanalytics/mcp",
+  "title": "MCP server com.thehockeyanalytics/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.thehockeyanalytics/mcp",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deprecated",
+    "description": "Read-only hockey analytics: compare teams and players, trends, fact checks. SHL, Allsvenskan, NHL.",
+    "repository": "",
+    "website": "https://thehockeyanalytics.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.thehockeyanalytics.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-28T05:44:06.289812Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://thehockeyanalytics.com",
+    "https://mcp.thehockeyanalytics.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:36Z"
+}

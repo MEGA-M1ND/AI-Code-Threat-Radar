@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-com-weverpay-public-testnet-alpha-2f860aefea",
+  "source": "mcp-registry",
+  "key": "mcp:com.weverpay/public-testnet-alpha",
+  "title": "MCP server com.weverpay/public-testnet-alpha: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.weverpay/public-testnet-alpha",
+    "rule": "status-change",
+    "version": "1.1.2",
+    "status": "deprecated",
+    "description": "Retired. Testnet closed. Base mainnet: com.weverpay/exchange https://exchange.weverpay.com/mcp.",
+    "repository": "",
+    "website": "https://weverpay.com/",
+    "packages": [],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T05:10:47.302669Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://weverpay.com/"
+  ],
+  "discovered_at": "2026-11-10T15:00:36Z"
+}

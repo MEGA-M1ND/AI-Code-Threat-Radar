@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-valuein-mcp-sec-edgar-9cea69a9b9",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.valuein/mcp-sec-edgar",
+  "title": "MCP server io.github.valuein/mcp-sec-edgar: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.valuein/mcp-sec-edgar",
+    "rule": "status-change",
+    "version": "3.20.1",
+    "status": "deprecated",
+    "description": "Point-in-time, survivorship-free SEC EDGAR fundamentals + smart-money signals for AI agents.",
+    "repository": "https://github.com/valuein/valuein",
+    "website": "https://valuein.biz",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.valuein.biz"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-09T17:14:22.984864Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/valuein/valuein",
+    "https://valuein.biz",
+    "https://mcp.valuein.biz/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

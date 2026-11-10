@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-logspot-analytics-85149c7cbd",
+  "source": "mcp-registry",
+  "key": "mcp:io.logspot/analytics",
+  "title": "MCP server io.logspot/analytics: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.logspot/analytics",
+    "rule": "status-change",
+    "version": "2.18.0",
+    "status": "deprecated",
+    "description": "Query your Logspot analytics, companies, and revenue from any AI assistant, and run your actions.",
+    "repository": "",
+    "website": "https://www.logspot.io/docs/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.logspot.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-20T23:49:22.694975Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.logspot.io/docs/mcp",
+    "https://api.logspot.io/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:39Z"
+}

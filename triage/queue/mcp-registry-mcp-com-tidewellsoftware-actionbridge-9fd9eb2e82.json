@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-tidewellsoftware-actionbridge-9fd9eb2e82",
+  "source": "mcp-registry",
+  "key": "mcp:com.tidewellsoftware/actionbridge",
+  "title": "MCP server com.tidewellsoftware/actionbridge: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.tidewellsoftware/actionbridge",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Migrate custom GPT Actions (OpenAPI) to MCP: preview conversions, setup steps, retirement checklist",
+    "repository": "",
+    "website": "https://tidewellsoftware.com/actionbridge/",
+    "packages": [],
+    "remote_hosts": [
+      "actionbridge.tidewellsoftware.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T19:15:18.593343Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tidewellsoftware.com/actionbridge/",
+    "https://actionbridge.tidewellsoftware.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:36Z"
+}

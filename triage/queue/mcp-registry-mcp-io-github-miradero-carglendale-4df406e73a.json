@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miradero-carglendale-4df406e73a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miradero/carglendale",
+  "title": "MCP server io.github.miradero/carglendale: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miradero/carglendale",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Compare every new and used car at the Glendale, CA dealerships on Brand Boulevard, with real prices.",
+    "repository": "",
+    "website": "https://carglendale.com",
+    "packages": [],
+    "remote_hosts": [
+      "carglendale.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T22:25:42.360455Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://carglendale.com",
+    "https://carglendale.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miradero-campnotice-546b11fb94",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miradero/campnotice",
+  "title": "MCP server io.github.miradero/campnotice: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miradero/campnotice",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Email alerts when a summer camp opens sign-ups, or when a sold-out camp has a seat open.",
+    "repository": "",
+    "website": "https://campnotice.com",
+    "packages": [],
+    "remote_hosts": [
+      "campnotice.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T22:33:24.304399Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://campnotice.com",
+    "https://campnotice.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-usefulapi-fmx-fd543a3626",
+  "source": "mcp-registry",
+  "key": "mcp:io.usefulapi/fmx",
+  "title": "MCP server io.usefulapi/fmx: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.usefulapi/fmx",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "Read buildings, equipment, inventory, resources, attachments and users in FMX.",
+    "repository": "https://github.com/m190/usefulapi-mcp",
+    "website": "https://usefulapi.io/fmx/",
+    "packages": [],
+    "remote_hosts": [
+      "fmx.usefulapi.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T21:57:00.954228Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/m190/usefulapi-mcp",
+    "https://usefulapi.io/fmx/",
+    "https://fmx.usefulapi.io/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:39Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miradero-vendawallet-9a47bf9bb3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miradero/vendawallet",
+  "title": "MCP server io.github.miradero/vendawallet: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miradero/vendawallet",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Free receipts for anyone who takes payments: rent, lessons, services and garage sales. No fees.",
+    "repository": "",
+    "website": "https://vendawallet.com",
+    "packages": [],
+    "remote_hosts": [
+      "vendawallet.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T22:25:43.81901Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://vendawallet.com",
+    "https://vendawallet.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

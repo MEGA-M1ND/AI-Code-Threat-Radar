@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miradero-kizupi-b1c51a0a11",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miradero/kizupi",
+  "title": "MCP server io.github.miradero/kizupi: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miradero/kizupi",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "The math tutor that asks why, for grades 1 to 6, with free printable word-problem worksheets.",
+    "repository": "",
+    "website": "https://kizupi.com",
+    "packages": [],
+    "remote_hosts": [
+      "kizupi.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T22:33:25.135207Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://kizupi.com",
+    "https://kizupi.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

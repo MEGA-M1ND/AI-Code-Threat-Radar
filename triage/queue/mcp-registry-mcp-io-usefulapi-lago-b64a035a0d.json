@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-usefulapi-lago-b64a035a0d",
+  "source": "mcp-registry",
+  "key": "mcp:io.usefulapi/lago",
+  "title": "MCP server io.usefulapi/lago: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.usefulapi/lago",
+    "rule": "status-change",
+    "version": "1.36.5",
+    "status": "deleted",
+    "description": "Read Lago customers, subscriptions, invoices, usage and revenue analytics; write events.",
+    "repository": "https://github.com/m190/usefulapi-mcp",
+    "website": "https://usefulapi.io/lago/",
+    "packages": [],
+    "remote_hosts": [
+      "lago.usefulapi.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T21:53:57.287894Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/m190/usefulapi-mcp",
+    "https://usefulapi.io/lago/",
+    "https://lago.usefulapi.io/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:39Z"
+}

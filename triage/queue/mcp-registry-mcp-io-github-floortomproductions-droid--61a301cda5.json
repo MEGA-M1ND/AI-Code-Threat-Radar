@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-floortomproductions-droid--61a301cda5",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.floortomproductions-droid/agentx-x402-services",
+  "title": "MCP server io.github.floortomproductions-droid/agentx-x402-services: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.floortomproductions-droid/agentx-x402-services",
+    "rule": "status-change",
+    "version": "0.7.16",
+    "status": "deprecated",
+    "description": "All 26 AgentX paid services as MCP tools — site checks, markets, crypto, email DNS, AI text work.",
+    "repository": "",
+    "website": "https://agentx.sale/x402/catalogue",
+    "packages": [],
+    "remote_hosts": [
+      "agentx.sale"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T12:22:54.143696Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agentx.sale/x402/catalogue",
+    "https://agentx.sale/connect/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:38Z"
+}

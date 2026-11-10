@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-vestlens-vestlens-e73b769563",
+  "source": "mcp-registry",
+  "key": "mcp:com.vestlens/vestlens",
+  "title": "MCP server com.vestlens/vestlens: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.vestlens/vestlens",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Read-only views of your self-directed Wealthsimple accounts. Cannot trade or move money.",
+    "repository": "",
+    "website": "https://vestlens.com/connect/",
+    "packages": [],
+    "remote_hosts": [
+      "vestlens.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-31T21:38:37.482564Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://vestlens.com/connect/",
+    "https://vestlens.com/mcp"
+  ],
+  "discovered_at": "2026-11-10T15:00:36Z"
+}
