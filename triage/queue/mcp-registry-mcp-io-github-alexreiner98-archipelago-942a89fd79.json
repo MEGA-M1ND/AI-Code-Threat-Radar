@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-alexreiner98-archipelago-942a89fd79",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AlexReiner98/archipelago",
+  "title": "MCP server io.github.AlexReiner98/archipelago: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AlexReiner98/archipelago",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "A living map of all your work that keeps you, your team, and your agents on the same page",
+    "repository": "https://github.com/AlexReiner98/archipelago",
+    "website": "https://archipelago.tools/?ref=registry",
+    "packages": [],
+    "remote_hosts": [
+      "app.archipelago.tools"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T13:43:20.595901Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/AlexReiner98/archipelago",
+    "https://archipelago.tools/?ref=registry",
+    "https://app.archipelago.tools/mcp"
+  ],
+  "discovered_at": "2026-11-11T14:31:20Z"
+}
