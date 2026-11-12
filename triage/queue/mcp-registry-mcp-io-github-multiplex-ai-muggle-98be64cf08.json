@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-multiplex-ai-muggle-98be64cf08",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.multiplex-ai/muggle",
+  "title": "MCP server io.github.multiplex-ai/muggle: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.multiplex-ai/muggle",
+    "rule": "status-change",
+    "version": "5.35.0",
+    "status": "deprecated",
+    "description": "Acceptance test agent for coding agents: real-browser tests, with screenshots on the PR.",
+    "repository": "https://github.com/multiplex-ai/muggle-ai-works",
+    "website": "https://github.com/multiplex-ai/muggle-ai-works#readme",
+    "packages": [
+      "npm:@muggleai/works"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-11T05:17:43.736862Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/multiplex-ai/muggle-ai-works",
+    "https://github.com/multiplex-ai/muggle-ai-works#readme"
+  ],
+  "discovered_at": "2026-11-12T15:24:37Z"
+}

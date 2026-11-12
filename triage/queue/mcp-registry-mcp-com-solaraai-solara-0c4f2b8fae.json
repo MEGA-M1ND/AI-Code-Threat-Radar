@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-solaraai-solara-0c4f2b8fae",
+  "source": "mcp-registry",
+  "key": "mcp:com.solaraai/solara",
+  "title": "MCP server com.solaraai/solara: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.solaraai/solara",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Edit a talking-head recording into a captioned short video, export it, and ask to post it.",
+    "repository": "https://github.com/solaraai-official/solaraai-agent",
+    "website": "https://docs.solaraai.com/agents/connect",
+    "packages": [],
+    "remote_hosts": [
+      "api.solaraai.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T22:12:51.5261Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/solaraai-official/solaraai-agent",
+    "https://docs.solaraai.com/agents/connect",
+    "https://api.solaraai.com/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:35Z"
+}

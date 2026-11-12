@@ -12,13 +12,13 @@
     "target": "langchain",
     "rule": "edit",
     "distance": 1,
-    "author": "John Hopfensperger",
     "created": "2026-07-17T15:23:03.429346Z",
+    "last_release": "2026-11-09T14:36:35.863490Z",
+    "release_count": 63,
+    "summary": "A provider-neutral Python client for LLM applications.",
+    "author": "John Hopfensperger",
     "home_page": "https://pypi.org/project/langchaint/",
-    "last_release": "2026-11-05T14:16:03.454588Z",
-    "release_count": 60,
-    "summary": "It ain't langchain.",
-    "age_days": 117.0
+    "age_days": 118.0
   },
   "urls": [
     "https://pypi.org/project/langchaint/"

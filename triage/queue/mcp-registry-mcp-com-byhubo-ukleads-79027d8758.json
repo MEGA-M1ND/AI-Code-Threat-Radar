@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-byhubo-ukleads-79027d8758",
+  "source": "mcp-registry",
+  "key": "mcp:com.byhubo/ukleads",
+  "title": "MCP server com.byhubo/ukleads: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.byhubo/ukleads",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Owner names and numbers for independent UK dental practices, salons, barbers and beauty.",
+    "repository": "",
+    "website": "https://ukleads.byhubo.com/developers",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.ukleads.byhubo.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-30T09:03:45.577235Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ukleads.byhubo.com/developers",
+    "https://mcp.ukleads.byhubo.com/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:34Z"
+}

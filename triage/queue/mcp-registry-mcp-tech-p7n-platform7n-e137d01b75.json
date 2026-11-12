@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-tech-p7n-platform7n-e137d01b75",
+  "source": "mcp-registry",
+  "key": "mcp:tech.p7n/platform7n",
+  "title": "MCP server tech.p7n/platform7n: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "tech.p7n/platform7n",
+    "rule": "status-change",
+    "version": "0.3.4",
+    "status": "deprecated",
+    "description": "Connect Claude to your Platform7n workspaces: chat, links, work and decks. One-click OAuth.",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "npm:@p7ntech/mcp"
+    ],
+    "remote_hosts": [
+      "api.p7n.tech"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T07:29:23.581181Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.p7n.tech/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:39Z"
+}

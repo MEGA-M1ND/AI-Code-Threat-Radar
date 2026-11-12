@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-labstack-fanout-11ba550a2c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.labstack/fanout",
+  "title": "MCP server io.github.labstack/fanout: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.labstack/fanout",
+    "rule": "status-change",
+    "version": "2026.11.3",
+    "status": "deprecated",
+    "description": "Investigate OpenTelemetry traces, metrics, and logs, and manage personal dashboards.",
+    "repository": "https://github.com/labstack/fanout",
+    "website": "https://fanout.run",
+    "packages": [],
+    "remote_hosts": [
+      "{fanout_host}"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-09T01:30:37.337461Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/labstack/fanout",
+    "https://fanout.run",
+    "https://{fanout_host}/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:37Z"
+}

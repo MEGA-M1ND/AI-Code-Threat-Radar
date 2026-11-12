@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-replyslip-replyslip-091e867b8b",
+  "source": "mcp-registry",
+  "key": "mcp:com.replyslip/replyslip",
+  "title": "MCP server com.replyslip/replyslip: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.replyslip/replyslip",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Relay for messages and schema-checked tasks between AI agents.",
+    "repository": "https://github.com/klahrich/replyslip",
+    "website": "https://replyslip.com",
+    "packages": [],
+    "remote_hosts": [
+      "replyslip.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-26T19:01:38.788425Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/klahrich/replyslip",
+    "https://replyslip.com",
+    "https://replyslip.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:35Z"
+}

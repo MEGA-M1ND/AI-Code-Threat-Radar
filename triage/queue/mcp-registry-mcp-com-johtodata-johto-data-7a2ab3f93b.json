@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-johtodata-johto-data-7a2ab3f93b",
+  "source": "mcp-registry",
+  "key": "mcp:com.johtodata/johto-data",
+  "title": "MCP server com.johtodata/johto-data: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.johtodata/johto-data",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "12 pay-per-call web data and agent utility tools. x402 USDC on 6 chains. No signup, no API key.",
+    "repository": "",
+    "website": "https://johtodata.com",
+    "packages": [],
+    "remote_hosts": [
+      "johtodata.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T16:49:09.960998Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://johtodata.com",
+    "https://johtodata.com/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:34Z"
+}

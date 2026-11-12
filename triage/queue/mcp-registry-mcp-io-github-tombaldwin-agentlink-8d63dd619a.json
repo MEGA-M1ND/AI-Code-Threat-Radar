@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-tombaldwin-agentlink-8d63dd619a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.tombaldwin/agentlink",
+  "title": "MCP server io.github.tombaldwin/agentlink: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.tombaldwin/agentlink",
+    "rule": "status-change",
+    "version": "0.1.3",
+    "status": "deprecated",
+    "description": "AI agents on different machines and Claude accounts message each other. Wakes idle Claude Code.",
+    "repository": "https://github.com/tombaldwin/agentlink",
+    "website": "https://poly.io/agentlink",
+    "packages": [
+      "npm:@tombaldwin/agentlink"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-09T20:03:37.031444Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/tombaldwin/agentlink",
+    "https://poly.io/agentlink"
+  ],
+  "discovered_at": "2026-11-12T15:24:37Z"
+}

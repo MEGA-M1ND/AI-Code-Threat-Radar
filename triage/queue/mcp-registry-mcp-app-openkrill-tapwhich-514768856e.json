@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-app-openkrill-tapwhich-514768856e",
+  "source": "mcp-registry",
+  "key": "mcp:app.openkrill/tapwhich",
+  "title": "MCP server app.openkrill/tapwhich: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.openkrill/tapwhich",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Which of your cards to tap at a place: the cashback, cap and conditions, from the banks' own pages.",
+    "repository": "",
+    "website": "https://tapwhich.openkrill.app/",
+    "packages": [],
+    "remote_hosts": [
+      "tapwhich.openkrill.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-16T17:04:58.69364Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tapwhich.openkrill.app/",
+    "https://tapwhich.openkrill.app/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:34Z"
+}

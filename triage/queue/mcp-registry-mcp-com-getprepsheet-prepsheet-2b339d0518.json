@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-getprepsheet-prepsheet-2b339d0518",
+  "source": "mcp-registry",
+  "key": "mcp:com.getprepsheet/prepsheet",
+  "title": "MCP server com.getprepsheet/prepsheet: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.getprepsheet/prepsheet",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Read-only kitchen costing, recipe scaling, UK GP, starter menus, and prep lists for chefs.",
+    "repository": "",
+    "website": "https://getprepsheet.com",
+    "packages": [],
+    "remote_hosts": [
+      "getprepsheet.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-13T01:44:51.786795Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://getprepsheet.com",
+    "https://getprepsheet.com/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:34Z"
+}

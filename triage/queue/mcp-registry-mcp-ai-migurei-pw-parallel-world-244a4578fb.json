@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-migurei-pw-parallel-world-244a4578fb",
+  "source": "mcp-registry",
+  "key": "mcp:ai.migurei.pw/parallel-world",
+  "title": "MCP server ai.migurei.pw/parallel-world: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.migurei.pw/parallel-world",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Check which AI bots a site's robots.txt allows; read-only facts about Parallel World",
+    "repository": "",
+    "website": "https://pw.migurei.ai/?utm_source=mcp-registry",
+    "packages": [],
+    "remote_hosts": [
+      "pw.migurei.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-26T02:54:48.344937Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://pw.migurei.ai/?utm_source=mcp-registry",
+    "https://pw.migurei.ai/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:34Z"
+}

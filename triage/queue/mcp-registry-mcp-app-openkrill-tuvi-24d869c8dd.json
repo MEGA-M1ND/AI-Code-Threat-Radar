@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-app-openkrill-tuvi-24d869c8dd",
+  "source": "mcp-registry",
+  "key": "mcp:app.openkrill/tuvi",
+  "title": "MCP server app.openkrill/tuvi: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.openkrill/tuvi",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Cast a Tu Vi (Zi Wei Dou Shu) birth chart with the lunar date, 12 palaces, stars and cited readings.",
+    "repository": "https://github.com/nguyenhieuec/agent-tools-plugins",
+    "website": "https://tools.openkrill.app/",
+    "packages": [],
+    "remote_hosts": [
+      "tuvi.openkrill.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-21T16:12:26.597615Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/nguyenhieuec/agent-tools-plugins",
+    "https://tools.openkrill.app/",
+    "https://tuvi.openkrill.app/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:34Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-ajselzilic-vocaless-10b723972f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ajselzilic/vocaless",
+  "title": "MCP server io.github.ajselzilic/vocaless: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ajselzilic/vocaless",
+    "rule": "status-change",
+    "version": "0.1.3",
+    "status": "deleted",
+    "description": "Remove vocals from local audio files and transpose instrumentals through Vocaless.",
+    "repository": "",
+    "website": "https://vocaless.app/docs/mcp",
+    "packages": [
+      "npm:@vocaless/mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-04T10:14:17.004603Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://vocaless.app/docs/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:36Z"
+}

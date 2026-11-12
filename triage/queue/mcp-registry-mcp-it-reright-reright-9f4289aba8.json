@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-it-reright-reright-9f4289aba8",
+  "source": "mcp-registry",
+  "key": "mcp:it.reright/reright",
+  "title": "MCP server it.reright/reright: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "it.reright/reright",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deleted",
+    "description": "Rewrites the emails, messages and PR text your agent writes so they sound like you, every fact kept.",
+    "repository": "",
+    "website": "https://reright.it",
+    "packages": [],
+    "remote_hosts": [
+      "app.reright.it"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T10:43:10.954192Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://reright.it",
+    "https://app.reright.it/mcp"
+  ],
+  "discovered_at": "2026-11-12T15:24:39Z"
+}

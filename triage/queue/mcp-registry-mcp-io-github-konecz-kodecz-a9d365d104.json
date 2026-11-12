@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-konecz-kodecz-a9d365d104",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.konecz/kodecz",
+  "title": "MCP server io.github.konecz/kodecz: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.konecz/kodecz",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Render, preview and check videos written as web pages (HTML to MP4 on NVIDIA GPU or CPU)",
+    "repository": "https://github.com/konecz/kodecz",
+    "website": "https://github.com/konecz/kodecz",
+    "packages": [
+      "npm:kodecz-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T13:18:47.684488Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/konecz/kodecz",
+    "https://github.com/konecz/kodecz"
+  ],
+  "discovered_at": "2026-11-12T15:24:37Z"
+}

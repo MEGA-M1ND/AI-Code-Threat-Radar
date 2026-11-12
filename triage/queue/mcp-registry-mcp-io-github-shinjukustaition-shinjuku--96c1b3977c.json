@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-shinjukustaition-shinjuku--96c1b3977c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ShinjukuStaition/shinjuku-mcp",
+  "title": "MCP server io.github.ShinjukuStaition/shinjuku-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ShinjukuStaition/shinjuku-mcp",
+    "rule": "status-change",
+    "version": "0.3.131",
+    "status": "deprecated",
+    "description": "Private x402 payments on Solana: shield, pay, and unshield USDC under caps you set.",
+    "repository": "https://github.com/ShinjukuStaition/shinjuku-shield",
+    "website": "https://shinjukustaition.com",
+    "packages": [
+      "npm:shinjuku-shield"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-30T22:13:32.215968Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ShinjukuStaition/shinjuku-shield",
+    "https://shinjukustaition.com"
+  ],
+  "discovered_at": "2026-11-12T15:24:36Z"
+}
