@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-shveik-agmail-9aae2da1c0",
+  "source": "mcp-registry",
+  "key": "mcp:dev.shveik/agmail",
+  "title": "MCP server dev.shveik/agmail: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.shveik/agmail",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Email inboxes for agents by the hour: wait for a mail, get the code or link. Pay per call.",
+    "repository": "",
+    "website": "https://agmail.shveik.dev",
+    "packages": [],
+    "remote_hosts": [
+      "agmail.shveik.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T02:06:02.624841Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agmail.shveik.dev",
+    "https://agmail.shveik.dev/mcp"
+  ],
+  "discovered_at": "2026-11-13T14:41:43Z"
+}

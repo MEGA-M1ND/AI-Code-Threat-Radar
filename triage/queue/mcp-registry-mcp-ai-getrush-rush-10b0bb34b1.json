@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-getrush-rush-10b0bb34b1",
+  "source": "mcp-registry",
+  "key": "mcp:ai.getrush/rush",
+  "title": "MCP server ai.getrush/rush: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.getrush/rush",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deprecated",
+    "description": "Hand Rush a task: a cloud agent does the work and returns a PR, report, files or answer.",
+    "repository": "",
+    "website": "https://getrush.ai/docs/concepts/mcp-server/",
+    "packages": [],
+    "remote_hosts": [
+      "api.phoenix.so"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-12T05:59:29.537608Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://getrush.ai/docs/concepts/mcp-server/",
+    "https://api.phoenix.so/mcp"
+  ],
+  "discovered_at": "2026-11-13T14:41:42Z"
+}

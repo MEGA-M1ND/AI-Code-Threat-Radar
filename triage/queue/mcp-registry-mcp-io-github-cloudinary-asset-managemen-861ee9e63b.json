@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-cloudinary-asset-managemen-861ee9e63b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.cloudinary/asset-management-mcp",
+  "title": "MCP server io.github.cloudinary/asset-management-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.cloudinary/asset-management-mcp",
+    "rule": "status-change",
+    "version": "0.11.6",
+    "status": "deprecated",
+    "description": "Upload, generate, organize, search, and transform images, videos, and files with AI-powered tools.",
+    "repository": "https://github.com/cloudinary/asset-management-mcp",
+    "website": "",
+    "packages": [
+      "npm:@cloudinary/asset-management-mcp",
+      "oci:docker.io/cloudinary/asset-management-mcp:0.11.6"
+    ],
+    "remote_hosts": [
+      "asset-management.mcp.cloudinary.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T11:26:51.562882Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/cloudinary/asset-management-mcp",
+    "https://asset-management.mcp.cloudinary.com/mcp"
+  ],
+  "discovered_at": "2026-11-13T14:41:44Z"
+}

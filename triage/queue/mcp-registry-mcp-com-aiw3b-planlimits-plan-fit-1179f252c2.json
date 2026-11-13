@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-aiw3b-planlimits-plan-fit-1179f252c2",
+  "source": "mcp-registry",
+  "key": "mcp:com.aiw3b.planlimits/plan-fit",
+  "title": "MCP server com.aiw3b.planlimits/plan-fit: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.aiw3b.planlimits/plan-fit",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Find the AI coding/app-builder plan that fits your usage: limits, prices and plan-fit picks.",
+    "repository": "",
+    "website": "https://planlimits.aiw3b.com",
+    "packages": [],
+    "remote_hosts": [
+      "planlimits.aiw3b.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-27T15:57:25.940754Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://planlimits.aiw3b.com",
+    "https://planlimits.aiw3b.com/mcp"
+  ],
+  "discovered_at": "2026-11-13T14:41:42Z"
+}

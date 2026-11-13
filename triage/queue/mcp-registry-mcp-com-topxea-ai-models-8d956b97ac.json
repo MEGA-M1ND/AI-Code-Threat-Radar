@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-topxea-ai-models-8d956b97ac",
+  "source": "mcp-registry",
+  "key": "mcp:com.topxea.ai/models",
+  "title": "MCP server com.topxea.ai/models: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.topxea.ai/models",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Ask Claude, GPT, Grok, GLM, Kimi or DeepSeek from your client; token price plus a $0.001 call fee.",
+    "repository": "",
+    "website": "https://ai.topxea.com/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "ai.topxea.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-06T10:57:27.539501Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ai.topxea.com/mcp",
+    "https://ai.topxea.com/mcp/models"
+  ],
+  "discovered_at": "2026-11-13T14:41:43Z"
+}

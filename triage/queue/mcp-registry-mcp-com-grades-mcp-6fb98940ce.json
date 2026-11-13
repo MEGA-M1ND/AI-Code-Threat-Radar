@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-grades-mcp-6fb98940ce",
+  "source": "mcp-registry",
+  "key": "mcp:com.grades/mcp",
+  "title": "MCP server com.grades/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.grades/mcp",
+    "rule": "status-change",
+    "version": "0.30.0",
+    "status": "deprecated",
+    "description": "Your reviews, AI reply drafts, review requests and what AI assistants say about your business.",
+    "repository": "",
+    "website": "https://www.grades.com/developers",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.grades.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-09T23:43:26.96346Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.grades.com/developers",
+    "https://mcp.grades.com/mcp"
+  ],
+  "discovered_at": "2026-11-13T14:41:43Z"
+}

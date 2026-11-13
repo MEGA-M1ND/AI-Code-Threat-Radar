@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-ning2yiyi-detailx-65a9113dee",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ning2yiyi/detailx",
+  "title": "MCP server io.github.ning2yiyi/detailx: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ning2yiyi/detailx",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Upscale videos to 4K and interpolate frames. DetailX OAuth login and credits required.",
+    "repository": "",
+    "website": "https://www.detail-x.ai/help/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "www.detail-x.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-12T04:25:14.661268Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.detail-x.ai/help/mcp",
+    "https://www.detail-x.ai/api/v1/mcp/"
+  ],
+  "discovered_at": "2026-11-13T14:41:44Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-davincipicks-davincibets-m-875067ae58",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.DaVinciPicks/davincibets-mcp",
+  "title": "MCP server io.github.DaVinciPicks/davincibets-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.DaVinciPicks/davincibets-mcp",
+    "rule": "status-change",
+    "version": "1.4.2",
+    "status": "deprecated",
+    "description": "AI sports predictions for NBA, NFL, NHL & MLB — picks, cards, track record, schedule",
+    "repository": "https://github.com/DaVinciPicks/davincibets-mcp",
+    "website": "",
+    "packages": [
+      "npm:@davincibets/mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-04T03:19:57.493029Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/DaVinciPicks/davincibets-mcp"
+  ],
+  "discovered_at": "2026-11-13T14:41:43Z"
+}

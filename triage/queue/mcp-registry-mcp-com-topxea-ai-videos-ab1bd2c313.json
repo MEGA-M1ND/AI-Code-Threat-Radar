@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-topxea-ai-videos-ab1bd2c313",
+  "source": "mcp-registry",
+  "key": "mcp:com.topxea.ai/videos",
+  "title": "MCP server com.topxea.ai/videos: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.topxea.ai/videos",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Start a video generation job and poll it until the clip is ready; video price plus $0.01 a call.",
+    "repository": "",
+    "website": "https://ai.topxea.com/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "ai.topxea.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-06T10:57:34.796413Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ai.topxea.com/mcp",
+    "https://ai.topxea.com/mcp/videos"
+  ],
+  "discovered_at": "2026-11-13T14:41:43Z"
+}
