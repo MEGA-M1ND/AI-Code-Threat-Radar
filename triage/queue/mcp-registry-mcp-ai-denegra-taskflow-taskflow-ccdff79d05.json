@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-denegra-taskflow-taskflow-ccdff79d05",
+  "source": "mcp-registry",
+  "key": "mcp:ai.denegra.taskflow/taskflow",
+  "title": "MCP server ai.denegra.taskflow/taskflow: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.denegra.taskflow/taskflow",
+    "rule": "status-change",
+    "version": "1.0.4",
+    "status": "deprecated",
+    "description": "One task board for you and your AI assistants: boards, tasks, inbox, meeting notes. Claim, hand off.",
+    "repository": "",
+    "website": "https://taskthread.denegra.ai",
+    "packages": [],
+    "remote_hosts": [
+      "taskthread.denegra.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-12T09:42:53.045895Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://taskthread.denegra.ai",
+    "https://taskthread.denegra.ai/mcp"
+  ],
+  "discovered_at": "2026-11-14T13:38:45Z"
+}

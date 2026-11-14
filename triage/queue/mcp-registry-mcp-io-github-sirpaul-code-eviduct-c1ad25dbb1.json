@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-sirpaul-code-eviduct-c1ad25dbb1",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.SirPaul-code/eviduct",
+  "title": "MCP server io.github.SirPaul-code/eviduct: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.SirPaul-code/eviduct",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "MCP Trust Firewall: tenant-approved tools, schema-pinned public reads. Authorization is required.",
+    "repository": "",
+    "website": "https://eviduct-mvp.onrender.com/",
+    "packages": [],
+    "remote_hosts": [
+      "eviduct-mvp.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-13T13:18:54.452956Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://eviduct-mvp.onrender.com/",
+    "https://eviduct-mvp.onrender.com/mcp/gateway"
+  ],
+  "discovered_at": "2026-11-14T13:38:47Z"
+}

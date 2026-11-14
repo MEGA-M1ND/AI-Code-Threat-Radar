@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-ishan73744-aurelmark-982d0a04b7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Ishan73744/aurelmark",
+  "title": "MCP server io.github.Ishan73744/aurelmark: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Ishan73744/aurelmark",
+    "rule": "status-change",
+    "version": "0.4.8",
+    "status": "deprecated",
+    "description": "Official sanctions list changes (OFAC, UK, EU) and EU data: deadlines, CBAM, EUDR, contract winners",
+    "repository": "https://github.com/Ishan73744/aurelmark-mcp",
+    "website": "https://aurelmark.live/docs",
+    "packages": [],
+    "remote_hosts": [
+      "aurelmark.live"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-12T17:46:11.530937Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Ishan73744/aurelmark-mcp",
+    "https://aurelmark.live/docs",
+    "https://aurelmark.live/mcp"
+  ],
+  "discovered_at": "2026-11-14T13:38:46Z"
+}

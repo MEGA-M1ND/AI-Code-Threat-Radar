@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-itechsoftsolution16-feedli-d28a251fc6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.itechsoftsolution16/feedlio",
+  "title": "MCP server io.github.itechsoftsolution16/feedlio: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.itechsoftsolution16/feedlio",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Feedlio MCP server exposing posting and scheduling tools to Claude Desktop and Claude Code.",
+    "repository": "",
+    "website": "",
+    "packages": [
+      "npm:@itechsoftsolutions/social-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-10T09:24:30.852781Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [],
+  "discovered_at": "2026-11-14T13:38:47Z"
+}

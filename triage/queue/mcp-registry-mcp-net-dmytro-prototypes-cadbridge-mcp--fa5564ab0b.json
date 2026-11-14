@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-net-dmytro-prototypes-cadbridge-mcp--fa5564ab0b",
+  "source": "mcp-registry",
+  "key": "mcp:net.dmytro-prototypes/cadbridge-mcp-autocad",
+  "title": "MCP server net.dmytro-prototypes/cadbridge-mcp-autocad: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.dmytro-prototypes/cadbridge-mcp-autocad",
+    "rule": "status-change",
+    "version": "0.1.15",
+    "status": "deprecated",
+    "description": "Control AutoCAD with AI: commands, read/edit/write drawing database, AutoLISP, scripts, PDF plots.",
+    "repository": "",
+    "website": "https://cadbridge.dmytro-prototypes.net",
+    "packages": [
+      "npm:@dmytro-prototypes/cadbridge-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-08T20:36:08.645404Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://cadbridge.dmytro-prototypes.net"
+  ],
+  "discovered_at": "2026-11-14T13:38:48Z"
+}

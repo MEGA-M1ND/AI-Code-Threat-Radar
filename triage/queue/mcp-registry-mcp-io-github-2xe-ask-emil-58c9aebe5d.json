@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-2xe-ask-emil-58c9aebe5d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.2xe/ask-emil",
+  "title": "MCP server io.github.2xe/ask-emil: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.2xe/ask-emil",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Real human in Denmark: lived experience & opinion. Free 1-question pilot. Set a custom User-Agent.",
+    "repository": "",
+    "website": "https://runup.dk",
+    "packages": [],
+    "remote_hosts": [
+      "runup.dk"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-13T15:39:25.752787Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://runup.dk",
+    "https://runup.dk/mcp"
+  ],
+  "discovered_at": "2026-11-14T13:38:46Z"
+}

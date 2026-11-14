@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-galacticbridge-radar-exit-check-69506413a0",
+  "source": "mcp-registry",
+  "key": "mcp:com.galacticbridge/radar-exit-check",
+  "title": "MCP server com.galacticbridge/radar-exit-check: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.galacticbridge/radar-exit-check",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deprecated",
+    "description": "Token exit checks (live sell quote, round trip, warnings; x402 USDC) + free GBRIDGE market data.",
+    "repository": "",
+    "website": "https://galacticbridge.com/agents/",
+    "packages": [],
+    "remote_hosts": [
+      "galacticbridge.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-07T01:34:09.04848Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://galacticbridge.com/agents/",
+    "https://galacticbridge.com/api/v1/agent/mcp"
+  ],
+  "discovered_at": "2026-11-14T13:38:45Z"
+}

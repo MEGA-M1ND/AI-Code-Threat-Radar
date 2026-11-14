@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-com-ashtonforge-directory-81b9eec836",
+  "source": "mcp-registry",
+  "key": "mcp:com.ashtonforge/directory",
+  "title": "MCP server com.ashtonforge/directory: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.ashtonforge/directory",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Read-only directory of vetted AI implementation agencies from the Ashton & Forge marketplace.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "ashtonforge.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-01T00:19:20.734513Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ashtonforge.com/mcp/directory"
+  ],
+  "discovered_at": "2026-11-14T13:38:45Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-cardealscore-dealscore-baae4c141e",
+  "source": "mcp-registry",
+  "key": "mcp:com.cardealscore/dealscore",
+  "title": "MCP server com.cardealscore/dealscore: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.cardealscore/dealscore",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "For AI agents: grade a used car's asking price vs live market comps.",
+    "repository": "",
+    "website": "https://cardealscore.com",
+    "packages": [],
+    "remote_hosts": [
+      "cardealscore.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T22:44:20.094479Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://cardealscore.com",
+    "https://cardealscore.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-14T13:38:45Z"
+}
