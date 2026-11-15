@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-darmousseh-habits-guard-4b059bce24",
+  "source": "mcp-registry",
+  "key": "mcp:com.darmousseh/habits-guard",
+  "title": "MCP server com.darmousseh/habits-guard: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.darmousseh/habits-guard",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Check user prompts for injection/jailbreaks; your own guard learns from your labels. Works keyless.",
+    "repository": "",
+    "website": "https://habits.darmousseh.com/",
+    "packages": [],
+    "remote_hosts": [
+      "habits.darmousseh.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-12T21:46:59.456283Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://habits.darmousseh.com/",
+    "https://habits.darmousseh.com/mcp"
+  ],
+  "discovered_at": "2026-11-15T14:03:51Z"
+}

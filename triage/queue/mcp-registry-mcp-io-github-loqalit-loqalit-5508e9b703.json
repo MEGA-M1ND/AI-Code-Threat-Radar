@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-loqalit-loqalit-5508e9b703",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.loqalit/loqalit",
+  "title": "MCP server io.github.loqalit/loqalit: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.loqalit/loqalit",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Localization QA: find translation errors on live pages and in strings, with MQM-scored fixes.",
+    "repository": "",
+    "website": "https://www.loqalit.com/ai-assistants",
+    "packages": [],
+    "remote_hosts": [
+      "precise-panda-990.convex.site"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-14T13:36:56.805857Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.loqalit.com/ai-assistants",
+    "https://precise-panda-990.convex.site/mcp"
+  ],
+  "discovered_at": "2026-11-15T14:03:53Z"
+}

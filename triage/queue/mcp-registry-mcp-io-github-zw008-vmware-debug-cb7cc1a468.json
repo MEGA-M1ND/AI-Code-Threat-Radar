@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zw008-vmware-debug-cb7cc1a468",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zw008/vmware-debug",
+  "title": "MCP server io.github.zw008/vmware-debug: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zw008/vmware-debug",
+    "rule": "status-change",
+    "version": "1.8.7",
+    "status": "deleted",
+    "description": "Read-only VMware incident correlation: timeline, spikes, root-cause routing. 2 MCP tools.",
+    "repository": "https://github.com/zw008/VMware-Debug",
+    "website": "",
+    "packages": [
+      "pypi:vmware-debug"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-07-21T11:49:00.037731Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/zw008/VMware-Debug"
+  ],
+  "discovered_at": "2026-11-15T14:03:53Z"
+}

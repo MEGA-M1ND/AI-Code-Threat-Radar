@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zw008-vmware-monitor-232ce6c308",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zw008/vmware-monitor",
+  "title": "MCP server io.github.zw008/vmware-monitor: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zw008/vmware-monitor",
+    "rule": "status-change",
+    "version": "1.8.8",
+    "status": "deleted",
+    "description": "Read-only VMware vCenter/ESXi monitoring with 27 MCP tools. Code-level safety.",
+    "repository": "https://github.com/zw008/VMware-Monitor",
+    "website": "",
+    "packages": [
+      "pypi:vmware-monitor"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-07-21T15:47:49.398616Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/zw008/VMware-Monitor"
+  ],
+  "discovered_at": "2026-11-15T14:03:53Z"
+}

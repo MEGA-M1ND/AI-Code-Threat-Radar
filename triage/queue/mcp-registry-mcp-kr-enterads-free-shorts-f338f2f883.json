@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-kr-enterads-free-shorts-f338f2f883",
+  "source": "mcp-registry",
+  "key": "mcp:kr.enterads/free-shorts",
+  "title": "MCP server kr.enterads/free-shorts: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "kr.enterads/free-shorts",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Free K-pop short videos for YouTube Shorts: search, get title, description, thumbnail and download.",
+    "repository": "",
+    "website": "https://enterads.kr/",
+    "packages": [],
+    "remote_hosts": [
+      "enterads.kr"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-13T15:04:19.897646Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://enterads.kr/",
+    "https://enterads.kr/mcp"
+  ],
+  "discovered_at": "2026-11-15T14:03:55Z"
+}

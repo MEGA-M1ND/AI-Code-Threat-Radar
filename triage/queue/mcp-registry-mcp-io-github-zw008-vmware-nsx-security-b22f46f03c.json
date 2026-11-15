@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zw008-vmware-nsx-security-b22f46f03c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zw008/vmware-nsx-security",
+  "title": "MCP server io.github.zw008/vmware-nsx-security: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zw008/vmware-nsx-security",
+    "rule": "status-change",
+    "version": "1.8.8",
+    "status": "deleted",
+    "description": "VMware NSX security: DFW policies, security groups, tags, Traceflow, IDPS — 21 MCP tools.",
+    "repository": "https://github.com/zw008/VMware-NSX-Security",
+    "website": "",
+    "packages": [
+      "pypi:vmware-nsx-security"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-07-21T15:50:38.788793Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/zw008/VMware-NSX-Security"
+  ],
+  "discovered_at": "2026-11-15T14:03:53Z"
+}

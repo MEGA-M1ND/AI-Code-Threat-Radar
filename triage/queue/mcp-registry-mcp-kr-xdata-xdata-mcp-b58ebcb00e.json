@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-kr-xdata-xdata-mcp-b58ebcb00e",
+  "source": "mcp-registry",
+  "key": "mcp:kr.xdata/xdata-mcp",
+  "title": "MCP server kr.xdata/xdata-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "kr.xdata/xdata-mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Korean national tax and social insurance filings, invoices and payroll data as MCP tools.",
+    "repository": "",
+    "website": "https://xdata.kr",
+    "packages": [],
+    "remote_hosts": [
+      "api.xdata.kr"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-22T04:14:25.191824Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://xdata.kr",
+    "https://api.xdata.kr/mcp"
+  ],
+  "discovered_at": "2026-11-15T14:03:55Z"
+}

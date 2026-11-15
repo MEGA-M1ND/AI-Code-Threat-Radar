@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zw008-vmware-storage-9c8bc2c5be",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zw008/vmware-storage",
+  "title": "MCP server io.github.zw008/vmware-storage: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zw008/vmware-storage",
+    "rule": "status-change",
+    "version": "1.8.8",
+    "status": "deleted",
+    "description": "VMware vSphere storage management with 11 MCP tools: datastores, iSCSI, vSAN.",
+    "repository": "https://github.com/zw008/VMware-Storage",
+    "website": "",
+    "packages": [
+      "pypi:vmware-storage"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-07-21T15:47:58.50275Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/zw008/VMware-Storage"
+  ],
+  "discovered_at": "2026-11-15T14:03:53Z"
+}

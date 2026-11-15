@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-agteo-goyondo-81aa7fb9d9",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.agteo/goyondo",
+  "title": "MCP server io.github.agteo/goyondo: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.agteo/goyondo",
+    "rule": "status-change",
+    "version": "0.2.3",
+    "status": "deprecated",
+    "description": "Agent-native trip planner: your AI plans the trip, and Goyondo keeps it all in one place.",
+    "repository": "",
+    "website": "https://goyondo.run",
+    "packages": [
+      "npm:goyondo-mcp"
+    ],
+    "remote_hosts": [
+      "goyondo.run"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T15:11:31.447191Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://goyondo.run",
+    "https://goyondo.run/mcp"
+  ],
+  "discovered_at": "2026-11-15T14:03:52Z"
+}

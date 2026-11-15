@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-runtimeadmin-archipelago-x-04b39c69cb",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.RunTimeAdmin/archipelago-x402-mcp",
+  "title": "MCP server io.github.RunTimeAdmin/archipelago-x402-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.RunTimeAdmin/archipelago-x402-mcp",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "Buy Archipelago's Arc token reports, exit costs and wallet balances over x402, within caps you set.",
+    "repository": "",
+    "website": "https://archipelagodex.xyz/agents.html",
+    "packages": [
+      "npm:@archipelagodex/archipelago-x402-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T22:48:06.423961Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://archipelagodex.xyz/agents.html"
+  ],
+  "discovered_at": "2026-11-15T14:03:52Z"
+}

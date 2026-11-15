@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zw008-vmware-harden-ff6d6314bc",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zw008/vmware-harden",
+  "title": "MCP server io.github.zw008/vmware-harden: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zw008/vmware-harden",
+    "rule": "status-change",
+    "version": "1.8.7",
+    "status": "deleted",
+    "description": "VMware compliance scanning (CIS, vSphere SCG, GB/T 22239, PCI-DSS) with drift detection.",
+    "repository": "https://github.com/zw008/VMware-Harden",
+    "website": "",
+    "packages": [
+      "pypi:vmware-harden"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-07-21T13:10:06.412351Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/zw008/VMware-Harden"
+  ],
+  "discovered_at": "2026-11-15T14:03:53Z"
+}

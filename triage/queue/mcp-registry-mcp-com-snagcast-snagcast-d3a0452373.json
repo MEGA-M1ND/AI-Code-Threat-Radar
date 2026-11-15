@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-snagcast-snagcast-d3a0452373",
+  "source": "mcp-registry",
+  "key": "mcp:com.snagcast/snagcast",
+  "title": "MCP server com.snagcast/snagcast: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.snagcast/snagcast",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Facts about Snagcast, which captions and translates videos in real time, clips and shares them",
+    "repository": "",
+    "website": "https://snagcast.com",
+    "packages": [],
+    "remote_hosts": [
+      "snagcast.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-30T16:54:48.7978Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://snagcast.com",
+    "https://snagcast.com/mcp"
+  ],
+  "discovered_at": "2026-11-15T14:03:51Z"
+}

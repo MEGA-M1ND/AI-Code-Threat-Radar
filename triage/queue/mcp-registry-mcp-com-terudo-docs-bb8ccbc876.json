@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-terudo-docs-bb8ccbc876",
+  "source": "mcp-registry",
+  "key": "mcp:com.terudo/docs",
+  "title": "MCP server com.terudo/docs: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.terudo/docs",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Docs, Elements code, API reference and agent skills to integrate Terudo travel eSIMs.",
+    "repository": "",
+    "website": "https://terudo.com/developers/ai/",
+    "packages": [],
+    "remote_hosts": [
+      "terudo.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-13T20:52:22.047909Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://terudo.com/developers/ai/",
+    "https://terudo.com/mcp/"
+  ],
+  "discovered_at": "2026-11-15T14:03:51Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-uncommonear-mcp-1ee6c6ead7",
+  "source": "mcp-registry",
+  "key": "mcp:com.uncommonear/mcp",
+  "title": "MCP server com.uncommonear/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.uncommonear/mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Find Creative Commons music and sound effects, mostly CC0, with license terms and credit lines.",
+    "repository": "",
+    "website": "https://uncommonear.com/docs/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "uncommonear.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T01:41:24.285384Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://uncommonear.com/docs/mcp",
+    "https://uncommonear.com/mcp"
+  ],
+  "discovered_at": "2026-11-15T14:03:51Z"
+}

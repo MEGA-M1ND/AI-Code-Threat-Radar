@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zw008-vmware-avi-aeda2ffc45",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zw008/vmware-avi",
+  "title": "MCP server io.github.zw008/vmware-avi: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zw008/vmware-avi",
+    "rule": "status-change",
+    "version": "1.8.8",
+    "status": "deleted",
+    "description": "VMware AVI (NSX ALB) load balancer plus AKO Kubernetes ops — 29 MCP tools.",
+    "repository": "https://github.com/zw008/VMware-AVI",
+    "website": "",
+    "packages": [
+      "pypi:vmware-avi"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-07-21T15:50:46.622787Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/zw008/VMware-AVI"
+  ],
+  "discovered_at": "2026-11-15T14:03:53Z"
+}
