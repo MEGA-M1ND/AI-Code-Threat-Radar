@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-marcoco27-sentinelle-phyto-494ef2eb13",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Marcoco27/sentinelle-phyto",
+  "title": "MCP server io.github.Marcoco27/sentinelle-phyto: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Marcoco27/sentinelle-phyto",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "French pesticide register (Anses E-Phy): still sellable or usable, and until when.",
+    "repository": "https://github.com/Marcoco27/sentinelle-phyto-mcp",
+    "website": "https://phyto.amacunia.fr/",
+    "packages": [],
+    "remote_hosts": [
+      "phyto.amacunia.fr"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T12:59:34.292092Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Marcoco27/sentinelle-phyto-mcp",
+    "https://phyto.amacunia.fr/",
+    "https://phyto.amacunia.fr/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

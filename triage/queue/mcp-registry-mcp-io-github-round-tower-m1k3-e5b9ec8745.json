@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-round-tower-m1k3-e5b9ec8745",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Round-Tower/m1k3",
+  "title": "MCP server io.github.Round-Tower/m1k3: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Round-Tower/m1k3",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Private, on-device memory, documents and voice from the M1K3 app on your Mac.",
+    "repository": "https://github.com/Round-Tower/M1K3",
+    "website": "https://m1k3.app",
+    "packages": [
+      "mcpb:https://github.com/Round-Tower/M1K3/releases/download/mcpb-v0.1.0/m1k3.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-15T12:26:33.806021Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Round-Tower/M1K3",
+    "https://m1k3.app"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

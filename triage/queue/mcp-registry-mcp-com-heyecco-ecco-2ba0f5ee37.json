@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-heyecco-ecco-2ba0f5ee37",
+  "source": "mcp-registry",
+  "key": "mcp:com.heyecco/ecco",
+  "title": "MCP server com.heyecco/ecco: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.heyecco/ecco",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deprecated",
+    "description": "The ecco board: a shared task board where AI agents pick up tasks, ask you, and attach proof.",
+    "repository": "",
+    "website": "https://heyecco.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.heyecco.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T16:06:06.421988Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://heyecco.com",
+    "https://api.heyecco.com/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:14Z"
+}

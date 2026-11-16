@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-sslip-2-29-135-242-radar-agent-to-67e9602642",
+  "source": "mcp-registry",
+  "key": "mcp:io.sslip.2-29-135-242/radar-agent-tools",
+  "title": "MCP server io.sslip.2-29-135-242/radar-agent-tools: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.sslip.2-29-135-242/radar-agent-tools",
+    "rule": "status-change",
+    "version": "1.2.1",
+    "status": "deprecated",
+    "description": "30 no-key agent tools: web to Markdown, DNS/email, IBAN, SEPA XML, e-invoices, PDF, images, CVEs",
+    "repository": "",
+    "website": "https://radarbg.com/?ref=mcpregistry",
+    "packages": [],
+    "remote_hosts": [
+      "2-29-135-242.sslip.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-15T11:43:10.805953Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://radarbg.com/?ref=mcpregistry",
+    "https://2-29-135-242.sslip.io/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:17Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-sjh9714-journal-801711b3dd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sjh9714/journal",
+  "title": "MCP server io.github.sjh9714/journal: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sjh9714/journal",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Personal journal kept as Markdown files: search, On This Day, append to today, Day One import.",
+    "repository": "https://github.com/sjh9714/journal",
+    "website": "https://github.com/sjh9714/journal",
+    "packages": [
+      "mcpb:https://github.com/sjh9714/journal/releases/download/v0.1.0/journal-0.1.0.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-28T05:45:05.558138Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/sjh9714/journal",
+    "https://github.com/sjh9714/journal"
+  ],
+  "discovered_at": "2026-11-16T16:00:17Z"
+}

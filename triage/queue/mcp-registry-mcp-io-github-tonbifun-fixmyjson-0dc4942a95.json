@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-tonbifun-fixmyjson-0dc4942a95",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.tonbifun/fixmyjson",
+  "title": "MCP server io.github.tonbifun/fixmyjson: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.tonbifun/fixmyjson",
+    "rule": "status-change",
+    "version": "0.4.0",
+    "status": "deprecated",
+    "description": "Repair broken LLM JSON and check it against a JSON Schema. Flags cut-off output. Free trial.",
+    "repository": "",
+    "website": "https://rapidapi.com/tonbifun/api/fixmyjson1",
+    "packages": [],
+    "remote_hosts": [
+      "fixmyjson-api.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T06:09:47.277497Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://rapidapi.com/tonbifun/api/fixmyjson1",
+    "https://fixmyjson-api.onrender.com/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:17Z"
+}

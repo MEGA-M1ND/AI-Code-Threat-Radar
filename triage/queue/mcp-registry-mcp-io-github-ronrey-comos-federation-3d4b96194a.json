@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-ronrey-comos-federation-3d4b96194a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ronrey/comos-federation",
+  "title": "MCP server io.github.ronrey/comos-federation: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ronrey/comos-federation",
+    "rule": "status-change",
+    "version": "1.0.164",
+    "status": "deprecated",
+    "description": "Multi-tenant MCP gateway for AI commerce. One connection, every store.",
+    "repository": "https://github.com/ComOS-Federation/comos-mcp",
+    "website": "https://comos-federation.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.comos-gateway.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-11-15T01:54:20.609751Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ComOS-Federation/comos-mcp",
+    "https://comos-federation.com",
+    "https://mcp.comos-gateway.com/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:17Z"
+}

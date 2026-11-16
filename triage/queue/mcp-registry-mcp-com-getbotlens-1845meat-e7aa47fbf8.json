@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-getbotlens-1845meat-e7aa47fbf8",
+  "source": "mcp-registry",
+  "key": "mcp:com.getbotlens/1845meat",
+  "title": "MCP server com.getbotlens/1845meat: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.getbotlens/1845meat",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "MCP gateway for 1845meat.com: products, prices, stock and cart links. Read-only, no auth.",
+    "repository": "",
+    "website": "https://1845meat.com",
+    "packages": [],
+    "remote_hosts": [
+      "1845meat.mcp.getbotlens.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-27T16:07:36.336898Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://1845meat.com",
+    "https://1845meat.mcp.getbotlens.com/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:14Z"
+}

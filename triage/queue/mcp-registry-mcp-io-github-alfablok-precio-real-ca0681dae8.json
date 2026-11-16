@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-alfablok-precio-real-ca0681dae8",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AlfaBlok/precio-real",
+  "title": "MCP server io.github.AlfaBlok/precio-real: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AlfaBlok/precio-real",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Used cars in Spain: is the asking price cheap, fair or dear against the same cars on sale?",
+    "repository": "",
+    "website": "https://mcp.alpha9.io/precio-real/",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.alpha9.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-15T06:30:44.211887Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.alpha9.io/precio-real/",
+    "https://mcp.alpha9.io/precio-real/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-troothllc-trooth-network-f9d741606e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.troothllc/trooth-network",
+  "title": "MCP server io.github.troothllc/trooth-network: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.troothllc/trooth-network",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deprecated",
+    "description": "Read any company's record on the Trooth Network, each fact labeled with who said it and when.",
+    "repository": "https://github.com/troothllc/trooth-mcp",
+    "website": "https://trooth.co",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.trooth.co"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T06:04:23.082983Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/troothllc/trooth-mcp",
+    "https://trooth.co",
+    "https://mcp.trooth.co"
+  ],
+  "discovered_at": "2026-11-16T16:00:17Z"
+}

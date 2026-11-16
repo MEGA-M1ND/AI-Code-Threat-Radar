@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-org-signkaro-signkaro-ecc1550331",
+  "source": "mcp-registry",
+  "key": "mcp:org.signkaro/signkaro",
+  "title": "MCP server org.signkaro/signkaro: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "org.signkaro/signkaro",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Make contracts from templates, send them for e-signature by email, and track who has signed.",
+    "repository": "",
+    "website": "https://signkaro.org/apps/claude",
+    "packages": [],
+    "remote_hosts": [
+      "signkaro.org"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-11T16:53:28.954738Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://signkaro.org/apps/claude",
+    "https://signkaro.org/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:19Z"
+}

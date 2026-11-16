@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-sourcey-mcp-server-21aae61f90",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sourcey/mcp-server",
+  "title": "MCP server io.github.sourcey/mcp-server: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sourcey/mcp-server",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Stdio bridge to Sourcey startup offers and Agent Readiness report cards.",
+    "repository": "https://github.com/sourcey/mcp-server",
+    "website": "https://sourcey.com",
+    "packages": [
+      "npm:@sourcey/mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-02T03:15:30.887813Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/sourcey/mcp-server",
+    "https://sourcey.com"
+  ],
+  "discovered_at": "2026-11-16T16:00:17Z"
+}

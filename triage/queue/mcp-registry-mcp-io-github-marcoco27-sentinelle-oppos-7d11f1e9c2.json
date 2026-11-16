@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-marcoco27-sentinelle-oppos-7d11f1e9c2",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Marcoco27/sentinelle-oppositions",
+  "title": "MCP server io.github.Marcoco27/sentinelle-oppositions: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Marcoco27/sentinelle-oppositions",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "French business sales and mergers (BODACC) per debtor, with the creditor objection deadline.",
+    "repository": "https://github.com/Marcoco27/sentinelle-oppositions-mcp",
+    "website": "https://oppositions.amacunia.fr/",
+    "packages": [],
+    "remote_hosts": [
+      "oppositions.amacunia.fr"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T12:58:50.326366Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Marcoco27/sentinelle-oppositions-mcp",
+    "https://oppositions.amacunia.fr/",
+    "https://oppositions.amacunia.fr/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

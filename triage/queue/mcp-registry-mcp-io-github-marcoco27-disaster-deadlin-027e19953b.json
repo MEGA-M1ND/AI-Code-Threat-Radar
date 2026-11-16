@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-marcoco27-disaster-deadlin-027e19953b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Marcoco27/disaster-deadline-sentinel",
+  "title": "MCP server io.github.Marcoco27/disaster-deadline-sentinel: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Marcoco27/disaster-deadline-sentinel",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "US county disaster deadlines: assistance application cutoff, IRS postponed tax date.",
+    "repository": "https://github.com/Marcoco27/disaster-deadline-sentinel-mcp",
+    "website": "https://disasters.amacunia.fr/",
+    "packages": [],
+    "remote_hosts": [
+      "disasters.amacunia.fr"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T12:58:14.716197Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Marcoco27/disaster-deadline-sentinel-mcp",
+    "https://disasters.amacunia.fr/",
+    "https://disasters.amacunia.fr/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

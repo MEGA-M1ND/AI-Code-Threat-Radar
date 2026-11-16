@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-getbotlens-donhuffines-3fb05df420",
+  "source": "mcp-registry",
+  "key": "mcp:com.getbotlens/donhuffines",
+  "title": "MCP server com.getbotlens/donhuffines: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.getbotlens/donhuffines",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "MCP gateway for donhuffines.com: articles, search and full text. Read-only, no auth.",
+    "repository": "",
+    "website": "https://donhuffines.com",
+    "packages": [],
+    "remote_hosts": [
+      "donhuffines.mcp.getbotlens.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-27T16:07:37.533991Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://donhuffines.com",
+    "https://donhuffines.mcp.getbotlens.com/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:14Z"
+}

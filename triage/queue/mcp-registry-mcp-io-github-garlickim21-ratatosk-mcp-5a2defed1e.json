@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-garlickim21-ratatosk-mcp-5a2defed1e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.garlicKim21/ratatosk-mcp",
+  "title": "MCP server io.github.garlicKim21/ratatosk-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.garlicKim21/ratatosk-mcp",
+    "rule": "status-change",
+    "version": "0.9.1",
+    "status": "deprecated",
+    "description": "CNCF release intelligence: typed changes from release notes; check_stack compares versions locally.",
+    "repository": "https://github.com/garlicKim21/ratatosk-mcp",
+    "website": "https://ratatosk.io",
+    "packages": [
+      "oci:ghcr.io/garlickim21/ratatosk-mcp:0.9.1"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-28T23:20:36.430422Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/garlicKim21/ratatosk-mcp",
+    "https://ratatosk.io"
+  ],
+  "discovered_at": "2026-11-16T16:00:16Z"
+}

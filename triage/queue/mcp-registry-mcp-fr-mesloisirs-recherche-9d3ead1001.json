@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-fr-mesloisirs-recherche-9d3ead1001",
+  "source": "mcp-registry",
+  "key": "mcp:fr.mesloisirs/recherche",
+  "title": "MCP server fr.mesloisirs/recherche: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "fr.mesloisirs/recherche",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Real things to do in France: activities, tours, spas, escape games. Read-only, no sign-in.",
+    "repository": "",
+    "website": "https://mesloisirs.fr/agents",
+    "packages": [],
+    "remote_hosts": [
+      "mesloisirs.fr"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-13T10:51:05.915885Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mesloisirs.fr/agents",
+    "https://mesloisirs.fr/mcp/search"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

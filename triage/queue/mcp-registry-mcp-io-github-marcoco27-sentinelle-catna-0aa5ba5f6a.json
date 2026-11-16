@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-marcoco27-sentinelle-catna-0aa5ba5f6a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Marcoco27/sentinelle-catnat",
+  "title": "MCP server io.github.Marcoco27/sentinelle-catnat: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Marcoco27/sentinelle-catnat",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "French natural-disaster decrees (CatNat) per commune, with the open insurance-claim deadline.",
+    "repository": "",
+    "website": "https://catnat.amacunia.fr/",
+    "packages": [],
+    "remote_hosts": [
+      "catnat.amacunia.fr"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T20:00:33.38297Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://catnat.amacunia.fr/",
+    "https://catnat.amacunia.fr/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

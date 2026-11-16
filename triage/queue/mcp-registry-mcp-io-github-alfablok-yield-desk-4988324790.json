@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-alfablok-yield-desk-4988324790",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AlfaBlok/yield-desk",
+  "title": "MCP server io.github.AlfaBlok/yield-desk: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AlfaBlok/yield-desk",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Which flats on sale in Mexico City would pay for themselves on Airbnb, after every cost.",
+    "repository": "",
+    "website": "https://mcp.alpha9.io/yield-desk/",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.alpha9.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-15T06:30:43.823813Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.alpha9.io/yield-desk/",
+    "https://mcp.alpha9.io/yield-desk/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

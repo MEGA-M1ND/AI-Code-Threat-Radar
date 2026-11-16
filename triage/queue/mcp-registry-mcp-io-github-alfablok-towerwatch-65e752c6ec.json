@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-alfablok-towerwatch-65e752c6ec",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AlfaBlok/towerwatch",
+  "title": "MCP server io.github.AlfaBlok/towerwatch: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AlfaBlok/towerwatch",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Mexico City flats for sale ranked by estimated Airbnb net yield after every cost, read daily.",
+    "repository": "",
+    "website": "https://mcp.alpha9.io/towerwatch/",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.alpha9.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-15T06:30:43.433449Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.alpha9.io/towerwatch/",
+    "https://mcp.alpha9.io/towerwatch/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

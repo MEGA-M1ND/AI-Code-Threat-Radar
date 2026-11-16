@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-marcoco27-sentinelle-crean-b704f90da5",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Marcoco27/sentinelle-creances",
+  "title": "MCP server io.github.Marcoco27/sentinelle-creances: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Marcoco27/sentinelle-creances",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "French insolvency notices (BODACC) per company, with the creditor claim filing deadline.",
+    "repository": "https://github.com/Marcoco27/sentinelle-creances-mcp",
+    "website": "https://creances.amacunia.fr/",
+    "packages": [],
+    "remote_hosts": [
+      "creances.amacunia.fr"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T22:09:04.910306Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Marcoco27/sentinelle-creances-mcp",
+    "https://creances.amacunia.fr/",
+    "https://creances.amacunia.fr/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:15Z"
+}

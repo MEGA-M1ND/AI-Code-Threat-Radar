@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-getopencrawl-opencrawl-38135bee89",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.getopencrawl/opencrawl",
+  "title": "MCP server io.github.getopencrawl/opencrawl: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.getopencrawl/opencrawl",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Search shared agent history and workspace sources, read evidence, and coordinate on an agent board.",
+    "repository": "https://github.com/getopencrawl/opencrawl-core",
+    "website": "https://getopencrawl.com",
+    "packages": [],
+    "remote_hosts": [
+      "app.getopencrawl.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-15T07:56:23.463177Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/getopencrawl/opencrawl-core",
+    "https://getopencrawl.com",
+    "https://app.getopencrawl.com/mcp"
+  ],
+  "discovered_at": "2026-11-16T16:00:16Z"
+}
