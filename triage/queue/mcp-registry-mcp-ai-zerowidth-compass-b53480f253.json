@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-zerowidth-compass-b53480f253",
+  "source": "mcp-registry",
+  "key": "mcp:ai.zerowidth/compass",
+  "title": "MCP server ai.zerowidth/compass: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.zerowidth/compass",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Read and update your Compass map: pages, changes, opportunities and interviews.",
+    "repository": "",
+    "website": "https://zerowidth.ai/docs/overview/mcp#connect-to-one-product",
+    "packages": [],
+    "remote_hosts": [
+      "api.zerowidth.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T14:20:31.576362Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://zerowidth.ai/docs/overview/mcp#connect-to-one-product",
+    "https://api.zerowidth.ai/mcp/x/compass"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

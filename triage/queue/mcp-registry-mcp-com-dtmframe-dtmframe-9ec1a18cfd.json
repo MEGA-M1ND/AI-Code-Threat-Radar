@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-dtmframe-dtmframe-9ec1a18cfd",
+  "source": "mcp-registry",
+  "key": "mcp:com.dtmframe/dtmframe",
+  "title": "MCP server com.dtmframe/dtmframe: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.dtmframe/dtmframe",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deleted",
+    "description": "Japan music-production prices: plugins, DAWs, audio gear. Shop comparison, sales and end dates.",
+    "repository": "",
+    "website": "https://dtmframe.com/developers/",
+    "packages": [],
+    "remote_hosts": [
+      "dtmframe.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T19:01:16.57858Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://dtmframe.com/developers/",
+    "https://dtmframe.com/mcp/"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-ai-agentgates-mcp-0749b392bd",
+  "source": "mcp-registry",
+  "key": "mcp:ai.agentgates/mcp",
+  "title": "MCP server ai.agentgates/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.agentgates/mcp",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deprecated",
+    "description": "An agent wallet over MCP: balances, and sends, swaps and earn moves its owner approves.",
+    "repository": "https://github.com/agentgates-ai/agentgates",
+    "website": "https://agentgates.ai",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.agentgates.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-03T05:11:06.221525Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/agentgates-ai/agentgates",
+    "https://agentgates.ai",
+    "https://mcp.agentgates.ai/api/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-legitreviews-legitreviews-27963bea6c",
+  "source": "mcp-registry",
+  "key": "mcp:ai.legitreviews/legitreviews",
+  "title": "MCP server ai.legitreviews/legitreviews: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.legitreviews/legitreviews",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deprecated",
+    "description": "Scores whether a business's Google Maps reviews are genuine. Your agent collects them, we judge.",
+    "repository": "",
+    "website": "https://legitreviews.ai",
+    "packages": [],
+    "remote_hosts": [
+      "legitreviews.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-03T08:09:23.510452Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://legitreviews.ai",
+    "https://legitreviews.ai/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

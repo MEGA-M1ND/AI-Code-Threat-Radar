@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-zerowidth-ledger-3d33ed187b",
+  "source": "mcp-registry",
+  "key": "mcp:ai.zerowidth/ledger",
+  "title": "MCP server ai.zerowidth/ledger: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.zerowidth/ledger",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Log decisions with expectations, add evidence, and track metrics in Ledger.",
+    "repository": "",
+    "website": "https://zerowidth.ai/docs/overview/mcp#connect-to-one-product",
+    "packages": [],
+    "remote_hosts": [
+      "api.zerowidth.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T14:20:39.860587Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://zerowidth.ai/docs/overview/mcp#connect-to-one-product",
+    "https://api.zerowidth.ai/mcp/x/ledger"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-nl-struq-struq-d713eb3957",
+  "source": "mcp-registry",
+  "key": "mcp:nl.struq/struq",
+  "title": "MCP server nl.struq/struq: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "nl.struq/struq",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deprecated",
+    "description": "Direction, award-tier motion blocks and a local check for coding agents that build websites.",
+    "repository": "",
+    "website": "https://struq.app/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "struq.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-16T06:45:26.801702Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://struq.app/mcp",
+    "https://struq.app/api/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:57Z"
+}

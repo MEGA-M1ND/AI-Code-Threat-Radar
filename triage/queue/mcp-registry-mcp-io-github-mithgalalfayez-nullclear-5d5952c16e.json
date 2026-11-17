@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-mithgalalfayez-nullclear-5d5952c16e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.mithgalalfayez/nullclear",
+  "title": "MCP server io.github.mithgalalfayez/nullclear: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.mithgalalfayez/nullclear",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deprecated",
+    "description": "Autonomous x402 payment schema-escrow arbiter, spend firewall, failover & ERC-8004 Sybil oracle",
+    "repository": "https://github.com/Nullclear-Protocol/nullclear",
+    "website": "https://nullclear.dev",
+    "packages": [
+      "npm:@nullclear/mcp"
+    ],
+    "remote_hosts": [
+      "api.nullclear.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-10-16T01:05:08.244503Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Nullclear-Protocol/nullclear",
+    "https://nullclear.dev",
+    "https://api.nullclear.dev/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:55Z"
+}

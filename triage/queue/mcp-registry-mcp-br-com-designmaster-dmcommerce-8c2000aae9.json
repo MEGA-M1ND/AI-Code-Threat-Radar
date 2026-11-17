@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-br-com-designmaster-dmcommerce-8c2000aae9",
+  "source": "mcp-registry",
+  "key": "mcp:br.com.designmaster/dmcommerce",
+  "title": "MCP server br.com.designmaster/dmcommerce: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "br.com.designmaster/dmcommerce",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Search products, sizes, stock and shipping quotes at Brazilian online stores that run on DMCommerce",
+    "repository": "",
+    "website": "https://commerce.designmaster.com.br/assistentes-ia",
+    "packages": [],
+    "remote_hosts": [
+      "commerce.designmaster.com.br"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T09:33:53.546317Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://commerce.designmaster.com.br/assistentes-ia",
+    "https://commerce.designmaster.com.br/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

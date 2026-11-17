@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-alexanderdandrea-art-itali-a19f04efb9",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.alexanderdandrea-art/italian-company-check",
+  "title": "MCP server io.github.alexanderdandrea-art/italian-company-check: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.alexanderdandrea-art/italian-company-check",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deleted",
+    "description": "Verify Italian companies for KYB, supplier onboarding and procurement using official/public sources.",
+    "repository": "",
+    "website": "https://italian-company-check-fdsbh7p2bq-oc.a.run.app/product",
+    "packages": [],
+    "remote_hosts": [
+      "italian-company-check-fdsbh7p2bq-oc.a.run.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-31T11:07:32.230781Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://italian-company-check-fdsbh7p2bq-oc.a.run.app/product",
+    "https://italian-company-check-fdsbh7p2bq-oc.a.run.app/mcp/"
+  ],
+  "discovered_at": "2026-11-17T16:11:54Z"
+}

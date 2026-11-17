@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-zerowidth-napkin-f0fe683559",
+  "source": "mcp-registry",
+  "key": "mcp:ai.zerowidth/napkin",
+  "title": "MCP server ai.zerowidth/napkin: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.zerowidth/napkin",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Draw boards, write docs and sheets, and build decks with your brand in Napkin.",
+    "repository": "",
+    "website": "https://zerowidth.ai/docs/overview/mcp#connect-to-one-product",
+    "packages": [],
+    "remote_hosts": [
+      "api.zerowidth.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T14:20:42.048693Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://zerowidth.ai/docs/overview/mcp#connect-to-one-product",
+    "https://api.zerowidth.ai/mcp/x/napkin"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

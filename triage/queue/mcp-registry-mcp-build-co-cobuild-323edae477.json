@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-build-co-cobuild-323edae477",
+  "source": "mcp-registry",
+  "key": "mcp:build.co/cobuild",
+  "title": "MCP server build.co/cobuild: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "build.co/cobuild",
+    "rule": "status-change",
+    "version": "0.6.0",
+    "status": "deprecated",
+    "description": "Open-source mods for the devices you own, with owner reports on what works.",
+    "repository": "",
+    "website": "https://co.build",
+    "packages": [],
+    "remote_hosts": [
+      "co.build"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-04T11:31:55.986904Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://co.build",
+    "https://co.build/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

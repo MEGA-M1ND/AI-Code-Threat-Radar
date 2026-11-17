@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-ethanhawkes-gif-agent-prov-37afa1a0a5",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ethanhawkes-gif/agent-provider-depot",
+  "title": "MCP server io.github.ethanhawkes-gif/agent-provider-depot: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ethanhawkes-gif/agent-provider-depot",
+    "rule": "status-change",
+    "version": "0.14.0",
+    "status": "deprecated",
+    "description": "Dated picks, sourced pricing, and rescue/eval tools across 305 AI agent infrastructure providers.",
+    "repository": "https://github.com/ethanhawkes-gif/agent-provider-depot",
+    "website": "https://getagentdepot.com",
+    "packages": [],
+    "remote_hosts": [
+      "getagentdepot.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T01:27:37.383457Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ethanhawkes-gif/agent-provider-depot",
+    "https://getagentdepot.com",
+    "https://getagentdepot.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:54Z"
+}

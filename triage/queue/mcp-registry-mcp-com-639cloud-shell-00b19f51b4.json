@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-639cloud-shell-00b19f51b4",
+  "source": "mcp-registry",
+  "key": "mcp:com.639cloud/shell",
+  "title": "MCP server com.639cloud/shell: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.639cloud/shell",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deleted",
+    "description": "Linux machines for AI agents: create, run commands, snapshot, fork, sandbox. Alpha.",
+    "repository": "",
+    "website": "https://shell.639cloud.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.shell.639cloud.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-14T00:31:21.390879Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://shell.639cloud.com",
+    "https://api.shell.639cloud.com/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

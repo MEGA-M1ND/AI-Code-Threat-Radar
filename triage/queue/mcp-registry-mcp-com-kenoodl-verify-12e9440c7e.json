@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-com-kenoodl-verify-12e9440c7e",
+  "source": "mcp-registry",
+  "key": "mcp:com.kenoodl/verify",
+  "title": "MCP server com.kenoodl/verify: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.kenoodl/verify",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "Retired Oct 31 2026. This address is now the kenoodl phone line for AI: see com.kenoodl/line.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "kenoodl.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-16T23:09:53.782717Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://kenoodl.com/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:53Z"
+}

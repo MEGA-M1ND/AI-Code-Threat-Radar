@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-fetchrelay-fetchrelay-2a0ba3f152",
+  "source": "mcp-registry",
+  "key": "mcp:com.fetchrelay/fetchrelay",
+  "title": "MCP server com.fetchrelay/fetchrelay: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.fetchrelay/fetchrelay",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Extract public webpages as Markdown, map sites, and run bounded crawl jobs. API key required.",
+    "repository": "",
+    "website": "https://fetchrelay.com/integrations/mcp?utm_source=mcp&utm_medium=integration&utm_campaign=mcp-launch",
+    "packages": [],
+    "remote_hosts": [
+      "fetchrelay.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-07T05:54:52.139683Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://fetchrelay.com/integrations/mcp?utm_source=mcp&utm_medium=integration&utm_campaign=mcp-launch",
+    "https://fetchrelay.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:53Z"
+}

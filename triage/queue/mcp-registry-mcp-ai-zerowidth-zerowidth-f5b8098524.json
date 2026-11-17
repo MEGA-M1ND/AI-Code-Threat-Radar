@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-zerowidth-zerowidth-f5b8098524",
+  "source": "mcp-registry",
+  "key": "mcp:ai.zerowidth/zerowidth",
+  "title": "MCP server ai.zerowidth/zerowidth: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.zerowidth/zerowidth",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Search, write and run work across Compass, Workbench, Caliper, Ledger, Prism and Napkin.",
+    "repository": "",
+    "website": "https://zerowidth.ai/docs/overview/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.zerowidth.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T14:20:48.663106Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://zerowidth.ai/docs/overview/mcp",
+    "https://api.zerowidth.ai/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-usefulapi-fieldedge-488e031925",
+  "source": "mcp-registry",
+  "key": "mcp:io.usefulapi/fieldedge",
+  "title": "MCP server io.usefulapi/fieldedge: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.usefulapi/fieldedge",
+    "rule": "status-change",
+    "version": "1.5.0",
+    "status": "deleted",
+    "description": "Read work orders, customers and invoices; create customers, notes and work orders in FieldEdge.",
+    "repository": "https://github.com/m190/usefulapi-mcp",
+    "website": "https://usefulapi.io/fieldedge/",
+    "packages": [],
+    "remote_hosts": [
+      "fieldedge.usefulapi.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-16T18:16:24.831411Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/m190/usefulapi-mcp",
+    "https://usefulapi.io/fieldedge/",
+    "https://fieldedge.usefulapi.io/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:56Z"
+}

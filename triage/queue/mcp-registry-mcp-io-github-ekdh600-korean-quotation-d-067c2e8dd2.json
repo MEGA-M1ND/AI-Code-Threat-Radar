@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-ekdh600-korean-quotation-d-067c2e8dd2",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ekdh600/korean-quotation-demo",
+  "title": "MCP server io.github.ekdh600/korean-quotation-demo: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ekdh600/korean-quotation-demo",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deleted",
+    "description": "Try extracting the date, issuer and KRW total from built-in text and scanned Korean quotation PDFs.",
+    "repository": "https://github.com/ekdh600/invoice-renamer",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "quote-api.haebow.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-15T05:03:06.357693Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ekdh600/invoice-renamer",
+    "https://quote-api.haebow.com/tools/mcp"
+  ],
+  "discovered_at": "2026-11-17T16:11:54Z"
+}

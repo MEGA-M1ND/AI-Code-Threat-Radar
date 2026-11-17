@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-zerowidth-workbench-d244cd82e9",
+  "source": "mcp-registry",
+  "key": "mcp:ai.zerowidth/workbench",
+  "title": "MCP server ai.zerowidth/workbench: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.zerowidth/workbench",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Build, run and publish Workbench flows, tasks, shims and knowledge bases.",
+    "repository": "",
+    "website": "https://zerowidth.ai/docs/overview/mcp#connect-to-one-product",
+    "packages": [],
+    "remote_hosts": [
+      "api.zerowidth.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T14:20:47.052674Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://zerowidth.ai/docs/overview/mcp#connect-to-one-product",
+    "https://api.zerowidth.ai/mcp/x/workbench"
+  ],
+  "discovered_at": "2026-11-17T16:11:52Z"
+}
