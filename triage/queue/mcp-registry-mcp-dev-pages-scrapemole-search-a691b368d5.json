@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-pages-scrapemole-search-a691b368d5",
+  "source": "mcp-registry",
+  "key": "mcp:dev.pages.scrapemole/search",
+  "title": "MCP server dev.pages.scrapemole/search: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.pages.scrapemole/search",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Pay-per-call x402 web search results, news search and search autocomplete suggestions for agents.",
+    "repository": "",
+    "website": "https://scrapemole.pages.dev",
+    "packages": [],
+    "remote_hosts": [
+      "search.scrapemole.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-13T10:07:32.028707Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://scrapemole.pages.dev",
+    "https://search.scrapemole.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-18T15:47:29Z"
+}

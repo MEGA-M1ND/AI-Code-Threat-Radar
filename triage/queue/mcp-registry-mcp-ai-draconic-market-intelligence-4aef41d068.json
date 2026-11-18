@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-ai-draconic-market-intelligence-4aef41d068",
+  "source": "mcp-registry",
+  "key": "mcp:ai.draconic/market-intelligence",
+  "title": "MCP server ai.draconic/market-intelligence: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.draconic/market-intelligence",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Live multi-signal market intelligence for supported instruments. Analysis only.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.draconic.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-02T19:15:52.265035Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.draconic.ai/mcp"
+  ],
+  "discovered_at": "2026-11-18T15:47:28Z"
+}

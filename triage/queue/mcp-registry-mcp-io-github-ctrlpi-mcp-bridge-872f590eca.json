@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-ctrlpi-mcp-bridge-872f590eca",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.ctrlpi/mcp-bridge",
+  "title": "MCP server io.github.ctrlpi/mcp-bridge: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.ctrlpi/mcp-bridge",
+    "rule": "status-change",
+    "version": "0.9.31",
+    "status": "deprecated",
+    "description": "MCP server to control Raspberry Pi, Pico W and ESP32 GPIO agents from an AI assistant.",
+    "repository": "https://github.com/ctrlpi/mcp-bridge",
+    "website": "",
+    "packages": [
+      "npm:@ctrlpi/mcp-bridge"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T11:02:56.165178Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/ctrlpi/mcp-bridge"
+  ],
+  "discovered_at": "2026-11-18T15:47:30Z"
+}

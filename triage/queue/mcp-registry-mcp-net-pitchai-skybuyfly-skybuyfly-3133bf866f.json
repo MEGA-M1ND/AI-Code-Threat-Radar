@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-net-pitchai-skybuyfly-skybuyfly-3133bf866f",
+  "source": "mcp-registry",
+  "key": "mcp:net.pitchai.skybuyfly/skybuyfly",
+  "title": "MCP server net.pitchai.skybuyfly/skybuyfly: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "net.pitchai.skybuyfly/skybuyfly",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Compare duty-free prices across airport shops: search, live price checks, history and barcodes.",
+    "repository": "",
+    "website": "https://skybuyfly.pitchai.net/mcp/docs",
+    "packages": [],
+    "remote_hosts": [
+      "skybuyfly.pitchai.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-09T23:20:55.597233Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://skybuyfly.pitchai.net/mcp/docs",
+    "https://skybuyfly.pitchai.net/mcp"
+  ],
+  "discovered_at": "2026-11-18T15:47:33Z"
+}

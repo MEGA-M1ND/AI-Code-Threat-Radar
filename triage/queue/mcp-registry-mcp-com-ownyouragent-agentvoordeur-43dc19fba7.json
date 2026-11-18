@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-ownyouragent-agentvoordeur-43dc19fba7",
+  "source": "mcp-registry",
+  "key": "mcp:com.ownyouragent/agentvoordeur",
+  "title": "MCP server com.ownyouragent/agentvoordeur: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.ownyouragent/agentvoordeur",
+    "rule": "status-change",
+    "version": "1.6.0",
+    "status": "deprecated",
+    "description": "Read-only: services, prices, the open Ownership Check, our answers, comparison and trust register.",
+    "repository": "",
+    "website": "https://ownyouragent.com/",
+    "packages": [],
+    "remote_hosts": [
+      "ownyouragent.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-13T11:10:54.096036Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ownyouragent.com/",
+    "https://ownyouragent.com/api/v1/mcp.php"
+  ],
+  "discovered_at": "2026-11-18T15:47:29Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-pages-scrapemole-companies-88a487955b",
+  "source": "mcp-registry",
+  "key": "mcp:dev.pages.scrapemole/companies",
+  "title": "MCP server dev.pages.scrapemole/companies: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.pages.scrapemole/companies",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Pay-per-call x402 SEC EDGAR data: company search, profiles, XBRL financials, filings.",
+    "repository": "",
+    "website": "https://scrapemole.pages.dev",
+    "packages": [],
+    "remote_hosts": [
+      "companies.scrapemole.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T19:58:46.747311Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://scrapemole.pages.dev",
+    "https://companies.scrapemole.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-18T15:47:29Z"
+}

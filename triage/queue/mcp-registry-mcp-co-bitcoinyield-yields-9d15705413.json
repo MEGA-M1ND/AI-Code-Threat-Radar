@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-co-bitcoinyield-yields-9d15705413",
+  "source": "mcp-registry",
+  "key": "mcp:co.bitcoinyield/yields",
+  "title": "MCP server co.bitcoinyield/yields: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "co.bitcoinyield/yields",
+    "rule": "status-change",
+    "version": "1.13.0",
+    "status": "deprecated",
+    "description": "Best live crypto yield at each A-D risk grade on BTC, ETH, SOL and stablecoins, DeFi and CeFi.",
+    "repository": "",
+    "website": "https://bitcoinyield.co/docs",
+    "packages": [],
+    "remote_hosts": [
+      "bitcoinyield.co"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-27T09:31:04.887709Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://bitcoinyield.co/docs",
+    "https://bitcoinyield.co/api/mcp"
+  ],
+  "discovered_at": "2026-11-18T15:47:28Z"
+}

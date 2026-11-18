@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-pages-scrapemole-domains-407ec1a19b",
+  "source": "mcp-registry",
+  "key": "mcp:dev.pages.scrapemole/domains",
+  "title": "MCP server dev.pages.scrapemole/domains: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.pages.scrapemole/domains",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Pay-per-call x402 DNS, WHOIS/RDAP, availability, email security, SSL check, CT subdomains.",
+    "repository": "",
+    "website": "https://scrapemole.pages.dev",
+    "packages": [],
+    "remote_hosts": [
+      "domains.scrapemole.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T19:58:46.244162Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://scrapemole.pages.dev",
+    "https://domains.scrapemole.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-18T15:47:29Z"
+}

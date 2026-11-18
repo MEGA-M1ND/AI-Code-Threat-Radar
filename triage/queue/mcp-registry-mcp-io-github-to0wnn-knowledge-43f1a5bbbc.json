@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-to0wnn-knowledge-43f1a5bbbc",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.To0wnn/knowledge",
+  "title": "MCP server io.github.To0wnn/knowledge: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.To0wnn/knowledge",
+    "rule": "status-change",
+    "version": "0.41.4",
+    "status": "deleted",
+    "description": "Self-hosted shared memory and docs for Claude Code, Codex and Antigravity agents, with a graph UI",
+    "repository": "https://github.com/To0wnn/knowledge",
+    "website": "",
+    "packages": [
+      "oci:ghcr.io/to0wnn/knowledge:0.41.4"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T14:45:36.608021Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/To0wnn/knowledge"
+  ],
+  "discovered_at": "2026-11-18T15:47:30Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-pages-scrapemole-quotes-2fbe90ae8c",
+  "source": "mcp-registry",
+  "key": "mcp:dev.pages.scrapemole/quotes",
+  "title": "MCP server dev.pages.scrapemole/quotes: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.pages.scrapemole/quotes",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Pay-per-call x402 stock, ETF, index, FX and crypto quotes, OHLCV history, ticker and coin search.",
+    "repository": "",
+    "website": "https://scrapemole.pages.dev",
+    "packages": [],
+    "remote_hosts": [
+      "quotes.scrapemole.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-13T06:20:52.831931Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://scrapemole.pages.dev",
+    "https://quotes.scrapemole.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-18T15:47:29Z"
+}

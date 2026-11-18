@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-app-apunt-aranes-3f76dd0d12",
+  "source": "mcp-registry",
+  "key": "mcp:app.apunt/aranes",
+  "title": "MCP server app.apunt/aranes: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.apunt/aranes",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Corrector, translator and dictionary for Aranese (aranés) following the IEA norm. Free, no key.",
+    "repository": "",
+    "website": "https://apunt.app/api",
+    "packages": [],
+    "remote_hosts": [
+      "apunt.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-14T21:27:42.079183Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apunt.app/api",
+    "https://apunt.app/mcp"
+  ],
+  "discovered_at": "2026-11-18T15:47:28Z"
+}

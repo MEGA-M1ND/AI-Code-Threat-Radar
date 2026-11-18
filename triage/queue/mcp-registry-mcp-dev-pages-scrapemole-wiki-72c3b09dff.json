@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-pages-scrapemole-wiki-72c3b09dff",
+  "source": "mcp-registry",
+  "key": "mcp:dev.pages.scrapemole/wiki",
+  "title": "MCP server dev.pages.scrapemole/wiki: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.pages.scrapemole/wiki",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Pay-per-call x402 Wikipedia summaries/search and Wikidata facts, with CC BY-SA attribution.",
+    "repository": "",
+    "website": "https://scrapemole.pages.dev",
+    "packages": [],
+    "remote_hosts": [
+      "wiki.scrapemole.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-11T19:58:47.017634Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://scrapemole.pages.dev",
+    "https://wiki.scrapemole.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-18T15:47:29Z"
+}
