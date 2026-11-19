@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-openrepro-ledger-f83f6c4f6b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.openrepro/ledger",
+  "title": "MCP server io.github.openrepro/ledger: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.openrepro/ledger",
+    "rule": "status-change",
+    "version": "0.4.0",
+    "status": "deleted",
+    "description": "Re-runs + code facts. 6 read-only lookups + optional feedback. No IPs; arXiv IDs may be counted.",
+    "repository": "",
+    "website": "https://openrepro.org/agents/",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.openrepro.org"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-18T15:50:13.58878Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://openrepro.org/agents/",
+    "https://mcp.openrepro.org/mcp"
+  ],
+  "discovered_at": "2026-11-19T15:52:35Z"
+}

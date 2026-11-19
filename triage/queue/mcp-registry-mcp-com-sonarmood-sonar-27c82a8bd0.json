@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-sonarmood-sonar-27c82a8bd0",
+  "source": "mcp-registry",
+  "key": "mcp:com.sonarmood/sonar",
+  "title": "MCP server com.sonarmood/sonar: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.sonarmood/sonar",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "Press tone for crypto, AI, finance, politics and sports: mood index, stories, coin ratings.",
+    "repository": "",
+    "website": "https://sonarmood.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.sonarmood.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-17T22:37:38.069384Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://sonarmood.com",
+    "https://api.sonarmood.com/mcp"
+  ],
+  "discovered_at": "2026-11-19T15:52:32Z"
+}

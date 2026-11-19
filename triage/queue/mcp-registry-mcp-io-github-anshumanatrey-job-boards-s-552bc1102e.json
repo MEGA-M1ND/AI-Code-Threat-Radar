@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-anshumanatrey-job-boards-s-552bc1102e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.AnshumanAtrey/job-boards-search",
+  "title": "MCP server io.github.AnshumanAtrey/job-boards-search: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.AnshumanAtrey/job-boards-search",
+    "rule": "status-change",
+    "version": "1.0.6",
+    "status": "deprecated",
+    "description": "Job Search API for All 18 Job Boards and ATS Sites",
+    "repository": "https://github.com/AnshumanAtrey/job-boards-search",
+    "website": "https://apify.com/anshumanatrey/job-boards-search",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-12T21:59:43.509791Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/AnshumanAtrey/job-boards-search",
+    "https://apify.com/anshumanatrey/job-boards-search",
+    "https://mcp.apify.com/?tools=anshumanatrey/job-boards-search"
+  ],
+  "discovered_at": "2026-11-19T15:52:33Z"
+}

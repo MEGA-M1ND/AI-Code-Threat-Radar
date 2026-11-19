@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-modern-ai-inc-w0-mcp-serve-03d9e0eff8",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.modern-ai-inc/w0-mcp-server",
+  "title": "MCP server io.github.modern-ai-inc/w0-mcp-server: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.modern-ai-inc/w0-mcp-server",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "How often AI search picks a brand first. Recommendation Rate data from Modern Discovery.",
+    "repository": "https://github.com/modern-ai-inc/w0-mcp-server",
+    "website": "https://discovery.modernai.io/methodology",
+    "packages": [],
+    "remote_hosts": [
+      "w0-mcp-server.modernai.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-03T15:53:34.878762Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/modern-ai-inc/w0-mcp-server",
+    "https://discovery.modernai.io/methodology",
+    "https://w0-mcp-server.modernai.workers.dev"
+  ],
+  "discovered_at": "2026-11-19T15:52:35Z"
+}

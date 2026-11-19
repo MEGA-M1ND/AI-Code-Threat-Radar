@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-r2rlabs-hyperliquid-reins-9133e0a9bc",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.R2Rlabs/hyperliquid-reins",
+  "title": "MCP server io.github.R2Rlabs/hyperliquid-reins: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.R2Rlabs/hyperliquid-reins",
+    "rule": "status-change",
+    "version": "0.1.8",
+    "status": "deprecated",
+    "description": "Risk limits and an audit log for AI agents trading Hyperliquid, enforced outside the model.",
+    "repository": "https://github.com/R2Rlabs/reins",
+    "website": "https://r2rlabs.com",
+    "packages": [
+      "npm:@r2rlabs/reins"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-04T02:36:54.463281Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/R2Rlabs/reins",
+    "https://r2rlabs.com"
+  ],
+  "discovered_at": "2026-11-19T15:52:33Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-neuroencoder-eeg-embeddings-656ded8a36",
+  "source": "mcp-registry",
+  "key": "mcp:com.neuroencoder/eeg-embeddings",
+  "title": "MCP server com.neuroencoder/eeg-embeddings: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.neuroencoder/eeg-embeddings",
+    "rule": "status-change",
+    "version": "2.4.0",
+    "status": "deleted",
+    "description": "Hosted EEG embeddings API: any montage and sampling rate, EDF/BDF/FIF/NPY, 768-d vector per window",
+    "repository": "",
+    "website": "https://docs.neuroencoder.com/agents",
+    "packages": [],
+    "remote_hosts": [
+      "api.neuroencoder.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-12T09:52:15.347584Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://docs.neuroencoder.com/agents",
+    "https://api.neuroencoder.com/mcp"
+  ],
+  "discovered_at": "2026-11-19T15:52:32Z"
+}

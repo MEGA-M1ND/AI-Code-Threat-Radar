@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-netnestdesign-fundamentals-0dbaaf6023",
+  "source": "mcp-registry",
+  "key": "mcp:com.netnestdesign/fundamentals",
+  "title": "MCP server com.netnestdesign/fundamentals: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.netnestdesign/fundamentals",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "SEC company fundamentals and filing events, each with its source filing. Pay per call with x402.",
+    "repository": "",
+    "website": "https://api.netnestdesign.com/docs",
+    "packages": [],
+    "remote_hosts": [
+      "api.netnestdesign.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-22T15:44:38.356031Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.netnestdesign.com/docs",
+    "https://api.netnestdesign.com/mcp"
+  ],
+  "discovered_at": "2026-11-19T15:52:32Z"
+}

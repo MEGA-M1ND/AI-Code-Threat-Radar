@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-me-walalook-tools-c46bfae772",
+  "source": "mcp-registry",
+  "key": "mcp:me.walalook/tools",
+  "title": "MCP server me.walalook/tools: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "me.walalook/tools",
+    "rule": "status-change",
+    "version": "1.12.0",
+    "status": "deleted",
+    "description": "File share + doc tools: Markdown/Excel/Word/PPT. Anonymous tier: no token, 30 calls/day.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "walalook.me"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-31T14:13:18.917097Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://walalook.me/mcp/share",
+    "https://walalook.me/mcp/template",
+    "https://walalook.me/mcp/tomd",
+    "https://walalook.me/mcp/xlsx"
+  ],
+  "discovered_at": "2026-11-19T15:52:36Z"
+}

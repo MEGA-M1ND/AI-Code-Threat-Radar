@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-dominik1001-carddav-mcp-cf70253078",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.dominik1001/carddav-mcp",
+  "title": "MCP server io.github.dominik1001/carddav-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.dominik1001/carddav-mcp",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "CardDAV contacts as MCP tools: list address books; list, get, create, update and delete contacts.",
+    "repository": "https://github.com/dominik1001/carddav-mcp",
+    "website": "",
+    "packages": [
+      "npm:carddav-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-18T09:38:48.454456Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/dominik1001/carddav-mcp"
+  ],
+  "discovered_at": "2026-11-19T15:52:34Z"
+}
