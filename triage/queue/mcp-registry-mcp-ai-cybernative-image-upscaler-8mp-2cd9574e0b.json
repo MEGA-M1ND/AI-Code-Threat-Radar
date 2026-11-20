@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-cybernative-image-upscaler-8mp-2cd9574e0b",
+  "source": "mcp-registry",
+  "key": "mcp:ai.cybernative/image-upscaler-8mp",
+  "title": "MCP server ai.cybernative/image-upscaler-8mp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.cybernative/image-upscaler-8mp",
+    "rule": "status-change",
+    "version": "0.1.13",
+    "status": "deleted",
+    "description": "Upscale and enhance photos 4x to up to 8 megapixels for $0.01 per image.",
+    "repository": "",
+    "website": "https://apify.com/cybernative-ai/image-upscaler-8mp",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-16T13:32:52.925606Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/cybernative-ai/image-upscaler-8mp",
+    "https://mcp.apify.com/?tools=cybernative-ai/image-upscaler-8mp"
+  ],
+  "discovered_at": "2026-11-20T15:35:33Z"
+}

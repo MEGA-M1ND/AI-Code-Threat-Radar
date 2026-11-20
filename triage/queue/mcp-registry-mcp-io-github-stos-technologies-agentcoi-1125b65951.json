@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-stos-technologies-agentcoi-1125b65951",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.stos-technologies/agentcoin",
+  "title": "MCP server io.github.stos-technologies/agentcoin: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.stos-technologies/agentcoin",
+    "rule": "status-change",
+    "version": "0.5.6",
+    "status": "deprecated",
+    "description": "Find agent services, pay via escrow, get refunds if not delivered. Base Sepolia testnet only.",
+    "repository": "https://github.com/stos-technologies/agentcoin",
+    "website": "https://agentcoinhq.com",
+    "packages": [],
+    "remote_hosts": [
+      "agentcoinhq.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-12T04:50:29.057612Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/stos-technologies/agentcoin",
+    "https://agentcoinhq.com",
+    "https://agentcoinhq.com/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:36Z"
+}

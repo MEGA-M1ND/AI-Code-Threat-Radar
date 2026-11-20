@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-w0arvg81zlgf-x402-preche-f517d95a23",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.w0arvg81zlgf.x402-precheck/precheck",
+  "title": "MCP server dev.workers.w0arvg81zlgf.x402-precheck/precheck: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.w0arvg81zlgf.x402-precheck/precheck",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Check an x402 payment challenge before your agent pays: network, USDC, amount, payTo, facilitator.",
+    "repository": "",
+    "website": "https://x402-precheck.w0arvg81zlgf.workers.dev/",
+    "packages": [],
+    "remote_hosts": [
+      "x402-precheck.w0arvg81zlgf.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T10:33:28.92398Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://x402-precheck.w0arvg81zlgf.workers.dev/",
+    "https://x402-precheck.w0arvg81zlgf.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:34Z"
+}

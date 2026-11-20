@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-uk-co-sisoco-company-data-uk-eu-d3d18dac87",
+  "source": "mcp-registry",
+  "key": "mcp:uk.co.sisoco/company-data-uk-eu",
+  "title": "MCP server uk.co.sisoco/company-data-uk-eu: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "uk.co.sisoco/company-data-uk-eu",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "UK and EU company data from official registers: Companies House, Sirene, LEI, ownership, insolvency.",
+    "repository": "",
+    "website": "https://api.sisoco.co.uk/llms.txt",
+    "packages": [],
+    "remote_hosts": [
+      "api.sisoco.co.uk"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T15:15:57.890462Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.sisoco.co.uk/llms.txt",
+    "https://api.sisoco.co.uk/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:37Z"
+}

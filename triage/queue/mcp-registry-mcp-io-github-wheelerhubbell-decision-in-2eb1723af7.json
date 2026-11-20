@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-wheelerhubbell-decision-in-2eb1723af7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.wheelerhubbell/decision-integrity",
+  "title": "MCP server io.github.wheelerhubbell/decision-integrity: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.wheelerhubbell/decision-integrity",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Paid x402 evaluator for evidence, warrant, provenance, and represented action authority.",
+    "repository": "https://github.com/wheelerhubbell/DIP",
+    "website": "https://decision-integrity-service.wheelerhubbell.chatgpt.site",
+    "packages": [],
+    "remote_hosts": [
+      "decision-integrity-service.wheelerhubbell.chatgpt.site"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-13T21:52:36.524574Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/wheelerhubbell/DIP",
+    "https://decision-integrity-service.wheelerhubbell.chatgpt.site",
+    "https://decision-integrity-service.wheelerhubbell.chatgpt.site/agent/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:36Z"
+}

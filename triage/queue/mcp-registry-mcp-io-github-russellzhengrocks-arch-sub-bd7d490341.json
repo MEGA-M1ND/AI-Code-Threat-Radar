@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-russellzhengrocks-arch-sub-bd7d490341",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.russellzhengrocks-arch/suba",
+  "title": "MCP server io.github.russellzhengrocks-arch/suba: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.russellzhengrocks-arch/suba",
+    "rule": "status-change",
+    "version": "0.0.0",
+    "status": "deleted",
+    "description": "AI-assisted subtitle localization with project rules, glossaries, review and export.",
+    "repository": "",
+    "website": "https://entendu.studio/suba/",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.entendu.studio"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T05:59:37.477782Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://entendu.studio/suba/",
+    "https://mcp.entendu.studio/v1"
+  ],
+  "discovered_at": "2026-11-20T15:35:36Z"
+}

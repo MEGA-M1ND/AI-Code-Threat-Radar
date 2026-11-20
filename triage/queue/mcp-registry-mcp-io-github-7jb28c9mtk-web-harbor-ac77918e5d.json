@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-7jb28c9mtk-web-harbor-ac77918e5d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.7jb28c9mtk-web/harbor",
+  "title": "MCP server io.github.7jb28c9mtk-web/harbor: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.7jb28c9mtk-web/harbor",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Project management where AI agents hand in work for you to approve: tasks, risks, check-ins.",
+    "repository": "",
+    "website": "https://harborppm.com/ai",
+    "packages": [],
+    "remote_hosts": [
+      "harborppm.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-18T22:40:08.081878Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://harborppm.com/ai",
+    "https://harborppm.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:34Z"
+}

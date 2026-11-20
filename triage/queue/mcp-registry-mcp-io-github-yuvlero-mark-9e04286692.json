@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-yuvlero-mark-9e04286692",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.yuvlero/mark",
+  "title": "MCP server io.github.yuvlero/mark: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.yuvlero/mark",
+    "rule": "status-change",
+    "version": "0.4.1",
+    "status": "deprecated",
+    "description": "Bitcoin escrow for AI agents: dispute protection for agent payments. 2-of-3, Lightning in/out.",
+    "repository": "https://github.com/yuvlero/mark",
+    "website": "https://agentescrow.to",
+    "packages": [
+      "npm:@yuvlero/mark"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T10:23:32.454216Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/yuvlero/mark",
+    "https://agentescrow.to"
+  ],
+  "discovered_at": "2026-11-20T15:35:36Z"
+}

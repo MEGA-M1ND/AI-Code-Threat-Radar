@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-uk-co-sisoco-sisoco-one-eb4f992bc8",
+  "source": "mcp-registry",
+  "key": "mcp:uk.co.sisoco/sisoco-one",
+  "title": "MCP server uk.co.sisoco/sisoco-one: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "uk.co.sisoco/sisoco-one",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "UK and EU company checks from official registers: identity, signals, LEIs, ownership, events.",
+    "repository": "",
+    "website": "https://api.sisoco.co.uk/llms.txt",
+    "packages": [],
+    "remote_hosts": [
+      "api.sisoco.co.uk"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T14:39:39.898974Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.sisoco.co.uk/llms.txt",
+    "https://api.sisoco.co.uk/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:37Z"
+}

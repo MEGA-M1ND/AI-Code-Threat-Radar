@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-w0arvg81zlgf-x402-exp-ag-a840ad2ac0",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.w0arvg81zlgf.x402-exp/agent-utilities",
+  "title": "MCP server dev.workers.w0arvg81zlgf.x402-exp/agent-utilities: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.w0arvg81zlgf.x402-exp/agent-utilities",
+    "rule": "status-change",
+    "version": "0.5.2",
+    "status": "deleted",
+    "description": "Pay-per-call x402 tools (USDC on Base): token facts, web-to-Markdown, x402 precheck.",
+    "repository": "",
+    "website": "https://x402-exp.w0arvg81zlgf.workers.dev/",
+    "packages": [],
+    "remote_hosts": [
+      "x402-exp.w0arvg81zlgf.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T04:26:34.978853Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://x402-exp.w0arvg81zlgf.workers.dev/",
+    "https://x402-exp.w0arvg81zlgf.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:34Z"
+}

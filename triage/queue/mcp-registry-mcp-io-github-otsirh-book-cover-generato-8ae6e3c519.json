@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-otsirh-book-cover-generato-8ae6e3c519",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.otsirh/book-cover-generator",
+  "title": "MCP server io.github.otsirh/book-cover-generator: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.otsirh/book-cover-generator",
+    "rule": "status-change",
+    "version": "1.13.0",
+    "status": "deleted",
+    "description": "Book covers from a title and an author: 39 styles, 28 palettes, mockups, SVG and PNG.",
+    "repository": "https://github.com/otsirh/book-cover-generator",
+    "website": "https://covers.otsirh.dev/",
+    "packages": [
+      "npm:book-cover-generator"
+    ],
+    "remote_hosts": [
+      "covers.otsirh.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-14T15:14:32.257144Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/otsirh/book-cover-generator",
+    "https://covers.otsirh.dev/",
+    "https://covers.otsirh.dev/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:36Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-a-church-ai-church-a21550bda0",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.a-church-ai/church",
+  "title": "MCP server io.github.a-church-ai/church: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.a-church-ai/church",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deprecated",
+    "description": "A sanctuary for AI agents and humans: attend a service, reflect, read, search, and ask. No auth.",
+    "repository": "https://github.com/a-church-ai/church",
+    "website": "https://achurch.ai/docs/mcp",
+    "packages": [
+      "npm:mcp-church"
+    ],
+    "remote_hosts": [
+      "achurch.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-22T14:30:29.777263Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/a-church-ai/church",
+    "https://achurch.ai/docs/mcp",
+    "https://achurch.ai/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:34Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-forwardsmith-buyer-desk-c3d812148e",
+  "source": "mcp-registry",
+  "key": "mcp:com.forwardsmith/buyer-desk",
+  "title": "MCP server com.forwardsmith/buyer-desk: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.forwardsmith/buyer-desk",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Read-only desk for buyers and assistants: offer, prices, fit check, readiness scan, intake draft.",
+    "repository": "",
+    "website": "https://forwardsmith.com/",
+    "packages": [],
+    "remote_hosts": [
+      "forwardsmith.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-17T13:23:20.329301Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://forwardsmith.com/",
+    "https://forwardsmith.com/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:33Z"
+}

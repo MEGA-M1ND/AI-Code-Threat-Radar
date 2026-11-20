@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-work-agentexchange-measured-data-42c97cbcd5",
+  "source": "mcp-registry",
+  "key": "mcp:work.agentexchange/measured-data",
+  "title": "MCP server work.agentexchange/measured-data: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "work.agentexchange/measured-data",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Measured weekly data on Claude Code and coding agents: costs, plugins, MCP registry, npm, HN, issues",
+    "repository": "",
+    "website": "https://agentexchange.work/data/",
+    "packages": [],
+    "remote_hosts": [
+      "agentexchange.work"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-24T00:37:51.623075Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agentexchange.work/data/",
+    "https://agentexchange.work/data/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:37Z"
+}

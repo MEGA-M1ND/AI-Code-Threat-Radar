@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-uk-co-sisoco-uk-company-ownership-co-0c117f0edf",
+  "source": "mcp-registry",
+  "key": "mcp:uk.co.sisoco/uk-company-ownership-companies-house",
+  "title": "MCP server uk.co.sisoco/uk-company-ownership-companies-house: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "uk.co.sisoco/uk-company-ownership-companies-house",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "UK and EU company data and ownership (PSC) for KYB: Companies House, Sirene, LEI, insolvency.",
+    "repository": "",
+    "website": "https://api.sisoco.co.uk/llms.txt",
+    "packages": [],
+    "remote_hosts": [
+      "api.sisoco.co.uk"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T15:36:34.675647Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.sisoco.co.uk/llms.txt",
+    "https://api.sisoco.co.uk/mcp"
+  ],
+  "discovered_at": "2026-11-20T15:35:37Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-vpatel9202-glovebox-f6fb08f8bf",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.vpatel9202/glovebox",
+  "title": "MCP server io.github.vpatel9202/glovebox: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.vpatel9202/glovebox",
+    "rule": "status-change",
+    "version": "0.4.1",
+    "status": "deprecated",
+    "description": "Computer use for coding agents on macOS: JS scripts, accessibility diffs, background input.",
+    "repository": "https://github.com/vpatel9202/glovebox",
+    "website": "",
+    "packages": [
+      "npm:@vashp2029/glovebox"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T21:43:56.119626Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/vpatel9202/glovebox"
+  ],
+  "discovered_at": "2026-11-20T15:35:36Z"
+}

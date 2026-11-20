@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-readfetch-mcp-x402-proxy-ba0d157b15",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.readfetch/mcp-x402-proxy",
+  "title": "MCP server io.github.readfetch/mcp-x402-proxy: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.readfetch/mcp-x402-proxy",
+    "rule": "status-change",
+    "version": "0.1.17",
+    "status": "deprecated",
+    "description": "Stdio MCP proxy: free probe, then x402-paid ReadFetch tools; for hosts that cannot sign x402.",
+    "repository": "https://github.com/readfetch/mcp-x402-proxy",
+    "website": "",
+    "packages": [
+      "npm:@readfetch/mcp-x402-proxy"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-06T17:21:30.468086Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/readfetch/mcp-x402-proxy"
+  ],
+  "discovered_at": "2026-11-20T15:35:36Z"
+}
