@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-manoonlabs-doc2json-0e9fcdc3f7",
+  "source": "mcp-registry",
+  "key": "mcp:com.manoonlabs/doc2json",
+  "title": "MCP server com.manoonlabs/doc2json: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.manoonlabs/doc2json",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Turn PDFs and photos into typed JSON with your own schema. Missing values come back null.",
+    "repository": "",
+    "website": "https://doc2json.manoonlabs.com",
+    "packages": [],
+    "remote_hosts": [
+      "doc2json.manoonlabs.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-30T09:12:14.022291Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://doc2json.manoonlabs.com",
+    "https://doc2json.manoonlabs.com/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:54Z"
+}

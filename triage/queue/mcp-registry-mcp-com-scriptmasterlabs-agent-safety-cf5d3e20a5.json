@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-scriptmasterlabs-agent-safety-cf5d3e20a5",
+  "source": "mcp-registry",
+  "key": "mcp:com.scriptmasterlabs/agent-safety",
+  "title": "MCP server com.scriptmasterlabs/agent-safety: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.scriptmasterlabs/agent-safety",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Three fast safety checks for agents, each with a signed hash-chained receipt: (1) prompt-injection c",
+    "repository": "",
+    "website": "https://sml-agent-products.onrender.com/agent-safety/llms.txt",
+    "packages": [],
+    "remote_hosts": [
+      "sml-agent-products.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-03T21:07:05.692772Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://sml-agent-products.onrender.com/agent-safety/llms.txt",
+    "https://sml-agent-products.onrender.com/agent-safety/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:54Z"
+}

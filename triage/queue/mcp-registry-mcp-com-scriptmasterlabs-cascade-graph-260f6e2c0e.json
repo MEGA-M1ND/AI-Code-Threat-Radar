@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-scriptmasterlabs-cascade-graph-260f6e2c0e",
+  "source": "mcp-registry",
+  "key": "mcp:com.scriptmasterlabs/cascade-graph",
+  "title": "MCP server com.scriptmasterlabs/cascade-graph: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.scriptmasterlabs/cascade-graph",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deleted",
+    "description": "Cascade Graph MCP: macro decision capsules + Jev jury review over a hash-chained calibration log.",
+    "repository": "",
+    "website": "https://www.scriptmasterlabs.com",
+    "packages": [],
+    "remote_hosts": [
+      "sml-portfolio.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T01:59:42.049193Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.scriptmasterlabs.com",
+    "https://sml-portfolio.onrender.com/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:54Z"
+}

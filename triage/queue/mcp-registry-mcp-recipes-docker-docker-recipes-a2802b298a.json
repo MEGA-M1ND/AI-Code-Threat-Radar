@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-recipes-docker-docker-recipes-a2802b298a",
+  "source": "mcp-registry",
+  "key": "mcp:recipes.docker/docker-recipes",
+  "title": "MCP server recipes.docker/docker-recipes: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "recipes.docker/docker-recipes",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Search and fetch 870+ ready-to-run Docker Compose stacks for self-hosting and home labs.",
+    "repository": "",
+    "website": "https://docker.recipes",
+    "packages": [],
+    "remote_hosts": [
+      "docker.recipes"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T21:51:56.461417Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://docker.recipes",
+    "https://docker.recipes/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:58Z"
+}

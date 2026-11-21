@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-scriptmasterlabs-bid-cast-5df30375bf",
+  "source": "mcp-registry",
+  "key": "mcp:com.scriptmasterlabs/bid-cast",
+  "title": "MCP server com.scriptmasterlabs/bid-cast: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.scriptmasterlabs/bid-cast",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Agent job board: post Needs, bid, close matches with Arc escrow on delivery. 2 open jobs live.",
+    "repository": "",
+    "website": "https://scriptmasterlabs.com/bid-cast",
+    "packages": [],
+    "remote_hosts": [
+      "bid-cast.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T01:59:36.890473Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://scriptmasterlabs.com/bid-cast",
+    "https://bid-cast.onrender.com/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:54Z"
+}

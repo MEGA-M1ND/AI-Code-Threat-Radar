@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-pumpup-pumpup-9d64648f1e",
+  "source": "mcp-registry",
+  "key": "mcp:com.pumpup/pumpup",
+  "title": "MCP server com.pumpup/pumpup: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.pumpup/pumpup",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Human-in-the-loop control panel for AI agents: start runs, review them, answer their requests.",
+    "repository": "",
+    "website": "https://pumpup.com",
+    "packages": [],
+    "remote_hosts": [
+      "app.pumpup.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-02T18:30:12.687179Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://pumpup.com",
+    "https://app.pumpup.com/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:54Z"
+}

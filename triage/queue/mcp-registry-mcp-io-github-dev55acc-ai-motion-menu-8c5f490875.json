@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-dev55acc-ai-motion-menu-8c5f490875",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.dev55acc-ai/motion-menu",
+  "title": "MCP server io.github.dev55acc-ai/motion-menu: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.dev55acc-ai/motion-menu",
+    "rule": "status-change",
+    "version": "16.0.0",
+    "status": "deprecated",
+    "description": "597 motion/3D UI patterns as ready HTML/CSS/JS, served over MCP. The entire library is free.",
+    "repository": "",
+    "website": "https://www.motionmenu.ca",
+    "packages": [],
+    "remote_hosts": [
+      "www.motionmenu.ca"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-01T00:45:49.079709Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.motionmenu.ca",
+    "https://www.motionmenu.ca/api/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:55Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-ingest0r-api-cook-county-propert-adba90efd9",
+  "source": "mcp-registry",
+  "key": "mcp:com.ingest0r.api/cook-county-property-data",
+  "title": "MCP server com.ingest0r.api/cook-county-property-data: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.ingest0r.api/cook-county-property-data",
+    "rule": "status-change",
+    "version": "0.4.3",
+    "status": "deprecated",
+    "description": "Cook County / Chicago property by address or PIN: sales, permits, assessments, comps. 100 free/day.",
+    "repository": "",
+    "website": "https://api.ingest0r.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.ingest0r.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-16T06:16:44.315416Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.ingest0r.com",
+    "https://api.ingest0r.com/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:53Z"
+}

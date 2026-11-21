@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-lattice-sys-plumbline-mcp-50296a6b79",
+  "source": "mcp-registry",
+  "key": "mcp:com.lattice-sys.plumbline/mcp",
+  "title": "MCP server com.lattice-sys.plumbline/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.lattice-sys.plumbline/mcp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Every figure re-checked against SQL-computed facts; unsupported questions refused with the reason.",
+    "repository": "",
+    "website": "https://plumbline.lattice-sys.com/",
+    "packages": [],
+    "remote_hosts": [
+      "plumbline.lattice-sys.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-23T06:46:35.428879Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://plumbline.lattice-sys.com/",
+    "https://plumbline.lattice-sys.com/mcp/demo"
+  ],
+  "discovered_at": "2026-11-21T14:45:53Z"
+}

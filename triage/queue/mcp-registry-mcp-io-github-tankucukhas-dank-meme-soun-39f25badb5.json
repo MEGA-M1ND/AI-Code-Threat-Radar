@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-tankucukhas-dank-meme-soun-39f25badb5",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.TanKucukhas/dank-meme-sounds",
+  "title": "MCP server io.github.TanKucukhas/dank-meme-sounds: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.TanKucukhas/dank-meme-sounds",
+    "rule": "status-change",
+    "version": "0.3.1",
+    "status": "deprecated",
+    "description": "Meme soundboard for AI agents: 38k meme sounds. Find reaction sounds, search, trending, play.",
+    "repository": "https://github.com/TanKucukhas/dank-meme-sounds",
+    "website": "https://dankmachine.com/developers/",
+    "packages": [
+      "npm:dank-meme-sounds"
+    ],
+    "remote_hosts": [
+      "dankmachine.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-18T16:29:30.308398Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/TanKucukhas/dank-meme-sounds",
+    "https://dankmachine.com/developers/",
+    "https://dankmachine.com/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:55Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-scriptmasterlabs-ticker-research-9b4ab62153",
+  "source": "mcp-registry",
+  "key": "mcp:com.scriptmasterlabs/ticker-research",
+  "title": "MCP server com.scriptmasterlabs/ticker-research: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.scriptmasterlabs/ticker-research",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "One cheap, loopable answer per call for a US ticker: market regime, trend + strength, key levels, ne",
+    "repository": "",
+    "website": "https://sml-agent-products.onrender.com/ticker-research/llms.txt",
+    "packages": [],
+    "remote_hosts": [
+      "sml-agent-products.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-03T21:06:54.480461Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://sml-agent-products.onrender.com/ticker-research/llms.txt",
+    "https://sml-agent-products.onrender.com/ticker-research/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:54Z"
+}

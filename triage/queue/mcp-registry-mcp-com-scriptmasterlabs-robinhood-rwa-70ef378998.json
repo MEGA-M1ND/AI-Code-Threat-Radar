@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-scriptmasterlabs-robinhood-rwa-70ef378998",
+  "source": "mcp-registry",
+  "key": "mcp:com.scriptmasterlabs/robinhood-rwa",
+  "title": "MCP server com.scriptmasterlabs/robinhood-rwa: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.scriptmasterlabs/robinhood-rwa",
+    "rule": "status-change",
+    "version": "0.2.2",
+    "status": "deleted",
+    "description": "Robinhood Chain stock-token + prediction-market intelligence MCP. Read-only, evidence-first.",
+    "repository": "",
+    "website": "https://www.scriptmasterlabs.com",
+    "packages": [],
+    "remote_hosts": [
+      "sml-robinhood-rwa-intelligence.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T02:00:06.300993Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.scriptmasterlabs.com",
+    "https://sml-robinhood-rwa-intelligence.onrender.com/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:54Z"
+}

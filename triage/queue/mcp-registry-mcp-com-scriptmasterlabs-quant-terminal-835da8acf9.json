@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-scriptmasterlabs-quant-terminal-835da8acf9",
+  "source": "mcp-registry",
+  "key": "mcp:com.scriptmasterlabs/quant-terminal",
+  "title": "MCP server com.scriptmasterlabs/quant-terminal: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.scriptmasterlabs/quant-terminal",
+    "rule": "status-change",
+    "version": "1.1.4",
+    "status": "deleted",
+    "description": "Real-data ticker levels + squeeze-mirror projection; x402. Settle-proven 2026-11-02 (SELF-PROOF).",
+    "repository": "",
+    "website": "https://sml-quant-terminal.onrender.com/about",
+    "packages": [],
+    "remote_hosts": [
+      "sml-quant-terminal.onrender.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-05T02:00:03.236529Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://sml-quant-terminal.onrender.com/about",
+    "https://sml-quant-terminal.onrender.com/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:54Z"
+}

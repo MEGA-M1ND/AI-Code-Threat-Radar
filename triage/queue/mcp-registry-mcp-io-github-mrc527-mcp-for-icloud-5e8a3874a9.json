@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-mrc527-mcp-for-icloud-5e8a3874a9",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Mrc527/mcp-for-icloud",
+  "title": "MCP server io.github.Mrc527/mcp-for-icloud: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Mrc527/mcp-for-icloud",
+    "rule": "status-change",
+    "version": "1.4.0",
+    "status": "deprecated",
+    "description": "Read and send iCloud Mail, manage iCloud Calendar. Needs an approved account at icloud.mcp.visin.ch.",
+    "repository": "",
+    "website": "https://icloud.mcp.visin.ch/",
+    "packages": [],
+    "remote_hosts": [
+      "icloud.mcp.visin.ch"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T11:21:20.269455Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://icloud.mcp.visin.ch/",
+    "https://icloud.mcp.visin.ch/mcp"
+  ],
+  "discovered_at": "2026-11-21T14:45:54Z"
+}
