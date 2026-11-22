@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-peakcam-snow-40204f33c5",
+  "source": "mcp-registry",
+  "key": "mcp:io.peakcam/snow",
+  "title": "MCP server io.peakcam/snow: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.peakcam/snow",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Live snow reports, SNOTEL measurements, webcams and powder rankings for 150 ski resorts.",
+    "repository": "https://github.com/jaredschueler07/peakcam",
+    "website": "https://www.peakcam.io/connect",
+    "packages": [],
+    "remote_hosts": [
+      "www.peakcam.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-18T18:19:38.298036Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jaredschueler07/peakcam",
+    "https://www.peakcam.io/connect",
+    "https://www.peakcam.io/api/mcp"
+  ],
+  "discovered_at": "2026-11-22T14:42:12Z"
+}

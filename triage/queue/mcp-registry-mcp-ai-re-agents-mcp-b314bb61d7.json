@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-ai-re-agents-mcp-b314bb61d7",
+  "source": "mcp-registry",
+  "key": "mcp:ai.re-agents/mcp",
+  "title": "MCP server ai.re-agents/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.re-agents/mcp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Re-Agents.ai tools for AI agents: website audits and your approved company knowledge.",
+    "repository": "",
+    "website": "https://re-agents.ai",
+    "packages": [
+      "npm:@re-agents/mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T14:48:35.429086Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://re-agents.ai"
+  ],
+  "discovered_at": "2026-11-22T14:42:10Z"
+}

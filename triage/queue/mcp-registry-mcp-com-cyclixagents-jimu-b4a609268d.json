@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-cyclixagents-jimu-b4a609268d",
+  "source": "mcp-registry",
+  "key": "mcp:com.cyclixagents/jimu",
+  "title": "MCP server com.cyclixagents/jimu: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.cyclixagents/jimu",
+    "rule": "status-change",
+    "version": "0.3.1",
+    "status": "deprecated",
+    "description": "Renamed to com.cyclixagents/japan-tax-rules (Tax Compass). This old URL still works.",
+    "repository": "",
+    "website": "https://tax.cyclixagents.com/",
+    "packages": [],
+    "remote_hosts": [
+      "jimu.cyclixagents.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T14:51:48.855219Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tax.cyclixagents.com/",
+    "https://jimu.cyclixagents.com/mcp"
+  ],
+  "discovered_at": "2026-11-22T14:42:10Z"
+}

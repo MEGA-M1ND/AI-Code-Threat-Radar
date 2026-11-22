@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-hhopke-intervals-icu-mcp-7de6d2ad7c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.hhopke/intervals-icu-mcp",
+  "title": "MCP server io.github.hhopke/intervals-icu-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.hhopke/intervals-icu-mcp",
+    "rule": "status-change",
+    "version": "5.10.0",
+    "status": "deprecated",
+    "description": "Retired community MCP server for Intervals.icu. See https://www.intervals.icu/connector/",
+    "repository": "https://github.com/hhopke/intervals-icu-mcp",
+    "website": "",
+    "packages": [
+      "pypi:intervals-icu-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-22T13:41:16.161242Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/hhopke/intervals-icu-mcp"
+  ],
+  "discovered_at": "2026-11-22T14:42:11Z"
+}

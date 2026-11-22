@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-itemtopia-itemtopia-pro-c49595816a",
+  "source": "mcp-registry",
+  "key": "mcp:com.itemtopia/itemtopia-pro",
+  "title": "MCP server com.itemtopia/itemtopia-pro: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.itemtopia/itemtopia-pro",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Track what you own: items, where they are, and their photos, receipts, warranties and notes.",
+    "repository": "",
+    "website": "https://www.itemtopia.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.itemtopia.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T03:53:28.601889Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.itemtopia.com",
+    "https://mcp.itemtopia.com/mcp"
+  ],
+  "discovered_at": "2026-11-22T14:42:10Z"
+}

@@ -18,7 +18,7 @@
     "last_release": "2026-11-17T21:46:48.812148Z",
     "release_count": 65,
     "summary": "A provider-neutral Python client for LLM applications.",
-    "age_days": 127.0
+    "age_days": 128.0
   },
   "urls": [
     "https://pypi.org/project/langchaint/"

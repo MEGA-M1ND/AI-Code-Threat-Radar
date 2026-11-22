@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-afi-planner-27672d0a39",
+  "source": "mcp-registry",
+  "key": "mcp:io.afi/planner",
+  "title": "MCP server io.afi/planner: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.afi/planner",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Read-only access to your Afi Planner routes, orders, drivers and reports, with your own sign-in.",
+    "repository": "",
+    "website": "https://planner.afi.io/en/connect-ai",
+    "packages": [],
+    "remote_hosts": [
+      "app.afi.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-17T15:22:26.914794Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://planner.afi.io/en/connect-ai",
+    "https://app.afi.io/api/mcp"
+  ],
+  "discovered_at": "2026-11-22T14:42:10Z"
+}

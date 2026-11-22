@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-app-railway-up-autopay-site-producti-6b8d847eac",
+  "source": "mcp-registry",
+  "key": "mcp:app.railway.up.autopay-site-production/autopay",
+  "title": "MCP server app.railway.up.autopay-site-production/autopay: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "app.railway.up.autopay-site-production/autopay",
+    "rule": "status-change",
+    "version": "1.6.0",
+    "status": "deprecated",
+    "description": "Paid tools for agents: search, verify, web-to-Markdown, PDF extraction, security scans. x402 USDC",
+    "repository": "",
+    "website": "https://api.synairo.com/",
+    "packages": [],
+    "remote_hosts": [
+      "autopay-site-production.up.railway.app"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T09:05:22.587323Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.synairo.com/",
+    "https://autopay-site-production.up.railway.app/mcp"
+  ],
+  "discovered_at": "2026-11-22T14:42:10Z"
+}

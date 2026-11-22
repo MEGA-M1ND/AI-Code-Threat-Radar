@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-io-github-allooloo-issuerwire-b217b9b68a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.allooloo/issuerwire",
+  "title": "MCP server io.github.allooloo/issuerwire: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.allooloo/issuerwire",
+    "rule": "status-change",
+    "version": "1.4.1",
+    "status": "deprecated",
+    "description": "Issuerwire — capital markets news for AI agents, one signed row per filing; markets: see facts.json.",
+    "repository": "",
+    "website": "https://issuerwire.ai",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.issuerwire.ai",
+      "x402.a2a-amn.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-25T05:15:23.273125Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://issuerwire.ai",
+    "https://mcp.issuerwire.ai/mcp",
+    "https://x402.a2a-amn.ai/mcp"
+  ],
+  "discovered_at": "2026-11-22T14:42:11Z"
+}
