@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-feder-cr-aihawk-66b958e039",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.feder-cr/aihawk",
+  "title": "MCP server io.github.feder-cr/aihawk: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.feder-cr/aihawk",
+    "rule": "status-change",
+    "version": "0.69.2",
+    "status": "deleted",
+    "description": "AI browser agent: browses, clicks, types, and reads real web pages from plain-English instructions.",
+    "repository": "https://github.com/feder-cr/aihawk_mcp_server",
+    "website": "",
+    "packages": [
+      "pypi:aihawk"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-22T22:25:13.006664Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/feder-cr/aihawk_mcp_server"
+  ],
+  "discovered_at": "2026-11-23T18:25:37Z"
+}

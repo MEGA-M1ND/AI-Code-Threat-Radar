@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-co-codeways-codeways-mcp-d004a780f1",
+  "source": "mcp-registry",
+  "key": "mcp:co.codeways/codeways-mcp",
+  "title": "MCP server co.codeways/codeways-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "co.codeways/codeways-mcp",
+    "rule": "status-change",
+    "version": "2.3.1",
+    "status": "deleted",
+    "description": "Live ZARC (.co.za) & global WHOIS, Registrar, DNS, SPF/DMARC, domain checks & website previews.",
+    "repository": "",
+    "website": "https://codeways.co",
+    "packages": [],
+    "remote_hosts": [
+      "website-api.codeways.co"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T10:14:33.022239Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://codeways.co",
+    "https://website-api.codeways.co/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

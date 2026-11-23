@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-vn-eno-search-a137978acf",
+  "source": "mcp-registry",
+  "key": "mcp:vn.eno/search",
+  "title": "MCP server vn.eno/search: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "vn.eno/search",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "Search live listings: housing, vehicles, jobs, services and second-hand goods. No sign-in.",
+    "repository": "",
+    "website": "https://eno.vn/developers/mcp#search",
+    "packages": [
+      "npm:eno-vn-mcp"
+    ],
+    "remote_hosts": [
+      "eno.vn"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-16T15:29:27.448763Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://eno.vn/developers/mcp#search",
+    "https://eno.vn/api/mcp/search"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

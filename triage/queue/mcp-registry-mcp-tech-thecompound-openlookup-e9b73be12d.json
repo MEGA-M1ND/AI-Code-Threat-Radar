@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-tech-thecompound-openlookup-e9b73be12d",
+  "source": "mcp-registry",
+  "key": "mcp:tech.thecompound/openlookup",
+  "title": "MCP server tech.thecompound/openlookup: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "tech.thecompound/openlookup",
+    "rule": "status-change",
+    "version": "0.5.1",
+    "status": "deleted",
+    "description": "OpenLookup: eleven keyless lookups. Model pricing, dep health, stack cost, registries.",
+    "repository": "https://github.com/kyisaiah47/openlookup",
+    "website": "https://thecompound.tech",
+    "packages": [
+      "npm:openlookup"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-02T14:38:36.459883Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/kyisaiah47/openlookup",
+    "https://thecompound.tech"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

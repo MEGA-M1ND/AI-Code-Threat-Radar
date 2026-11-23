@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-pasichdev-todo-mcp-fbbdd1cfe8",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.pasichDev/todo-mcp",
+  "title": "MCP server io.github.pasichDev/todo-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.pasichDev/todo-mcp",
+    "rule": "status-change",
+    "version": "2.2.0",
+    "status": "deleted",
+    "description": "Shared TODO/backlog MCP server with claim tracking, web UI, and encrypted local storage.",
+    "repository": "https://github.com/pasichDev/todo-mcp",
+    "website": "",
+    "packages": [
+      "npm:@pasichdev/todo-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-02T14:34:07.211305Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/pasichDev/todo-mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:41Z"
+}

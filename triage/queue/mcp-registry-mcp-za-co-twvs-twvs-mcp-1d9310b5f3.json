@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-twvs-twvs-mcp-1d9310b5f3",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.twvs/twvs-mcp",
+  "title": "MCP server za.co.twvs/twvs-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.twvs/twvs-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Query industrial valve specifications, pressure ratings, stock availability, and trade quotes.",
+    "repository": "",
+    "website": "https://twvs.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "twvs.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:37:18.727705Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://twvs.co.za",
+    "https://twvs.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-ai-datasnack-datasnack-d19bbfa263",
+  "source": "mcp-registry",
+  "key": "mcp:ai.datasnack/datasnack",
+  "title": "MCP server ai.datasnack/datasnack: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.datasnack/datasnack",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "Seven-day forecasts of real-world numbers, linked and graded daily; sign-in adds Excel exports.",
+    "repository": "",
+    "website": "https://datasnack.ai/",
+    "packages": [],
+    "remote_hosts": [
+      "datasnack.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-14T00:07:28.606215Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://datasnack.ai/",
+    "https://datasnack.ai/mcp",
+    "https://datasnack.ai/mcp/public"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

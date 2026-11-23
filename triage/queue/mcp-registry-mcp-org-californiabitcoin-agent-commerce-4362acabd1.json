@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-org-californiabitcoin-agent-commerce-4362acabd1",
+  "source": "mcp-registry",
+  "key": "mcp:org.californiabitcoin/agent-commerce",
+  "title": "MCP server org.californiabitcoin/agent-commerce: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "org.californiabitcoin/agent-commerce",
+    "rule": "status-change",
+    "version": "1.2.0",
+    "status": "deleted",
+    "description": "Bitcoin research for AI agents: free answers, specialist Q&A, verification, evidence, timelines.",
+    "repository": "",
+    "website": "https://californiabitcoin.org/developers/",
+    "packages": [],
+    "remote_hosts": [
+      "californiabitcoin.org"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-14T12:09:51.853908Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://californiabitcoin.org/developers/",
+    "https://californiabitcoin.org/mcp?source=official-mcp-registry"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

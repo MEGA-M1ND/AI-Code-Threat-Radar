@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-b2bintel-edge-defi-route-61f7bd8eca",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.b2bintel-edge.defi-route-intel/impermanent-loss-liquidation-funding-rate-mcp",
+  "title": "MCP server dev.workers.b2bintel-edge.defi-route-intel/impermanent-loss-liquidation-funding-rate-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.b2bintel-edge.defi-route-intel/impermanent-loss-liquidation-funding-rate-mcp",
+    "rule": "status-change",
+    "version": "2.4.0",
+    "status": "deleted",
+    "description": "Compute Uniswap V3 impermanent loss, isolated perp liquidation & DCA math, and funding spreads.",
+    "repository": "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "website": "https://defi-route-intel.b2bintel-edge.workers.dev/impermanent-loss-calculator",
+    "packages": [],
+    "remote_hosts": [
+      "defi-route-intel.b2bintel-edge.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T00:44:57.910596Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "https://defi-route-intel.b2bintel-edge.workers.dev/impermanent-loss-calculator",
+    "https://defi-route-intel.b2bintel-edge.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

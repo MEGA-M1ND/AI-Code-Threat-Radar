@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-b2bintel-edge-email-secu-9d56a6f3e4",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.b2bintel-edge.email-security-deliverability-grader/domain-age-rdap-spf-dmarc-mcp",
+  "title": "MCP server dev.workers.b2bintel-edge.email-security-deliverability-grader/domain-age-rdap-spf-dmarc-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.b2bintel-edge.email-security-deliverability-grader/domain-age-rdap-spf-dmarc-mcp",
+    "rule": "status-change",
+    "version": "2.4.0",
+    "status": "deleted",
+    "description": "Check RDAP domain age, MX providers, SPF lookup limits, DMARC quarantine policy, and BIMI records.",
+    "repository": "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "website": "https://email-security-deliverability-grader.b2bintel-edge.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "email-security-deliverability-grader.b2bintel-edge.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T00:45:00.692224Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "https://email-security-deliverability-grader.b2bintel-edge.workers.dev",
+    "https://email-security-deliverability-grader.b2bintel-edge.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

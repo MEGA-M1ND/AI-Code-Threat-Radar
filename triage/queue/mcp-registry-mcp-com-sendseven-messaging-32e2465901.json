@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-sendseven-messaging-32e2465901",
+  "source": "mcp-registry",
+  "key": "mcp:com.sendseven/messaging",
+  "title": "MCP server com.sendseven/messaging: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.sendseven/messaging",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deprecated",
+    "description": "Unified messaging MCP server: WhatsApp, Instagram, Telegram, SMS, Messenger & email support inbox",
+    "repository": "https://github.com/SendSeven-GmbH/sendseven-mcp-server",
+    "website": "https://sendseven.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.sendseven.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-04T10:55:40.741221Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/SendSeven-GmbH/sendseven-mcp-server",
+    "https://sendseven.com",
+    "https://mcp.sendseven.com/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-b2bintel-edge-agent-spen-966f3df6f0",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.b2bintel-edge.agent-spend-guard/erc-7715-session-key-smart-account-spend-mcp",
+  "title": "MCP server dev.workers.b2bintel-edge.agent-spend-guard/erc-7715-session-key-smart-account-spend-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.b2bintel-edge.agent-spend-guard/erc-7715-session-key-smart-account-spend-mcp",
+    "rule": "status-change",
+    "version": "2.4.0",
+    "status": "deleted",
+    "description": "Build ERC-7715 & Coinbase Smart Wallet bounded daily spend permissions and session-key guards.",
+    "repository": "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "website": "https://agent-spend-guard.b2bintel-edge.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "agent-spend-guard.b2bintel-edge.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T02:29:40.3501Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "https://agent-spend-guard.b2bintel-edge.workers.dev",
+    "https://agent-spend-guard.b2bintel-edge.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

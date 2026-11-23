@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-bryantclark-cougarmap-e034a367a5",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.bryantclark/cougarmap",
+  "title": "MCP server io.github.bryantclark/cougarmap: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.bryantclark/cougarmap",
+    "rule": "status-change",
+    "version": "0.1.6",
+    "status": "deleted",
+    "description": "Find trail-camera spots for mountain lions from free public map data, ranked and explained.",
+    "repository": "https://github.com/bryantclark/cougarmap",
+    "website": "",
+    "packages": [
+      "pypi:cougarmap"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-07T02:25:30.744541Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/bryantclark/cougarmap"
+  ],
+  "discovered_at": "2026-11-23T18:25:37Z"
+}

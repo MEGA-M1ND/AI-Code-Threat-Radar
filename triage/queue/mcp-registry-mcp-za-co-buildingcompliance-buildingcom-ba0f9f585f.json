@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-buildingcompliance-buildingcom-ba0f9f585f",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.buildingcompliance/buildingcompliance-mcp",
+  "title": "MCP server za.co.buildingcompliance/buildingcompliance-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.buildingcompliance/buildingcompliance-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Building plan approvals, occupancy certificates, and municipal compliance readiness tools.",
+    "repository": "",
+    "website": "https://buildingcompliance.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "buildingcompliance.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:54.261414Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://buildingcompliance.co.za",
+    "https://buildingcompliance.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

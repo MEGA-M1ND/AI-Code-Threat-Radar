@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-alexxanddr-italian-bus-sea-1fa112166e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Alexxanddr/italian-bus-search",
+  "title": "MCP server io.github.Alexxanddr/italian-bus-search: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Alexxanddr/italian-bus-search",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deleted",
+    "description": "Read-only Italian bus searches and local NeTEx rail schedules.",
+    "repository": "https://github.com/Alexxanddr/italian-bus-search",
+    "website": "",
+    "packages": [
+      "npm:italian-bus-search"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-26T13:53:32.792336Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Alexxanddr/italian-bus-search"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

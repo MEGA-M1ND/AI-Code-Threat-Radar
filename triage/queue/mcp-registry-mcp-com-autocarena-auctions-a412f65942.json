@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-autocarena-auctions-a412f65942",
+  "source": "mcp-registry",
+  "key": "mcp:com.autocarena/auctions",
+  "title": "MCP server com.autocarena/auctions: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.autocarena/auctions",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Search Copart, IAAI and ADESA vehicles, check your wallet, and prepare bids you confirm on Carena.",
+    "repository": "",
+    "website": "https://auctions.autocarena.com/",
+    "packages": [],
+    "remote_hosts": [
+      "auctions.autocarena.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-31T06:19:07.321829Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://auctions.autocarena.com/",
+    "https://auctions.autocarena.com/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

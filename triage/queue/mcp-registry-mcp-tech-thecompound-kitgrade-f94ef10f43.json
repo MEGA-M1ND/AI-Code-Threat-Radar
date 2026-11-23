@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-tech-thecompound-kitgrade-f94ef10f43",
+  "source": "mcp-registry",
+  "key": "mcp:tech.thecompound/kitgrade",
+  "title": "MCP server tech.thecompound/kitgrade: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "tech.thecompound/kitgrade",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "KitGrade: Starter kits and boilerplates, graded by installing them.",
+    "repository": "https://github.com/kyisaiah47/openlookup",
+    "website": "https://kitgrade.thecompound.tech",
+    "packages": [
+      "npm:kitgrade-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T11:53:04.070707Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/kyisaiah47/openlookup",
+    "https://kitgrade.thecompound.tech"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

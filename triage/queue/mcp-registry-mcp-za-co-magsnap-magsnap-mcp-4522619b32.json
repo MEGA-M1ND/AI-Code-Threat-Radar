@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-magsnap-magsnap-mcp-4522619b32",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.magsnap/magsnap-mcp",
+  "title": "MCP server za.co.magsnap/magsnap-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.magsnap/magsnap-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Check custom photo magnet pack pricing, delivery lead times, and create instant orders.",
+    "repository": "",
+    "website": "https://magsnap.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.magsnap.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:37:01.792069Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://magsnap.co.za",
+    "https://api.magsnap.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

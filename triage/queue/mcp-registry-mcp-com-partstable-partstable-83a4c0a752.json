@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-partstable-partstable-83a4c0a752",
+  "source": "mcp-registry",
+  "key": "mcp:com.partstable/partstable",
+  "title": "MCP server com.partstable/partstable: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.partstable/partstable",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Calibrated IT hardware parts reference: PN normalization, search, cross-references, cited facts.",
+    "repository": "",
+    "website": "https://partstable.com",
+    "packages": [],
+    "remote_hosts": [
+      "partstable.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-22T05:38:13.743081Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://partstable.com",
+    "https://partstable.com/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

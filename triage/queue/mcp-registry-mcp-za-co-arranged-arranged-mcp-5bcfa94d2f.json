@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-arranged-arranged-mcp-5bcfa94d2f",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.arranged/arranged-mcp",
+  "title": "MCP server za.co.arranged/arranged-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.arranged/arranged-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Discover verified wedding, corporate, and celebration venues with live capacities and quotes.",
+    "repository": "",
+    "website": "https://arranged.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.arranged.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:14.245646Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://arranged.co.za",
+    "https://api.arranged.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-tech-thecompound-stillshipping-8e27cf02dd",
+  "source": "mcp-registry",
+  "key": "mcp:tech.thecompound/stillshipping",
+  "title": "MCP server tech.thecompound/stillshipping: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "tech.thecompound/stillshipping",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "StillShipping: Check whether a developer tool is still maintained.",
+    "repository": "https://github.com/kyisaiah47/openlookup",
+    "website": "https://stillshipping.thecompound.tech",
+    "packages": [
+      "npm:stillshipping-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-05T12:07:42.731805Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/kyisaiah47/openlookup",
+    "https://stillshipping.thecompound.tech"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-omnigoai-omnipost-cad7b778e3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.OmniGoAI/omnipost",
+  "title": "MCP server io.github.OmniGoAI/omnipost: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.OmniGoAI/omnipost",
+    "rule": "status-change",
+    "version": "0.1.2",
+    "status": "deleted",
+    "description": "Publish articles, image posts and videos to 40+ platforms via the local OmniPost app.",
+    "repository": "https://github.com/OmniGoAI/omnipost-skill",
+    "website": "https://omnigoai.com/en/products/omnipost/",
+    "packages": [
+      "npm:omnipost-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T00:56:19.354687Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/OmniGoAI/omnipost-skill",
+    "https://omnigoai.com/en/products/omnipost/"
+  ],
+  "discovered_at": "2026-11-23T18:25:37Z"
+}

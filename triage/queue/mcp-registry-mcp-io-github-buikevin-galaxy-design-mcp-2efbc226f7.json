@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-buikevin-galaxy-design-mcp-2efbc226f7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.buikevin/galaxy-design-mcp",
+  "title": "MCP server io.github.buikevin/galaxy-design-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.buikevin/galaxy-design-mcp",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "MCP server exposing Galaxy UI components — manifests, source code, and framework coverage",
+    "repository": "https://github.com/buikevin/galaxy-design",
+    "website": "",
+    "packages": [
+      "npm:@galaxy-stack/design-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-17T04:16:43.898106Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/buikevin/galaxy-design"
+  ],
+  "discovered_at": "2026-11-23T18:25:37Z"
+}

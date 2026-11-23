@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-aeoauditing-aeo-auditor-mcp-fb40d7d558",
+  "source": "mcp-registry",
+  "key": "mcp:com.aeoauditing/aeo-auditor-mcp",
+  "title": "MCP server com.aeoauditing/aeo-auditor-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.aeoauditing/aeo-auditor-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Live AEO, GEO, JSON-LD Schema, robots.txt AI crawler, and Agent Readiness diagnostic auditor.",
+    "repository": "",
+    "website": "https://aeoauditing.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.aeoauditing.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:03.757858Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://aeoauditing.com",
+    "https://api.aeoauditing.com/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

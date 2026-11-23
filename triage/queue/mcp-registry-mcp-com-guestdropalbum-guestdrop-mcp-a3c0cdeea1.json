@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-guestdropalbum-guestdrop-mcp-a3c0cdeea1",
+  "source": "mcp-registry",
+  "key": "mcp:com.guestdropalbum/guestdrop-mcp",
+  "title": "MCP server com.guestdropalbum/guestdrop-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.guestdropalbum/guestdrop-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Instant QR event photo vault pricing, multi-currency event passes, and album capacity tools.",
+    "repository": "",
+    "website": "https://guestdropalbum.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.guestdropalbum.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:36.672358Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://guestdropalbum.com",
+    "https://api.guestdropalbum.com/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

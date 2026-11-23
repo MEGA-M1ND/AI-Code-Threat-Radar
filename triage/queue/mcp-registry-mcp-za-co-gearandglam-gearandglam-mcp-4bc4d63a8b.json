@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-gearandglam-gearandglam-mcp-4bc4d63a8b",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.gearandglam/gearandglam-mcp",
+  "title": "MCP server za.co.gearandglam/gearandglam-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.gearandglam/gearandglam-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Search lifestyle, beauty, and tech products with live stock checks and 1-click checkout.",
+    "repository": "",
+    "website": "https://gearandglam.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.gearandglam.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:37:09.858343Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://gearandglam.co.za",
+    "https://api.gearandglam.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

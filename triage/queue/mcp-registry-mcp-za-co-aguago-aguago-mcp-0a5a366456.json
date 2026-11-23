@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-aguago-aguago-mcp-0a5a366456",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.aguago/aguago-mcp",
+  "title": "MCP server za.co.aguago/aguago-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.aguago/aguago-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Check purified water delivery zones, product catalog pricing, and schedule refill orders.",
+    "repository": "",
+    "website": "https://aguago.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.aguago.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:37:05.358393Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://aguago.co.za",
+    "https://api.aguago.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

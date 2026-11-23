@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-vn-eno-partner-api-13084d5b98",
+  "source": "mcp-registry",
+  "key": "mcp:vn.eno/partner-api",
+  "title": "MCP server vn.eno/partner-api: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "vn.eno/partner-api",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deprecated",
+    "description": "Manage one storefront: listings, bulk catalogue sync, analytics and webhooks.",
+    "repository": "",
+    "website": "https://eno.vn/developers/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "eno.vn"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-14T17:35:55.315375Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://eno.vn/developers/mcp",
+    "https://eno.vn/api/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

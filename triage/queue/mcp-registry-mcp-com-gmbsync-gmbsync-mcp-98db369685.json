@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-gmbsync-gmbsync-mcp-98db369685",
+  "source": "mcp-registry",
+  "key": "mcp:com.gmbsync/gmbsync-mcp",
+  "title": "MCP server com.gmbsync/gmbsync-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.gmbsync/gmbsync-mcp",
+    "rule": "status-change",
+    "version": "2.1.0",
+    "status": "deleted",
+    "description": "Audit Google Business Profiles, generate <15KB review widgets, JSON-LD, and AI replies.",
+    "repository": "",
+    "website": "https://gmbsync.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.gmbsync.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T08:45:26.917865Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://gmbsync.com",
+    "https://api.gmbsync.com/mcp",
+    "https://api.gmbsync.com/sse"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

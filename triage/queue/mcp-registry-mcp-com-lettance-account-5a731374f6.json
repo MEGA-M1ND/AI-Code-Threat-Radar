@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-lettance-account-5a731374f6",
+  "source": "mcp-registry",
+  "key": "mcp:com.lettance/account",
+  "title": "MCP server com.lettance/account: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.lettance/account",
+    "rule": "status-change",
+    "version": "1.4.1",
+    "status": "deleted",
+    "description": "Your rental records in your own AI: homes, rent, repairs and renewal proposals. Sign-in required.",
+    "repository": "",
+    "website": "https://lettance.com/assistants",
+    "packages": [],
+    "remote_hosts": [
+      "lettance.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-30T13:27:40.673993Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://lettance.com/assistants",
+    "https://lettance.com/mcp/account"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

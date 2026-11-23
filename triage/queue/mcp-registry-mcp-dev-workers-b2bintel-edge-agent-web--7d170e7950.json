@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-b2bintel-edge-agent-web--7d170e7950",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.b2bintel-edge.agent-web-x402-gateway/web-scrape-search-firecrawl-x402-mcp",
+  "title": "MCP server dev.workers.b2bintel-edge.agent-web-x402-gateway/web-scrape-search-firecrawl-x402-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.b2bintel-edge.agent-web-x402-gateway/web-scrape-search-firecrawl-x402-mcp",
+    "rule": "status-change",
+    "version": "2.4.0",
+    "status": "deleted",
+    "description": "Keyless Firecrawl/Exa alternative: URL to LLM Markdown, live web search & $4.90 30d pass.",
+    "repository": "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "website": "https://agent-web-x402-gateway.b2bintel-edge.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "agent-web-x402-gateway.b2bintel-edge.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T13:00:46.514491Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "https://agent-web-x402-gateway.b2bintel-edge.workers.dev",
+    "https://agent-web-x402-gateway.b2bintel-edge.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

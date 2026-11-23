@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-useventuri-venturi-385043158f",
+  "source": "mcp-registry",
+  "key": "mcp:io.useventuri/venturi",
+  "title": "MCP server io.useventuri/venturi: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.useventuri/venturi",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deleted",
+    "description": "Adds conversion components (pricing, checkout, paywalls, upsells) to AI-built Next.js apps.",
+    "repository": "",
+    "website": "https://www.useventuri.io",
+    "packages": [
+      "npm:venturi-dev"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-31T19:44:15.250302Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.useventuri.io"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

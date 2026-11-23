@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-sjapr76-makerhint-df2a2a19f3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.sjapr76/makerhint",
+  "title": "MCP server io.github.sjapr76/makerhint: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.sjapr76/makerhint",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "A growing list of professions, each mapped: how the job is done, tools, contacts, workflows, pains.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "serj-ab--makerhint.apify.actor"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-16T22:29:35.844116Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://serj-ab--makerhint.apify.actor/mcp?ch=registry"
+  ],
+  "discovered_at": "2026-11-23T18:25:41Z"
+}

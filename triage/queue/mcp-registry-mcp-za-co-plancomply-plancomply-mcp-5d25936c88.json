@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-plancomply-plancomply-mcp-5d25936c88",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.plancomply/plancomply-mcp",
+  "title": "MCP server za.co.plancomply/plancomply-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.plancomply/plancomply-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "SANS 10400 architectural building plan compliance checks, municipal checklists, and SLA lookups.",
+    "repository": "",
+    "website": "https://plancomply.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.plancomply.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:20.936636Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://plancomply.co.za",
+    "https://api.plancomply.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

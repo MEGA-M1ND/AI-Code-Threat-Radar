@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-mjandrews1-c3fst-biomedica-16f9df7dfa",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.mjandrews1/c3fst-biomedical-search",
+  "title": "MCP server io.github.mjandrews1/c3fst-biomedical-search: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.mjandrews1/c3fst-biomedical-search",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Biomedical search: FDA drugs, MeSH headings, ClinVar genomic variants with BM25 ranking.",
+    "repository": "https://github.com/mjandrews1/c3fst",
+    "website": "",
+    "packages": [
+      "pypi:c3fst-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-20T22:57:59.532254Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/mjandrews1/c3fst"
+  ],
+  "discovered_at": "2026-11-23T18:25:38Z"
+}

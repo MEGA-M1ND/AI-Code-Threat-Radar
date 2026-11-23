@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-whitestone1121-web-signalb-81e83feaca",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.whitestone1121-web/signalbrain",
+  "title": "MCP server io.github.whitestone1121-web/signalbrain: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.whitestone1121-web/signalbrain",
+    "rule": "status-change",
+    "version": "0.1.6",
+    "status": "deleted",
+    "description": "Verifiable receipts for governed process changes; emit, validate, and gate trust",
+    "repository": "https://github.com/whitestone1121-web/signalbrain",
+    "website": "https://signalbrain.ai",
+    "packages": [
+      "pypi:signalbrain"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-24T12:55:53.196623Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/whitestone1121-web/signalbrain",
+    "https://signalbrain.ai"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

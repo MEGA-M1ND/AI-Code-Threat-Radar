@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-meetingpoll-meetingpoll-mcp-6f96da3149",
+  "source": "mcp-registry",
+  "key": "mcp:com.meetingpoll/meetingpoll-mcp",
+  "title": "MCP server com.meetingpoll/meetingpoll-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.meetingpoll/meetingpoll-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Create and query group meeting availability polls, time-zone slots, and scheduling links.",
+    "repository": "",
+    "website": "https://meetingpoll.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.meetingpoll.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:33.575752Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://meetingpoll.com",
+    "https://api.meetingpoll.com/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

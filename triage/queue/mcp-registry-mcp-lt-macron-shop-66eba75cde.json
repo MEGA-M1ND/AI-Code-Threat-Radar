@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-lt-macron-shop-66eba75cde",
+  "source": "mcp-registry",
+  "key": "mcp:lt.macron/shop",
+  "title": "MCP server lt.macron/shop: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "lt.macron/shop",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "Search macron.lt's Macron sportswear and fill a cart; a person reviews and pays on macron.lt.",
+    "repository": "",
+    "website": "https://macron.lt/content/12-pirkite-su-ai-asistentu",
+    "packages": [],
+    "remote_hosts": [
+      "macron.lt"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-19T06:51:47.690015Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://macron.lt/content/12-pirkite-su-ai-asistentu",
+    "https://macron.lt/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

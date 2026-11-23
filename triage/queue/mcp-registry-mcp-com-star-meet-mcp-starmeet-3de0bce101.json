@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-star-meet-mcp-starmeet-3de0bce101",
+  "source": "mcp-registry",
+  "key": "mcp:com.star-meet/mcp-starmeet",
+  "title": "MCP server com.star-meet/mcp-starmeet: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.star-meet/mcp-starmeet",
+    "rule": "status-change",
+    "version": "1.2.1",
+    "status": "deleted",
+    "description": "Free Vedic astrology MCP: birth-chart, panchang & nakshatra tools. Public API, no key required.",
+    "repository": "https://github.com/edestory/mcp-starmeet",
+    "website": "https://star-meet.com",
+    "packages": [
+      "npm:@edestory/mcp-starmeet"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-07-11T17:46:01.989842Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/edestory/mcp-starmeet",
+    "https://star-meet.com"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

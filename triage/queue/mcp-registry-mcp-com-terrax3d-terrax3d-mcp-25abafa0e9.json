@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-terrax3d-terrax3d-mcp-25abafa0e9",
+  "source": "mcp-registry",
+  "key": "mcp:com.terrax3d/terrax3d-mcp",
+  "title": "MCP server com.terrax3d/terrax3d-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.terrax3d/terrax3d-mcp",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deleted",
+    "description": "B2B GPR utility locating, rebar scanning, 3D LiDAR & drone stockpile survey rates in South Africa.",
+    "repository": "",
+    "website": "https://terrax3d.com",
+    "packages": [],
+    "remote_hosts": [
+      "api.terrax3d.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-18T07:17:11.065072Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://terrax3d.com",
+    "https://api.terrax3d.com/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

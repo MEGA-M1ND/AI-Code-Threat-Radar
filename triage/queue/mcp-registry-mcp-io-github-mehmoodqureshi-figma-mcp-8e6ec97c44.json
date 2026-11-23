@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-mehmoodqureshi-figma-mcp-8e6ec97c44",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Mehmoodqureshi/figma-mcp",
+  "title": "MCP server io.github.Mehmoodqureshi/figma-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Mehmoodqureshi/figma-mcp",
+    "rule": "status-change",
+    "version": "0.2.1",
+    "status": "deleted",
+    "description": "Figma to pixel-perfect code: deterministic HTML/React, then a render + pixel-diff verify loop.",
+    "repository": "https://github.com/Mehmoodqureshi/figma-mcp",
+    "website": "",
+    "packages": [
+      "npm:@mehmoodqureshi/figma-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T10:02:58.251741Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Mehmoodqureshi/figma-mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:37Z"
+}

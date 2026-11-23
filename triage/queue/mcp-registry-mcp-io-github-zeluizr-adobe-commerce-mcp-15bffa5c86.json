@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-zeluizr-adobe-commerce-mcp-15bffa5c86",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zeluizr/adobe-commerce-mcp",
+  "title": "MCP server io.github.zeluizr/adobe-commerce-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zeluizr/adobe-commerce-mcp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Offline Adobe Commerce PHP docs, config files, bin/magento CLI, Web API and module scaffolding",
+    "repository": "https://github.com/zeluizr/adobe-commerce-mcp",
+    "website": "https://github.com/zeluizr/adobe-commerce-mcp#readme",
+    "packages": [
+      "npm:adobe-commerce-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-25T21:02:28.820057Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/zeluizr/adobe-commerce-mcp",
+    "https://github.com/zeluizr/adobe-commerce-mcp#readme"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

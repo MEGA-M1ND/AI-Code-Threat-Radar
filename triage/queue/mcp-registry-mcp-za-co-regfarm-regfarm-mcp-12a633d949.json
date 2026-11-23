@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-za-co-regfarm-regfarm-mcp-12a633d949",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.regfarm/regfarm-mcp",
+  "title": "MCP server za.co.regfarm/regfarm-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.regfarm/regfarm-mcp",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deleted",
+    "description": "Live South African hunting safari species pricing, lodge availability, and instant quote calculator.",
+    "repository": "",
+    "website": "https://regfarm.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.regfarm.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T12:28:59.94736Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://regfarm.co.za",
+    "https://api.regfarm.co.za/mcp",
+    "https://api.regfarm.co.za/sse"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

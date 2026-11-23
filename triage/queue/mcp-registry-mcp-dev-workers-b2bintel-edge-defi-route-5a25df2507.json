@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-b2bintel-edge-defi-route-5a25df2507",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.b2bintel-edge.defi-route-intel/flashbots-mev-polymarket-clob-kelly-criterion-mcp",
+  "title": "MCP server dev.workers.b2bintel-edge.defi-route-intel/flashbots-mev-polymarket-clob-kelly-criterion-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.b2bintel-edge.defi-route-intel/flashbots-mev-polymarket-clob-kelly-criterion-mcp",
+    "rule": "status-change",
+    "version": "2.4.0",
+    "status": "deleted",
+    "description": "MEV-protected Flashbots swap routing, Polymarket CLOB USDC.e instant bridge, and Kelly sizing.",
+    "repository": "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "website": "https://defi-route-intel.b2bintel-edge.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "defi-route-intel.b2bintel-edge.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T06:19:27.382045Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "https://defi-route-intel.b2bintel-edge.workers.dev",
+    "https://defi-route-intel.b2bintel-edge.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-theoddden-atomic-clock-cfef73cce9",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.theoddden/atomic-clock",
+  "title": "MCP server io.github.theoddden/atomic-clock: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.theoddden/atomic-clock",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "Current UTC time from NTP atomic clocks. Zero-dependency stdio server.",
+    "repository": "https://github.com/theoddden/atomic-clock-mcp",
+    "website": "",
+    "packages": [
+      "pypi:atomic-clock-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-06T18:51:01.682631Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/theoddden/atomic-clock-mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:41Z"
+}

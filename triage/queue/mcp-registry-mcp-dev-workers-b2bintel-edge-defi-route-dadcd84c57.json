@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-b2bintel-edge-defi-route-dadcd84c57",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.b2bintel-edge.defi-route-intel/elizaos-agentkit-defi-polymarket-router-mcp",
+  "title": "MCP server dev.workers.b2bintel-edge.defi-route-intel/elizaos-agentkit-defi-polymarket-router-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.b2bintel-edge.defi-route-intel/elizaos-agentkit-defi-polymarket-router-mcp",
+    "rule": "status-change",
+    "version": "2.4.0",
+    "status": "deleted",
+    "description": "Drop-in ElizaOS & AgentKit execution router for 0.25% EVM swaps, Polymarket & DeFAI vaults.",
+    "repository": "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "website": "https://defi-route-intel.b2bintel-edge.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "defi-route-intel.b2bintel-edge.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T04:34:08.950005Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "https://defi-route-intel.b2bintel-edge.workers.dev",
+    "https://defi-route-intel.b2bintel-edge.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

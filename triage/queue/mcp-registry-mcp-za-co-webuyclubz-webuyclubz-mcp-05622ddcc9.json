@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-webuyclubz-webuyclubz-mcp-05622ddcc9",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.webuyclubz/webuyclubz-mcp",
+  "title": "MCP server za.co.webuyclubz/webuyclubz-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.webuyclubz/webuyclubz-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Search premium second-hand golf clubs, estimate instant trade-in values, and create 1-click carts.",
+    "repository": "",
+    "website": "https://webuyclubz.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.webuyclubz.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:11.528871Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://webuyclubz.co.za",
+    "https://api.webuyclubz.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

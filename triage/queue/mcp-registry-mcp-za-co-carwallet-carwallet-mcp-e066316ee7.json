@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-carwallet-carwallet-mcp-e066316ee7",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.carwallet/carwallet-mcp",
+  "title": "MCP server za.co.carwallet/carwallet-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.carwallet/carwallet-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Calculate South African vehicle licence disc renewal fees, penalties, and compliance status.",
+    "repository": "",
+    "website": "https://carwallet.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.carwallet.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:26.737345Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://carwallet.co.za",
+    "https://api.carwallet.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

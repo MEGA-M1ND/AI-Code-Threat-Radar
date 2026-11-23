@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-zguiyang-pi-worker-mcp-013b668f6e",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zguiyang/pi-worker-mcp",
+  "title": "MCP server io.github.zguiyang/pi-worker-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zguiyang/pi-worker-mcp",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "A host-agnostic MCP worker runtime for supervising local Pi coding-agent processes.",
+    "repository": "https://github.com/zguiyang/pi-worker-mcp",
+    "website": "https://github.com/zguiyang/pi-worker-mcp",
+    "packages": [
+      "npm:@zguiyang/pi-worker-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-08T07:43:31.136051Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/zguiyang/pi-worker-mcp",
+    "https://github.com/zguiyang/pi-worker-mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

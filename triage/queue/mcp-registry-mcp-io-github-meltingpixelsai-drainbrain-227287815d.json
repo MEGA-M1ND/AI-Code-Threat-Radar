@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-meltingpixelsai-drainbrain-227287815d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.meltingpixelsai/drainbrain",
+  "title": "MCP server io.github.meltingpixelsai/drainbrain: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.meltingpixelsai/drainbrain",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "AI-powered Solana token rug pull detection with ML ensemble scoring and honeypot detection.",
+    "repository": "https://github.com/meltingpixelsai/rugslayer",
+    "website": "",
+    "packages": [
+      "npm:drainbrain-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-02-19T17:08:27.948289Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/meltingpixelsai/rugslayer"
+  ],
+  "discovered_at": "2026-11-23T18:25:38Z"
+}

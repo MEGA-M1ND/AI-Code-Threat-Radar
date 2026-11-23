@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-b2bintel-edge-email-secu-d1554e5239",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.b2bintel-edge.email-security-deliverability-grader/email-verification-dmarc-mcp",
+  "title": "MCP server dev.workers.b2bintel-edge.email-security-deliverability-grader/email-verification-dmarc-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.b2bintel-edge.email-security-deliverability-grader/email-verification-dmarc-mcp",
+    "rule": "status-change",
+    "version": "2.4.0",
+    "status": "deleted",
+    "description": "Email verification, MX, SPF, DMARC, DKIM, MTA-STS, disposable domain & RDAP age grader.",
+    "repository": "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "website": "https://email-security-deliverability-grader.b2bintel-edge.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "email-security-deliverability-grader.b2bintel-edge.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T07:30:04.080041Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "https://email-security-deliverability-grader.b2bintel-edge.workers.dev",
+    "https://email-security-deliverability-grader.b2bintel-edge.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-flashshot-flashshot-mcp-a23bf72167",
+  "source": "mcp-registry",
+  "key": "mcp:io.flashshot/flashshot-mcp",
+  "title": "MCP server io.flashshot/flashshot-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.flashshot/flashshot-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Generate studio-grade AI commercial product photography, scene templates, and pricing plans.",
+    "repository": "",
+    "website": "https://flashshot.io",
+    "packages": [],
+    "remote_hosts": [
+      "api.flashshot.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:30.321725Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://flashshot.io",
+    "https://api.flashshot.io/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

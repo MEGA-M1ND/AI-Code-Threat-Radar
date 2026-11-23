@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-co-codeways-co-za-whois-dns-cb9ed3255c",
+  "source": "mcp-registry",
+  "key": "mcp:co.codeways/co-za-whois-dns",
+  "title": "MCP server co.codeways/co-za-whois-dns: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "co.codeways/co-za-whois-dns",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Live ZARC (.co.za, .org.za) & global ICANN WHOIS, Registrar, expiry, DNS, MX/SPF/DMARC & transfers.",
+    "repository": "",
+    "website": "https://codeways.co/whois",
+    "packages": [],
+    "remote_hosts": [
+      "website-api.codeways.co"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T10:15:22.414043Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://codeways.co/whois",
+    "https://website-api.codeways.co/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

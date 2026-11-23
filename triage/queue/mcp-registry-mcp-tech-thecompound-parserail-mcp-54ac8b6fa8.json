@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-tech-thecompound-parserail-mcp-54ac8b6fa8",
+  "source": "mcp-registry",
+  "key": "mcp:tech.thecompound/parserail-mcp",
+  "title": "MCP server tech.thecompound/parserail-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "tech.thecompound/parserail-mcp",
+    "rule": "status-change",
+    "version": "0.6.2",
+    "status": "deleted",
+    "description": "Documents to schema-valid JSON plus 38 more finished-job AI tools, on one credit wallet.",
+    "repository": "",
+    "website": "https://parserail.thecompound.tech",
+    "packages": [
+      "npm:parserail-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T23:24:21.47013Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://parserail.thecompound.tech"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

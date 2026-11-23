@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-vrhodes68-temporal-continu-f3131d8ce6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.VRhodes68/temporal-continuity",
+  "title": "MCP server io.github.VRhodes68/temporal-continuity: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.VRhodes68/temporal-continuity",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "Local MCP adapter connecting AI clients to the hosted Temporal Continuity API.",
+    "repository": "https://github.com/VRhodes68/RSCAPEXAI",
+    "website": "",
+    "packages": [
+      "npm:temporal-continuity-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-15T09:50:56.643067Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/VRhodes68/RSCAPEXAI"
+  ],
+  "discovered_at": "2026-11-23T18:25:37Z"
+}

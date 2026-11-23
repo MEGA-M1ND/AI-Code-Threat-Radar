@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-studio-kynth-core-752d7d07b2",
+  "source": "mcp-registry",
+  "key": "mcp:studio.kynth/core",
+  "title": "MCP server studio.kynth/core: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "studio.kynth/core",
+    "rule": "status-change",
+    "version": "0.5.2",
+    "status": "deleted",
+    "description": "Documents to schema-valid JSON plus 38 more finished-job AI tools, on one credit wallet.",
+    "repository": "",
+    "website": "https://api.kynth.studio",
+    "packages": [
+      "npm:@kynth/api-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-14T15:18:07.44223Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://api.kynth.studio"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

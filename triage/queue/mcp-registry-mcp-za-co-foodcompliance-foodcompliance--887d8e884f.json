@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-foodcompliance-foodcompliance--887d8e884f",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.foodcompliance/foodcompliance-mcp",
+  "title": "MCP server za.co.foodcompliance/foodcompliance-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.foodcompliance/foodcompliance-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "South African R638 Certificate of Acceptability (COA) food safety compliance and audit tools.",
+    "repository": "",
+    "website": "https://foodcompliance.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "foodcompliance.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:51.495095Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://foodcompliance.co.za",
+    "https://foodcompliance.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-za-co-re5examprep-re5-copilot-mcp-a5b8b9d95b",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.re5examprep/re5-copilot-mcp",
+  "title": "MCP server za.co.re5examprep/re5-copilot-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.re5examprep/re5-copilot-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "South African FSCA RE5 & RE1 exam prep MCP: FAIS/FICA study guides, pass-mark calculator & plans.",
+    "repository": "",
+    "website": "https://re5examprep.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.re5examprep.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-17T06:19:20.616969Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://re5examprep.co.za",
+    "https://api.re5examprep.co.za/mcp",
+    "https://api.re5examprep.co.za/sse"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

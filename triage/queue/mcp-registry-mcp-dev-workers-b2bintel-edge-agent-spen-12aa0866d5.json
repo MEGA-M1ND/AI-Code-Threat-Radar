@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-workers-b2bintel-edge-agent-spen-12aa0866d5",
+  "source": "mcp-registry",
+  "key": "mcp:dev.workers.b2bintel-edge.agent-spend-guard/eip-7702-smart-wallet-passkey-gas-optimizer-mcp",
+  "title": "MCP server dev.workers.b2bintel-edge.agent-spend-guard/eip-7702-smart-wallet-passkey-gas-optimizer-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.workers.b2bintel-edge.agent-spend-guard/eip-7702-smart-wallet-passkey-gas-optimizer-mcp",
+    "rule": "status-change",
+    "version": "2.4.0",
+    "status": "deleted",
+    "description": "Upgrade EOAs via EIP-7702 with Passkey spend caps and route swaps to the lowest-gas EVM chain.",
+    "repository": "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "website": "https://agent-spend-guard.b2bintel-edge.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "agent-spend-guard.b2bintel-edge.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T06:19:24.772929Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "https://agent-spend-guard.b2bintel-edge.workers.dev",
+    "https://agent-spend-guard.b2bintel-edge.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

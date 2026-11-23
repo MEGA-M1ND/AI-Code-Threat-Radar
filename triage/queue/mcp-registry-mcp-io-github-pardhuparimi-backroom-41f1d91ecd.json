@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-pardhuparimi-backroom-41f1d91ecd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.pardhuparimi/backroom",
+  "title": "MCP server io.github.pardhuparimi/backroom: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.pardhuparimi/backroom",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "Invoice extraction for agents: submit a PDF, get verified structured data — never a guess.",
+    "repository": "https://github.com/pardhuparimi/backroom",
+    "website": "https://backroom-api-wmk6.onrender.com/backroom/api/docs",
+    "packages": [
+      "pypi:backroom-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-28T20:23:30.835027Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/pardhuparimi/backroom",
+    "https://backroom-api-wmk6.onrender.com/backroom/api/docs"
+  ],
+  "discovered_at": "2026-11-23T18:25:41Z"
+}

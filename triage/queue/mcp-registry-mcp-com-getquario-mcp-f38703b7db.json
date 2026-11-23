@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-getquario-mcp-f38703b7db",
+  "source": "mcp-registry",
+  "key": "mcp:com.getquario/mcp",
+  "title": "MCP server com.getquario/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.getquario/mcp",
+    "rule": "status-change",
+    "version": "0.3.0",
+    "status": "deleted",
+    "description": "Validate and render quario report definitions (JSON) to PDF, Excel, Word, HTML or CSV.",
+    "repository": "https://github.com/getquario/mcp",
+    "website": "https://getquario.com",
+    "packages": [
+      "npm:@quario/mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T11:29:56.165992Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/getquario/mcp",
+    "https://getquario.com"
+  ],
+  "discovered_at": "2026-11-23T18:25:35Z"
+}

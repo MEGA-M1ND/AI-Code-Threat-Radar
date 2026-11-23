@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-za-co-bumptobabysa-bumptobaby-mcp-b91134ed98",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.bumptobabysa/bumptobaby-mcp",
+  "title": "MCP server za.co.bumptobabysa/bumptobaby-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.bumptobabysa/bumptobaby-mcp",
+    "rule": "status-change",
+    "version": "2.0.2",
+    "status": "deleted",
+    "description": "2D, Gender Reveal & 4D/5D pregnancy ultrasound packages & live slot availability in Pretoria.",
+    "repository": "",
+    "website": "https://bumptobabysa.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.bumptobabysa.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T21:11:00.119403Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://bumptobabysa.co.za",
+    "https://api.bumptobabysa.co.za/mcp",
+    "https://api.bumptobabysa.co.za/sse"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

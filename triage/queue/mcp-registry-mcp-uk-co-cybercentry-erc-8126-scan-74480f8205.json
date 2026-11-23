@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-uk-co-cybercentry-erc-8126-scan-74480f8205",
+  "source": "mcp-registry",
+  "key": "mcp:uk.co.cybercentry/erc-8126-scan",
+  "title": "MCP server uk.co.cybercentry/erc-8126-scan: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "uk.co.cybercentry/erc-8126-scan",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deprecated",
+    "description": "378k+ ERC-8004 agents and their security verifications. Two tools free, the rest USDC over x402.",
+    "repository": "https://github.com/Cybercentry/erc-8126-scan-mcp",
+    "website": "https://erc8126scan.ai",
+    "packages": [],
+    "remote_hosts": [
+      "erc8126scan.ai"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-08-22T14:18:18.275211Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Cybercentry/erc-8126-scan-mcp",
+    "https://erc8126scan.ai",
+    "https://erc8126scan.ai/api/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

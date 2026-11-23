@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-beakdo-b2b-lead-signal-mcp-de6d163377",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.BeakDo/b2b-lead-signal-mcp",
+  "title": "MCP server io.github.BeakDo/b2b-lead-signal-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.BeakDo/b2b-lead-signal-mcp",
+    "rule": "status-change",
+    "version": "2.3.0",
+    "status": "deleted",
+    "description": "Free B2B lead, NetSuite ISV & ATS tools + Base x402 parallel enterprise batch scoring.",
+    "repository": "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "website": "https://b2b-intel-rapidapi-worker.b2bintel-edge.workers.dev",
+    "packages": [],
+    "remote_hosts": [
+      "b2b-intel-rapidapi-worker.b2bintel-edge.workers.dev"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-19T19:35:26.32848Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/BeakDo/defi-customs-mcp-hub",
+    "https://b2b-intel-rapidapi-worker.b2bintel-edge.workers.dev",
+    "https://b2b-intel-rapidapi-worker.b2bintel-edge.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:36Z"
+}

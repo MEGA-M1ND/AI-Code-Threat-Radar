@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-jp-yomitasu-orecen-com-85d68bc15b",
+  "source": "mcp-registry",
+  "key": "mcp:jp.yomitasu/orecen-com",
+  "title": "MCP server jp.yomitasu/orecen-com: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "jp.yomitasu/orecen-com",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "XR（AR/VR/MR）に関する情報をメインに扱うサイトです。（orecen.com の内容を検索して答える。ヨミタス経由）",
+    "repository": "",
+    "website": "https://www.yomitasu.jp/sites/orecen-com/",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.yomitasu.jp"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T02:51:33.195772Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.yomitasu.jp/sites/orecen-com/",
+    "https://mcp.yomitasu.jp/s/orecen-com/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

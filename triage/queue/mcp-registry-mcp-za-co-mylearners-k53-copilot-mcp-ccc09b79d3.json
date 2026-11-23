@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-mylearners-k53-copilot-mcp-ccc09b79d3",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.mylearners/k53-copilot-mcp",
+  "title": "MCP server za.co.mylearners/k53-copilot-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.mylearners/k53-copilot-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Official South African K53 learner licence practice tests, road signs, rules, and study tools.",
+    "repository": "",
+    "website": "https://mylearners.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.mylearners.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:07.719099Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mylearners.co.za",
+    "https://api.mylearners.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

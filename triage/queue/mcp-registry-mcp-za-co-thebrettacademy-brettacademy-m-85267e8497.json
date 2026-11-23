@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-za-co-thebrettacademy-brettacademy-m-85267e8497",
+  "source": "mcp-registry",
+  "key": "mcp:za.co.thebrettacademy/brettacademy-mcp",
+  "title": "MCP server za.co.thebrettacademy/brettacademy-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "za.co.thebrettacademy/brettacademy-mcp",
+    "rule": "status-change",
+    "version": "2.0.1",
+    "status": "deleted",
+    "description": "Browse accredited online courses, training modules, syllabus details, and enrollment options.",
+    "repository": "",
+    "website": "https://thebrettacademy.co.za",
+    "packages": [],
+    "remote_hosts": [
+      "api.thebrettacademy.co.za"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-29T16:36:48.904211Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://thebrettacademy.co.za",
+    "https://api.thebrettacademy.co.za/mcp"
+  ],
+  "discovered_at": "2026-11-23T18:25:42Z"
+}

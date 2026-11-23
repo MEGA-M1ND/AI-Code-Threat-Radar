@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-twzrd-sol-twzrd-agent-inte-1cc8e9ee4b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.twzrd-sol/twzrd-agent-intel",
+  "title": "MCP server io.github.twzrd-sol/twzrd-agent-intel: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.twzrd-sol/twzrd-agent-intel",
+    "rule": "status-change",
+    "version": "0.5.13",
+    "status": "deprecated",
+    "description": "Pre-spend trust for AI agents that buy: check x402 services and product listings before paying.",
+    "repository": "https://github.com/twzrd-sol/twzrd-trust",
+    "website": "https://intel.twzrd.xyz",
+    "packages": [
+      "pypi:twzrd-agent-intel"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-20T06:51:08.204244Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/twzrd-sol/twzrd-trust",
+    "https://intel.twzrd.xyz"
+  ],
+  "discovered_at": "2026-11-23T18:25:41Z"
+}
