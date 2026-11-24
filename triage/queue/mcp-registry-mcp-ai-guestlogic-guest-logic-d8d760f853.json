@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-guestlogic-guest-logic-d8d760f853",
+  "source": "mcp-registry",
+  "key": "mcp:ai.guestlogic/guest-logic",
+  "title": "MCP server ai.guestlogic/guest-logic: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.guestlogic/guest-logic",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "A PMS (Property Management System) for hotels and event spaces, set up by your AI assistant.",
+    "repository": "",
+    "website": "https://guestlogic.ai/connect",
+    "packages": [],
+    "remote_hosts": [
+      "guestlogic.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-13T15:24:22.142995Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://guestlogic.ai/connect",
+    "https://guestlogic.ai/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:48Z"
+}

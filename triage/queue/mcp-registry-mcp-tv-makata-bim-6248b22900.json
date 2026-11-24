@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-tv-makata-bim-6248b22900",
+  "source": "mcp-registry",
+  "key": "mcp:tv.makata/bim",
+  "title": "MCP server tv.makata/bim: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "tv.makata/bim",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Design-review threads, comments, reactions and deployments from Bim. Sign in with Google.",
+    "repository": "https://github.com/Makata-Studio/bim-mcp",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "bim-mcp.vercel.app"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-03T21:22:47.568716Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Makata-Studio/bim-mcp",
+    "https://bim-mcp.vercel.app/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:53Z"
+}

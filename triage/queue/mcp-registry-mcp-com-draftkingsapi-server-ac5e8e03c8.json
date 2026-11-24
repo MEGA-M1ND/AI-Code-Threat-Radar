@@ -1,0 +1,35 @@
+{
+  "id": "mcp-registry-mcp-com-draftkingsapi-server-ac5e8e03c8",
+  "source": "mcp-registry",
+  "key": "mcp:com.draftkingsapi/server",
+  "title": "MCP server com.draftkingsapi/server: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.draftkingsapi/server",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Independent DraftKings Pick6 lines/history, DFS salaries, odds, box scores. Keyless tools: no key",
+    "repository": "",
+    "website": "https://draftkingsapi.com/developers/starter-kit",
+    "packages": [
+      "npm:draftkingsapi-mcp"
+    ],
+    "remote_hosts": [
+      "draftkingsapi.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-16T19:13:40.672264Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://draftkingsapi.com/developers/starter-kit",
+    "https://draftkingsapi.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:48Z"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-arxo-charter-b8858c2446",
+  "source": "mcp-registry",
+  "key": "mcp:io.arxo/charter",
+  "title": "MCP server io.arxo/charter: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.arxo/charter",
+    "rule": "status-change",
+    "version": "0.1.8",
+    "status": "deleted",
+    "description": "UN Charter (1945, as amended) as an executable model with worked cases; not UN-affiliated",
+    "repository": "https://github.com/arxohq/arxo-charter-1945",
+    "website": "https://charter.law.arxo.io/",
+    "packages": [
+      "npm:@arxo/mcp-charter"
+    ],
+    "remote_hosts": [
+      "mcp.arxo.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T21:30:52.814205Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/arxohq/arxo-charter-1945",
+    "https://charter.law.arxo.io/",
+    "https://mcp.arxo.io/mcp/charter"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

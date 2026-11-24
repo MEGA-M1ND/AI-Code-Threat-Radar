@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-lykhoyda-ask-antigravity-d3df3bfffc",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Lykhoyda/ask-antigravity",
+  "title": "MCP server io.github.Lykhoyda/ask-antigravity: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Lykhoyda/ask-antigravity",
+    "rule": "status-change",
+    "version": "0.8.1",
+    "status": "deleted",
+    "description": "Bridge Claude with Google's Antigravity CLI (agy) for code review and second opinions",
+    "repository": "https://github.com/Lykhoyda/ask-llm",
+    "website": "",
+    "packages": [
+      "npm:@ask-llm/antigravity-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-27T21:10:29.830405Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Lykhoyda/ask-llm"
+  ],
+  "discovered_at": "2026-11-24T17:54:50Z"
+}

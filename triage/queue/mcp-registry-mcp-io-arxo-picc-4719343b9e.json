@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-arxo-picc-4719343b9e",
+  "source": "mcp-registry",
+  "key": "mcp:io.arxo/picc",
+  "title": "MCP server io.arxo/picc: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.arxo/picc",
+    "rule": "status-change",
+    "version": "0.3.11",
+    "status": "deleted",
+    "description": "UNIDROIT Principles 2016 as executable rules: closed questions answered with grounds and source text",
+    "repository": "https://github.com/arxohq/arxo-unidroit-picc",
+    "website": "https://picc.law.arxo.io/",
+    "packages": [
+      "npm:@arxo/mcp-picc"
+    ],
+    "remote_hosts": [
+      "mcp.arxo.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T21:30:51.088425Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/arxohq/arxo-unidroit-picc",
+    "https://picc.law.arxo.io/",
+    "https://mcp.arxo.io/mcp/picc"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

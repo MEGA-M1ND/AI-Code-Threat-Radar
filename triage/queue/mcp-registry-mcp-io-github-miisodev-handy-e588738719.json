@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-miisodev-handy-e588738719",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.miisodev/handy",
+  "title": "MCP server io.github.miisodev/handy: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.miisodev/handy",
+    "rule": "status-change",
+    "version": "1.4.0",
+    "status": "deleted",
+    "description": "Native mouse, keyboard, window, clipboard, and screen control for LLMs via stdio MCP.",
+    "repository": "https://github.com/miisodev/handy",
+    "website": "https://github.com/miisodev/handy",
+    "packages": [
+      "npm:@miisodev/handy"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T16:20:59.358481Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/miisodev/handy",
+    "https://github.com/miisodev/handy"
+  ],
+  "discovered_at": "2026-11-24T17:54:51Z"
+}

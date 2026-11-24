@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-cyanheads-nominatim-mcp-se-fd897feb2d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.cyanheads/nominatim-mcp-server",
+  "title": "MCP server io.github.cyanheads/nominatim-mcp-server: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.cyanheads/nominatim-mcp-server",
+    "rule": "status-change",
+    "version": "0.1.8",
+    "status": "deleted",
+    "description": "Geocode, reverse geocode, and run Overpass spatial queries on OpenStreetMap data.",
+    "repository": "https://github.com/cyanheads/nominatim-mcp-server",
+    "website": "",
+    "packages": [
+      "npm:@cyanheads/nominatim-mcp-server",
+      "npm:@cyanheads/nominatim-mcp-server"
+    ],
+    "remote_hosts": [
+      "nominatim.caseyjhand.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-05-24T22:08:17.971525Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/cyanheads/nominatim-mcp-server",
+    "https://nominatim.caseyjhand.com/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:51Z"
+}

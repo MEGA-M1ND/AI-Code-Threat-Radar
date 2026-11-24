@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-cyanheads-gbif-mcp-server-1c3fe5f107",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.cyanheads/gbif-mcp-server",
+  "title": "MCP server io.github.cyanheads/gbif-mcp-server: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.cyanheads/gbif-mcp-server",
+    "rule": "status-change",
+    "version": "0.1.7",
+    "status": "deleted",
+    "description": "Search GBIF species taxonomy, occurrence records, datasets, and publishers.",
+    "repository": "https://github.com/cyanheads/gbif-mcp-server",
+    "website": "",
+    "packages": [
+      "npm:@cyanheads/gbif-mcp-server",
+      "npm:@cyanheads/gbif-mcp-server"
+    ],
+    "remote_hosts": [
+      "gbif.caseyjhand.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-05-24T22:03:50.082219Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/cyanheads/gbif-mcp-server",
+    "https://gbif.caseyjhand.com/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:51Z"
+}

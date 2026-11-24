@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-goyo-studio-korean-real-es-449bdf2b60",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.goyo-studio/korean-real-estate-mcp",
+  "title": "MCP server io.github.goyo-studio/korean-real-estate-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.goyo-studio/korean-real-estate-mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Korean apartment and housing sale/rent records (MOLIT) by natural-language address. No key.",
+    "repository": "https://github.com/goyo-studio/korean-real-estate-mcp",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "realestate-api.goyostudio.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-24T04:52:42.593344Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/goyo-studio/korean-real-estate-mcp",
+    "https://realestate-api.goyostudio.io/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:51Z"
+}

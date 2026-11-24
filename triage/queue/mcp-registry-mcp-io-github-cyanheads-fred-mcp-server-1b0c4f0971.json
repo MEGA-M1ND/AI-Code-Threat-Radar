@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-cyanheads-fred-mcp-server-1b0c4f0971",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.cyanheads/fred-mcp-server",
+  "title": "MCP server io.github.cyanheads/fred-mcp-server: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.cyanheads/fred-mcp-server",
+    "rule": "status-change",
+    "version": "0.1.6",
+    "status": "deleted",
+    "description": "Search and fetch ~800K Federal Reserve economic time-series from the FRED API via MCP.",
+    "repository": "https://github.com/cyanheads/fred-mcp-server",
+    "website": "",
+    "packages": [
+      "npm:@cyanheads/fred-mcp-server",
+      "npm:@cyanheads/fred-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-05-23T16:59:55.744921Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/cyanheads/fred-mcp-server"
+  ],
+  "discovered_at": "2026-11-24T17:54:51Z"
+}

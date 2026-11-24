@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-valksor-hub-b041333334",
+  "source": "mcp-registry",
+  "key": "mcp:com.valksor/hub",
+  "title": "MCP server com.valksor/hub: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.valksor/hub",
+    "rule": "status-change",
+    "version": "2.1.1",
+    "status": "deleted",
+    "description": "One MCP endpoint over every Valksor dictionary: namespaced tools plus a JSON passthrough.",
+    "repository": "",
+    "website": "https://mcp.valksor.tools",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.valksor.tools"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T16:44:59.01178Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcp.valksor.tools",
+    "https://mcp.valksor.tools/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

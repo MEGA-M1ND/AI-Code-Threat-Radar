@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-brainsbehind-brain-fb5aef2970",
+  "source": "mcp-registry",
+  "key": "mcp:io.brainsbehind/brain",
+  "title": "MCP server io.brainsbehind/brain: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.brainsbehind/brain",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "The shared brain of a company or a person: agents keep what they learn and look things up.",
+    "repository": "",
+    "website": "https://brainsbehind.io/connect",
+    "packages": [],
+    "remote_hosts": [
+      "brainsbehind.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-22T10:57:53.929173Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://brainsbehind.io/connect",
+    "https://brainsbehind.io/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

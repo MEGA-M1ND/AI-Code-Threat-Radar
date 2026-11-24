@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-valksor-interslavic-6742c88f49",
+  "source": "mcp-registry",
+  "key": "mcp:com.valksor/interslavic",
+  "title": "MCP server com.valksor/interslavic: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.valksor/interslavic",
+    "rule": "status-change",
+    "version": "2.1.1",
+    "status": "deleted",
+    "description": "Grounds LLMs in real Interslavic: translation matrix, paradigms, English→Interslavic lookup.",
+    "repository": "",
+    "website": "https://interslavic.valksor.tools",
+    "packages": [],
+    "remote_hosts": [
+      "interslavic.valksor.tools"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T16:45:03.666759Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://interslavic.valksor.tools",
+    "https://interslavic.valksor.tools/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

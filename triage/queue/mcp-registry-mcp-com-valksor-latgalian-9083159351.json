@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-valksor-latgalian-9083159351",
+  "source": "mcp-registry",
+  "key": "mcp:com.valksor/latgalian",
+  "title": "MCP server com.valksor/latgalian: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.valksor/latgalian",
+    "rule": "status-change",
+    "version": "2.1.1",
+    "status": "deleted",
+    "description": "Grounds LLMs in real Latgalian: Wiktionary lemmas, inflections, romanization.",
+    "repository": "",
+    "website": "https://latgalian.valksor.tools",
+    "packages": [],
+    "remote_hosts": [
+      "latgalian.valksor.tools"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T16:44:59.501264Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://latgalian.valksor.tools",
+    "https://latgalian.valksor.tools/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

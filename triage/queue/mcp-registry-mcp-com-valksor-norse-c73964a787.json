@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-valksor-norse-c73964a787",
+  "source": "mcp-registry",
+  "key": "mcp:com.valksor/norse",
+  "title": "MCP server com.valksor/norse: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.valksor/norse",
+    "rule": "status-change",
+    "version": "2.1.1",
+    "status": "deleted",
+    "description": "Grounds LLMs in real Old Norse: lemmas, mediopassive paradigms, English→Old Norse lookup.",
+    "repository": "",
+    "website": "https://norse.valksor.tools",
+    "packages": [],
+    "remote_hosts": [
+      "norse.valksor.tools"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T16:45:01.676739Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://norse.valksor.tools",
+    "https://norse.valksor.tools/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

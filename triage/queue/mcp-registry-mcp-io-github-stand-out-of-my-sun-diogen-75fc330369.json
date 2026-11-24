@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-stand-out-of-my-sun-diogen-75fc330369",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.stand-out-of-my-sun/diogenes-eve-frontier-mcp",
+  "title": "MCP server io.github.stand-out-of-my-sun/diogenes-eve-frontier-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.stand-out-of-my-sun/diogenes-eve-frontier-mcp",
+    "rule": "status-change",
+    "version": "1.1.0",
+    "status": "deleted",
+    "description": "CCP Games EVE: Frontier Sui Move Smart Assembly coder, Smart Gate planner & SSU AMM.",
+    "repository": "https://github.com/stand-out-of-my-sun/diogenes-eve-frontier-mcp",
+    "website": "https://diogenesgateway.com",
+    "packages": [],
+    "remote_hosts": [
+      "diogenesgateway.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T02:38:06.996455Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/stand-out-of-my-sun/diogenes-eve-frontier-mcp",
+    "https://diogenesgateway.com",
+    "https://diogenesgateway.com/mcp/eve-frontier"
+  ],
+  "discovered_at": "2026-11-24T17:54:52Z"
+}

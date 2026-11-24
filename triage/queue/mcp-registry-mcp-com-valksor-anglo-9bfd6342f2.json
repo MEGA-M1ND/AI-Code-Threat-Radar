@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-valksor-anglo-9bfd6342f2",
+  "source": "mcp-registry",
+  "key": "mcp:com.valksor/anglo",
+  "title": "MCP server com.valksor/anglo: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.valksor/anglo",
+    "rule": "status-change",
+    "version": "2.1.1",
+    "status": "deleted",
+    "description": "Grounds LLMs in real Old English: lemmas, strong/weak paradigms, English→Old English lookup.",
+    "repository": "",
+    "website": "https://anglo.valksor.tools",
+    "packages": [],
+    "remote_hosts": [
+      "anglo.valksor.tools"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T16:45:03.163619Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://anglo.valksor.tools",
+    "https://anglo.valksor.tools/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

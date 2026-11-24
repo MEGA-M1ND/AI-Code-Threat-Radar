@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-wizbi-wizbi-c9e8de4e71",
+  "source": "mcp-registry",
+  "key": "mcp:ai.wizbi/wizbi",
+  "title": "MCP server ai.wizbi/wizbi: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.wizbi/wizbi",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Your organization's connected business data and its context, read with each person's permissions.",
+    "repository": "",
+    "website": "https://wizbi.ai",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.wizbi.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T18:45:54.045803Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://wizbi.ai",
+    "https://mcp.wizbi.ai"
+  ],
+  "discovered_at": "2026-11-24T17:54:48Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-getproven-trust-index-391e4de760",
+  "source": "mcp-registry",
+  "key": "mcp:com.getproven/trust-index",
+  "title": "MCP server com.getproven/trust-index: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.getproven/trust-index",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Startup software vendors ranked by Proven Score, with public deals. Read-only, no sign-in.",
+    "repository": "",
+    "website": "https://www.getproven.com/startup-tools-mcp",
+    "packages": [],
+    "remote_hosts": [
+      "index.getproven.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-18T13:13:36.308774Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://www.getproven.com/startup-tools-mcp",
+    "https://index.getproven.com/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:48Z"
+}

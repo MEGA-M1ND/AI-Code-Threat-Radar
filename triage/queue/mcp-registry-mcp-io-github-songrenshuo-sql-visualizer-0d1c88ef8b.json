@@ -1,0 +1,30 @@
+{
+  "id": "mcp-registry-mcp-io-github-songrenshuo-sql-visualizer-0d1c88ef8b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.SongRenShuo/sql-visualizer",
+  "title": "MCP server io.github.SongRenShuo/sql-visualizer: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.SongRenShuo/sql-visualizer",
+    "rule": "status-change",
+    "version": "2026.11.21",
+    "status": "deprecated",
+    "description": "IntelliJ IDEA plugin: 11 deterministic read-only SQL tools over the IDE's built-in MCP Server.",
+    "repository": "",
+    "website": "https://sql-visualizer.jvtools.cn/features/mcp",
+    "packages": [],
+    "remote_hosts": [],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-23T08:50:53.185141Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://sql-visualizer.jvtools.cn/features/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:50Z"
+}

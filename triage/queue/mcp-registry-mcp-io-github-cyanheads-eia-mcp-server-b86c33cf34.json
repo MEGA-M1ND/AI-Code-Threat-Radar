@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-cyanheads-eia-mcp-server-b86c33cf34",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.cyanheads/eia-mcp-server",
+  "title": "MCP server io.github.cyanheads/eia-mcp-server: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.cyanheads/eia-mcp-server",
+    "rule": "status-change",
+    "version": "0.1.7",
+    "status": "deleted",
+    "description": "Browse and query the EIA API v2 — electricity, petroleum, natural gas, coal, forecasts via MCP.",
+    "repository": "https://github.com/cyanheads/eia-mcp-server",
+    "website": "",
+    "packages": [
+      "npm:@cyanheads/eia-mcp-server",
+      "npm:@cyanheads/eia-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-05-23T18:39:56.838798Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/cyanheads/eia-mcp-server"
+  ],
+  "discovered_at": "2026-11-24T17:54:51Z"
+}

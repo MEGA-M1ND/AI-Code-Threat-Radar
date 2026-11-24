@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-admitprotocol-admit-protocol-c09074cc41",
+  "source": "mcp-registry",
+  "key": "mcp:com.admitprotocol/admit-protocol",
+  "title": "MCP server com.admitprotocol/admit-protocol: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.admitprotocol/admit-protocol",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deleted",
+    "description": "Apply to a school from a folder on your computer. Lists schools, applies to any. Student writes.",
+    "repository": "https://github.com/Admit-Protocol/Admit-Protocol",
+    "website": "https://admitprotocol.com",
+    "packages": [],
+    "remote_hosts": [
+      "admitprotocol.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-18T18:55:28.545061Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Admit-Protocol/Admit-Protocol",
+    "https://admitprotocol.com",
+    "https://admitprotocol.com/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:48Z"
+}

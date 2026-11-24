@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-nativeport-mcp-3499172f36",
+  "source": "mcp-registry",
+  "key": "mcp:ai.nativeport/mcp",
+  "title": "MCP server ai.nativeport/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.nativeport/mcp",
+    "rule": "status-change",
+    "version": "1.5.3",
+    "status": "deprecated",
+    "description": "30+ web-access and AI APIs behind one key: search, scraping, browsers, voice, OCR and LLMs.",
+    "repository": "",
+    "website": "https://docs.nativeport.ai/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "api.nativeport.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-01T02:17:06.448245Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://docs.nativeport.ai/mcp",
+    "https://api.nativeport.ai/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:48Z"
+}

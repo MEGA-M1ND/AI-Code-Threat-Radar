@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-valksor-livonian-7a3fe0bbfc",
+  "source": "mcp-registry",
+  "key": "mcp:com.valksor/livonian",
+  "title": "MCP server com.valksor/livonian: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.valksor/livonian",
+    "rule": "status-change",
+    "version": "2.1.1",
+    "status": "deleted",
+    "description": "Grounds LLMs in the real Livonian dictionary: attested words, inflections, romanization.",
+    "repository": "",
+    "website": "https://livonian.valksor.tools",
+    "packages": [],
+    "remote_hosts": [
+      "livonian.valksor.tools"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T16:45:00.654742Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://livonian.valksor.tools",
+    "https://livonian.valksor.tools/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

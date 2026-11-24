@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-jurimaxam-dotcom-chemdraw--6acd851639",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jurimaxam-dotcom/chemdraw-mcp",
+  "title": "MCP server io.github.jurimaxam-dotcom/chemdraw-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jurimaxam-dotcom/chemdraw-mcp",
+    "rule": "status-change",
+    "version": "0.11.3",
+    "status": "deprecated",
+    "description": "Interactive chemistry panels for structures, 3D models, proteins, mechanisms, spectra and lab plots.",
+    "repository": "https://github.com/jurimaxam-dotcom/chemdraw-mcp",
+    "website": "",
+    "packages": [
+      "pypi:chemdraw-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-22T17:11:55.391482Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jurimaxam-dotcom/chemdraw-mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:51Z"
+}

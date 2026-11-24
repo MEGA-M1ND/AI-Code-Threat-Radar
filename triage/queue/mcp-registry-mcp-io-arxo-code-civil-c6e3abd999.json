@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-arxo-code-civil-c6e3abd999",
+  "source": "mcp-registry",
+  "key": "mcp:io.arxo/code-civil",
+  "title": "MCP server io.arxo/code-civil: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.arxo/code-civil",
+    "rule": "status-change",
+    "version": "0.1.10",
+    "status": "deleted",
+    "description": "French Civil Code (LEGI) as executable rules: facts and a legal date in, answers with grounds out",
+    "repository": "https://github.com/arxohq/arxo-code-civil",
+    "website": "https://code-civil.law.arxo.io/",
+    "packages": [
+      "npm:@arxo/mcp-code-civil"
+    ],
+    "remote_hosts": [
+      "mcp.arxo.io"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-14T21:30:54.574178Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/arxohq/arxo-code-civil",
+    "https://code-civil.law.arxo.io/",
+    "https://mcp.arxo.io/mcp/code-civil"
+  ],
+  "discovered_at": "2026-11-24T17:54:49Z"
+}

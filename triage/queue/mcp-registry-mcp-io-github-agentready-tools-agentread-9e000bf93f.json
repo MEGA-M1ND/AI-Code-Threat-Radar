@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-agentready-tools-agentread-9e000bf93f",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.agentready-tools/agentready-tools",
+  "title": "MCP server io.github.agentready-tools/agentready-tools: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.agentready-tools/agentready-tools",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "Curated catalog of APIs, MCP servers and tools for AI agents, plus an agent Q&A community.",
+    "repository": "",
+    "website": "https://agentready-tools.com/for-agents",
+    "packages": [],
+    "remote_hosts": [
+      "agentready-tools.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-20T16:58:11.937984Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://agentready-tools.com/for-agents",
+    "https://agentready-tools.com/mcp"
+  ],
+  "discovered_at": "2026-11-24T17:54:50Z"
+}
