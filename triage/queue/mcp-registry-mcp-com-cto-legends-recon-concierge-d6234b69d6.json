@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-cto-legends-recon-concierge-d6234b69d6",
+  "source": "mcp-registry",
+  "key": "mcp:com.cto-legends/recon-concierge",
+  "title": "MCP server com.cto-legends/recon-concierge: status change",
+  "why": "the registry moved this server from deprecated to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.cto-legends/recon-concierge",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deleted",
+    "description": "Verified search, keyword, competitor, and local rank audits for AI agents. Pay per run.",
+    "repository": "",
+    "website": "https://cto-legends.com/recon",
+    "packages": [],
+    "remote_hosts": [
+      "recon.cto-legends.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T12:29:35.125Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://cto-legends.com/recon",
+    "https://recon.cto-legends.com/mcp"
+  ],
+  "discovered_at": "2026-11-25T17:23:03Z"
+}

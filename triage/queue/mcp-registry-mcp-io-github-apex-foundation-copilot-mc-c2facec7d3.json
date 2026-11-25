@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-apex-foundation-copilot-mc-c2facec7d3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Apex-Foundation/copilot-mcp",
+  "title": "MCP server io.github.Apex-Foundation/copilot-mcp: known bad package",
+  "why": "ships npm package @apexfdn/copilot-mcp, which the feed already documents as malicious",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "high",
+  "evidence": {
+    "server": "io.github.Apex-Foundation/copilot-mcp",
+    "rule": "known-bad-package",
+    "version": "0.11.5",
+    "status": "deleted",
+    "description": "Web3 founder diligence: code audit, jurisdiction, fund matching, portfolio, scoring.",
+    "repository": "https://github.com/Apex-Foundation/copilot-mcp",
+    "website": "",
+    "packages": [
+      "npm:@apexfdn/copilot-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-06-18T14:11:17.0882Z",
+    "all_signals": [
+      "known-bad-package"
+    ]
+  },
+  "urls": [
+    "https://github.com/Apex-Foundation/copilot-mcp"
+  ],
+  "discovered_at": "2026-11-25T17:23:04Z"
+}

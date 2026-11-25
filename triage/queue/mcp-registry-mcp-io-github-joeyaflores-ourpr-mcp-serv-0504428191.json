@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-joeyaflores-ourpr-mcp-serv-0504428191",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.joeyaflores/ourpr-mcp-server",
+  "title": "MCP server io.github.joeyaflores/ourpr-mcp-server: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.joeyaflores/ourpr-mcp-server",
+    "rule": "status-change",
+    "version": "0.6.0",
+    "status": "deprecated",
+    "description": "Read your own ourpr running history in an AI agent, and put a plan on the week ahead.",
+    "repository": "https://github.com/joeyaflores/ourpr-mcp-server",
+    "website": "",
+    "packages": [
+      "npm:ourpr-mcp-server"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T18:43:17.663368Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/joeyaflores/ourpr-mcp-server"
+  ],
+  "discovered_at": "2026-11-25T17:23:04Z"
+}

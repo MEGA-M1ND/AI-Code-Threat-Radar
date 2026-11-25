@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-yazanalabed-aigradjobs-86901998c5",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.YazanAlabed/aigradjobs",
+  "title": "MCP server io.github.YazanAlabed/aigradjobs: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.YazanAlabed/aigradjobs",
+    "rule": "status-change",
+    "version": "1.1.1",
+    "status": "deleted",
+    "description": "Find early-career AI/ML jobs, compare salaries, review resumes and audit public GitHub portfolios.",
+    "repository": "",
+    "website": "https://aigradjobs.com",
+    "packages": [],
+    "remote_hosts": [
+      "aigradjobs.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T22:19:06.768722Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://aigradjobs.com",
+    "https://aigradjobs.com/mcp"
+  ],
+  "discovered_at": "2026-11-25T17:23:04Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-dev-cotlet-17hats-0e12f0bf67",
+  "source": "mcp-registry",
+  "key": "mcp:dev.cotlet/17hats",
+  "title": "MCP server dev.cotlet/17hats: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.cotlet/17hats",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deleted",
+    "description": "17hats solo service business CRM MCP server: add contact, create project, send quote, send invoice.",
+    "repository": "",
+    "website": "https://cotlet.dev/integrations/17hats-api-mcp-server",
+    "packages": [],
+    "remote_hosts": [
+      "cotlet.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-10T15:08:29.612676Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://cotlet.dev/integrations/17hats-api-mcp-server",
+    "https://cotlet.dev/mcp/v1/17hats/connect",
+    "https://cotlet.dev/mcp/v1/17hats"
+  ],
+  "discovered_at": "2026-11-25T17:23:03Z"
+}

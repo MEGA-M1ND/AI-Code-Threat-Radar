@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-claudeisgod-wren-presign-c-927b4e1105",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.claudeisgod/wren-presign-check",
+  "title": "MCP server io.github.claudeisgod/wren-presign-check: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.claudeisgod/wren-presign-check",
+    "rule": "status-change",
+    "version": "1.4.0",
+    "status": "deprecated",
+    "description": "Check a tx, EIP-712 payload, text or Base token before your agent signs. Paid per call over x402.",
+    "repository": "",
+    "website": "https://wren-presign-check.wrenonbase.workers.dev/",
+    "packages": [],
+    "remote_hosts": [
+      "wren-presign-check.wrenonbase.workers.dev"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-28T20:12:15.736203Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://wren-presign-check.wrenonbase.workers.dev/",
+    "https://wren-presign-check.wrenonbase.workers.dev/mcp"
+  ],
+  "discovered_at": "2026-11-25T17:23:04Z"
+}

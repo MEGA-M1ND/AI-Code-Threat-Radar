@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-jams4code-cypress-mcp-20b15c01a7",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.jams4code/cypress-mcp",
+  "title": "MCP server io.github.jams4code/cypress-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.jams4code/cypress-mcp",
+    "rule": "status-change",
+    "version": "0.5.0",
+    "status": "deprecated",
+    "description": "Run and debug Cypress tests from an AI agent: compact failures with file:line, error, screenshot.",
+    "repository": "https://github.com/jams4code/cypress-mcp",
+    "website": "",
+    "packages": [
+      "npm:cypress-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T14:59:37.948551Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/jams4code/cypress-mcp"
+  ],
+  "discovered_at": "2026-11-25T17:23:04Z"
+}

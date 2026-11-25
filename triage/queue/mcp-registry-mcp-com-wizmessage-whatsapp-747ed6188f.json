@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-wizmessage-whatsapp-747ed6188f",
+  "source": "mcp-registry",
+  "key": "mcp:com.wizmessage/whatsapp",
+  "title": "MCP server com.wizmessage/whatsapp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.wizmessage/whatsapp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "WhatsApp Business inbox for AI agents: read chats, reply, send approved templates.",
+    "repository": "",
+    "website": "https://wizmessage.com/pages/mcp",
+    "packages": [],
+    "remote_hosts": [
+      "wizmessage.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T12:42:24.356192Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://wizmessage.com/pages/mcp",
+    "https://wizmessage.com/mcp"
+  ],
+  "discovered_at": "2026-11-25T17:23:03Z"
+}

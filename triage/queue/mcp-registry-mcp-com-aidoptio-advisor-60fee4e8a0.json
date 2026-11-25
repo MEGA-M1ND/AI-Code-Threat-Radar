@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-aidoptio-advisor-60fee4e8a0",
+  "source": "mcp-registry",
+  "key": "mcp:com.aidoptio/advisor",
+  "title": "MCP server com.aidoptio/advisor: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.aidoptio/advisor",
+    "rule": "status-change",
+    "version": "1.4.1",
+    "status": "deprecated",
+    "description": "AI adoption services: EUR prices, estimates, prepared intake links, vendor evaluation plans. EN/NL.",
+    "repository": "",
+    "website": "https://aidoptio.com",
+    "packages": [],
+    "remote_hosts": [
+      "aidoptio.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-17T13:23:13.175442Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://aidoptio.com",
+    "https://aidoptio.com/api/v1/mcp.php"
+  ],
+  "discovered_at": "2026-11-25T17:23:03Z"
+}

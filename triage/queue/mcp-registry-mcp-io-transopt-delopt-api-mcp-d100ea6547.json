@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-transopt-delopt-api-mcp-d100ea6547",
+  "source": "mcp-registry",
+  "key": "mcp:io.transopt.delopt.api/mcp",
+  "title": "MCP server io.transopt.delopt.api/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.transopt.delopt.api/mcp",
+    "rule": "status-change",
+    "version": "1.0.5",
+    "status": "deleted",
+    "description": "AI dispatch for food & local delivery: assigns orders to drivers, sequences stops, times departures.",
+    "repository": "",
+    "website": "https://delopt.transopt.io",
+    "packages": [],
+    "remote_hosts": [
+      "api.delopt.transopt.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-23T22:13:33.515979Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://delopt.transopt.io",
+    "https://api.delopt.transopt.io/mcp",
+    "https://api.delopt.transopt.io/mcp/demo"
+  ],
+  "discovered_at": "2026-11-25T17:23:05Z"
+}

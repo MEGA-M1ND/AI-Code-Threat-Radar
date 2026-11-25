@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-stackrates-vps-prices-6a9e4fddcf",
+  "source": "mcp-registry",
+  "key": "mcp:ai.stackrates/vps-prices",
+  "title": "MCP server ai.stackrates/vps-prices: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.stackrates/vps-prices",
+    "rule": "status-change",
+    "version": "1.7.0",
+    "status": "deleted",
+    "description": "VPS prices read daily from providers' own pricing pages and APIs: cheapest by size, place or app.",
+    "repository": "",
+    "website": "https://stackrates.ai/",
+    "packages": [],
+    "remote_hosts": [
+      "stackrates.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-15T07:39:14.509474Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://stackrates.ai/",
+    "https://stackrates.ai/mcp"
+  ],
+  "discovered_at": "2026-11-25T17:23:02Z"
+}
