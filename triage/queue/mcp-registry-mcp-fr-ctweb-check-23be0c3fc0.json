@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-fr-ctweb-check-23be0c3fc0",
+  "source": "mcp-registry",
+  "key": "mcp:fr.ctweb/check",
+  "title": "MCP server fr.ctweb/check: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "fr.ctweb/check",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Free check-up of a public website: security, e-mail, speed, DNS, cookies, SEO. Findings in French.",
+    "repository": "",
+    "website": "https://ctweb.fr/agents",
+    "packages": [],
+    "remote_hosts": [
+      "ctweb.fr"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-13T21:49:04.475922Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ctweb.fr/agents",
+    "https://ctweb.fr/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:55Z"
+}

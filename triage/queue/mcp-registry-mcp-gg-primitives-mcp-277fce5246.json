@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-gg-primitives-mcp-277fce5246",
+  "source": "mcp-registry",
+  "key": "mcp:gg.primitives/mcp",
+  "title": "MCP server gg.primitives/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "gg.primitives/mcp",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deprecated",
+    "description": "Primitives by Thesis: read agents, runs, evals, workflows and work in your organization.",
+    "repository": "",
+    "website": "https://primitives.gg",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.primitives.gg"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-18T16:44:32.092477Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://primitives.gg",
+    "https://mcp.primitives.gg/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:55Z"
+}

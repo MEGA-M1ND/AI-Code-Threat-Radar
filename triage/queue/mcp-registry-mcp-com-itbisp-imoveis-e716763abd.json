@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-itbisp-imoveis-e716763abd",
+  "source": "mcp-registry",
+  "key": "mcp:com.itbisp/imoveis",
+  "title": "MCP server com.itbisp/imoveis: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.itbisp/imoveis",
+    "rule": "status-change",
+    "version": "0.2.0",
+    "status": "deprecated",
+    "description": "Homes for sale in São Paulo: 330+ agencies deduplicated, price vs comparables, real ITBI sales.",
+    "repository": "",
+    "website": "https://itbisp.com/imoveis/api",
+    "packages": [],
+    "remote_hosts": [
+      "itbisp.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-03T17:51:21.05108Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://itbisp.com/imoveis/api",
+    "https://itbisp.com/imoveis/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:54Z"
+}

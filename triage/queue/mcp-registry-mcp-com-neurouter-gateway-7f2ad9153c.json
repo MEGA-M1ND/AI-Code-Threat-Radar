@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-com-neurouter-gateway-7f2ad9153c",
+  "source": "mcp-registry",
+  "key": "mcp:com.neurouter/gateway",
+  "title": "MCP server com.neurouter/gateway: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.neurouter/gateway",
+    "rule": "status-change",
+    "version": "0.1.1",
+    "status": "deprecated",
+    "description": "Self-hosted enterprise MCP gateway: SSO, per-tool ACL, human approvals, verifiable audit log.",
+    "repository": "https://github.com/neurouter/neurouter",
+    "website": "https://neurouter.com",
+    "packages": [
+      "oci:ghcr.io/neurouter/neurouter:0.1.1"
+    ],
+    "remote_hosts": [
+      "{gateway_host}"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T21:02:50.615017Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/neurouter/neurouter",
+    "https://neurouter.com",
+    "https://{gateway_host}/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:55Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-probityai-agent-evidence-m-1aabc144ad",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.probityai/agent-evidence-mcp",
+  "title": "MCP server io.github.probityai/agent-evidence-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.probityai/agent-evidence-mcp",
+    "rule": "status-change",
+    "version": "0.2.7",
+    "status": "deprecated",
+    "description": "Offline, read-only tools that verify AI claims against evidence and replay conformance vectors.",
+    "repository": "https://github.com/probityai/probity",
+    "website": "",
+    "packages": [
+      "pypi:agent-evidence-mcp"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T17:49:29.016641Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/probityai/probity"
+  ],
+  "discovered_at": "2026-11-26T17:02:57Z"
+}

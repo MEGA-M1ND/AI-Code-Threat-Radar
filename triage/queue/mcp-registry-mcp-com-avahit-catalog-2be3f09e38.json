@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-avahit-catalog-2be3f09e38",
+  "source": "mcp-registry",
+  "key": "mcp:com.avahit/catalog",
+  "title": "MCP server com.avahit/catalog: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.avahit/catalog",
+    "rule": "status-change",
+    "version": "2.0.0",
+    "status": "deleted",
+    "description": "Amazon products by brand and category, with a link to each listing on Amazon.",
+    "repository": "",
+    "website": "https://avahit.com",
+    "packages": [],
+    "remote_hosts": [
+      "avahit.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-16T15:08:24.803161Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://avahit.com",
+    "https://avahit.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:54Z"
+}

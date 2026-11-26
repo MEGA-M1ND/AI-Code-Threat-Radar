@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-turnzero-cloud-2a4383a648",
+  "source": "mcp-registry",
+  "key": "mcp:ai.turnzero/cloud",
+  "title": "MCP server ai.turnzero/cloud: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.turnzero/cloud",
+    "rule": "status-change",
+    "version": "0.1.0",
+    "status": "deleted",
+    "description": "Free backend for apps built with Claude Code and Codex: hosting, database, storage, sign-in, AI.",
+    "repository": "",
+    "website": "https://turnzero.ai/cloud/getting-started/connect-your-tool/",
+    "packages": [],
+    "remote_hosts": [
+      "turnzero.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-09T17:57:56.652745Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://turnzero.ai/cloud/getting-started/connect-your-tool/",
+    "https://turnzero.ai/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:54Z"
+}

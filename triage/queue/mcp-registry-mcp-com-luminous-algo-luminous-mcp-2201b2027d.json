@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-com-luminous-algo-luminous-mcp-2201b2027d",
+  "source": "mcp-registry",
+  "key": "mcp:com.luminous-algo/luminous-mcp",
+  "title": "MCP server com.luminous-algo/luminous-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.luminous-algo/luminous-mcp",
+    "rule": "status-change",
+    "version": "0.3.3",
+    "status": "deprecated",
+    "description": "AI-driven optical design with fast, generic GPU ray tracing and freeform surfaces",
+    "repository": "https://github.com/luminous-algorithms/mcp_connector",
+    "website": "https://luminous-algo.com/mcp/",
+    "packages": [],
+    "remote_hosts": [
+      "app.luminous-algo.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-25T09:16:08.747597Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/luminous-algorithms/mcp_connector",
+    "https://luminous-algo.com/mcp/",
+    "https://app.luminous-algo.com/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:55Z"
+}

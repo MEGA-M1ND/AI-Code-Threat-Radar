@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-dev-edgegap-mcp-1314daee03",
+  "source": "mcp-registry",
+  "key": "mcp:dev.edgegap/mcp",
+  "title": "MCP server dev.edgegap/mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "dev.edgegap/mcp",
+    "rule": "status-change",
+    "version": "0.20.6",
+    "status": "deprecated",
+    "description": "Deploy and operate multiplayer game servers on Edgegap's global edge network.",
+    "repository": "https://github.com/edgegap/llm-mcp-server",
+    "website": "https://edgegap.com",
+    "packages": [
+      "npm:@edgegap/mcp"
+    ],
+    "remote_hosts": [
+      "mcp.edgegap.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-26T14:16:03.267009Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/edgegap/llm-mcp-server",
+    "https://edgegap.com",
+    "https://mcp.edgegap.com/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:55Z"
+}

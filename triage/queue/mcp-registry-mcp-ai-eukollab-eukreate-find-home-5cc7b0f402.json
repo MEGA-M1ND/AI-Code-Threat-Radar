@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-ai-eukollab-eukreate-find-home-5cc7b0f402",
+  "source": "mcp-registry",
+  "key": "mcp:ai.eukollab/eukreate-find-home",
+  "title": "MCP server ai.eukollab/eukreate-find-home: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "ai.eukollab/eukreate-find-home",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "EuKreate Find Home finds active for-sale single-family homes, condos and townhouses in the United…",
+    "repository": "",
+    "website": "https://eukollab.ai/explore/@eukreate-find-home",
+    "packages": [],
+    "remote_hosts": [
+      "eukollab.ai"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-21T04:49:40.358044Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://eukollab.ai/explore/@eukreate-find-home",
+    "https://eukollab.ai/a/@eukreate-find-home/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:54Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-archaofan-xusbcan-e1dce1954d",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Archaofan/xusbcan",
+  "title": "MCP server io.github.Archaofan/xusbcan: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Archaofan/xusbcan",
+    "rule": "status-change",
+    "version": "0.1.5",
+    "status": "deleted",
+    "description": "Bench CAN for AI agents via CLI/MCP on python-can. Local stdio; user-supplied drivers.",
+    "repository": "https://github.com/Archaofan/xusbcan-cli",
+    "website": "",
+    "packages": [
+      "pypi:xusbcan-cli"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-23T09:40:56.782616Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Archaofan/xusbcan-cli"
+  ],
+  "discovered_at": "2026-11-26T17:02:55Z"
+}

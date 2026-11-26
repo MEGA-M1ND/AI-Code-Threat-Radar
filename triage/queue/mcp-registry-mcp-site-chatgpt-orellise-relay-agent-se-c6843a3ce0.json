@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-site-chatgpt-orellise-relay-agent-se-c6843a3ce0",
+  "source": "mcp-registry",
+  "key": "mcp:site.chatgpt.orellise.relay-agent-services/relay",
+  "title": "MCP server site.chatgpt.orellise.relay-agent-services/relay: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "site.chatgpt.orellise.relay-agent-services/relay",
+    "rule": "status-change",
+    "version": "0.11.0",
+    "status": "deprecated",
+    "description": "Discover agent services, compare sourced capabilities and inspect connection evidence. No execution.",
+    "repository": "",
+    "website": "https://relay-agent-services.orellise.chatgpt.site/start",
+    "packages": [],
+    "remote_hosts": [
+      "relay-agent-services.orellise.chatgpt.site"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-12T20:43:08.479056Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://relay-agent-services.orellise.chatgpt.site/start",
+    "https://relay-agent-services.orellise.chatgpt.site/api/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:58Z"
+}

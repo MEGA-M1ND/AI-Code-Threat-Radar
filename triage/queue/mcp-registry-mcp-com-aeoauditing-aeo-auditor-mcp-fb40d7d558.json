@@ -9,9 +9,9 @@
   "evidence": {
     "server": "com.aeoauditing/aeo-auditor-mcp",
     "rule": "status-change",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "status": "deleted",
-    "description": "Live AEO, GEO, JSON-LD Schema, robots.txt AI crawler, and Agent Readiness diagnostic auditor.",
+    "description": "Live AEO, JSON-LD Schema AST, /llms.txt & AI crawler audits for ChatGPT Search, Perplexity & Claude.",
     "repository": "",
     "website": "https://aeoauditing.com",
     "packages": [],
@@ -20,14 +20,15 @@
     ],
     "unauditable": true,
     "namespace_mismatch": false,
-    "published_at": "2026-10-29T16:36:03.757858Z",
+    "published_at": "2026-11-25T10:26:23.580462Z",
     "all_signals": [
       "status-change"
     ]
   },
   "urls": [
     "https://aeoauditing.com",
-    "https://api.aeoauditing.com/mcp"
+    "https://api.aeoauditing.com/mcp",
+    "https://api.aeoauditing.com/sse"
   ],
   "discovered_at": "2026-11-23T18:25:35Z"
 }

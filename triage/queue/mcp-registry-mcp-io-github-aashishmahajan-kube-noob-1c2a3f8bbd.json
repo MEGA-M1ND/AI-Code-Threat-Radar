@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-aashishmahajan-kube-noob-1c2a3f8bbd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.aashishmahajan/kube-noob",
+  "title": "MCP server io.github.aashishmahajan/kube-noob: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.aashishmahajan/kube-noob",
+    "rule": "status-change",
+    "version": "0.7.1",
+    "status": "deprecated",
+    "description": "Kubernetes, OpenShift, ROSA HCP, Helm and RHACS audit, debugging and cited docs. No AI inside.",
+    "repository": "https://github.com/aashishmahajan/kube-noob",
+    "website": "https://github.com/aashishmahajan/kube-noob",
+    "packages": [
+      "pypi:kube-noob"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-10-31T05:08:58.305997Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/aashishmahajan/kube-noob",
+    "https://github.com/aashishmahajan/kube-noob"
+  ],
+  "discovered_at": "2026-11-26T17:02:56Z"
+}

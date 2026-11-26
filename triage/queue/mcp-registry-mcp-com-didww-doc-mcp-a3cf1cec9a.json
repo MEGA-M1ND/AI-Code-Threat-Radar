@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-didww-doc-mcp-a3cf1cec9a",
+  "source": "mcp-registry",
+  "key": "mcp:com.didww.doc/mcp",
+  "title": "MCP server com.didww.doc/mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.didww.doc/mcp",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Work with your DIDWW account in natural language: phone numbers, call and SMS routing, billing.",
+    "repository": "",
+    "website": "https://doc.didww.com/mcp/overview.html",
+    "packages": [],
+    "remote_hosts": [
+      "api.didww.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-25T12:52:55.59096Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://doc.didww.com/mcp/overview.html",
+    "https://api.didww.com/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:54Z"
+}

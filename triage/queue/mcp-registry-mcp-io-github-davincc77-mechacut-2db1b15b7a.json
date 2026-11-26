@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-davincc77-mechacut-2db1b15b7a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Davincc77/mechacut",
+  "title": "MCP server io.github.Davincc77/mechacut: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Davincc77/mechacut",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Deterministic compute bench for agents: exact math, money, dates, hashes; a sha256 on every answer.",
+    "repository": "https://github.com/Davincc77/mechacut-plugin",
+    "website": "https://mechacut.studio",
+    "packages": [],
+    "remote_hosts": [
+      "mechacut.studio"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-25T00:36:28.663402Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Davincc77/mechacut-plugin",
+    "https://mechacut.studio",
+    "https://mechacut.studio/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:56Z"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-co-founden-glp1pricesco-glp1-price-i-10bef76d3a",
+  "source": "mcp-registry",
+  "key": "mcp:co.founden.glp1pricesco/glp1-price-index",
+  "title": "MCP server co.founden.glp1pricesco/glp1-price-index: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "co.founden.glp1pricesco/glp1-price-index",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Daily US cash prices of tirzepatide and semaglutide by provider, lowest first, each with its source.",
+    "repository": "",
+    "website": "https://glp1pricesco.founden.co",
+    "packages": [],
+    "remote_hosts": [
+      "glp1pricesco.founden.co"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-25T07:30:13.545367Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://glp1pricesco.founden.co",
+    "https://glp1pricesco.founden.co/api/mcp"
+  ],
+  "discovered_at": "2026-11-26T17:02:54Z"
+}
