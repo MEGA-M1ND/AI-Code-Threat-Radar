@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-char5742-us-federal-contra-17c99521a6",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.char5742/us-federal-contracts-mcp",
+  "title": "MCP server io.github.char5742/us-federal-contracts-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.char5742/us-federal-contracts-mcp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "US federal contracts, IDV child-order rollups, UEI profiles, NAICS/PSC & sub-awards via Apify MCP.",
+    "repository": "https://github.com/char5742/autotroph-mcp-catalog",
+    "website": "https://apify.com/autotroph/us-federal-procurement-normalizer",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-26T19:51:13.237375Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/char5742/autotroph-mcp-catalog",
+    "https://apify.com/autotroph/us-federal-procurement-normalizer",
+    "https://mcp.apify.com?tools=autotroph/us-federal-procurement-normalizer"
+  ],
+  "discovered_at": "2026-11-27T16:47:42Z"
+}

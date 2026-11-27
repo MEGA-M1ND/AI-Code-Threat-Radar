@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-pironjulien-nexus-agymail-ae63e2f21a",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.pironjulien/nexus-agymail",
+  "title": "MCP server io.github.pironjulien/nexus-agymail: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.pironjulien/nexus-agymail",
+    "rule": "status-change",
+    "version": "0.17.1",
+    "status": "deprecated",
+    "description": "Gmail for Google Antigravity via the official API; sends only after the user's yes.",
+    "repository": "https://github.com/pironjulien/NexusAGYmail",
+    "website": "https://julienpiron.fr/nexusagymail/",
+    "packages": [
+      "mcpb:https://github.com/pironjulien/NexusAGYmail/releases/download/v0.17.1/nexus-agymail-0.17.1-win-x64.mcpb",
+      "mcpb:https://github.com/pironjulien/NexusAGYmail/releases/download/v0.17.1/nexus-agymail-0.17.1-win-arm64.mcpb"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-08T10:53:24.687733Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/pironjulien/NexusAGYmail",
+    "https://julienpiron.fr/nexusagymail/"
+  ],
+  "discovered_at": "2026-11-27T16:47:43Z"
+}

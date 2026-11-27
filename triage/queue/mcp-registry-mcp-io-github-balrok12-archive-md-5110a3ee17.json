@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-balrok12-archive-md-5110a3ee17",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.balrok12/archive-md",
+  "title": "MCP server io.github.balrok12/archive-md: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.balrok12/archive-md",
+    "rule": "status-change",
+    "version": "3.0.1",
+    "status": "deprecated",
+    "description": "Korean policy & finance facts with primary-source citations (laws, gov notices) for AI agents",
+    "repository": "",
+    "website": "https://choiflix.md/docs/mcp/",
+    "packages": [],
+    "remote_hosts": [
+      "choiflix.md"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-09T08:38:52.964471Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://choiflix.md/docs/mcp/",
+    "https://choiflix.md/mcp"
+  ],
+  "discovered_at": "2026-11-27T16:47:42Z"
+}

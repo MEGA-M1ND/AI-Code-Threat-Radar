@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zz959397ghb-zzm37a-85e46ccbf3",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zz959397ghb/zzm37a",
+  "title": "MCP server io.github.zz959397ghb/zzm37a: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zz959397ghb/zzm37a",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Ridgeway Fasteners supplier catalog with lookup and search tools.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "tbedp-103-249-185-131.run.pinggy-free.link"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T10:21:22.164808Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://tbedp-103-249-185-131.run.pinggy-free.link/m37/a"
+  ],
+  "discovered_at": "2026-11-27T16:47:43Z"
+}

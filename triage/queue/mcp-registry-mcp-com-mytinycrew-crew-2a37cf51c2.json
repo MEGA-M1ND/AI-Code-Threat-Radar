@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-mytinycrew-crew-2a37cf51c2",
+  "source": "mcp-registry",
+  "key": "mcp:com.mytinycrew/crew",
+  "title": "MCP server com.mytinycrew/crew: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.mytinycrew/crew",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Ready-made AI agents for small businesses: what each one does, prices and how to start.",
+    "repository": "",
+    "website": "https://mytinycrew.com",
+    "packages": [],
+    "remote_hosts": [
+      "mytinycrew.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-30T09:09:48.169662Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mytinycrew.com",
+    "https://mytinycrew.com/mcp"
+  ],
+  "discovered_at": "2026-11-27T16:47:40Z"
+}

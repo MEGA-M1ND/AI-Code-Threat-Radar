@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-char5742-uspto-patents-mcp-3e605eca35",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.char5742/uspto-patents-mcp",
+  "title": "MCP server io.github.char5742/uspto-patents-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.char5742/uspto-patents-mcp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "Structured US, EP, WO, JP & CN patent claims trees, CPC codes, assignees & citations via MCP.",
+    "repository": "https://github.com/char5742/autotroph-mcp-catalog",
+    "website": "https://apify.com/autotroph/uspto-patent-intelligence-normalizer",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-26T19:51:16.346356Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/char5742/autotroph-mcp-catalog",
+    "https://apify.com/autotroph/uspto-patent-intelligence-normalizer",
+    "https://mcp.apify.com?tools=autotroph/uspto-patent-intelligence-normalizer"
+  ],
+  "discovered_at": "2026-11-27T16:47:42Z"
+}

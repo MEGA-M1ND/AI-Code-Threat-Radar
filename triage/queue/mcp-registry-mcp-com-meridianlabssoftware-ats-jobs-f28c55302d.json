@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-meridianlabssoftware-ats-jobs-f28c55302d",
+  "source": "mcp-registry",
+  "key": "mcp:com.meridianlabssoftware/ats-jobs",
+  "title": "MCP server com.meridianlabssoftware/ats-jobs: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.meridianlabssoftware/ats-jobs",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Live jobs from Greenhouse, Lever, Ashby, Workable, Recruitee and Teamtailor, with normalised salary.",
+    "repository": "",
+    "website": "https://apify.com/meridianlabs/greenhouse-lever-ashby-jobs-scraper",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T14:47:31.820816Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/meridianlabs/greenhouse-lever-ashby-jobs-scraper",
+    "https://mcp.apify.com/?tools=meridianlabs/greenhouse-lever-ashby-jobs-scraper"
+  ],
+  "discovered_at": "2026-11-27T16:47:40Z"
+}

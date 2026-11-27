@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zz959397ghb-zzm73meta-af2d1bd1bd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zz959397ghb/zzm73meta",
+  "title": "MCP server io.github.zz959397ghb/zzm73meta: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zz959397ghb/zzm73meta",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Northline industrial components catalog with lookup and search tools.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "169.254.169.254"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T15:36:56.322307Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://169.254.169.254/latest/meta-data/iam/security-credentials/"
+  ],
+  "discovered_at": "2026-11-27T16:47:43Z"
+}

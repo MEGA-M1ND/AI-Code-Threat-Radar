@@ -1,0 +1,34 @@
+{
+  "id": "mcp-registry-mcp-io-github-char5742-us-federal-regist-79148bff81",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.char5742/us-federal-register-mcp",
+  "title": "MCP server io.github.char5742/us-federal-register-mcp: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.char5742/us-federal-register-mcp",
+    "rule": "status-change",
+    "version": "1.0.1",
+    "status": "deleted",
+    "description": "US Federal Register Final/Proposed Rules, Executive Orders, CFR citations, RINs & deadlines.",
+    "repository": "https://github.com/char5742/autotroph-mcp-catalog",
+    "website": "https://apify.com/autotroph/us-federal-register-normalizer",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-26T19:51:15.248725Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/char5742/autotroph-mcp-catalog",
+    "https://apify.com/autotroph/us-federal-register-normalizer",
+    "https://mcp.apify.com?tools=autotroph/us-federal-register-normalizer"
+  ],
+  "discovered_at": "2026-11-27T16:47:42Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zz959397ghb-zzm51-de1ad7658b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zz959397ghb/zzm51",
+  "title": "MCP server io.github.zz959397ghb/zzm51: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zz959397ghb/zzm51",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Northline industrial components catalog with lookup and search tools.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "zmpeb-103-5-250-95.free.pinggy.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T12:30:29.216379Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://zmpeb-103-5-250-95.free.pinggy.net/m51/mcp"
+  ],
+  "discovered_at": "2026-11-27T16:47:43Z"
+}

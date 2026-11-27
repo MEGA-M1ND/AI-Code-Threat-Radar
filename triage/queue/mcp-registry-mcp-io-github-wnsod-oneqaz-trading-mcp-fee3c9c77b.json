@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-io-github-wnsod-oneqaz-trading-mcp-fee3c9c77b",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.wnsod/oneqaz-trading-mcp",
+  "title": "MCP server io.github.wnsod/oneqaz-trading-mcp: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.wnsod/oneqaz-trading-mcp",
+    "rule": "status-change",
+    "version": "1.3.0",
+    "status": "deprecated",
+    "description": "Verifiable crypto/KR/US market intelligence for AI agents: signals, hash-chained ledger. Not advice.",
+    "repository": "https://github.com/oneqaz-trading/oneqaz-trading-mcp",
+    "website": "https://oneqaz.com",
+    "packages": [
+      "pypi:oneqaz-trading-mcp"
+    ],
+    "remote_hosts": [
+      "api.oneqaz.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": true,
+    "published_at": "2026-10-17T01:40:38.998412Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/oneqaz-trading/oneqaz-trading-mcp",
+    "https://oneqaz.com",
+    "https://api.oneqaz.com/mcp"
+  ],
+  "discovered_at": "2026-11-27T16:47:43Z"
+}

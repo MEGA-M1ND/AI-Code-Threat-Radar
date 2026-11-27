@@ -1,0 +1,36 @@
+{
+  "id": "mcp-registry-mcp-com-nmjib-nmjib-0184234aa0",
+  "source": "mcp-registry",
+  "key": "mcp:com.nmjib/nmjib",
+  "title": "MCP server com.nmjib/nmjib: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.nmjib/nmjib",
+    "rule": "status-change",
+    "version": "1.0.2",
+    "status": "deprecated",
+    "description": "Korean semi-self interior renovation data: process order, schedules, checklists, cost ranges.",
+    "repository": "https://github.com/Deall-International/nmjib-mcp",
+    "website": "https://nmjib.com/ai",
+    "packages": [
+      "npm:nmjib-mcp"
+    ],
+    "remote_hosts": [
+      "nmjib.com"
+    ],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-16T14:49:27.73405Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Deall-International/nmjib-mcp",
+    "https://nmjib.com/ai",
+    "https://nmjib.com/api/mcp"
+  ],
+  "discovered_at": "2026-11-27T16:47:40Z"
+}

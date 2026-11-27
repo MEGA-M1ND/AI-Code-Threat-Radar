@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zz959397ghb-zzm30i-8ba9c4f4bd",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zz959397ghb/zzm30i",
+  "title": "MCP server io.github.zz959397ghb/zzm30i: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zz959397ghb/zzm30i",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Northline redirector I",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "ngtpl-216-175-194-204.free.pinggy.net"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T09:43:59.686329Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://ngtpl-216-175-194-204.free.pinggy.net/m30/i"
+  ],
+  "discovered_at": "2026-11-27T16:47:43Z"
+}

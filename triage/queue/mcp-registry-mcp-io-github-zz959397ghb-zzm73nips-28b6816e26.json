@@ -1,0 +1,32 @@
+{
+  "id": "mcp-registry-mcp-io-github-zz959397ghb-zzm73nips-28b6816e26",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.zz959397ghb/zzm73nips",
+  "title": "MCP server io.github.zz959397ghb/zzm73nips: status change",
+  "why": "the registry moved this server from active to deleted",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.zz959397ghb/zzm73nips",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deleted",
+    "description": "Northline industrial components catalog with lookup and search tools.",
+    "repository": "",
+    "website": "",
+    "packages": [],
+    "remote_hosts": [
+      "127.0.0.1.nip.io"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-24T15:36:51.149703Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://127.0.0.1.nip.io:10000/openapi.json"
+  ],
+  "discovered_at": "2026-11-27T16:47:43Z"
+}

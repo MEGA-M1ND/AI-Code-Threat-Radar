@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-meridianlabssoftware-google-tren-6de706f129",
+  "source": "mcp-registry",
+  "key": "mcp:com.meridianlabssoftware/google-trends",
+  "title": "MCP server com.meridianlabssoftware/google-trends: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.meridianlabssoftware/google-trends",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Bulk Google Trends: interest over time, regions, rising queries and plain-English trend summaries.",
+    "repository": "",
+    "website": "https://apify.com/meridianlabs/google-trends-scraper",
+    "packages": [],
+    "remote_hosts": [
+      "mcp.apify.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-09-26T14:46:58.779469Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://apify.com/meridianlabs/google-trends-scraper",
+    "https://mcp.apify.com/?tools=meridianlabs/google-trends-scraper"
+  ],
+  "discovered_at": "2026-11-27T16:47:40Z"
+}

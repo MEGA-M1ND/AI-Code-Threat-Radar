@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-io-github-soflutionltd-rocketwright-2d6afb8e6c",
+  "source": "mcp-registry",
+  "key": "mcp:io.github.Soflutionltd/rocketwright",
+  "title": "MCP server io.github.Soflutionltd/rocketwright: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "io.github.Soflutionltd/rocketwright",
+    "rule": "status-change",
+    "version": "3.12.1",
+    "status": "deprecated",
+    "description": "Drive iOS Simulators, iPhones, Android devices and macOS apps: UI snapshots, live viewer, recording.",
+    "repository": "https://github.com/Soflutionltd/rocketwright",
+    "website": "https://github.com/Soflutionltd/rocketwright#readme",
+    "packages": [
+      "pypi:rocketwright"
+    ],
+    "remote_hosts": [],
+    "unauditable": false,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-26T20:03:01.612273Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://github.com/Soflutionltd/rocketwright",
+    "https://github.com/Soflutionltd/rocketwright#readme"
+  ],
+  "discovered_at": "2026-11-27T16:47:41Z"
+}

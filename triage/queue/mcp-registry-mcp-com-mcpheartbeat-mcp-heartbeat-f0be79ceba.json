@@ -1,0 +1,33 @@
+{
+  "id": "mcp-registry-mcp-com-mcpheartbeat-mcp-heartbeat-f0be79ceba",
+  "source": "mcp-registry",
+  "key": "mcp:com.mcpheartbeat/mcp-heartbeat",
+  "title": "MCP server com.mcpheartbeat/mcp-heartbeat: status change",
+  "why": "the registry moved this server from active to deprecated",
+  "suggested_category": "malicious-mcp-server",
+  "confidence": "medium",
+  "evidence": {
+    "server": "com.mcpheartbeat/mcp-heartbeat",
+    "rule": "status-change",
+    "version": "1.0.0",
+    "status": "deprecated",
+    "description": "Health checks for public MCP servers: status, latency, tools, and uptime.",
+    "repository": "",
+    "website": "https://mcpheartbeat.com",
+    "packages": [],
+    "remote_hosts": [
+      "mcpheartbeat.com"
+    ],
+    "unauditable": true,
+    "namespace_mismatch": false,
+    "published_at": "2026-11-11T08:05:19.785506Z",
+    "all_signals": [
+      "status-change"
+    ]
+  },
+  "urls": [
+    "https://mcpheartbeat.com",
+    "https://mcpheartbeat.com/mcp"
+  ],
+  "discovered_at": "2026-11-27T16:47:40Z"
+}
